@@ -1,10 +1,15 @@
 package com.paintology.lite.photorealistic.drawing.minipaint;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.webkit.URLUtil;
+import android.webkit.WebResourceRequest;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +24,9 @@ import com.paintology.lite.photorealistic.drawing.R;
 import com.paintology.lite.photorealistic.drawing.util.FireUtils;
 import com.paintology.lite.photorealistic.drawing.util.KGlobal;
 import com.paintology.lite.photorealistic.drawing.util.StringConstants;
+import com.rey.material.widget.ProgressView;
+
+import java.net.URL;
 
 public class DynamicLinkScreen extends AppCompatActivity {
 
@@ -51,6 +59,52 @@ public class DynamicLinkScreen extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        try {
+            Uri uri = this.getIntent().getData();
+            if (uri != null) {
+                URL url = new URL(uri.getScheme(), uri.getHost(), uri.getPath());
+                if (url.toString().equalsIgnoreCase("https://paintology.com/privacy-policy")) {
+                    ProgressView progressView = findViewById(R.id.circular_progress1);
+                    WebView webview = findViewById(R.id.webview);
+
+                    webview.getSettings().setLoadsImagesAutomatically(true);
+                    webview.getSettings().setJavaScriptEnabled(true);
+                    webview.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
+                    webview.loadUrl(String.valueOf(url));
+
+
+                    webview.setWebViewClient(new WebViewClient() {
+
+                        @Override
+                        public boolean shouldOverrideUrlLoading(
+                                WebView view, WebResourceRequest request) {
+
+                            return true;
+                        }
+
+                        @Override
+                        public void onPageStarted(
+                                WebView view, String url, Bitmap favicon) {
+                            super.onPageStarted(view, url, favicon);
+                            progressView.setVisibility(View.VISIBLE);
+                            //SHOW LOADING IF IT ISNT ALREADY VISIBLE
+                        }
+
+                        @Override
+                        public void onPageFinished(WebView view, String url) {
+                            progressView.setVisibility(View.GONE);
+                        }
+                    });
+                    return;
+                }
+                Log.e("TAGRR", url.toString());
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
 
         Log.e("TAGG", "DynamicLinkScreen Called");
         try {
