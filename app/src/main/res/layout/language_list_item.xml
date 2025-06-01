@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:id="@+id/single_list_item_flag"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/file_count"
+        android:checked="false"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/single_list_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/single_list_item_flag"
+        android:layout_toStartOf="@+id/single_list_item_check_button"
+        android:gravity="start"
+        android:paddingStart="@dimen/dp_10"
+        android:text="@string/app_name" />
+
+    <RadioButton
+        android:id="@+id/single_list_item_check_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:checked="false"
+        android:clickable="false"
+        android:focusable="false"
+        android:buttonTint="@color/colorPrimary" />
+
+</RelativeLayout>

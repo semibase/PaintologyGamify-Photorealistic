@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="horizontal">
+
+    <com.paintology.lite.photorealistic.drawing.util.CircleImageView
+        android:id="@+id/iv_profile_pic"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/dp_05"
+        android:src="@drawable/profile_icon"
+        app:civ_border_color="@color/header_color"
+        app:civ_border_width="@dimen/dp_1" />
+
+    <TextView
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:gravity="center|left"
+        android:lines="1"
+        android:padding="8dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:lines="1"
+        android:padding="8dp"
+        android:visibility="gone" />
+
+</LinearLayout>

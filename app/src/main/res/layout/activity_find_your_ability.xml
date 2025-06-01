@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fm_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_layout_bg"
+    tools:context=".findAbility.FindYourAbilityActivity">
+
+    <include
+        android:id="@+id/customToolbar"
+        layout="@layout/layout_custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#FA798C"
+        android:paddingStart="@dimen/_24sdp"
+        android:paddingTop="@dimen/_12sdp"
+        android:paddingEnd="@dimen/_24sdp"
+        android:paddingBottom="@dimen/_12sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/customToolbar">
+
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/tabs_container"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            app:cardBackgroundColor="#77FE949B"
+            app:cardCornerRadius="@dimen/_16sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:strokeColor="#77FE949B"
+            app:strokeWidth="0dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/_3sdp">
+
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <RadioButton
+                        android:id="@+id/radioVideoGuide"
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:background="@drawable/selector_matrices"
+                        android:button="@null"
+                        android:checked="true"
+                        android:textSize="@dimen/_10ssp"
+                        android:textAlignment="center"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="center"
+                        android:layoutDirection="rtl"
+                        android:paddingHorizontal="@dimen/_10sdp"
+                        android:paddingVertical="@dimen/_4sdp"
+                        android:text="@string/video_guides"
+                        android:textColor="@color/selector_matrices_text_color" />
+
+                    <RadioButton
+                        android:id="@+id/radioChallenges"
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:background="@drawable/selector_matrices"
+                        android:button="@null"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="center"
+                        android:textSize="@dimen/_10ssp"
+                        android:textAlignment="center"
+                        android:text="@string/challenges"
+                        android:textColor="@color/selector_matrices_text_color" />
+
+                </RadioGroup>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tabs_container">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/sp_art_ability_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="#77FE949B"
+                app:cardCornerRadius="@dimen/_16sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:strokeColor="#77FE949B"
+                app:strokeWidth="0dp">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/sp_art_ability"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:entries="@array/arr_art_ability"
+                    android:popupBackground="@drawable/level_spinner_dropdown_bg"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@color/white" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <me.tankery.lib.circularseekbar.CircularSeekBar
+                android:id="@+id/progress_bar_density"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                app:cs_circle_color="@color/white"
+                app:cs_circle_progress_color="#60A5FA"
+                app:cs_circle_stroke_width="10dp"
+                app:cs_max="100"
+                app:cs_pointer_color="#4C6EEA"
+                app:cs_pointer_stroke_width="20dp"
+                app:cs_progress="40"
+                app:layout_constraintEnd_toStartOf="@id/progress_bar_hardness"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/sp_art_ability_container" />
+
+            <TextView
+                android:id="@+id/tv_progress_density"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/progress_bar_density"
+                app:layout_constraintStart_toStartOf="@+id/progress_bar_density"
+                app:layout_constraintTop_toTopOf="@+id/tv_hardness"
+                tools:text="60%" />
+
+            <TextView
+                android:id="@+id/tv_density"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/level"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@id/progress_bar_density"
+                app:layout_constraintStart_toStartOf="@id/progress_bar_density"
+                app:layout_constraintTop_toBottomOf="@id/tv_progress_density" />
+
+            <me.tankery.lib.circularseekbar.CircularSeekBar
+                android:id="@+id/progress_bar_hardness"
+                style="@style/CircularDeterminateProgressBar"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_120sdp"
+                app:cs_circle_color="@color/white"
+                app:cs_circle_progress_color="#60A5FA"
+                app:cs_circle_stroke_width="10dp"
+                app:cs_max="100"
+                app:cs_pointer_color="#4C6EEA"
+                app:cs_pointer_stroke_width="20dp"
+                app:cs_progress="40"
+                app:layout_constraintBottom_toBottomOf="@+id/progress_bar_density"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/progress_bar_density"
+                app:layout_constraintTop_toTopOf="@+id/progress_bar_density" />
+
+            <!--<TextView
+                android:id="@+id/tv_progress_hardness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@id/progress_bar_hardness"
+                app:layout_constraintEnd_toEndOf="@id/progress_bar_hardness"
+                app:layout_constraintStart_toStartOf="@id/progress_bar_hardness"
+                app:layout_constraintTop_toTopOf="@id/progress_bar_hardness"
+                tools:text="30%" />-->
+
+            <TextView
+                android:id="@+id/tv_hardness"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tutorials_32"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/progress_bar_hardness"
+                app:layout_constraintEnd_toEndOf="@+id/progress_bar_hardness"
+                app:layout_constraintStart_toStartOf="@+id/progress_bar_hardness"
+                app:layout_constraintTop_toTopOf="@+id/progress_bar_hardness"
+                app:layout_constraintVertical_bias="0.6" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/image_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:cardBackgroundColor="#00000000"
+                app:cardCornerRadius="@dimen/_16sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/progress_bar_density"
+                app:strokeColor="#77FE949B"
+                app:strokeWidth="0dp">
+
+                <ImageView
+                    android:id="@+id/iv_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/maskgroup" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/materialButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/do_the_tutorial"
+                android:textAllCaps="false"
+                app:backgroundTint="#4C6EEA"
+                app:cornerRadius="@dimen/_16sdp"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/image_container" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

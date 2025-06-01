@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="@dimen/_15ssp"
+        android:background="@drawable/rounded_title_bg"
+        android:backgroundTint="@color/paintologyButton" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_minus8sdp"
+        android:layout_marginTop="@dimen/_minus8sdp"
+        android:paddingHorizontal="@dimen/_20sdp">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_challenge_title"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/rounded_title_bg"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="@string/challenges"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintEnd_toStartOf="@id/iv_difficulty_icon"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_category_icon"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:importantForAccessibility="no"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_challenge_title"
+            app:layout_constraintStart_toStartOf="@+id/tv_challenge_title"
+            app:layout_constraintTop_toTopOf="@+id/tv_challenge_title"
+            tools:srcCompat="@drawable/img_challenge_pencil" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_difficulty_icon"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/rounded_title_bg"
+            android:padding="@dimen/_5sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tv_challenge_title"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img_challenge_progress" />
+
+        <!--    <TextView
+                android:id="@+id/tv_challenge_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_title_bg"
+                android:paddingStart="@dimen/_30sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_30sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_20ssp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="Challenge 1" />-->
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/coins_image"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            app:layout_constraintEnd_toStartOf="@+id/tv_challenge_reward"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_challenge_title"
+            app:srcCompat="@drawable/img_coins" />
+
+        <TextView
+            android:id="@+id/tv_challenge_reward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:padding="@dimen/_5sdp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/coins_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/coins_image"
+            app:layout_constraintTop_toTopOf="@+id/coins_image"
+            tools:text="3000" />
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/challenge_image"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/statistics_layout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/coins_image"
+            app:shapeAppearanceOverlay="@style/RoundedSquare"
+            app:srcCompat="@drawable/img_dummy" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/statistics_layout"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:background="@drawable/bg_round"
+            android:padding="@dimen/_2sdp"
+            app:layout_constraintBottom_toTopOf="@id/btnDetail"
+            app:layout_constraintEnd_toEndOf="@+id/challenge_image"
+            app:layout_constraintStart_toStartOf="@+id/challenge_image">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgShare"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:padding="@dimen/_3sdp"
+                android:src="@drawable/img_share"
+                app:layout_constraintEnd_toStartOf="@+id/imgPlay"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="spread"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:padding="@dimen/_2sdp"
+                android:text="@string/share1"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/imgShare"
+                app:layout_constraintStart_toStartOf="@+id/imgShare"
+                app:layout_constraintTop_toBottomOf="@+id/imgShare" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgChat"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/img_chat"
+                app:layout_constraintBottom_toBottomOf="@+id/imgLike"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/imgLike"
+                app:layout_constraintTop_toTopOf="@+id/imgLike" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvChats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:padding="@dimen/_2sdp"
+                android:text="@string/_13_k"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/imgChat"
+                app:layout_constraintStart_toStartOf="@+id/imgChat"
+                app:layout_constraintTop_toBottomOf="@+id/imgChat" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgPlay"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/img_pause"
+                app:layout_constraintBottom_toBottomOf="@+id/imgShare"
+                app:layout_constraintEnd_toStartOf="@+id/imgViews"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/imgShare"
+                app:layout_constraintTop_toTopOf="@+id/imgShare" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:padding="@dimen/_2sdp"
+                android:text="@string/play"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/imgPlay"
+                app:layout_constraintStart_toStartOf="@+id/imgPlay"
+                app:layout_constraintTop_toBottomOf="@+id/imgPlay" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgViews"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:padding="@dimen/_3sdp"
+                android:src="@drawable/img_eye"
+                app:layout_constraintBottom_toBottomOf="@+id/imgPlay"
+                app:layout_constraintEnd_toStartOf="@+id/imgLike"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/imgPlay"
+                app:layout_constraintTop_toTopOf="@+id/imgPlay" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="@string/_273_k"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/imgViews"
+                app:layout_constraintStart_toStartOf="@+id/imgViews"
+                app:layout_constraintTop_toBottomOf="@+id/imgViews" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgLike"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:padding="@dimen/_3sdp"
+                android:src="@drawable/img_like"
+                app:layout_constraintBottom_toBottomOf="@+id/imgViews"
+                app:layout_constraintEnd_toStartOf="@+id/imgChat"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/imgViews"
+                app:layout_constraintTop_toTopOf="@+id/imgViews" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvLikes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:padding="@dimen/_2sdp"
+                android:text="@string/_13_k"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/imgLike"
+                app:layout_constraintStart_toStartOf="@+id/imgLike"
+                app:layout_constraintTop_toBottomOf="@+id/imgLike" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDetail"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:background="@drawable/rounded_title_bg"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:text="@string/details1"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16ssp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnPeople"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnPeople"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@drawable/bg_rounded_rect"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:padding="@dimen/_7sdp"
+            android:src="@drawable/img_peoples"
+            app:layout_constraintBottom_toBottomOf="@+id/btnDetail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnDetail"
+            app:layout_constraintTop_toTopOf="@+id/btnDetail" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

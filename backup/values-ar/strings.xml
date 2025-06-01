@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paintology</string>
+    <string name="default_collection">دروس</string>
+    <string name="community">تواصل اجتماعي</string>
+    <string name="my_painting">رسوماتي</string>
+    <string name="downloaded">أفلامي</string>
+    <string name="draw">رسم</string>
+    <string name="my_resources">مواردي</string>
+    <string name="daily_blog">مدونة ديلي</string>
+
+    <string name="view_sketch_photos"><u>عرض الصور في الغيمة</u></string>
+    <string name="import_your_sketch_photos"><u>استيراد الصور إلى لوحات بلدي</u></string>
+    <string name="upload_your_zip_file_auto"><u>حفظ الصور إلى سحابة</u></string>
+
+    <string name="blank_canvas">قماش بيضاء</string>
+    <string name="overlay_image">تراكب الصورة</string>
+    <string name="trace_image">تتبع الصورة</string>
+    <string name="camera_image">صورة الكاميرا</string>
+
+    <string name="quick_drawing">رسم سريع</string>
+
+    <string name="import_images">استيراد الصور</string>
+
+    <!--  -->
+    <string name="sites">سائٹس</string>
+    <string name="online_tut">دروس عبر الإنترنت</string>
+    <string name="paintology_website">موقع Paintology</string>
+    <string name="youtube_paintology">يوتيوب الدهانات</string>
+    <string name="learn_drawing_amp_painting">تعلم الرسم والتلوين</string>
+    <string name="apps_by_paintology">تطبيقات Paintology</string>
+
+</resources>

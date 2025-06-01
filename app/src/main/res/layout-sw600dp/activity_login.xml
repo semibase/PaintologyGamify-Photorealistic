@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layoutBGColor">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="26dp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivAppIcon"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/paintology_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/paintology"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/ivAppIcon"
+        app:layout_constraintStart_toStartOf="@+id/ivAppIcon"
+        app:layout_constraintTop_toBottomOf="@+id/ivAppIcon" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvIntroVideos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_videos"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/tv_tc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_term_agreement_text" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/tag_line"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_10ssp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@+id/tv_title"
+        app:layout_constraintStart_toStartOf="@+id/tv_title"
+        app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_heading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/login_heading"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_sub_title" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_fb"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/fb_round_background_bg"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/login_with_facebook"
+        android:textColor="@color/facebookButtonText"
+        app:backgroundTint="@color/facebookButton"
+        app:icon="@drawable/fb_icon"
+        app:iconGravity="textStart"
+        app:iconPadding="@dimen/_10sdp"
+        android:textSize="@dimen/_10ssp"
+        app:iconSize="@dimen/_14sdp"
+        app:iconTint="@color/facebookButtonText"
+        app:layout_constraintEnd_toEndOf="@+id/tv_heading"
+        app:layout_constraintStart_toStartOf="@+id/tv_heading"
+        app:layout_constraintTop_toBottomOf="@id/tv_heading" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_guest"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/guest_round_bg"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/login_with_guest"
+        android:textColor="@color/black_overlay"
+        app:backgroundTint="@color/guestButton"
+        app:icon="@drawable/guest_login_icon"
+        app:iconGravity="textStart"
+        app:iconPadding="@dimen/_10sdp"
+        android:textSize="@dimen/_10ssp"
+        app:iconSize="@dimen/_14sdp"
+        app:iconTint="@color/guestButtonText"
+        app:layout_constraintEnd_toEndOf="@+id/tv_heading"
+        app:layout_constraintStart_toStartOf="@+id/tv_heading"
+        app:layout_constraintTop_toBottomOf="@id/btn_fb" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_google"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/google_bg_round"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/login_with_google"
+        android:textColor="@color/black_overlay"
+        app:backgroundTint="@color/googleButton"
+        app:icon="@drawable/google_login_icon"
+        app:iconGravity="textStart"
+        android:textSize="@dimen/_10ssp"
+        app:iconPadding="@dimen/_10sdp"
+        app:iconSize="@dimen/_14sdp"
+
+        app:iconTint="@color/googleButtonText"
+        app:layout_constraintEnd_toEndOf="@+id/tv_heading"
+        app:layout_constraintStart_toStartOf="@+id/tv_heading"
+        app:layout_constraintTop_toBottomOf="@id/btn_guest" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_paintology"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/login_with_pain_bg_round"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/login_with_paintology"
+        android:textColor="@color/paintologyButtonText"
+        app:backgroundTint="@color/paintologyButton"
+        app:icon="@drawable/paintology_login_icon"
+        app:iconGravity="textStart"
+        app:iconPadding="@dimen/_10sdp"
+        android:textSize="@dimen/_10ssp"
+        app:iconSize="@dimen/_14sdp"
+        app:iconTint="@color/paintologyButtonText"
+        app:layout_constraintEnd_toEndOf="@+id/tv_heading"
+        app:layout_constraintStart_toStartOf="@+id/tv_heading"
+        app:layout_constraintTop_toBottomOf="@id/btn_google" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_signup_paintology"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/login_with_pain_bg_round"
+        android:text="@string/signup_with_paintology"
+        android:textColor="@color/paintologyButtonText"
+        app:backgroundTint="@color/paintologyButton"
+        android:textSize="@dimen/_10ssp"
+        app:icon="@drawable/paintology_login_icon"
+        app:iconGravity="textStart"
+        app:iconPadding="@dimen/_10sdp"
+        app:iconSize="@dimen/_14sdp"
+        android:fontFamily="@font/poppins_bold"
+        app:iconTint="@color/paintologyButtonText"
+        app:layout_constraintEnd_toEndOf="@+id/tv_heading"
+        app:layout_constraintStart_toStartOf="@+id/tv_heading"
+        app:layout_constraintTop_toBottomOf="@id/btn_paintology" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_term_agreement_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/term_agreement_message"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintBottom_toTopOf="@+id/ver_divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_tc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/term_condition"
+        android:textColor="@color/color_terms_condition"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/ver_divider" />
+
+    <View
+        android:id="@+id/ver_divider"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:background="@color/color_terms_condition"
+        android:text="@string/term_condition"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_tc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_tc" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_pp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/privacy_policy"
+        android:textColor="@color/color_terms_condition"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ver_divider" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

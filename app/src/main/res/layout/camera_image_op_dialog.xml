@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/CardViewStyle"
+    android:layout_width="@dimen/dp_250"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/tv_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/dp_10"
+            android:singleLine="false"
+            android:text="@string/load_image"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <!--<TextView
+            android:id="@+id/tv_image_path_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_head"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dp_05"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dp_05"
+            android:singleLine="false"
+            android:text="Path"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp"
+            android:textStyle="bold" />-->
+
+        <TextView
+            android:id="@+id/tv_image_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_head"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dp_05"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dp_05"
+            android:paddingBottom="@dimen/dp_05"
+            android:singleLine="false"
+            android:text="/storage/0/"
+            android:textColor="@color/gray_color"
+            android:textSize="16sp"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_sep"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_overlay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#70C1FF"
+                android:padding="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_50"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/overlay_canvas_icon" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_use_overlay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dp_05"
+                    android:gravity="center"
+                    android:padding="@dimen/dp_05"
+                    android:singleLine="false"
+                    android:text="@string/overlay"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_12"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/dp_03"
+                android:layout_height="@dimen/dp_30"
+                android:layout_gravity="center"
+                android:background="@color/back_clr_new"
+                android:visibility="gone"></View>
+
+            <LinearLayout
+                android:id="@+id/ll_trace"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FFFF79"
+                android:padding="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_50"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/trace_image" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_use_trace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dp_05"
+                    android:drawablePadding="@dimen/dp_05"
+                    android:gravity="center"
+                    android:padding="@dimen/dp_05"
+                    android:singleLine="false"
+                    android:text="@string/trace"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp_12"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_sep"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_02"
+            android:layout_below="@+id/tv_image_path"
+            android:layout_gravity="center"
+            android:background="@color/little_gray" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

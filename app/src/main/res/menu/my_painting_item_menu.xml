@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_open"
+        android:title="@string/open" />
+
+    <item
+        android:id="@+id/action_open_drawing"
+        android:title="@string/open_drawing_only" />
+
+    <item
+        android:id="@+id/action_open_trace"
+        android:title="@string/open_trace_only" />
+
+
+    <item
+        android:id="@+id/action_open_in_trace"
+        android:title="@string/open_in_trace" />
+
+
+    <item
+        android:id="@+id/action_open_in_overlay"
+        android:title="@string/open_in_overlay" />
+
+    <item
+        android:id="@+id/action_open_tutorial"
+        android:title="@string/open_tutorial" />
+
+
+    <item
+        android:id="@+id/action_rename"
+        android:title="@string/rename" />
+
+    <item
+        android:id="@+id/action_add_text"
+        android:title="@string/add_text" />
+
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/share" />
+
+    <item
+        android:id="@+id/action_post"
+        android:title="@string/publish_community" />
+
+    <item
+        android:id="@+id/action_post_gallery"
+        android:title="@string/post_gallery" />
+
+    <item
+        android:id="@+id/action_download"
+        android:title="Download" />
+
+    <item
+        android:id="@+id/action_delete"
+        android:title="@string/delete" />
+
+    <item
+        android:id="@+id/action_cancel"
+        android:title="@string/cancel" />
+
+</menu>

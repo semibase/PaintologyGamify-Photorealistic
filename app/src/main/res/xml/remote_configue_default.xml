@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+
+    <entry>
+        <key>main_entry_canvas_screen</key>
+        <value>false</value>
+    </entry>
+
+    <entry>
+        <key>Dating_Image_Url</key>
+        <value>https://i.imgur.com/0y6bg1e.jpg</value>
+    </entry>
+
+    <entry>
+        <key>Dating_Image_RecirectLink</key>
+        <value>https://www.jumpdates.com</value>
+    </entry>
+
+    <entry>
+        <key>Ferdouse_Image_Url</key>
+        <value>https://i.imgur.com/yJeloav.png</value>
+    </entry>
+
+    <entry>
+        <key>Ferdouse_Image_RecirectLink</key>
+        <value>https://www.ferdouse.com</value>
+    </entry>
+
+    <entry>
+        <key>mypaintings_youtube_url</key>
+        <value>https://youtu.be/ceJRBQ4qkdI</value>
+    </entry>
+
+    <entry>
+        <key>mypaintings_youtube_thumb</key>
+        <value>https://imgur.com/a/5o2Lihj</value>
+        <!--        <value>https://i.imgur.com/kT9kuBx.png</value>-->
+    </entry>
+
+    <entry>
+        <key>mymovies_youtube_url</key>
+        <value>https://youtu.be/vPl5mUgDQOY</value>
+    </entry>
+
+    <entry>
+        <key>mymovies_youtube_thumb</key>
+        <value>https://imgur.com/a/5o2Lihj</value>
+        <!--        <value>https://i.imgur.com/kT9kuBx.png</value>-->
+    </entry>
+    <entry>
+        <key>clouddb_send_interval</key>
+        <value>1</value>
+    </entry>
+    <entry>
+        <key>community_snap</key>
+        <value>https://i.ibb.co/NjfjbP2/community-banner-large-border-v4-May-9-2020.png</value>
+    </entry>
+    <entry>
+        <key>minimum_launch_count_for_rating</key>
+        <value>5</value>
+    </entry>
+    <entry>
+        <key>home_slide_interval</key>
+        <value>4</value>
+    </entry>
+
+    <entry>
+        <key>links_for_you_website</key>
+        <value>https://paintology.com/tutorials/</value>
+    </entry>
+
+    <entry>
+        <key>links_for_you_youtube</key>
+        <value>https://www.youtube.com/c/paintology</value>
+    </entry>
+
+    <entry>
+        <key>links_for_you_learn_drawing</key>
+        <value>https://classroom.google.com/c/NTU2OTgwOTU1MDAy?cjc=fre3lhi</value>
+    </entry>
+
+    <entry>
+        <key>links_for_you_apps</key>
+        <value>https://play.google.com/store/apps/developer?id=Paintology</value>
+    </entry>
+
+    <entry>
+        <key>facebook_login_support</key>
+        <value>false</value>
+    </entry>
+
+</defaultsMap>

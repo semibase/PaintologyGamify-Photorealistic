@@ -1,0 +1,270 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'androidx.navigation.safeargs'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-parcelize'
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+android {
+    compileSdk 34
+    namespace = "com.paintology.lite.photorealistic.drawing"
+    defaultConfig {
+        applicationId "com.paintology.lite.photorealistic.drawing"
+        minSdk 24
+        targetSdkVersion 34
+        versionCode 6
+        versionName '3.0'
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        project.archivesBaseName = "trace_drawing"
+
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+//        javaCompileOptions {
+//            annotationProcessorOptions {
+//                arguments += ["room.schemaLocation": "$projectDir/schemas".toString()]
+//            }
+//        }
+    }
+    def date = new Date();
+    def formattedDate = date.format('dd_MM_yyyy')
+    applicationVariants.configureEach { variant ->
+        variant.outputs.configureEach {
+            outputFileName = formattedDate + "_Paintology_Photorealistic_Drawing_app_release_${defaultConfig.versionCode}.apk"
+        }
+    }
+
+//    sourceSets {
+//        androidTest.assets.srcDirs += files("$projectDir/schemas".toString())
+//    } eEw
+    signingConfigs {
+        release {
+            //set the path of bundle keystore here
+            storeFile file("$rootDir/fkhKey3.jks")
+            storePassword "paint23"
+            keyAlias "key0"
+            keyPassword "paint23"
+        }
+    }
+    buildTypes {
+        release {
+            //debuggable true
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+    flavorDimensions "version"
+    productFlavors {
+        Dev {
+            dimension "version"
+            versionNameSuffix "-dev"
+            buildConfigField "String", "BASE_URL", "\"${developmentBaseUrl}\""
+            buildConfigField "String", "SECRET_KEY", "\"${secretKey}\""
+            buildConfigField "String", "CAT_ID", "\"${catId}\""
+            buildConfigField "String", "SERVER_KEY", "\"${serverKey}\""
+//            resValue "string", "app_name", "Paintology-Gamify"
+        }
+
+        Live {
+            dimension "version"
+            buildConfigField "String", "BASE_URL", "\"${releaseBaseUrl}\""
+            buildConfigField "String", "SECRET_KEY", "\"${secretKey}\""
+            buildConfigField "String", "CAT_ID", "\"${catId}\""
+            buildConfigField "String", "SERVER_KEY", "\"${serverKey}\""
+//            applicationIdSuffix ".gamify"
+//            resValue "string", "app_name", "Paintology-Gamify"
+        }
+
+        Staging {
+            dimension "version"
+            versionNameSuffix "-staging"
+            buildConfigField "String", "BASE_URL", "\"${stagingBaseUrl}\""
+            buildConfigField "String", "SECRET_KEY", "\"${secretKey}\""
+            buildConfigField "String", "CAT_ID", "\"${catId}\""
+            buildConfigField "String", "SERVER_KEY", "\"${serverKey}\""
+          //  applicationIdSuffix ".gamify"
+//            resValue "string", "app_name", "Paintology-Gamify"
+        }
+
+    }
+    compileOptions {
+        sourceCompatibility = '17'
+        targetCompatibility = '17'
+    }
+
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+    }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
+
+    /*configurations {
+        all*.exclude group: 'com.google.guava', module: 'listenablefuture'
+    }*/
+
+    repositories {
+        mavenCentral()
+    }
+
+    buildFeatures {
+        buildConfig true
+        viewBinding true
+    }
+
+    lint {
+        baseline = file("lint-baseline.xml")
+    }
+}
+
+dependencies {
+
+    implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+
+    implementation project(path: ':materialtagview')
+    implementation project(path: ':core')
+    implementation project(':cardflipview')
+    implementation project(':hlistview')
+    implementation project(':autolinklibrary')
+
+    implementation 'androidx.activity:activity-ktx:1.2.0-rc01'
+    implementation 'androidx.fragment:fragment-ktx:1.3.0-rc02'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.20'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation('com.google.api-client:google-api-client-android:1.30.7') {
+        exclude group: 'org.apache.httpcomponents'
+        exclude group: 'com.google.guava'
+    }
+
+    implementation "io.insert-koin:koin-android:3.4.2"
+    implementation("io.coil-kt:coil:1.2.0")
+    implementation("io.coil-kt:coil-svg:1.2.0")
+    implementation('com.google.apis:google-api-services-youtube:v3-rev187-1.23.0') {
+        exclude group: 'org.apache.httpcomponents'
+        exclude group: 'com.google.guava'
+    }
+
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.5'
+    implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.5'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.7.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.9.0'
+
+    implementation 'com.github.bumptech.glide:okhttp3-integration:4.11.0'
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    kapt 'com.github.bumptech.glide:compiler:4.12.0'
+
+    implementation 'com.facebook.android:facebook-login:16.0.0'
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+    implementation 'com.facebook.android:facebook-android-sdk:16.0.0'
+
+
+    implementation platform('com.google.firebase:firebase-bom:29.3.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-auth'
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-dynamic-links'
+    implementation 'com.google.firebase:firebase-functions'
+    implementation 'com.google.firebase:firebase-storage'
+    implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.google.firebase:firebase-firestore'
+    implementation 'com.google.firebase:firebase-config-ktx'
+
+    implementation 'com.google.android.gms:play-services-ads:22.6.0'
+    implementation 'com.google.android.gms:play-services-auth:20.1.0'
+    implementation 'com.google.android.play:app-update-ktx:2.1.0'
+    implementation 'com.google.android.play:review:2.0.1'
+
+    implementation 'androidx.annotation:annotation:1.3.0'
+
+    implementation 'com.guolindev.permissionx:permissionx:1.7.1'
+    implementation 'com.karumi:dexter:6.2.3'
+    
+    implementation "androidx.multidex:multidex:2.0.1"
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+
+    implementation 'com.github.rey5137:material:1.3.1'
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.6.4'
+
+
+    def nav_version = "2.4.2"
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    def camerax_version = '1.1.0-beta03'
+    implementation "androidx.camera:camera-core:$camerax_version"
+    implementation "androidx.camera:camera-camera2:$camerax_version"
+    implementation "androidx.camera:camera-lifecycle:$camerax_version"
+    implementation "androidx.camera:camera-view:$camerax_version"
+
+    implementation 'androidx.window:window:1.0.0'
+    implementation 'com.github.onimur:handle-path-oz:1.0.7'
+
+    implementation 'me.zhanghai.android.materialratingbar:library:1.4.0'
+
+    implementation "com.airbnb.android:lottie:3.6.0"
+
+    def room_version = "2.4.2"
+    implementation "androidx.room:room-runtime:$room_version"
+    kapt "androidx.room:room-compiler:$room_version"
+
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+    implementation 'commons-io:commons-io:2.6'
+
+    implementation 'com.github.smarteist:Android-Image-Slider:1.4.0'
+    implementation 'org.greenrobot:eventbus:3.3.1'
+
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+
+    implementation 'com.github.eincs:android-gpuimage:v1.4.1-eincs-1.0.1'
+
+    implementation 'com.github.QuadFlask:colorpicker:0.0.13'
+
+    def lifecycle_version = "2.2.0"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+
+
+    implementation 'me.tankery.lib:circularSeekBar:1.4.2'
+    implementation "androidx.security:security-crypto:1.1.0-alpha03"
+    implementation 'com.squareup.picasso:picasso:2.8'
+
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
+    implementation 'com.hbb20:ccp:2.7.3'
+
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+
+    implementation 'androidx.core:core-splashscreen:1.0.0-alpha01'
+}
+
+apply plugin: 'com.google.gms.google-services'

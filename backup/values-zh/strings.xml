@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paintology</string>
+    <string name="default_collection">影片教学</string>
+    <string name="community">社区</string>
+    <string name="my_painting">我的画</string>
+    <string name="downloaded">我的电影</string>
+    <string name="draw">画</string>
+    <string name="my_resources">我的资源</string>
+    <string name="daily_blog">每日博客</string>
+
+
+    <string name="view_sketch_photos"><u>在云端查看图像</u></string>
+    <string name="import_your_sketch_photos"><u>将图像导入我的绘画</u></string>
+    <string name="upload_your_zip_file_auto"><u>将图像保存到云</u></string>
+
+
+    <string name="blank_canvas">空白的画布</string>
+    <string name="overlay_image">重叠图片</string>
+    <string name="trace_image">跟踪图像</string>
+    <string name="camera_image">相机影像</string>
+
+    <string name="quick_drawing">快速绘图</string>
+
+    <string name="import_images">汇入图片</string>
+
+    <!--  -->
+    <string name="sites">站点</string>
+    <string name="online_tut">在线教程</string>
+    <string name="paintology_website">绘画学网站</string>
+    <string name="youtube_paintology">Youtube 绘画学</string>
+    <string name="learn_drawing_amp_painting">学习绘画</string>
+    <string name="apps_by_paintology">绘画学应用</string>
+
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/_20sdp"
+    android:paddingBottom="@dimen/_20sdp"
+    android:paddingRight="@dimen/_10sdp"
+    android:paddingLeft="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_marginLeft="@dimen/_10sdp"
+    android:layout_marginRight="@dimen/_10sdp"
+    android:background="@drawable/bg_award_item_view"
+    android:elevation="1dp"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+       <RelativeLayout
+           android:background="@drawable/bg_award_circle"
+           android:padding="@dimen/_10sdp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+
+           <ImageView
+               android:layout_width="@dimen/_20sdp"
+               android:layout_height="@dimen/_20sdp"
+               android:src="@drawable/ic_award_star"/>
+
+       </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/title_award"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gallery"
+            android:layout_gravity="center_vertical"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/desc_award"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/do_10_drawings_posted_to_gallery"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        style="@style/TextAppearance.AppCompat.Body1"/>
+
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/GalleryProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:max="100"
+        android:progress="30"
+        app:indicatorColor="#E10173"
+        app:trackColor="#EEEEEE"
+        app:trackCornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="108px"
+        android:text="@string/resum"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/blue_a"
+        android:paddingLeft="@dimen/_20sdp"
+        android:paddingRight="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

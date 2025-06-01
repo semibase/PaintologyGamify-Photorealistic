@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_watch_intro_video"
+        android:title="@string/watch_intro_video"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_post_gallery"
+        android:title="@string/post_to_gallery"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_feedback"
+        android:title="@string/share_feedback"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_rateUS"
+        android:title="@string/rate_us"
+        app:showAsAction="never" />
+
+</menu>

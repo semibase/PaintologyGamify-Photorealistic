@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_350"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_80"
+        android:background="@color/header_color"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_05">
+
+        <ImageView
+            android:id="@+id/iv_close_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_05"
+            android:layout_marginRight="@dimen/dp_05"
+            android:src="@drawable/backarrow_white"
+            android:visibility="visible" />
+
+        <com.paintology.lite.photorealistic.drawing.util.CircleImageView
+            android:id="@+id/iv_profile_pic"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="@dimen/dp_50"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_toRightOf="@+id/iv_close_dialog"
+            android:src="@drawable/profile_icon"
+            app:civ_border_color="@color/background_color"
+            app:civ_border_width="@dimen/dp_05" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@+id/iv_profile_pic"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_12"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_12"></TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_list_types"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:text=""
+            android:textColor="@color/gray_holo_light"
+            android:textSize="@dimen/sp_12"
+            android:textStyle="bold"></TextView>
+
+
+    </RelativeLayout>
+
+    <com.paintology.lite.photorealistic.drawing.CustomePicker.AutofitRecyclerView
+        android:id="@+id/rv_followlist_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_main"
+        android:layout_margin="@dimen/dp_10"
+        android:layout_weight="1"
+        android:fadeScrollbars="false"
+        android:scrollbarSize="@dimen/dp_02"
+        android:scrollbars="vertical"/>
+</RelativeLayout>

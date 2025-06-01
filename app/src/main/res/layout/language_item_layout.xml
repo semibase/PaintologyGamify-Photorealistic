@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main"
+    android:layout_width="@dimen/dp_150"
+    android:layout_height="wrap_content"
+    android:background="@color/dull_white"
+    android:orientation="horizontal"
+    android:padding="@dimen/dp_10">
+
+    <ImageView
+        android:id="@+id/iv_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="@dimen/dp_05"
+        android:src="@drawable/flag_en"></ImageView>
+
+    <TextView
+        android:id="@+id/tv_lang_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/english"
+        android:textSize="@dimen/sp_16"></TextView>
+
+    <ImageView
+        android:id="@+id/iv_tick_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/tick_icon"
+        android:tint="@color/colorMain"></ImageView>
+</LinearLayout>

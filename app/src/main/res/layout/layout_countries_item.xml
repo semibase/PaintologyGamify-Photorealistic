@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_53sdp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutMain"
+    android:layout_margin="@dimen/_3sdp"
+    android:background="@drawable/bg_challenge_level">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgCountry"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_32sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:src="@drawable/img_uae"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCountryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/worldwide"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imgCountry"
+        app:layout_constraintTop_toTopOf="@+id/imgCountry" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTotalDrawings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        tools:text="@string/_32_drawings"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_11ssp"
+        app:layout_constraintBottom_toTopOf="@+id/tvCountryContent"
+        app:layout_constraintEnd_toStartOf="@+id/appCompatImageView9" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCountryContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/poppins"
+        android:gravity="start"
+        android:maxLines="2"
+        android:padding="@dimen/_3sdp"
+        android:text="@string/this_ranking_is_compiled_from_the_best_users_in_uae"
+        android:textColor="#858494"
+        android:textSize="@dimen/_8ssp"
+        app:layout_constraintEnd_toStartOf="@+id/appCompatImageView9"
+        app:layout_constraintStart_toStartOf="@+id/tvCountryName"
+        app:layout_constraintTop_toBottomOf="@+id/tvCountryName" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView9"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:padding="@dimen/_3sdp"
+        android:tint="@color/colorMain"
+        android:src="@drawable/img_arrow_forward"
+        app:layout_constraintBottom_toBottomOf="@+id/imgCountry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgCountry" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

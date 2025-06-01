@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/challenge_back_tutorial"
+        android:id="@+id/viewBackTutorial" />
+
+    <include
+        layout="@layout/challenge_back_quiz"
+        android:id="@+id/viewBackQuiz"
+        android:visibility="gone" />
+
+    <include
+        layout="@layout/challenge_back_resources"
+        android:id="@+id/viewBackResources"
+        android:visibility="gone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

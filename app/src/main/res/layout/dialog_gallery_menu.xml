@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_150sdp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_7sdp"
+    app:cardElevation="4dp"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="@color/colorBack"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvOpen"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:paddingVertical="@dimen/_3sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_1sdp"
+            android:text="@string/open"
+            android:textColor="@color/color_gallery_filter_dialog_text"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toTopOf="@+id/tvDoTutorial"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="spread" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvDoTutorial"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:paddingVertical="@dimen/_3sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_1sdp"
+            android:text="@string/do_tutorial"
+            android:textColor="@color/color_gallery_filter_dialog_text"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toTopOf="@+id/tvVideo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvOpen" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvVideo"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_1sdp"
+            android:paddingVertical="@dimen/_3sdp"
+            android:text="@string/video"
+            android:textColor="@color/color_gallery_filter_dialog_text"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toTopOf="@+id/tvDoTutorial"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDoTutorial" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvFav"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_1sdp"
+            android:paddingVertical="@dimen/_3sdp"
+            android:text="@string/favorites"
+            android:textColor="@color/color_gallery_filter_dialog_text"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvVideo" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_270sdp"
+    android:layout_height="@dimen/_210sdp"
+    android:background="@drawable/bg_rounded"
+    android:elevation="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_20sdp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutTop"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/bg_blue_gradient"
+            app:layout_constraintBottom_toTopOf="@+id/guideline3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/tvChallengeType"
+                android:layout_width="@dimen/_55sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_margin="@dimen/_8sdp"
+                android:background="@drawable/bg_btn_rounded"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:paddingTop="@dimen/_2sdp"
+                android:text="@string/tutorials"
+                android:textAllCaps="false"
+                android:paddingHorizontal="@dimen/_3sdp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_8ssp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:paddingTop="@dimen/_8sdp"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_11ssp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/tvChallengeType"
+                app:layout_constraintTop_toBottomOf="@+id/tvChallengeType" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvChallengeContent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="start"
+                android:maxLines="2"
+                android:paddingTop="@dimen/_5sdp"
+                android:text="@string/earn_320_points_and_get_a_special_bonus_from_paintology"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10ssp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline4"
+                app:layout_constraintStart_toStartOf="@+id/tvChallengeType"
+                app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgChallenge"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_70sdp"
+                android:padding="@dimen/_10sdp"
+                android:src="@drawable/img_award"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/guideline4"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.7" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutBottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layoutTop">
+
+            <SeekBar
+                android:id="@+id/seekbarChallenge"
+                android:layout_width="0dp"
+                android:layout_height="13dp"
+                android:layout_marginHorizontal="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:max="5"
+                android:progress="0"
+                android:progressDrawable="@drawable/bg_seekbar"
+                android:splitTrack="false"
+                android:thumb="@drawable/seekbar_thumb"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:singleLine="true"
+                android:text="@string/_3_5"
+                android:textColor="@color/app_color"
+                android:textSize="@dimen/_11ssp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/seekbarChallenge"
+                app:layout_constraintTop_toBottomOf="@+id/seekbarChallenge" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTotalPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:singleLine="true"
+                android:text="@string/_320_points"
+                android:textColor="#5B6E95"
+                android:textSize="@dimen/_10ssp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/tvProgress"
+                app:layout_constraintEnd_toEndOf="@+id/seekbarChallenge"
+                app:layout_constraintTop_toBottomOf="@+id/seekbarChallenge" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:layout_marginHorizontal="@dimen/_5sdp"
+                android:background="#D0DAEE"
+                app:layout_constraintEnd_toEndOf="@+id/tvTotalPoints"
+                app:layout_constraintStart_toStartOf="@+id/tvProgress"
+                app:layout_constraintTop_toBottomOf="@+id/tvProgress" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvDoTheChallenge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:padding="@dimen/_8sdp"
+                android:singleLine="true"
+                android:text="@string/do_the_challenge"
+                android:textColor="#5B6E95"
+                android:textSize="@dimen/_10ssp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tvProgress"
+                app:layout_constraintTop_toBottomOf="@+id/view" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgArrow"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:padding="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:src="@drawable/img_arrow_challenge"
+                app:layout_constraintBottom_toBottomOf="@+id/tvDoTheChallenge"
+                app:layout_constraintEnd_toEndOf="@+id/tvTotalPoints"
+                app:layout_constraintTop_toTopOf="@+id/tvDoTheChallenge" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.50" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

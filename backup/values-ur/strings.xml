@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paintology</string>
+    <string name="default_collection">ویڈیو سبق</string>
+    <string name="community">برادریر</string>
+    <string name="my_painting">میری پینٹنگ</string>
+    <string name="downloaded">میری فلمیں</string>
+    <string name="draw">ڈرا</string>
+    <string name="my_resources">میرے وسائل</string>
+    <string name="daily_blog">ڈیلی بلاگ</string>
+
+    <string name="import_your_sketch_photos"><u>میری پینٹنگز میں تصاویر امپورٹ کریں</u></string>
+    <string name="upload_your_zip_file_auto"><u>پینٹولوجی کلاؤڈ میں تصاویر کو محفوظ کریں</u></string>
+    <string name="view_sketch_photos"><u>پینٹولوجی کلاؤڈ میں تصاویر دیکھیں</u></string>
+
+
+    <string name="blank_canvas">خالی کینوس</string>
+    <string name="overlay_image">اوورلے امیج</string>
+    <string name="trace_image">تصویری تصویر</string>
+    <string name="camera_image">کیمرا امیج</string>
+
+    <string name="quick_drawing">فوری ڈرائنگ</string>
+
+    <string name="import_images">تصاویر امپورٹ کریں</string>
+
+    <!--  -->
+    <string name="sites">سائٹس</string>
+    <string name="online_tut">آن لائن سبق</string>
+    <string name="paintology_website">پینٹولوجی ویب سائٹ</string>
+    <string name="youtube_paintology">یوٹیوب پینٹولوجی</string>
+    <string name="learn_drawing_amp_painting">ڈرائنگ اور پینٹنگ سیکھیں۔</string>
+    <string name="apps_by_paintology">پینٹولوجی کے ذریعہ ایپس</string>
+
+</resources>

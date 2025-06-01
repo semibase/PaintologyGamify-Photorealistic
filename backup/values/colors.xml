@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E00272</color>
+    <color name="colorPrimaryDark">#E00272</color>
+    <color name="colorAccent">#90D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="redeem_color">#6b6b6b</color>
+    <color name="dull_white">#f5f5f5</color>
+    <color name="red">#F44336</color>
+    <color name="item_selected">#90FFFFFF</color>
+    <color name="drop_shadow">#33000000</color>
+    <color name="menu_text">#222222</color>
+    <color name="gray_color">#5d5d5d</color>
+    <color name="back_clr_new">#F26470</color>
+
+    <color name="color_disable">#989898</color>
+    <color name="gray_holo_light">#ffd0d0d0</color>
+    <color name="header_color">#E00272</color>
+    <color name="holder_color">#cce8ff</color>
+    <color name="background_color">#FFEFEE</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="link_color">#E00272</color>
+    <color name="black">#000000</color>
+    <color name="little_gray">#8e8e8e</color>
+    <color name="splash_color">#E00272</color>
+
+    <color name="icActive">#FFFFFFFF</color>
+    <color name="icFocused">#DDFFFFFF</color>
+    <color name="icPressed">#AAFFFFFF</color>
+
+    <color name="light_grey">#ABABAB</color>
+    <color name="dark_grey">#333333</color>
+    <color name="md_grey_900">#212121</color>
+    <color name="md_blue_100">#BBDEFB</color>
+    <color name="color_layout_bg">#FA798C</color>
+    <color name="color_cat_text_bg">#F0FFFFFF</color>
+    <color name="color_cat_text">#F60073</color>
+    <color name="color_unchecked">#ffffff</color>
+    <color name="color_checked">#F60073</color>
+    <color name="color_text_checked">#ffffff</color>
+    <color name="color_text_unchecked">#696969</color>
+    <color name="color_category_bg">#F60073</color>
+    <color name="status_offline">#FFB8D7</color>
+    <color name="tag_line">#F6CBDB</color>
+    <color name="negative_button_bg">#ACACAC</color>
+    <color name="positive_button_bg">#E00272</color>
+    <color name="tab">#cf0061</color>
+    <color name="community_item_icon">#9A798A</color>
+    <color name="swipe_item_bg">#F6F6F6</color>
+    <color name="typing">#9A798A</color>
+    <color name="trace_overlay_canvas_bg">#fdefee</color>
+
+    <color name="grey_8b8b8b">#8b8b8b</color>
+    <color name="black_alpha_95">#f3000000</color>
+    <color name="red_e73a3d">#e73a3d</color>
+    <color name="custom_seekbar_fill_color">#fe6c86</color>
+    <color name="custom_seekbar_empty_color">#bdbdbd</color>
+    <color name="custom_seekbar_empty_color2">#bdbdbd</color>
+    <color name="custom_seekbar_critical_color">#fdefee</color>
+    <color name="enlarge_dim">#80000000</color>
+
+
+    <!-- new -->
+    <color name="layoutBGColor">#DF0172</color>
+    <color name="splashBackground">#DF0172</color>
+    <color name="facebookButton">#6EC2FF</color>
+    <color name="googleButton">#6FFF8C</color>
+    <color name="guestButton">#FFFF77</color>
+    <color name="paintologyButton">#FF7B85</color>
+    <color name="paintologyButtonText">#FFF</color>
+    <color name="facebookButtonText">#FFF</color>
+    <color name="guestButtonText">#D9B800</color>
+    <color name="googleButtonText">#41AB4E</color>
+    <color name="challengeTitle">#4C6FE7</color>
+
+    <color name="color_navigation_list_background">#251923</color>
+    <color name="color_selector_navigation_item">#E00272</color>
+    <color name="color_selector_navigation_item_text">#FFFFFF</color>
+
+    <color name="my_spinner_text_color">#FFFFFF</color>
+
+    <color name="app_color">#E10173</color>
+    <color name="black_overlay">#60000000</color>
+    <color name="gray">#858494</color>
+
+    <color name="color_terms_condition">#ffffff</color>
+    <color name="transperent">#00000000</color>
+    <color name="blue_a">#4C6EEA</color>
+    <color name="color_filter">#74cbf0</color>
+    <color name="text_black_color">#2B2E39</color>
+    <color name="edit_text_bg_color">#93C5FD</color>
+    <color name="hashtag_color">#60A5FA</color>
+    <color name="white_50">#80FFFFFF</color>
+
+
+</resources>

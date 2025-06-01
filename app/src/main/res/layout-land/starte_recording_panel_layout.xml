@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        style="@style/CardViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_10"
+            android:paddingLeft="@dimen/dp_10"
+            android:paddingRight="@dimen/dp_10">
+
+            <!--            <com.paintology.lite.paint.by.number.component.TextViewKu-->
+            <!--                android:id="@+id/tv_rec_time"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:layout_margin="@dimen/dp_05"-->
+            <!--                android:gravity="center"-->
+            <!--                android:text="@string/start_recording"-->
+            <!--                android:textColor="@color/black"-->
+            <!--                android:textSize="10sp" />-->
+
+            <LinearLayout
+                android:id="@+id/recording_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/dp_05">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.paintology.lite.photorealistic.drawing.component.TextViewKu
+                        android:id="@+id/tv_rec_time_record"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/dp_05"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_start_recording"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/dp_05"
+                        android:src="@drawable/start_recording_icon"
+                        android:tint="@color/colorPrimary" />
+
+                </FrameLayout>
+
+
+                <TextView
+                    android:id="@+id/tv_record"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/record"
+                    android:textColor="@color/black"
+                    android:maxLines="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/pause_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/dp_05"
+                android:visibility="gone">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.paintology.lite.photorealistic.drawing.component.TextViewKu
+                        android:id="@+id/tv_rec_time_pause"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/dp_05"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_pause_recording"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="@dimen/dp_05"
+                        android:src="@drawable/pause_rec_canvas"
+                        android:tint="@color/colorPrimary"
+                        android:visibility="visible" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/tv_pause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pause"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/stop_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/dp_05"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/iv_stop_recording"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="@dimen/dp_05"
+                    android:src="@drawable/stop_rec_canvas"
+                    android:tint="@color/colorPrimary"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stop"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mic_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/dp_05">
+
+                <ImageView
+                    android:id="@+id/iv_mic_icn"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="@dimen/dp_05"
+                    android:src="@drawable/mic_off"
+                    android:tint="@color/colorPrimary"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/audio"
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

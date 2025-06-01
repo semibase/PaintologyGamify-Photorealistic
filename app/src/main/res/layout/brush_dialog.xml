@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        style="@style/CardViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/txtBrushName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/roundex_square_new"
+                android:gravity="center"
+                android:minWidth="@dimen/_50sdp"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingRight="@dimen/_5sdp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#FFF"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@id/brush_selected_root"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/tv_select_brush" />
+
+            <TextView
+                android:id="@+id/tv_select_brush"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundex_square_new"
+                android:gravity="center"
+                android:minWidth="@dimen/_50sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:singleLine="true"
+                android:text="@string/more_brushes"
+                android:textColor="#FFF"
+                android:textSize="@dimen/_16ssp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@id/brush_selected_root"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/txtBrushName" />
+
+            <FrameLayout
+                android:id="@+id/brush_selected_root"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@id/brush_container"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <com.paintology.lite.photorealistic.drawing.brushpicker.SelectedBrushView
+                    android:id="@+id/brush_selected"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp" />
+
+                <View
+                    android:id="@+id/brush_selected_frame"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/brush_container"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@id/divider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/brush_properties_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_200sdp"
+                    android:padding="@dimen/_5sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/size_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingStart="@dimen/activity_horizontal_margin"
+                        android:paddingEnd="@dimen/activity_horizontal_margin"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@id/density_container"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/plus_size"
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="0dp"
+                                android:text="+"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold" />
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="@dimen/_5sdp"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:layout_weight="1">
+
+                                <com.paintology.lite.photorealistic.drawing.brushpicker.CustomSeekBar
+                                    android:id="@+id/size_picker"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:layout_height="match_parent" />
+
+
+                                <com.paintology.lite.photorealistic.drawing.gallery.BrushSettingTextView
+                                    android:id="@+id/tv_size_lbl"
+                                    android:layout_width="@dimen/_20sdp"
+                                    android:layout_height="fill_parent" />
+
+                                <TextView
+                                    android:id="@+id/txtSize"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/_10sdp"
+                                    android:layout_gravity="bottom"
+                                    android:gravity="center"
+                                    android:text="50%"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_10ssp" />
+
+                            </FrameLayout>
+
+                            <TextView
+                                android:id="@+id/minus_size"
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="0dp"
+                                android:text="-"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/density_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingStart="@dimen/activity_horizontal_margin"
+                        android:paddingEnd="@dimen/activity_horizontal_margin"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/plus_pressure"
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="0dp"
+                                android:text="+"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold" />
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="@dimen/_5sdp"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:layout_weight="1">
+
+                                <com.paintology.lite.photorealistic.drawing.brushpicker.CustomSeekBar
+                                    android:id="@+id/opacity_picker"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:layout_height="match_parent" />
+
+
+                                <com.paintology.lite.photorealistic.drawing.gallery.BrushSettingTextView
+                                    android:id="@+id/tv_density_lbl"
+                                    android:layout_width="@dimen/_20sdp"
+                                    android:layout_height="fill_parent" />
+
+                                <TextView
+                                    android:id="@+id/txtOpacity"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/_10sdp"
+                                    android:layout_gravity="bottom"
+                                    android:gravity="center"
+                                    android:text="50%"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_10ssp" />
+
+                            </FrameLayout>
+
+                            <TextView
+                                android:id="@+id/minus_pressure"
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="0dp"
+                                android:text="-"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/hardness_container"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingStart="@dimen/activity_horizontal_margin"
+                        android:paddingEnd="@dimen/activity_horizontal_margin"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/density_container"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/plus_hardness"
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="0dp"
+                                android:text="+"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold" />
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="@dimen/_5sdp"
+                                android:layout_marginRight="@dimen/_5sdp"
+                                android:layout_weight="1">
+
+                                <com.paintology.lite.photorealistic.drawing.brushpicker.CustomSeekBar
+                                    android:id="@+id/hardness_seeker"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:layout_height="match_parent" />
+
+                                <com.paintology.lite.photorealistic.drawing.gallery.BrushSettingTextView
+                                    android:id="@+id/tv_hardness_lbl"
+                                    android:layout_width="@dimen/_20sdp"
+                                    android:layout_height="fill_parent" />
+
+                                <TextView
+                                    android:id="@+id/txtFlow"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/_10sdp"
+                                    android:layout_gravity="bottom"
+                                    android:gravity="center"
+                                    android:text="50%"
+                                    android:textColor="@color/black"
+                                    android:textSize="@dimen/_10ssp" />
+
+                            </FrameLayout>
+
+                            <TextView
+                                android:id="@+id/minus_hardness"
+                                android:layout_width="@dimen/_30sdp"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="0dp"
+                                android:text="-"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                                android:textColor="@color/colorPrimary"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <!--                <androidx.recyclerview.widget.RecyclerView-->
+                <!--                    android:id="@+id/brush_list"-->
+                <!--                    android:layout_width="0dp"-->
+                <!--                    android:layout_weight="1"-->
+                <!--                    android:layout_height="match_parent"-->
+                <!--                    android:layout_marginBottom="10dp"-->
+                <!--                    app:layout_constraintBottom_toBottomOf="parent"-->
+                <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+                <!--                    app:layout_constraintStart_toEndOf="@id/brush_properties_container"-->
+                <!--                    app:layout_constraintTop_toTopOf="parent" />-->
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gray_color"
+                app:layout_constraintBottom_toTopOf="@id/radio_option_container"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/radio_option_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:paddingStart="@dimen/activity_horizontal_margin"
+                android:paddingEnd="@dimen/activity_horizontal_margin"
+                app:layout_constraintBottom_toTopOf="@id/buttons_container"
+                app:layout_constraintEnd_toStartOf="@id/btn_create"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_singleTap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:backgroundTint="@color/background_color"
+                    android:buttonTint="@color/colorPrimary"
+                    android:checked="true"
+                    android:drawableTint="@color/colorPrimary"
+                    android:enabled="true"
+                    android:switchPadding="@dimen/_10sdp"
+                    android:text="@string/single_tap"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:theme="@style/SCBSwitch"
+                    android:thumbTint="@color/colorPrimary"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:backgroundTint="@color/background_color"
+                    android:buttonTint="@color/colorPrimary"
+                    android:checked="true"
+                    android:drawableTint="@color/colorPrimary"
+                    android:enabled="true"
+                    android:switchPadding="@dimen/_10sdp"
+                    android:text="@string/straight_lines"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:theme="@style/SCBSwitch"
+                    android:thumbTint="@color/colorPrimary"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/switch_singleTap" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_gray_scale"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:backgroundTint="@color/background_color"
+                    android:buttonTint="@color/colorPrimary"
+                    android:checked="true"
+                    android:drawableTint="@color/colorPrimary"
+                    android:enabled="true"
+                    android:switchPadding="@dimen/_10sdp"
+                    android:text="@string/gray_scale"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:theme="@style/SCBSwitch"
+                    android:thumbTint="@color/colorPrimary"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/switch_line" />
+
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/switch_block_coloring"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:backgroundTint="@color/background_color"
+                    android:buttonTint="@color/colorPrimary"
+                    android:checked="true"
+                    android:drawableTint="@color/colorPrimary"
+                    android:enabled="true"
+                    android:switchPadding="@dimen/_10sdp"
+                    android:text="@string/block_coloring"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:theme="@style/SCBSwitch"
+                    android:thumbTint="@color/colorPrimary"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/switch_gray_scale" />
+
+
+                <!--                <androidx.appcompat.widget.SwitchCompat-->
+                <!--                    android:id="@+id/switch_smooth"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginTop="@dimen/_5sdp"-->
+                <!--                    android:layout_marginBottom="@dimen/_5sdp"-->
+                <!--                    android:backgroundTint="@color/background_color"-->
+                <!--                    android:buttonTint="@color/colorPrimary"-->
+                <!--                    android:checked="true"-->
+                <!--                    android:drawableTint="@color/colorPrimary"-->
+                <!--                    android:enabled="true"-->
+                <!--                    android:switchPadding="@dimen/_10sdp"-->
+                <!--                    android:text="@string/smoothing"-->
+                <!--                    android:textAppearance="@style/TextAppearance.AppCompat.Small"-->
+                <!--                    android:theme="@style/SCBSwitch"-->
+                <!--                    android:thumbTint="@color/colorPrimary"-->
+                <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+                <!--                    app:layout_constraintTop_toBottomOf="@id/switch_gray_scale" />-->
+
+                <!--                <LinearLayout-->
+                <!--                    android:id="@+id/smooth_container"-->
+                <!--                    android:layout_width="0dp"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:orientation="vertical"-->
+                <!--                    app:layout_constraintStart_toStartOf="parent"-->
+                <!--                    app:layout_constraintEnd_toEndOf="parent"-->
+                <!--                    app:layout_constraintTop_toBottomOf="@id/switch_smooth" >-->
+
+                <!--                    <LinearLayout-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:orientation="horizontal">-->
+
+                <!--                        <SeekBar-->
+                <!--                            android:id="@+id/seek_s"-->
+                <!--                            android:layout_width="0dp"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:layout_gravity="center"-->
+                <!--                            android:layout_weight="1"-->
+                <!--                            android:buttonTint="@color/colorAccent"-->
+                <!--                            android:max="20"-->
+                <!--                            android:min="1"-->
+                <!--                            android:paddingStart="0dp"-->
+                <!--                            android:paddingEnd="0dp"-->
+                <!--                            android:progress="1"-->
+                <!--                            android:progressBackgroundTint="@color/colorAccent"-->
+                <!--                            android:progressTint="@color/colorAccent"-->
+                <!--                            android:thumbTint="@color/colorAccent"/>-->
+
+                <!--                        <TextView-->
+                <!--                            android:id="@+id/tv_p"-->
+                <!--                            android:layout_width="@dimen/_30sdp"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:layout_gravity="center"-->
+                <!--                            android:layout_toRightOf="@+id/seekbar_smooth_1"-->
+                <!--                            android:gravity="center"-->
+                <!--                            android:text="01"-->
+                <!--                            android:textColor="@color/colorAccent"-->
+                <!--                            android:textStyle="bold"/>-->
+
+                <!--                        <EditText-->
+                <!--                            android:id="@+id/edt_smooth"-->
+                <!--                            android:layout_width="@dimen/_50sdp"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:layout_gravity="center"-->
+                <!--                            android:gravity="center"-->
+                <!--                            android:inputType="number"-->
+                <!--                            android:singleLine="true"-->
+                <!--                            android:text="10"/>-->
+                <!--                    </LinearLayout>-->
+
+                <!--                    <LinearLayout-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:orientation="horizontal" >-->
+
+                <!--                        <SeekBar-->
+                <!--                            android:id="@+id/seekbar_smooth_1"-->
+                <!--                            android:layout_width="0dp"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:layout_gravity="center"-->
+                <!--                            android:layout_weight="1"-->
+                <!--                            android:buttonTint="@color/colorAccent"-->
+                <!--                            android:max="20"-->
+                <!--                            android:min="1"-->
+                <!--                            android:paddingStart="0dp"-->
+                <!--                            android:progress="1"-->
+                <!--                            android:progressBackgroundTint="@color/colorAccent"-->
+                <!--                            android:progressTint="@color/colorAccent"-->
+                <!--                            android:thumbTint="@color/colorAccent"/>-->
+
+                <!--                        <TextView-->
+                <!--                            android:id="@+id/tv_progress"-->
+                <!--                            android:layout_width="@dimen/_30sdp"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:layout_gravity="center"-->
+                <!--                            android:layout_toRightOf="@+id/seekbar_smooth_1"-->
+                <!--                            android:gravity="center"-->
+                <!--                            android:text="01"-->
+                <!--                            android:textColor="@color/colorAccent"-->
+                <!--                            android:textStyle="bold"/>-->
+
+                <!--                        <EditText-->
+                <!--                            android:id="@+id/edt_1"-->
+                <!--                            android:layout_width="@dimen/_50sdp"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:layout_gravity="center"-->
+                <!--                            android:gravity="center"-->
+                <!--                            android:inputType="number"-->
+                <!--                            android:singleLine="true"-->
+                <!--                            android:text="10"/>-->
+                <!--                    </LinearLayout>-->
+
+                <!--                    <LinearLayout-->
+                <!--                        android:layout_width="match_parent"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:layout_marginTop="@dimen/_5sdp"-->
+                <!--                        android:orientation="horizontal">-->
+
+                <!--                        <SeekBar-->
+                <!--                            android:id="@+id/seekbar_smooth_2"-->
+                <!--                            android:layout_width="0dp"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:layout_below="@+id/seekbar_smooth_1"-->
+                <!--                            android:layout_gravity="center"-->
+                <!--                            android:layout_weight="1"-->
+                <!--                            android:buttonTint="@color/colorAccent"-->
+                <!--                            android:max="20"-->
+                <!--                            android:min="1"-->
+                <!--                            android:paddingStart="0dp"-->
+                <!--                            android:progress="1"-->
+                <!--                            android:progressBackgroundTint="@color/colorAccent"-->
+                <!--                            android:progressTint="@color/colorAccent"-->
+                <!--                            android:thumbTint="@color/colorAccent"/>-->
+
+                <!--                        <TextView-->
+                <!--                            android:id="@+id/tv_progress_2"-->
+                <!--                            android:layout_width="@dimen/_30sdp"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:layout_below="@+id/tv_progress"-->
+                <!--                            android:layout_gravity="center"-->
+                <!--                            android:layout_toRightOf="@+id/seekbar_smooth_2"-->
+                <!--                            android:gravity="center"-->
+                <!--                            android:text="05"-->
+                <!--                            android:textColor="@color/colorAccent"-->
+                <!--                            android:textStyle="bold"/>-->
+
+                <!--                        <EditText-->
+                <!--                            android:id="@+id/edt_2"-->
+                <!--                            android:layout_width="@dimen/_50sdp"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:layout_gravity="center"-->
+                <!--                            android:gravity="center"-->
+                <!--                            android:inputType="number"-->
+                <!--                            android:singleLine="true"-->
+                <!--                            android:text="10"/>-->
+                <!--                    </LinearLayout>-->
+
+                <!--                </LinearLayout>-->
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_create"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/roundex_square_new"
+                android:text="@string/create_brush"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/colorPrimary"
+                app:cornerRadius="@dimen/_5sdp"
+                app:layout_constraintTop_toBottomOf="@id/divider"
+                app:layout_constraintBottom_toTopOf="@id/buttons_container"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/view_btn_create"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/bg_disable_button"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:cornerRadius="@dimen/_5sdp"
+                app:layout_constraintTop_toBottomOf="@id/divider"
+                app:layout_constraintBottom_toTopOf="@id/buttons_container"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/buttons_container"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_10sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/buttons_container2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundex_square_new"
+                        android:text="@string/cancel"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/colorPrimary"
+                        app:cornerRadius="@dimen/_5sdp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_ok"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundex_square_new"
+                        android:text="@string/ok_label"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/colorPrimary"
+                        app:cornerRadius="10dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--            <LinearLayout-->
+            <!--                android:id="@+id/buttons_container"-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:orientation="horizontal"-->
+            <!--                android:padding="@dimen/_10sdp"-->
+            <!--                android:gravity="center"-->
+            <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--                app:layout_constraintEnd_toEndOf="parent"-->
+            <!--                app:layout_constraintStart_toStartOf="parent">-->
+
+            <!--                <com.google.android.material.button.MaterialButton-->
+            <!--                    android:id="@+id/btn_create"-->
+            <!--                    android:layout_width="0dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_margin="@dimen/_5sdp"-->
+            <!--                    android:layout_weight="1"-->
+            <!--                    android:background="@drawable/roundex_square_new"-->
+            <!--                    android:text="@string/create_brush"-->
+            <!--                    android:textAllCaps="false"-->
+            <!--                    android:textColor="@color/white"-->
+            <!--                    app:backgroundTint="@color/colorPrimary"-->
+            <!--                    app:cornerRadius="@dimen/_5sdp" />-->
+
+            <!--                <com.google.android.material.button.MaterialButton-->
+            <!--                    android:id="@+id/btn_ok"-->
+            <!--                    android:layout_width="0dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_margin="@dimen/_5sdp"-->
+            <!--                    android:layout_weight="1"-->
+            <!--                    android:background="@drawable/roundex_square_new"-->
+            <!--                    android:text="@string/ok_label"-->
+            <!--                    android:textAllCaps="false"-->
+            <!--                    android:textColor="@color/white"-->
+            <!--                    app:backgroundTint="@color/colorPrimary"-->
+            <!--                    app:cornerRadius="10dp" />-->
+
+            <!--                <com.google.android.material.button.MaterialButton-->
+            <!--                    android:id="@+id/btn_cancel"-->
+            <!--                    android:layout_width="0dp"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_margin="@dimen/_5sdp"-->
+            <!--                    android:layout_weight="1"-->
+            <!--                    android:background="@drawable/roundex_square_new"-->
+            <!--                    android:text="@string/cancel"-->
+            <!--                    android:textAllCaps="false"-->
+            <!--                    android:textColor="@color/white"-->
+            <!--                    app:backgroundTint="@color/colorPrimary"-->
+            <!--                    app:cornerRadius="@dimen/_5sdp" />-->
+
+            <!--            </LinearLayout>-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>

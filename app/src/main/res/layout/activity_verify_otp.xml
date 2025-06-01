@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_layout_bg">
+
+    <include
+        android:id="@+id/customToolbar"
+        layout="@layout/layout_custom_toolbar"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/customToolbar">
+
+        <LinearLayout
+            android:id="@+id/llOtp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:fontFamily="@font/poppins_bold"
+                android:gravity="center"
+                android:text="@string/verify_email_id"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16ssp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="center"
+                    android:text="@string/enter_otp_code_we_sent_to"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp" />
+
+                <TextView
+                    android:id="@+id/txtEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/editOtp1"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/bg_profile_border_line"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18ssp" />
+
+                <View
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/editOtp2"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/bg_profile_border_line"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18ssp" />
+
+                <View
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/editOtp3"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/bg_profile_border_line"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18ssp" />
+
+                <View
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/editOtp4"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/bg_profile_border_line"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18ssp" />
+
+                <View
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="wrap_content" />
+
+
+                <EditText
+                    android:id="@+id/editOtp5"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/bg_profile_border_line"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18ssp" />
+
+
+                <View
+                    android:layout_width="@dimen/_5sdp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/editOtp6"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/bg_profile_border_line"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18ssp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llResendCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="invisible">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_regular"
+                    android:gravity="center"
+                    android:text="@string/didn_t_received_the_code"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp" />
+
+                <TextView
+                    android:id="@+id/btnResentCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:text="@string/resend_code"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_12ssp" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/btnVerifyOtp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginHorizontal="@dimen/_25sdp"
+                android:layout_marginVertical="@dimen/_25sdp"
+                android:background="@drawable/rate_dialog_background"
+                android:fontFamily="@font/poppins_bold"
+                android:gravity="center"
+                android:text="@string/ss_submit"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

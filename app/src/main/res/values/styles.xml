@@ -1,0 +1,347 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <style name="CustomEditTextTheme" parent="TextAppearance.AppCompat.Body1">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorHighlight">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColorLink">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+        <item name="android:actionButtonStyle">@style/ActionButtonStyle</item>
+
+
+        <item name="popupMenuStyle">@style/CustomPopupMenu</item>
+        <item name="panelMenuListTheme">@style/CustomPopupMenu</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+    </style>
+
+
+    <style name="dialTitle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Custom style for popup menu -->
+    <style name="CustomPopupMenu" parent="Widget.Material3.PopupMenu">
+        <item name="android:popupBackground">#FFFFFF</item>
+    </style>
+
+    <style name="SpinnerTheme" parent="android:Widget.Spinner">
+        <item name="android:background">@drawable/bg_spinner</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="SpinnerTheme2">
+        <item name="android:background">@drawable/bg_spinner</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">start</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+    </style>
+
+    <style name="drawerTextStyle">
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColor">@color/drawer_icon_color</item>
+        <item name="android:layout_marginStart">@dimen/_10sdp</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="CustomDialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="my_dialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="windowMinWidthMajor">70%</item>
+        <item name="windowMinWidthMinor">70%</item>
+    </style>
+
+    <style name="CustomTextAppearanceTab" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+
+    <style name="CustomTextAppearanceTabFav" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="maxLine">1</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="circleImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.SplashScreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+        <item name="postSplashScreenTheme">@style/Theme.AppCompat.Light.NoActionBar</item>
+    </style>
+
+    <!-- _________ sp Theme _________ -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background, animated icon, and animation duration. -->
+        <item name="windowSplashScreenBackground">@color/colorPrimaryDark</item>
+
+        <!-- Use windowSplashScreenAnimatedIcon to add either a drawable or an animated drawable. One of these is required.
+              Icon should be 108x108 dp frame with 54x54 dp icon
+              -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_app_entrance</item>
+        <!-- Required for animated icons -->
+        <item name="windowSplashScreenAnimationDuration">200</item>
+
+        <!--        Branding icon size should be 200x80 dp-->
+        <item name="android:windowSplashScreenBrandingImage" tools:targetApi="s">
+            @drawable/ic_splash_branding_icon
+        </item>
+
+        <!-- Set the theme of the Activity that directly follows your splash screen. -->
+        <!-- Required -->
+        <item name="postSplashScreenTheme">@style/SplashTheme</item>
+    </style>
+
+    <style name="scrollbar_style">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_thumb</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scrollbar_track</item>
+        <item name="android:scrollbarSize">8dp</item>
+        <item name="android:scrollbarFadeDuration">800</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">500</item>
+    </style>
+
+    <style name="scrollbar_horizontal_style" parent="scrollbar_style">
+        <item name="android:scrollbarAlwaysDrawHorizontalTrack">true</item>
+        <item name="android:scrollbars">horizontal</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/scrollbar_thumb</item>
+        <item name="android:scrollbarTrackHorizontal">@drawable/scrollbar_track</item>
+        <!--        <item name="spanCount">1</item>-->
+        <!--        <item name="android:orientation">vertical</item>-->
+        <!--        <item name="layoutManager">androidx.recyclerview.widget.GridLayoutManager</item>-->
+    </style>
+
+
+    <style name="Widget.DiscreteIndicatorTextAppearance" parent="Widget.AppCompat.SeekBar.Discrete">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:thumb">@drawable/indicator</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.Material3.Light">
+        <item name="popupMenuStyle">@style/CustomPopupMenu</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="ratingBarStyle">?android:attr/ratingBarStyleIndicator</item>
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+        <item name="colorControlActivated">@android:color/holo_orange_light</item>
+    </style>
+
+    // Rating Bar Theme
+
+    <style name="RatingBar1" parent="Theme.AppCompat.DayNight">
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+        <item name="colorControlActivated">#FFD400</item>
+    </style>
+
+    <declare-styleable name="CircleProgressBar">
+        <attr name="mlpb_inner_radius" format="dimension" />
+        <attr name="mlpb_background_color" format="color" />
+        <attr name="mlpb_progress_color" format="color" />
+        <attr name="mlpb_progress_stoke_width" format="dimension" />
+        <attr name="mlpb_show_arrow" format="boolean" />
+        <attr name="mlpb_enable_circle_background" format="boolean" />
+        <attr name="mlpb_arrow_width" format="dimension" />
+        <attr name="mlpb_arrow_height" format="dimension" />
+
+        <attr name="clr" format="color"></attr>
+        <attr name="mlpb_progress" format="integer" />
+        <attr name="mlpb_max" format="integer" />
+
+
+        <attr name="mlpb_progress_text_size" format="dimension" />
+        <attr name="mlpb_progress_text_color" format="color" />
+
+        <!--<attr name="mlpb_progress_text_offset" format="dimension"/>-->
+
+        <attr name="mlpb_progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorMain</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/colorBack
+        </item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/colorBack
+        </item>
+    </style>
+
+
+    <style name="PreviewButtonsStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="background">?attr/selectableItemBackground</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">#fafafa</item>
+    </style>
+
+    <style name="ThemeFullscreen" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="CustomChipChoice" parent="@style/Widget.MaterialComponents.Chip.Choice">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="chipStrokeColor">@color/stroke_color_chip_state_list</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipCornerRadius">50dp</item>
+        <item name="checkedIconEnabled">false</item>
+        <item name="chipBackgroundColor">@color/background_color_chip_state_list</item>
+        <item name="android:textColor">@color/text_color_chip_state_list</item>
+    </style>
+
+    <!--    <style name="ChipUncheckedText" parent="TextAppearance.MaterialComponents.Chip">-->
+    <!--        <item name="android:textColor">@color/chip_text_uncheck</item>-->
+    <!--    </style>-->
+
+    <style name="ActionButtonStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="android:minWidth">0dip</item>
+        <item name="android:paddingStart">@dimen/action_button_padding</item>
+        <item name="android:paddingEnd">@dimen/action_button_padding</item>
+    </style>
+
+    <style name="CardViewStyle" parent="CardView">
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="SeekBarStyle" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint">@color/gray_color</item>
+        <item name="android:progressTint">@color/colorPrimary</item>
+        <item name="android:thumbTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="TransparentTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">#00000000
+        </item> <!-- Or any transparency or color you need -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:navigationBarColor" tools:ignore="NewApi">#00000000</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">#00000000</item>
+    </style>
+
+    <style name="mySpinnerItemStyle" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:textColor">@color/my_spinner_text_color</item>
+    </style>
+
+    <style name="CircularDeterminateProgressBar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/circle_progress</item>
+    </style>
+
+    <!--     shape able imageview-->
+    <style name="RoundedSquare">
+        <item name="cornerSize">10%</item>
+    </style>
+
+
+    <style name="NormalDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/DialogAnimationNormal</item>
+    </style>
+
+    <style name="DialogAnimationNormal">
+        <item name="android:windowEnterAnimation">@anim/zoom_animation</item>
+        <item name="android:windowExitAnimation">@anim/zoom_out_animation</item>
+    </style>
+
+
+    <!--     shape able imageview-->
+    <style name="RoundedSquare2">
+        <item name="cornerSize">8%</item>
+    </style>
+
+    // POPUP MENU BACKGROUND COLOR
+
+    <style name="MyPopupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/pop_up_menu</item>
+        <item name="android:dropDownHorizontalOffset">-10dp</item>
+        <item name="android:dropDownVerticalOffset">4dp</item>
+    </style>
+
+    <!--     shape able imageview-->
+    <style name="RoundedSquare1">
+        <item name="cornerSizeTopLeft">15%</item>
+        <item name="cornerSizeTopRight">15%</item>
+    </style>
+
+
+    <style name="BSDialogThemeRegular" parent="@style/Theme.Design.BottomSheetDialog">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="behavior_draggable">true</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+</resources>

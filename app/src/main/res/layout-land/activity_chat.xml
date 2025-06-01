@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_layout_bg"
+    tools:context=".Chat.ChatActivity">
+
+    <LinearLayout
+        android:id="@+id/toolbar_chat"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:layout_gravity="right"
+        android:background="@color/header_color"
+        android:gravity="center|left"
+        android:titleTextColor="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_10"
+            android:src="@drawable/back_arrow" />
+
+        <com.paintology.lite.photorealistic.drawing.util.CircleImageView
+            android:id="@+id/profile_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="@dimen/dp_05"
+            android:src="@drawable/profile_icon"
+            app:civ_border_color="@color/dull_white"
+            app:civ_border_width="@dimen/dp_02" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="@dimen/sp_18"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_user_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/background_color"
+                android:textSize="@dimen/sp_14"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/btn_more"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginEnd="@dimen/dp_10"
+            android:src="@drawable/ic_more_vert" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_chat_msg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_bottom"
+        android:layout_below="@+id/toolbar_chat"
+        android:fadeScrollbars="false"
+        android:orientation="vertical"
+        android:scrollbars="vertical" />
+
+    <RelativeLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:background="@drawable/rounded_rect_button"
+        android:elevation="3dp"
+        android:padding="@dimen/dp_10">
+
+        <EditText
+            android:id="@+id/edt_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/dp_05"
+            android:layout_marginTop="@dimen/dp_05"
+            android:layout_marginEnd="@dimen/dp_05"
+            android:layout_marginBottom="@dimen/dp_05"
+            android:layout_toStartOf="@+id/iv_send"
+            android:layout_toEndOf="@+id/iv_attachment"
+            android:background="@null"
+            android:hint="@string/write_a_message"
+            android:padding="@dimen/dp_05"
+            android:textSize="@dimen/sp_18" />
+
+        <ImageButton
+            android:id="@+id/iv_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_marginEnd="@dimen/dp_05"
+            android:background="@drawable/rounded_button_positive"
+            android:contentDescription="Send"
+            android:padding="@dimen/dp_10"
+            android:src="@drawable/send_msg_icon"
+            android:tint="@color/white" />
+
+        <ImageButton
+            android:id="@+id/iv_attachment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_marginEnd="@dimen/dp_05"
+            android:background="@null"
+            android:contentDescription="Attachment"
+            android:src="@drawable/chat_attachment_icon" />
+    </RelativeLayout>
+
+    <com.paintology.lite.photorealistic.drawing.CircleProgress.CircleProgressBar
+        android:id="@+id/item_progress_bar"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:visibility="visible" />
+</RelativeLayout>

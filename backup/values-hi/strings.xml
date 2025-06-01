@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paintology</string>
+    <string name="default_collection">वीडियो ट्यूटोरियल</string>
+    <string name="community">समुदाय</string>
+    <string name="my_painting">मेरी पेंटिंग</string>
+    <string name="downloaded">मेरी फिल्में</string>
+    <string name="draw">चित्र बनाना शुरू करो</string>
+    <string name="my_resources">मेरे संसाधन</string>
+    <string name="daily_blog">दैनिक ब्लॉग</string>
+
+    <string name="view_sketch_photos"><u>पेंटोलॉजी क्लाउड में चित्र देखें</u></string>
+    <string name="import_your_sketch_photos"><u>मेरी पेंटिंग में चित्र आयात करें</u></string>
+    <string name="upload_your_zip_file_auto"><u>चित्रों को पेंटोलॉजी क्लाउड में सहेजें</u></string>
+
+    <string name="blank_canvas">खाली कैनवास</string>
+    <string name="overlay_image">ओवरले छवि</string>
+    <string name="trace_image">ट्रेस छवि</string>
+    <string name="camera_image">कैमरा छवि</string>
+
+    <string name="quick_drawing">त्वरित ड्राइंग</string>
+
+
+    <string name="don_t_show_me_again">मुझे फिर मत दिखाना</string>
+    <string name="close_dialog">बंद करे</string>
+
+
+    <string name="watch_video">वीडियो देखें</string>
+    <string name="using_the_toggle">वीडियो देखने के लिए इस टॉगल </string>
+    <string name="button">बटन</string>
+    <string name="button_on_the_bottom_n_left">का उपयोग करें</string>
+
+    <string name="import_images">चित्र आयात करें</string>
+
+    <!--  -->
+    <string name="sites">साइटों</string>
+    <string name="online_tut">ऑनलाइन ट्यूटोरियल</string>
+    <string name="paintology_website">Paintology Website</string>
+    <string name="youtube_paintology">YouTube Paintology</string>
+    <string name="learn_drawing_amp_painting">Learn Drawing &amp; Painting</string>
+    <string name="apps_by_paintology">Apps By Paintology</string>
+
+</resources>

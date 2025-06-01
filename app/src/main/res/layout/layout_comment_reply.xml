@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutReply"
+    android:layout_marginStart="@dimen/_16sdp"
+    android:layout_marginTop="@dimen/_4sdp"
+    android:paddingBottom="@dimen/_5sdp"
+    android:background="@drawable/bg_comment">
+
+    <com.paintology.lite.photorealistic.drawing.util.CircleImageView
+        android:id="@+id/ivReplyProfilePic"
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:layout_margin="@dimen/_8sdp"
+        android:src="@drawable/pf_image_con"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgCountry"
+        android:layout_width="@dimen/_10sdp"
+        android:layout_height="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginBottom="@dimen/_minus2sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivReplyProfilePic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearance="@style/RoundedSquare" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvReplyUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Jane Doe"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_8ssp"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_5sdp"
+        app:layout_constraintStart_toEndOf="@+id/ivReplyProfilePic"
+        app:layout_constraintTop_toTopOf="@+id/ivReplyProfilePic" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvReplyCommentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/_1_day_a_go"
+        android:textColor="#858494"
+        android:textSize="@dimen/_8ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvReplyUserName"
+        app:layout_constraintStart_toEndOf="@+id/tvReplyUserName"
+        app:layout_constraintTop_toTopOf="@+id/tvReplyUserName" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvReplyContent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/poppins"
+        android:gravity="start"
+        android:maxLines="2"
+        android:padding="@dimen/_3sdp"
+        android:text="@string/this_is_a_reply_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvReplyUserName"
+        app:layout_constraintTop_toBottomOf="@+id/tvReplyUserName" />
+</androidx.constraintlayout.widget.ConstraintLayout>

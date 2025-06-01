@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="@color/colorBack"
+    app:cardCornerRadius="@dimen/_7sdp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvDateDescending"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:paddingVertical="@dimen/_3sdp"
+            android:text="@string/date_descending"
+            android:textColor="@color/color_gallery_filter_dialog_text"
+            android:textSize="@dimen/_12ssp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvDateAscending"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:paddingVertical="@dimen/_3sdp"
+            android:text="@string/date_ascending_default"
+            android:textColor="@color/color_gallery_filter_dialog_text"
+            android:textSize="@dimen/_12ssp" />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvRatings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:paddingVertical="@dimen/_3sdp"
+            android:text="@string/ratings"
+            android:textColor="@color/color_gallery_filter_dialog_text"
+            android:textSize="@dimen/_12ssp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvComments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:paddingVertical="@dimen/_3sdp"
+            android:text="@string/comments"
+            android:textColor="@color/color_gallery_filter_dialog_text"
+            android:textSize="@dimen/_12sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvPostNumbers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:visibility="gone"
+            android:paddingVertical="@dimen/_3sdp"
+            android:text="@string/posts_number"
+            android:textColor="@color/color_gallery_filter_dialog_text"
+            android:textSize="@dimen/_12sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTutorails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:paddingVertical="@dimen/_3sdp"
+            android:text="@string/tutorials_default"
+            android:textColor="@color/color_gallery_filter_dialog_text"
+            android:textSize="@dimen/_12sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvFreeHand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:paddingVertical="@dimen/_3sdp"
+            android:text="@string/freehand"
+            android:textColor="@color/color_gallery_filter_dialog_text"
+            android:textSize="@dimen/_12sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvByAward"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:visibility="gone"
+            android:paddingVertical="@dimen/_3sdp"
+            android:text="@string/by_awards"
+            android:textColor="@color/color_gallery_filter_dialog_text"
+            android:textSize="@dimen/_12sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvByLevels"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:paddingVertical="@dimen/_3sdp"
+            android:text="@string/by_levels"
+            android:textColor="@color/color_gallery_filter_dialog_text"
+            android:textSize="@dimen/_12sdp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvFavourites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="start"
+            android:paddingVertical="@dimen/_3sdp"
+            android:text="@string/favourites"
+            android:textColor="@color/color_gallery_filter_dialog_text"
+            android:textSize="@dimen/_12sdp" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

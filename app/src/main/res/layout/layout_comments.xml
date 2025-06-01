@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutMain"
+    android:layout_margin="@dimen/_3sdp"
+    android:paddingBottom="@dimen/_5sdp"
+    android:background="@drawable/bg_comment">
+
+    <com.paintology.lite.photorealistic.drawing.util.CircleImageView
+        android:id="@+id/ivProfilePic"
+        android:layout_width="@dimen/_32sdp"
+        android:layout_height="@dimen/_32sdp"
+        android:layout_margin="@dimen/_8sdp"
+        android:src="@drawable/img_default_avatar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgUserActiveStatus"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        android:src="@drawable/offline"
+        android:translationX="3dp"
+        android:translationY="@dimen/_1sdp"
+        app:layout_constraintStart_toStartOf="@+id/ivProfilePic"
+        app:layout_constraintTop_toTopOf="@+id/ivProfilePic" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgCountry"
+        android:layout_width="@dimen/_14sdp"
+        android:layout_height="@dimen/_14sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivProfilePic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:shapeAppearance="@style/RoundedSquare" />
+
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="John Doe"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="bold"
+        android:layout_marginStart="@dimen/_5sdp"
+        app:layout_constraintStart_toEndOf="@+id/ivProfilePic"
+        app:layout_constraintTop_toTopOf="@+id/ivProfilePic" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCommentTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:fontFamily="@font/poppins"
+        android:text="1 Day a go"
+        android:textColor="#858494"
+        android:textSize="@dimen/_8ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvUserName"
+        app:layout_constraintStart_toEndOf="@+id/tvUserName"
+        app:layout_constraintTop_toTopOf="@+id/ivProfilePic" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvComment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/poppins"
+        android:gravity="start"
+        android:maxLines="2"
+        android:padding="@dimen/_3sdp"
+        android:text="@string/this_ranking_is_compiled"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintEnd_toStartOf="@+id/imgLikeComment"
+        app:layout_constraintStart_toStartOf="@+id/tvUserName"
+        app:layout_constraintTop_toBottomOf="@+id/tvUserName" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgLikeComment"
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:padding="@dimen/_3sdp"
+        android:visibility="gone"
+        android:src="@drawable/img_unfav"
+        app:layout_constraintBottom_toBottomOf="@+id/tvComment"
+        app:layout_constraintEnd_toStartOf="@+id/tvCommentLikes"
+        app:layout_constraintTop_toBottomOf="@+id/tvUserName" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCommentLikes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:visibility="gone"
+        android:text="@string/_200"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:textColor="#9B9B9B"
+        android:textSize="@dimen/_8ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgLikeComment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgLikeComment" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvReply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="@string/reply"
+        android:padding="@dimen/_3sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:textColor="@color/colorMain"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvComment"
+        app:layout_constraintTop_toBottomOf="@+id/tvComment" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutViewReply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:padding="@dimen/_3sdp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvReply"
+        app:layout_constraintStart_toEndOf="@+id/tvReply"
+        app:layout_constraintTop_toTopOf="@+id/tvReply">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvViewReply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="@string/view_reply"
+            android:textColor="#858494"
+            android:textSize="@dimen/_8ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgArrow"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:padding="@dimen/_2sdp"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:src="@drawable/arrow_down"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvViewReply"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvReplies"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_3sdp"
+        android:visibility="gone"
+        tools:listitem="@layout/layout_comment_reply"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutViewReply" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

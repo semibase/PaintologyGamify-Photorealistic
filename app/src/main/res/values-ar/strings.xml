@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="is_tablet">false</bool>
+    <string name="login_with_guest">تسجيل الدخول كضيف\n(لا يلزم وجود بريد إلكتروني)</string>
+    <string name="app_name">Paintology Gamify</string>
+    <string name="pain_search">بحث Paintology</string>
+    <string name="default_collection">الدروس التعليمية</string>
+    <string name="community">المجتمع</string>
+    <string name="my_painting">لوحاتي</string>
+    <string name="downloaded">أفلامي</string>
+    <string name="draw">ارسم</string>
+    <string name="my_resources">مواردي</string>
+    <string name="daily_blog">المدونة اليومية</string>
+    <string name="help_intro">مقدمة المساعدة</string>
+    <string name="view_sketch_photos"><u>عرض الصور في Paintology Cloud</u></string>
+    <string name="import_your_sketch_photos"><u>استيراد الصور إلى لوحاتي</u></string>
+    <string name="upload_your_zip_file_auto"><u>حفظ الصور في Paintology Cloud</u></string>
+
+    <string name="blank_canvas">قماش فارغ</string>
+    <string name="overlay_image">صورة تراكب</string>
+    <string name="trace_image">صورة تتبع</string>
+    <string name="camera_image">صورة كاميرا</string>
+
+    <string name="quick_drawing">رسم سريع</string>
+
+    <string name="import_images">استيراد الصور</string>
+
+    <!--  -->
+    <string name="sites">المواقع</string>
+    <string name="online_tut">الدروس التعليمية عبر الإنترنت</string>
+    <string name="paintology_website">موقع Paintology الإلكتروني</string>
+    <string name="youtube_paintology">YouTube Paintology</string>
+    <string name="learn_drawing_amp_painting">تعلم الرسم والتلوين</string>
+    <string name="apps_by_paintology">تطبيقات Paintology</string>
+
+    <string name="unknown_error">حدث خطأ غير معروف</string>
+    <string name="profile_error">ملفك الشخصي غير محفوظ\nحدث خطأ ما</string>
+    <string name="profile_success">ملفك الشخصي محفوظ</string>
+    <string name="tag_line"><![CDATA[الرسم والتلوين ممتع!]]></string>
+
+
+    <string name="please_wait">يرجى الانتظار..</string>
+    <string name="are_you_sure">هل أنت متأكد؟</string>
+    <string name="cancel">إلغاء</string>
+    <string name="title_activity_online_tutorial">البرنامج التعليمي عبر الإنترنت</string>
+    <string name="try_it_now">جربه الآن</string>
+
+    <string name="play_button">زر التشغيل</string>
+    <string name="open_video_in_youtube">فتح الفيديو في YouTube</string>
+    <string name="full_screen_button">زر ملء الشاشة</string>
+    <string name="live">مباشر</string>
+    <string name="no_any_reference">لم يتم العثور على أي مرجع</string>
+    <!--    <string name="no_internet_msg">يرجى الاتصال بالإنترنت والمحاولة مرة أخرى!</string>-->
+    <string name="no_internet_msg">حاول مرة أخرى - لا يوجد اتصال بالإنترنت، يرجى المحاولة مرة أخرى</string>
+    <string name="empty_list">قائمة فارغة من الخادم!</string>
+    <string name="featured_image">صورة مميزة</string>
+    <string name="related_post">المشاركات ذات الصلة</string>
+    <string name="visit_post">قم بزيارة منشور Paintology</string>
+
+    <string name="login_via_dialog">يرجى تسجيل الدخول باستخدام ملفك الشخصي على وسائل التواصل الاجتماعي</string>
+
+    <string name="post_detail">تفاصيل المنشور</string>
+
+
+    <!--<string name="selection_msg">يرجى إجراء تحديد والنقر فوق أي من الأزرار الموجودة على اليمين</string>
+    <string name="selection_msg_portrait">يرجى إجراء تحديد والنقر فوق أي من الأزرار أعلاه.</string>
+-->
+    <string name="selection_msg">يرجى إجراء تحديد والنقر فوق أي من الأزرار الموجودة على اليسار.</string>
+    <string name="selection_msg_portrait">تظهر جميع رسوماتك المحفوظة هنا حدد الرسم لمواصلة الرسم والتحرير والمشاركة مع الآخرين.</string>
+    <string name="dialog_title_your_saved_drawings">رسوماتك المحفوظة</string>
+
+    <string name="logout">تسجيل الخروج</string>
+    <string name="save_drawing">احفظ العمل قبل الاستمرار.</string>
+    <string name="txt_canvas_color">لون القماش</string>
+
+    <string name="art_medium">وسيلة الرسم</string>
+    <string name="art_ability">القدرة الفنية</string>
+    <string name="art_fav">الفن المفضل</string>
+    <string name="age">العمر</string>
+    <string name="follow">متابعة</string>
+    <string name="unfollow">إلغاء المتابعة</string>
+    <string name="pick_art_fav">اختيار الفن المفضل</string>
+    <string name="pick_art_med">اختيار وسيلة الرسم</string>
+    <string name="default_msg_while_share">لقد قمت بذلك باستخدام تطبيق Paintology المجاني المتوفر من متجر Google Play. تحقق من ذلك!</string>
+
+    <string name="email">البريد الإلكتروني</string>
+    <string name="required">مطلوب</string>
+    <string name="not_valid">غير صالح</string>
+    <string name="too_weak">ضعيف للغاية</string>
+
+    <string name="msg_no_camera">لا يمكنني العثور على تطبيق كاميرا!</string>
+    <string name="start_recording">بدء التسجيل</string>
+    <string name="save">حفظ</string>
+    <string name="record">تسجيل</string>
+    <string name="help_guide">دليل المساعدة</string>
+    <string name="profile_status_msg">اكتب شيئًا عن ملفك الشخصي.</string>
+    <string name="posts">المشاركات</string>
+    <string name="type_paintology">Paintology</string>
+    <string name="type_google">Google</string>
+    <string name="type_facebook">Facebook</string>
+    <string name="already_liked">لقد أعجبك هذا المنشور بالفعل</string>
+    <string name="image_selected">الصور المحددة</string>
+    <string name="sent_post">اطلع على هذا المنشور المثير للاهتمام من مجتمع Paintology. يمكنك الحصول على التطبيق من متجر Google Play.</string>
+
+    <string name="following">المتابعة</string>
+    <string name="reserved_hashtag">لا يُسمح بالوسم!</string>
+    <string name="reserved_hashtag_msg">نأسف لأن هذا الموقع مناسب للأطفال ولا يُسمح بهذا الهاشتاج بسبب سياساتنا العائلية.</string>
+    <string name="delete_post">حذف المنشور!</string>
+    <string name="my_posts">منشوري</string>
+    <string name="camera_permission_msg">لقد رفضت إذن الكاميرا. يمكنك منح الإذن من إعدادات الجهاز ثم استخدام هذه الميزة.</string>
+    <string name="storage_permission_msg">لقد رفضت إذن التخزين. يمكنك منح الإذن من إعدادات الجهاز ثم استخدام هذه الميزة.</string>
+    <string name="recording_permission_msg">لقد رفضت إذن التسجيل، يمكنك منح الإذن من إعدادات الجهاز ثم استخدام هذه الميزة.</string>
+
+    <string name="share_thoughts">يرجى مساعدتنا على التحسين</string>
+    <string name="name">الاسم</string>
+    <string name="your_feedback">ملاحظاتك</string>
+    <string name="your_favourite">تطبيقاتك المفضلة</string>
+    <string name="exit">خروج</string>
+    <string name="submit">إرسال</string>
+    <string name="ss_submit">إرسال</string>
+
+    <string name="close">إغلاق</string>
+    <string name="select_language">حدد لغتك</string>
+
+    <string name="go_to_play_store">انتقل إلى متجر Play</string>
+    <string name="bg_color_tooltip_text">لا يمكن تغيير لون الخلفية إلا في رسم جديد</string>
+    <string name="rendering">جاري العرض…</string>
+    <string name="don_t_show_me_again">لا تعرضني مرة أخرى</string>
+    <string name="close_dialog">إغلاق</string>
+
+    <string name="watch_video">مشاهدة الفيديو</string>
+    <string name="using_the_toggle">استخدم التبديل</string>
+    <string name="button_on_the_bottom_n_left">لمشاهدة الفيديو</string>
+    <string name="paintology_chat">زر دردشة Paintology</string>
+    <string name="button">مرحبًا بك في دردشة Paintology</string>
+
+    <string name="welcome_to_paintology_chat">دردشة مع المستخدمين الذين أعجبت بهم أو علقت عليهم أو تابعتهم.</string>
+    <string name="chat_instruction">لا توجد نتيجة بحث، يرجى الرجوع والمحاولة مرة أخرى.</string>
+    <string name="empty_search_instruction">محظور</string>
+    <string name="blocked">معلق</string>
+    <string name="pending">يرجى الإعجاب أو التعليق أو المتابعة للدردشة مع هذا المستخدم.</string>
+    <string name="chat_click_hint">غير متوفر</string>
+    <string name="not_available">الدولة</string>
+    <string name="country">أخرى</string>
+    <string name="other">يُسمح بعنصر واحد في كل مرة</string>
+    <string name="one_item_allowd">الملف الشخصي على Facebook</string>
+
+    <string name="facebook_url">الملف الشخصي على Instagram</string>
+    <string name="instagram_url">الملف الشخصي على LinkedIn</string>
+    <string name="linkedin_profile_url">الملف الشخصي على YouTube</string>
+    <string name="youtube_profile_url">الملف الشخصي على Twitter</string>
+    <string name="twitter_username_without">الموقع الإلكتروني</string>
+    <string name="website_url">الملف الشخصي على Quora</string>
+    <string name="quora_profile">الملف الشخصي على TikTok</string>
+    <string name="tiktok_profile">الملف الشخصي على Pinterest</string>
+    <string name="pinterest_profile">تم قفل Zoom! اضغط على التكبير مرة أخرى لإلغاء القفل</string>
+    <string name="zoom_lock_msg">الخط</string>
+
+    <string name="action_line">الخط السلس</string>
+    <string name="action_smoothline">المربع</string>
+    <string name="action_square">الدائرة</string>
+    <string name="action_circle">المستطيل</string>
+    <string name="action_rectangle">المثلث</string>
+    <string name="action_triangle">المسح</string>
+    <string name="clear">الفرش المخصصة</string>
+    <string name="custom_brush">حجم الفيديو %s</string>
+
+    <string name="settings_video_quality_title">حجم الصورة</string>
+    <string name="settings_photo_quality_title">حسنًا</string>
+    <string name="ok_label">إلغاء</string>
+    <string name="cancel_label">تحديد المصدر</string>
+    <string name="pick_image_intent_chooser_title">إلغاء، لم يتم منح الأذونات المطلوبة</string>
+    <string name="crop_image_activity_no_permissions">قص الصورة</string>
+    <string name="crop_image_activity_title">تدوير عكس اتجاه عقارب الساعة</string>
+
+    <string name="crop_image_menu_rotate_left">تدوير</string>
+    <string name="crop_image_menu_rotate_right">قص</string>
+    <string name="crop_image_menu_crop">انعكاس</string>
+    <string name="crop_image_menu_flip">انعكاس أفقي</string>
+    <string name="crop_image_menu_flip_horizontally">انعكاس رأسي</string>
+    <string name="crop_image_menu_flip_vertically">حفظ</string>
+
+    <string name="preview_controls_confirm">تكرار</string>
+    <string name="preview_controls_retake">إلغاء</string>
+    <string name="preview_controls_cancel">قص</string>
+    <string name="preview_controls_crop">التبديل إلى الرسم</string>
+    <string name="switch_to_drawing">الخط</string>
+    <string name="line_tool">الظل</string>
+    <string name="shade_tool">اللون</string>
+    <string name="color">المعرض</string>
+    <string name="gallery">الكاميرا</string>
+    <string name="camera">أدلة الفيديو</string>
+    <string name="quick_video_guide">أدلة الفيديو (%1$d)</string>
+    <string name="quick_video_guide_count">استكشف أدلة الفيديو الخاصة بنا (%1$d)</string>
+    <string name="quick_video_guide_count_2">استكشف أدلة الفيديو الخاصة بنا</string>
+    <string name="quick_video_guide_countt">تقييم التطبيق</string>
+
+    <string name="rate_app_title">إذا كنت تستمتع بتطبيقنا، فيرجى تخصيص بعض الوقت لتقييمه على PlayStore. شكرًا على دعمك!</string>
+    <string name="rate_app_message">قم بالتقييم الآن</string>
+    <string name="rate_btn_pos">ذكرني لاحقًا</string>
+    <string name="rate_btn_neg">لا، شكرًا</string>
+    <string name="rate_btn_nut">مميز</string>
+
+    <string name="heading_brackets" translatable="false">%1$s (%2$d)</string>
+    <string name="featured">التقاط</string>
+
+    <string name="capture_button_alt">تبديل الكاميرا</string>
+    <string name="switch_camera_button_alt">المعرض</string>
+    <string name="gallery_button_alt">رجوع</string>
+    <string name="back_button_alt">مشاركة</string>
+    <string name="share_button_alt">مشاركة باستخدام</string>
+    <string name="share_hint">حذف</string>
+    <string name="delete_button_alt">حذف الصورة الحالية؟</string>
+    <string name="delete_dialog">تأكيد</string>
+    <string name="delete_title">جميع الحقوق محفوظة</string>
+    <string name="all_rights_reserved">تطبيق Paintology للرسم</string>
+    <string name="share_subject">مرحبًا بك في تطبيق Onboarding!</string>
+
+    <string name="title_onboarding_1">هذا مشروع مفتوح المصدر يعرض ViewPagers لطيفًا وأصليًا يتبع إرشادات التصميم المادي</string>
+    <string name="description_onboarding_1">متابعة</string>
+
+    <string name="continue_lbl">التالي</string>
+    <string name="next">تخطي</string>
+    <string name="skip">تم الحفظ في لوحاتي</string>
+    <string name="saved_to_my_painting">الكل</string>
+    <string name="key_all">اكتب تعليقًا&#8230;</string>
+    <string name="write_a_comment">المتابعون</string>
+    <string name="followers">التفاصيل</string>
+    <string name="details"><u>نسيت كلمة المرور؟</u></string>
+    <string name="forgot_password_question_mark">وضع العرض</string>
+    <string name="view_mode">الوضع العادي</string>
+    <string name="normal_mode">الإصدار الحالي %1$s "\n\nPaintology هو تطبيق رسم متقدم وسهل الاستخدام. \n\n" "هذا تطبيق تم تصميمه لجعلك فنانًا أفضل.\n" "يحتوي التطبيق على العديد من البرامج التعليمية بما في ذلك مقاطع الفيديو التعليمية لمساعدتك على توسيع مهاراتك في الرسم والتلوين.\n" "يرجى التقييم والتعليق لمساعدتنا على تحسين هذا التطبيق.\n\n" "شكرًا!\n"</string>
+    <string name="about_us_text">افتح</string>
+
+    <string name="nav_open">أغلق</string>
+    <string name="nav_close">مشاهدة الكل</string>
+    <string name="see_all"><u>مشاهدة الكل</u></string>
+    <string name="see_all_underline">بحث Paintology</string>
+    <string name="hint_search_paintology">حولنا</string>
+    <string name="title_about_us">الإشعارات</string>
+    <string name="title_notifications">عرض المنشور</string>
+    <string name="view_post">عرض المنشورات</string>
+    <string name="view_posts">عرض الملف الشخصي</string>
+    <string name="view_profile">حظر</string>
+    <string name="block">حذف الدردشات</string>
+    <string name="delete_chats">رسم يدوي</string>
+    <string name="freehand">خط</string>
+    <string name="line">مربع</string>
+    <string name="square">مستطيل</string>
+    <string name="rectangle">دائرة</string>
+    <string name="circle">حذف</string>
+    <string name="delete">مشاركة</string>
+    <string name="share">إعادة تسمية</string>
+    <string name="rename">إضافة نص</string>
+    <string name="add_text">فتح</string>
+    <string name="open">مثلث</string>
+    <string name="triangle">إيقاف مؤقت</string>
+    <string name="pause">إيقاف</string>
+    <string name="stop">الصوت</string>
+    <string name="audio">استئناف</string>
+    <string name="resume">إيقاف مؤقت</string>
+    <string name="paused">التسجيل</string>
+    <string name="recording">إعادة تسمية الملف</string>
+    <string name="dialog_title_rename">إلغاء</string>
+    <string name="dialog_action_cancel">موافق</string>
+    <string name="dialog_action_ok">الملف %1$s موجود بالفعل. يُرجى اختيار اسم ملف مختلف.</string>
+    <string name="toast_file_exists">إنشاء فرشاة</string>
+    <string name="create_brush">النشر في المجتمع ناجح!</string>
+    <string name="posting_to_community_successful">مرحبًا، مرحبًا بك مرة أخرى، يُرجى التسجيل أو تسجيل الدخول للنشر في المجتمع.</string>
+    <string name="login_heading_community">مرحبًا، مرحبًا بعودتك، يرجى الاشتراك أو تسجيل الدخول للنشر في المجتمع.</string>
+    <string name="zoom_help_title">تعليمات التكبير/التصغير</string>
+    <string name="pinch_zoom_msg">للتكبير/التصغير، يُرجى استخدام التكبير/التصغير بالضغط \n أو الضغط باستمرار على زر التكبير/التصغير لإعادة الضبط - اضغط على زر التكبير/التصغير \n للتدوير - تدوير التكبير/التصغير بالضغط</string>
+
+    <string name="double_click_input_text" translatable="false">Double-click to enter text</string>
+    <string name="complete" translatable="false">OK</string>
+    <string name="publish_comment" translatable="false">Enter Text ......</string>
+    <string name="over_text_limit" translatable="false">You have exceeded your word limit</string>
+    <string name="tag_tips_msg">أدخل علامات تصنيف مكونة من كلمة واحدة، واستخدم # في نهاية الكلمة أو ببساطة انقر فوق النص الناتج</string>
+    <string name="subcategory_share_msg">راجع هذا البرنامج التعليمي الممتع للرسم&#8230; \n%1$s \n\nأكثر من 500 برنامج تعليمي للرسم يمكنك تجربتها جميعًا مجانًا! \nتعلم الرسم بطريقة سريعة وسهلة باستخدام برنامج Paintology للرسم المتوفر مجانًا على متجر Google play\n\n%2$s</string>
+    <string name="redeem">استرداد</string>
+    <string name="unlock">فتح</string>
+    <string name="watch_ads">مشاهدة الإعلانات</string>
+
+    <string name="subcategory_share_subject">Paintology - رسم ممتع مع %1$s!</string>
+    <string name="open_tutorial">فتح البرنامج التعليمي</string>
+    <string name="open_link">فتح الرابط</string>
+    <string name="rating">التقييم</string>
+    <string name="done">تم</string>
+    <string name="quit">خروج</string>
+    <string name="exit_app_msg">هل تريد الخروج من التطبيق؟</string>
+    <string name="chat">الدردشة</string>
+    <string name="video_tutorial">دروس الفيديو</string>
+    <string name="video_tutorial_msg">انقر على أيقونة الفيديو لمشاهدة فيديو هذا البرنامج التعليمي</string>
+
+    <string name="zero_follower_msg">لا يوجد لدى المستخدم %1$s أي متابعين، انقر على الزر إذا كنت تريد المتابعة</string>
+    <string name="zero_following_msg">لا يتابع %1$s أي مستخدمين حاليًا</string>
+    <string name="user_post_title">المنشورات (%1$d) - %2$s</string>
+
+    <string name="prefix_facebook_url" translatable="false">https://facebook.com/</string>
+    <string name="prefix_insta_url" translatable="false">https://instagram.com/</string>
+    <string name="prefix_yt_url" translatable="false">https://youtube.com/</string>
+    <string name="prefix_tiktok_url" translatable="false">https://tiktok.com/</string>
+    <string name="prefix_pinterest_url" translatable="false">https://pinterest.com/</string>
+    <string name="prefix_quora_url" translatable="false">https://quora.com/</string>
+    <string name="prefix_twitter_url" translatable="false">https://twitter.com/</string>
+    <string name="prefix_linkedin_url" translatable="false">https://linkedin.com/</string>
+
+    <string name="prefix_facebook_url_2" translatable="false">https://www.facebook.com/</string>
+    <string name="prefix_insta_url_2" translatable="false">https://www.instagram.com/</string>
+    <string name="prefix_yt_url_2" translatable="false">https://www.youtube.com/</string>
+    <string name="prefix_tiktok_url_2" translatable="false">https://www.tiktok.com/</string>
+    <string name="prefix_pinterest_url_2" translatable="false">https://www.pinterest.com/</string>
+    <string name="prefix_quora_url_2" translatable="false">https://www.quora.com/</string>
+    <string name="prefix_twitter_url_2" translatable="false">https://www.twitter.com/</string>
+    <string name="prefix_linkedin_url_2" translatable="false">https://www.linkedin.com/</string>
+
+    <string name="please_login_to_see_notifications_to_your_posts_and_chats">يرجى تسجيل الدخول لمشاهدة الإشعارات الخاصة بمنشوراتك ودردشاتك</string>
+    <string name="you_have_no_new_chat_requests">ليس لديك طلبات دردشة جديدة</string>
+    <string name="you_have_no_new_comments">ليس لديك تعليقات جديدة</string>
+    <string name="screenshot_saved">تم حفظ لقطة الشاشة</string>
+    <string name="please_login_to_see_chats">يرجى تسجيل الدخول لاستخدام الدردشات</string>
+    <string name="see_post"><u>مشاهدة المنشور</u></string>
+    <string name="search_community">البحث في المجتمع</string>
+    <string name="my_painting_count">لوحاتي (%1$d)</string>
+    <string name="guide_video_count">أدلة الفيديو (%1$d)</string>
+    <string name="open_guide">فتح الدليل</string>
+    <string name="you_have_successfully_imported_image">لقد قمت بنجاح باستيراد (%1$d) صورة إلى لوحاتي!</string>
+    <string name="your_drawing_has_been_posted_to_the_community">تم نشر الرسم الخاص بك في المجتمع!</string>
+    <string name="see_it_now">شاهده الآن!</string>
+    <string name="back">الرجوع</string>
+    <string name="goto_my_paintings">الانتقال إلى لوحاتي</string>
+    <string name="loading_resources">تحميل الموارد&#8230;</string>
+    <string name="recording_made_successfully">تم التسجيل بنجاح</string>
+    <string name="goto_my_movies">انتقل إلى أفلامي</string>
+    <string name="open_in_trace">افتح في Trace</string>
+    <string name="open_in_overlay">افتح في Overlay</string>
+    <string name="open_trace_only">افتح Trace فقط</string>
+    <string name="open_drawing_only">افتح الرسم فقط</string>
+    <string name="continue_as_guest">استمر كضيف</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="signup">التسجيل</string>
+
+    <string name="login_heading">سجّل الدخول للحصول على نقاط إضافية. \nاحفظ إحصائياتك!</string>
+    <string name="login_with_facebook">تسجيل الدخول باستخدام Facebook</string>
+    <string name="login_with_google">تسجيل الدخول باستخدام Google</string>
+    <string name="login_as_guest">تسجيل الدخول كضيف</string>
+    <string name="login_with_paintology">تسجيل الدخول باستخدام Paintology</string>
+    <string name="signup_with_paintology">التسجيل باستخدام Paintology</string>
+    <string name="term_agreement_message">باستخدام Paintology، فإنك تؤكد قبولك لسياسة الخصوصية الخاصة بنا والشروط والأحكام.</string>
+    <string name="term_condition">الشروط والأحكام</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="category_name_count" translatable="false">%1$s (%2$d)</string>
+    <string name="challenges">التحديات</string>
+    <string name="choose_a_blank_canvas">اختر لوحة قماشية فارغة</string>
+    <string name="overlay_an_image_on_other">ارسم صورة فوق أخرى</string>
+    <string name="trace_an_image_into">تتبع صورة في</string>
+    <string name="fun_with_any_camera_image">المتعة مع أي صورة كاميرا</string>
+    <string name="login_for_points">سجّل الدخول للحصول على نقاط!</string>
+    <string name="choose_a_import_image">اختر صورة مستوردة</string>
+    <string name="watch_a_movies">شاهد أفلامًا</string>
+    <string name="watch_online_tutorials">شاهد دروسًا تعليمية عبر الإنترنت</string>
+    <string name="read_blog_on_daily_basis">اقرأ المدونة يوميًا</string>
+    <string name="watch_a_youtube_paintology">شاهد فيديو على موقع يوتيوب Paintology</string>
+    <string name="find_your_ability">اكتشف قدراتك</string>
+    <string name="level">المستوى</string>
+    <string name="hardness">الصلابة</string>
+    <string name="density">الكثافة</string>
+    <string name="points">النقاط: %1$d</string>
+    <string name="percent_value" translatable="false">%1$d %%</string>
+    <string name="difficulty_level">مستوى الصعوبة</string>
+    <string name="paint_by_number">الرسم حسب الرقم</string>
+    <string name="_3_000">3,000</string>
+    <string name="share1">مشاركة</string>
+    <string name="_13_k">13 ألفًا</string>
+    <string name="_273_k">273 ألفًا</string>
+    <string name="details1">التفاصيل</string>
+    <string name="notification_title">عنوان الإشعار</string>
+    <string name="accept">قبول</string>
+    <string name="decline">رفض</string>
+    <string name="notification_content">مرحبًا! أردت فقط أن أقول، إنني أحب الرسوم التوضيحية للقطط التي أنشأتها! عمل رائع!</string>
+    <string name="_5_star_from_emma_louis">5 نجوم من إيما لويس</string>
+    <string name="richard_joe">ريتشارد جو</string>
+    <string name="dash">-</string>
+    <string name="time">04:30 م</string>
+    <string name="reply">رد</string>
+    <string name="see">انظر</string>
+    <string name="dismiss">رفض</string>
+    <string name="search_paintology">بحث Paintology</string>
+    <string name="tutorials">دروس تعليمية</string>
+    <string name="user_post">مشاركات المستخدم</string>
+    <string name="blog_posts">مشاركات المدونة</string>
+    <string name="_3245" translatable="false">#3245</string>
+    <string name="in_this_drawing_i_demonstate_the_hardness_and_density_settings_of_the_brush_tools_in">في هذا الرسم، أوضح إعدادات الصلابة والكثافة لأدوات الفرشاة في</string>
+    <string name="_8" translatable="false">8</string>
+    <string name="_800_pts" translatable="false">800 Pts</string>
+    <string name="_12_awards" translatable="false">12 Awards</string>
+    <string name="welcome_bonus">مكافأة الترحيب</string>
+    <string name="_500" translatable="false">500</string>
+    <string name="_0" translatable="false">0</string>
+    <string name="gallery1">المعرض</string>
+    <string name="community1">المجتمع</string>
+    <string name="social_media_links1">روابط وسائل التواصل الاجتماعي</string>
+    <string name="youtube1">يوتيوب</string>
+    <string name="pinterest1">بينتريست</string>
+    <string name="twitter_x">تويتر / إكس</string>
+    <string name="instagram1">إنستغرام</string>
+    <string name="tiktok1">تيك توك</string>
+    <string name="quora1">كورا</string>
+    <string name="opening_tutorials">دروس افتتاحية</string>
+    <string name="draw_stroke">رسم ضربات</string>
+    <string name="draw_camera_image">رسم صورة كاميرا</string>
+    <string name="draw_overlay_image">رسم صورة تراكب</string>
+    <string name="draw_trace_image">رسم صورة تتبع</string>
+    <string name="community_post">منشور مجتمعي</string>
+    <string name="community_post_hashtag">وسم منشور مجتمعي</string>
+    <string name="community_post_like">إعجاب بمنشور مجتمعي</string>
+    <string name="community_post_comment">تعليق على منشور مجتمعي</string>
+    <string name="community_post_share">مشاركة منشور مجتمعي</string>
+    <string name="total">المجموع</string>
+    <string name="your_points">نقاطك</string>
+    <string name="drawing_points">نقاط الرسم</string>
+    <string name="your_progress">تقدمك</string>
+    <string name="complete_your_challenges">أكمل تحدياتك</string>
+    <string name="earn_320_points_and_get_a_special_bonus_from_paintology">اكسب 320 نقطة واحصل على مكافأة خاصة من Paintology</string>
+    <string name="_3_5" translatable="false">3/5</string>
+    <string name="_320_points" translatable="false">320 Points</string>
+    <string name="do_the_challenge">قم بالتحدي</string>
+    <string name="get_more_points_here">احصل على المزيد من النقاط هنا!</string>
+    <string name="take_the_challenge">خض التحدي</string>
+    <string name="community_post1">منشور مجتمعي</string>
+    <string name="earn_200_points_by_making_10_posts_in_the_paintology_community">اربح 200 نقطة من خلال نشر 10 منشورات في مجتمع Paintology</string>
+    <string name="do_this_award">افعل هذا الجائزة</string>
+    <string name="challenge2">التحدي</string>
+    <string name="find_ability">اعثر على القدرة</string>
+    <string name="joe_smith">جو سميث</string>
+    <string name="cat_drawing">رسم قطة</string>
+    <string name="do_tutorial">افعل البرنامج التعليمي</string>
+    <string name="video">فيديو</string>
+    <string name="favorites">المفضلة</string>
+    <string name="beginner_1" translatable="false">Beginner 1</string>
+    <string name="_50_users_are_participating_in_this_challenge">50 مستخدمًا يشاركون في هذا التحدي</string>
+    <string name="leaderboard">لوحة المتصدرين</string>
+    <string name="settings">الإعدادات</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="general">عام</string>
+    <string name="accessibility">إمكانية الوصول</string>
+    <string name="security">الأمان</string>
+    <string name="help_center">مركز المساعدة</string>
+    <string name="about_paintology">حول Paintology</string>
+    <string name="video_guides">أدلة الفيديو</string>
+    <string name="your_ranking">ترتيبك</string>
+    <string name="tutorials_32">البرامج التعليمية\n(32)</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="_7th_position"><u>المركز السابع</u></string>
+
+    <string name="top_comments">أهم التعليقات:</string>
+    <string name="type_a_comment">اكتب تعليقًا</string>
+    <string name="_0_pts" translatable="false">0 Pts</string>
+    <string name="_720_pts" translatable="false">720 Pts</string>
+    <string name="date_ascending_default">التاريخ تصاعديًا</string>
+    <string name="date_descending">التاريخ تنازليًا (افتراضي)</string>
+    <string name="ratings">التقييمات</string>
+    <string name="comments">التعليقات</string>
+    <string name="posts_number">عدد المنشورات</string>
+    <string name="tutorials_default">البرامج التعليمية</string>
+    <string name="by_levels">حسب المستويات</string>
+    <string name="by_awards">حسب الجوائز</string>
+    <string name="most_popular">الأكثر شهرة</string>
+    <string name="publish_community">النشر في المجتمع</string>
+    <string name="post_gallery">معرض المنشورات</string>
+    <string name="world_all" translatable="false">World (All)</string>
+    <string name="favourites">المفضلة</string>
+    <string name="description">الوصف</string>
+    <string name="rate_this_drawing">قيم هذا الرسم</string>
+    <string name="rate">قيم</string>
+    <string name="be_the_first_to_post_in_your_country">كن أول من ينشر في بلدنا!</string>
+    <string name="check_out_the_tutorials_or_point_to_a_challenge">اطلع على الدروس التعليمية أو ابدأ الرسم</string>
+    <string name="make_drawing">قم بالرسم</string>
+    <string name="close_drawing">أغلق الرسم</string>
+    <string name="_200" translatable="false">200</string>
+    <string name="this_ranking_is_compiled">تم تجميع هذا التصنيف</string>
+
+    <string name="label_no_comments_yet">لا توجد تعليقات حتى الآن!</string>
+    <string name="label_comments">التعليقات</string>
+    <string name="enlarge">تكبير</string>
+    <string name="add_to_favorites">إضافة إلى المفضلة</string>
+    <string name="_4_3">4.3</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="learn_drawing">تعلم الرسم</string>
+
+    <string name="start_the_tutorial">ابدأ البرنامج التعليمي</string>
+    <string name="complete_your_drawing">أكمل رسمك</string>
+    <string name="your_drawings">رسوماتك</string>
+    <string name="complete_your_drawings">أكمل رسوماتك</string>
+    <string name="complete_your_tutorial">أكمل برنامجك التعليمي</string>
+    <string name="no_more_users_be_the_first">لا مزيد من المستخدمين، كن الأول!</string>
+    <string name="post_gallery_message">انشر ​​في معرض رسوماتك الحالية\nقم بإنشاء المزيد من الرسومات</string>
+    <string name="create_drawings">أنشئ رسوماتك</string>
+    <string name="post_to_gallery">انشر ​​في المعرض</string>
+    <string name="title">العنوان</string>
+    <string name="description1">الوصف</string>
+    <string name="youtube_link">رابط YouTube</string>
+    <string name="add_hashtag1_hashtag_2">أضف Hashtag1#, Hashtag#2</string>
+    <string name="publish">انشر</string>
+    <string name="your_drawing_has_been_posted_to_the_community1">تم نشر رسمك في المجتمع!</string>
+    <string name="see_it_now1">شاهده الآن!</string>
+    <string name="ok">حسنًا</string>
+    <string name="your_canvas_awaits">لوحتك تنتظرك!</string>
+    <string name="create_your_first_masterpiece_or_explore_new_techniques">قم بإنشاء أول تحفة فنية لك أو استكشف تقنيات جديدة.</string>
+    <string name="explore_our_video_guides_34">استكشف أدلة الفيديو الخاصة بنا (34)</string>
+    <string name="find_tutorials_and_tips_to_enhance_your_skills">اعثر على دروس تعليمية ونصائح لتحسين مهاراتك.</string>
+    <string name="you_wont_be_able">لن تتمكن من الدردشة مع المستخدم، هل أنت متأكد؟</string>
+    <string name="no_new_notification">لا يوجد إشعار جديد</string>
+    <string name="account">الحساب</string>
+    <string name="system">النظام</string>
+    <string name="paintology">Paintology</string>
+    <string name="rate_now">قم بالتقييم الآن</string>
+    <string name="not_now">ليس الآن</string>
+    <string name="tell_us_how_much_you_enjoyed_this_piece_by_rating_it">أخبرنا عن مدى استمتاعك بهذه القطعة من خلال تقييمها.</string>
+    <string name="appreciate_this_art">هل تقدر هذا الفن؟</string>
+    <string name="appreciate_this_tut">هل تقدر هذا البرنامج التعليمي؟</string>
+    <string name="show_off_your_creativity">استعرض إبداعك!</string>
+    <string name="image_added_to_my_paintings">تمت إضافة الصورة إلى لوحاتي!</string>
+    <string name="your_favorite_galleries_list_is_empty_discover_and_mark_your_favorite_ones">قائمة المعارض المفضلة لديك فارغة. اكتشف وحدد المفضلة لديك!</string>
+    <string name="no_favorites_added">لم تتم إضافة أي مفضلات</string>
+    <string name="you_haven_t_added_any_users_to_your_favorites_explore_the_community_and_save_your_favorite_artists">لم تقم بإضافة أي مستخدمين إلى مفضلاتك. استكشف المجتمع واحفظ الفنانين المفضلين لديك!</string>
+    <string name="there_are_no_tutorials_in_your_favorites_browse_and_select_the_best_tutorials_to_add_them_here">لا توجد دروس تعليمية في المفضلة لديك. تصفح واختر أفضل الدروس التعليمية لإضافتها هنا.</string>
+    <string name="you_don_t_have_any_favorite_posts_yet_start_exploring_and_adding_your_top_picks">ليس لديك أي منشورات مفضلة حتى الآن. ابدأ في الاستكشاف وإضافة أفضل اختياراتك!</string>
+    <string name="store">المتجر</string>
+    <string name="you_must">يجب أن تتابع مارتن وأن تتم متابعتك مرة أخرى لبدء الدردشة. تأكد من أنكما تتابعان بعضكما البعض لفتح الدردشة.</string>
+    <string name="following_please_wait">تابع يرجى الانتظار…</string>
+    <string name="who_we_are">من نحن</string>
+    <string name="paintology_is">Paintology هي شركة برمجيات مقرها الولايات المتحدة تقدم تطبيقات رقمية إبداعية لمستخدميها. منتجنا الرئيسي هو تطبيق الرسم Paintology المتوفر على متجر Google play، والذي يقدم تطبيق رسم بسيط وقوي لأولئك الذين يستمتعون بالرسم والتلوين.\n\nومن شغفه الآخر الفن حيث ابتكر مئات القطع الفنية المعلقة على جدران منازل العائلات والأصدقاء. وهذا دفعه إلى إنشاء تطبيق الرسم الرقمي Paintology. وقد تم تصميمه للسماح للمستخدمين بنقل الكثير من مهاراتهم الفنية التقليدية إلى الهاتف والكمبيوتر اللوحي الرقمي.\n\nلمشاهدة أعماله الكاملة، يمكنك زيارة مواقعه الاجتماعية الأخرى إلى جانب موقع Paintology.com.</string>
+    <string name="web_address">عنوان الويب:</string>
+    <string name="https_paintology_com" translatable="false">https://paintology.com</string>
+    <string name="twitter_x2">Twitter / X</string>
+    <string name="quora2">Quora</string>
+    <string name="linkedin2">Linkedin</string>
+    <string name="personal_details2">التفاصيل الشخصية</string>
+    <string name="traditional_art_ability2">Traditional Art Ability</string>
+    <string name="social_media_links3">روابط وسائل التواصل الاجتماعي</string>
+    <string name="twitter_x3">Twitter / X</string>
+    <string name="traditional_art_ability3">Traditional Art Ability</string>
+    <string name="social_media_links4">روابط وسائل التواصل الاجتماعي</string>
+    <string name="twitter_x4">Twitter / X</string>
+    <string name="traditional_art_ability4">Traditional Art Ability</string>
+    <string name="app_links">روابط التطبيق:</string>
+    <string name="https_play_google_com_store_apps_developer_id_paintology" translatable="false">https://play.google.com/store/apps/developer?id=Paintology</string>
+    <string name="protectedd">Paintology ملتزمة بشدة بحماية خصوصيتك. نريدك أن تقضي المزيد من الوقت في متابعة استخدام منتجاتنا وخدماتنا دون الحاجة إلى القلق بشأن الخصوصية..\n يوضح بيان الخصوصية التالي جمع المعلومات وما نستخدمه وممارسات حماية الخصوصية لهذا الموقع، Paintology.com.</string>
+    <string name="log_files">ملفات السجل</string>
+    <string name="like_many">مثل العديد من مواقع الويب الأخرى، يستخدم paintology.com ملفات السجل. تقوم هذه الملفات بتسجيل زوار الموقع فقط، وهو إجراء قياسي لشركات الاستضافة وجزء من تحليلات خدمة الاستضافة. تتضمن المعلومات الموجودة داخل ملفات السجل عناوين بروتوكول الإنترنت (IP) ونوع المتصفح ومزود خدمة الإنترنت (ISP) وختم التاريخ/الوقت وصفحات الإحالة/الخروج وربما عدد النقرات. تُستخدم هذه المعلومات لتحليل الاتجاهات وإدارة الموقع وتتبع حركة المستخدم حول الموقع وجمع المعلومات الديموغرافية. عناوين IP، وغيرها من هذه المعلومات ليست مرتبطة بأي معلومات يمكن التعرف عليها شخصيًا</string>
+    <string name="cookies">ملفات تعريف الارتباط</string>
+    <string name="mostly_people">يستخدم موقع paintology.com ملفات تعريف الارتباط لتخزين المعلومات حول تفضيلات الزوار، وتسجيل معلومات خاصة بالمستخدم حول الصفحات التي يصل إليها الزائر أو يزورها، وتخصيص محتوى صفحة الويب الخاصة بنا بناءً على نوع متصفح الزوار أو أي معلومات أخرى يرسلها الزائر عبر متصفحه.\nإذا كنت ترغب في تعطيل ملفات تعريف الارتباط، فيمكنك القيام بذلك من خلال خيارات المتصفح الفردية الخاصة بك. يمكن العثور على معلومات أكثر تفصيلاً حول إدارة ملفات تعريف الارتباط باستخدام متصفحات ويب محددة على مواقع الويب الخاصة بالمتصفحات. ما هي ملفات تعريف الارتباط؟\nلا تزود شركتنا أطرافًا ثالثة بالمعلومات الشخصية للمستخدمين. "المعلومات الشخصية المقدمة إلى أطراف ثالثة"، باستثناء الحالات التالية.\n عندما يكون المستخدم قد أعطى موافقته مسبقًا.\n عندما يتم الاستعانة بمصادر خارجية لجزء من خدماتنا ويكون ذلك ضروريًا لتنفيذ هذا العمل.\n عندما يتم الكشف عن البيانات الإحصائية بعد معالجة البيانات بحيث لا يمكن التعرف على الأفراد.\n في الحالات التي تستند إلى القانون.\n عندما تكون هناك صعوبة في الحصول على موافقة الفرد ويكون ذلك ضروريًا لحماية حياة الشخص أو شخصه أو ممتلكاته.\n عندما تطلب مؤسسة وطنية أو حكومة محلية أو جهة مفوضة من قبل المؤسسة أو الحكومة المذكورة من شركتنا التعاون في الكشف عن المحتوى المسجل وفقًا للقانون.</string>
+    <string name="provision_of_personal_information_to_third_parties">توفير المعلومات الشخصية لأطراف ثالثة</string>
+    <string name="facebook">فيسبوك</string>
+    <string name="https_www_facebook_com_msqrd_privacy">https://www.facebook.com/msqrd/privacy</string>
+    <string name="google_analytics">Google Analytics</string>
+    <string name="https_policies_google_com_privacy" translatable="false">https://policies.google.com/privacy</string>
+    <string name="google_ads_excluding_paid_and_windows_versions">إعلانات Google (باستثناء الإصدارات المدفوعة وإصدارات Windows)</string>
+    <string name="https_policies_google_com_technologies_ads" translatable="false">https://policies.google.com/technologies/ads</string>
+    <string name="google_firebase_android_versions_only">Google Firebase (إصدارات Android فقط)</string>
+    <string name="https_firebase_google_com_support_privacy" translatable="false">https://firebase.google.com/support/privacy</string>
+    <string name="youtube_android_versions_only">YouTube (إصدارات Android فقط)</string>
+    <string name="https_www_youtube_com_intl_us_about_policies_community_guidelines" translatable="false">https://www.youtube.com/intl/us/about/policies/#community-guidelines</string>
+    <string name="third_party_sites_and_services">المواقع والخدمات التابعة لأطراف ثالثة</string>
+    <string name="webstie_go">قد يحتوي موقع paintology.com على روابط لمواقع ويب ومنتجات وعناصر واجهة مستخدم وخدمات تابعة لأطراف ثالثة. يجب عليك الرجوع إلى سياسات الخصوصية الخاصة بهذه المواقع التابعة لأطراف ثالثة للحصول على معلومات أكثر تفصيلاً حول ممارساتها بالإضافة إلى الإرشادات حول كيفية إلغاء الاشتراك في ممارسات معينة، إذا رغبت في ذلك. خدمات Google يستخدم موقع paintology.com تقنيات مختلفة لجمع وتخزين معلومات عامة عن استخدام الموقع عبر خدمات Google. تعرف على المزيد حول خدمات Google.</string>
+    <string name="privacy_policylink"><u>سياسة الخصوصية.</u></string>
+    <string name="about_security_control_measures">حول تدابير مراقبة الأمن</string>
+    <string name="legal">تسعى شركتنا باستمرار إلى اتخاذ تدابير أمنية ضرورية ومناسبة ضد مخاطر الوصول غير المصرح به والتسريب والتدمير والتلف في تعاملنا مع المعلومات الشخصية.\n تدابير مراقبة الأمن المنهجية:\n نحافظ على نظام وقواعد لحماية المعلومات الشخصية ونتعامل بدقة مع التعامل المناسب والاستجابات بناءً على القوانين والأنظمة. كما نجري عمليات تفتيش ومراجعة طوعية منتظمة فيما يتعلق بظروف التعامل مع المعلومات الشخصية.\n تدابير مراقبة الأمن البشري:\n بانتظام وعندما ينضم موظف إلى الشركة، نقوم بتثقيف جميع الموظفين بشأن حماية المعلومات الشخصية. بالإضافة إلى ذلك، نوجه الموظفين بشكل مناسب، مثل مطالبتهم بقبول واجب الحفاظ على السرية بناءً على لوائح العمل.\n تدابير مراقبة الأمن المادي:\n نتحكم في دخول الموظف وخروجه من الغرف في المناطق التي يتعامل فيها الموظف مع المعلومات الشخصية. في الوقت نفسه، ننفذ تدابير لمنع أي شخص غير مصرح له من عرض المعلومات الشخصية.\n تدابير التحكم في الأمان الفني:\n نظرًا للتحكم في الوصول، فإننا نقيد مدى عرض المعلومات ومعالجتها. وفي الوقت نفسه، نتخذ تدابير التحكم الفني، مثل تدابير أمان المعلومات المناسبة ضد المخاطر مثل الوصول غير القانوني وفيروسات الكمبيوتر.</string>
+    <string name="noti_data">ستتلقى إشعارات من المستخدمين الآخرين عندما يعجبون بمنشورك أو يصنفونه أو يعلقون عليه أو يردون عليه في المعرض والمجتمع.\n\n ستتلقى أيضًا إشعارات من مسؤول تطبيق Paintology للحصول على الدعم وإشعارات مهمة أخرى.</string>
+    <string name="general_data">تم تصميم تطبيق Paintology لتحسين مهاراتك في الرسم أثناء التعلم من خلال دروس تعليمية ممتعة وسهلة!\n\n تم ترتيب التطبيق حسب المستويات حيث يأتي جميع المستخدمين في المستوى المبتدئ 1 ويشقون طريقهم إلى الأعلى. تمامًا مثل أي مدرسة رسم، ستشق طريقك إلى الأعلى من خلال اكتساب مهارات الرسم الأساسية والأساسية.\n\n تذكر أن Paintology لا يتعلق بالأدوات بل بتعليمك تقنيات أساسية للفن يمكنك تطبيقها على أي وسيلة فنية. بعد كل شيء، تكمن متعة الرسم والتلوين في الحفاظ على البساطة وتعلم التقنيات المهمة. هكذا يتعلم معظم الفنانين الجيدين الرسم والتلوين باستخدام عدد قليل من الأدوات. لحسن الحظ، ينطبق نفس الشيء على الرسم الرقمي. لكن العديد من المستخدمين لا يعرفون التقنيات المستخدمة لعمل رسومات رائعة باستخدام فرشاة واحدة فقط!\n\nتم تصميم تطبيق Paintology لتحسين مهاراتك في الرسم أثناء التعلم من خلال دروس تعليمية ممتعة وسهلة!\n\nتم ترتيب التطبيق حسب المستويات حيث يبدأ جميع المستخدمين في المستوى المبتدئ 1 ويشقون طريقهم إلى الأعلى. تمامًا مثل أي مدرسة رسم، ستشق طريقك إلى الأعلى من خلال اكتساب مهارات الرسم الأساسية والأساسية.\n\nتذكر أن Paintology لا يتعلق بالأدوات بل بتعليمك التقنيات الأساسية للفن والتي يمكنك تطبيقها على أي وسيلة فنية. بعد كل شيء، تكمن متعة الرسم والتلوين في الحفاظ على البساطة وتعلم التقنيات المهمة. هكذا يتعلم معظم الفنانين الجيدين الرسم والتلوين باستخدام عدد قليل من الأدوات. لحسن الحظ، ينطبق نفس الشيء على الرسم الرقمي. إن العديد من المستخدمين لا يعرفون التقنيات المستخدمة لعمل رسومات رائعة بفرشاة واحدة فقط!\n\nهذا ما ستتعلمه!\n\n</string>
+    <string name="accessibility_data">حاليًا، لا نمتلك أي ميزات خاصة بإمكانية الوصول. ومع ذلك، يجب أن تبدأ من أساسيات الرسم. ابدأ من فئة المبتدئين تمامًا لتعتاد على ضربات الرسم باستخدام إصبعك أو القلم.</string>
+    <string name="store_data">سيكون المتجر هو المكان الذي يمكنك فيه فتح المزيد من ميزات التطبيق! حاول أن تبقي الأمر بسيطًا وتعلم بخطوات صغيرة. ومع تحسنك، ستجد أن استرداد هذه الميزات سيساعدك على الاستفادة من المزيد من إبداعك.\n\nابدأ في جمع النقاط، حتى تتمكن من استرداد بعض الميزات الرائعة للتطبيق. مصمم لتعزيز إبداعك وليس المهارات الفنية.</string>
+    <string name="help_center_data">يمكنك الحصول على المساعدة بعدة طرق. يمكنك استخدام نموذج إدخال دعم التطبيق الجديد الخاص بنا لإرسال استفساراتك بخصوص أي مشكلات مباشرة من التطبيق. يمكنك أيضًا الاتصال بنا من خلال نموذج الويب أو الإرسال مباشرة إلى البريد الإلكتروني: support@paintology.com للانتقال إلى شاشة دعم التطبيق، انقر فوق الصورة أو الزر.</string>
+    <string name="about_paintology_data">وُلِد Paintology من عقلية المبدع، الدكتور فردوس خالك. قضى فردوس معظم حياته في تطوير حلول برمجية متطورة لشركات كبرى مثل Nike وSothebys وHarley Davidson والمزيد.</string>
+    <string name="security_data">الأمان والخصوصية هما شاغلنا الرئيسي عندما يتعلق الأمر بقاعدتنا المخلصة من المستخدمين. يمكنك أن تطمئن إلى أن المعلومات التي نحتفظ بها عنك لا تتم مشاركتها مع أطراف ثالثة أخرى. \nشاغلنا الأساسي هو التأكد من أن المستخدمين آمنون في استخدام منصة Paintology ولديهم الحق في إلغاء أو حذف أي معلومات شخصية قد يشعرون أنها ذات صلة.</string>
+    <string name="how_we_protect_your_data">كيف نحمي بياناتك</string>
+    <string name="to_ensure_your">لضمان الحفاظ على بياناتك بأمان، تم تأمين هذا الموقع وتشفيره عبر اتصالات الخصوصية مع Encrypt SSL.</string>
+    <string name="what_rights_you_have">ما هي الحقوق التي لديك فيما يتعلق ببياناتك وحذفها</string>
+    <string name="if_you">إذا كان لديك حساب على هذا الموقع، أو تركت تعليقات، فيمكنك طلب تلقي ملف مُصدَّر للبيانات الشخصية التي نحتفظ بها عنك، بما في ذلك أي بيانات قدمتها لنا.\n\nيمكنك أيضًا طلب مسح أي بيانات شخصية نحتفظ بها عنك عن طريق إرسال طلبك من خلال رابط نموذج الاتصال بنا أدناه.\n\nأرسل النموذج مع طلبك ويمكنك التحقق مرة أخرى في غضون أسبوع للتأكد من إزالة جميع بياناتك الشخصية من نظامنا.</string>
+    <string name="children_s_information">معلومات الأطفال</string>
+    <string name="member">نعتقد أنه من المهم توفير حماية إضافية للأطفال عبر الإنترنت. نشجع الآباء والأوصياء على قضاء الوقت عبر الإنترنت مع أطفالهم لمراقبة نشاطهم عبر الإنترنت والمشاركة فيه و/أو مراقبته وتوجيهه. لا تقوم Paintology بجمع أي معلومات تعريف شخصية عن الأطفال دون سن 13 عامًا عن عمد. ننصح جميع الأطفال بالحصول أولاً على إذن والديهم أو الأوصياء عليهم قبل إنشاء حساب في منطقة الأعضاء والمنتديات الخاصة بـ Paintology.</string>
+    <string name="contact">اتصل على</string>
+    <string name="support_paintology_com">support@paintology.com</string>
+    <string name="you_can_also_use_our">يمكنك أيضًا استخدام دعم التطبيق الجديد لإرسال أسئلتك واستفساراتك.</string>
+    <string name="consent">الموافقة</string>
+    <string name="by_using_our_app_you">باستخدام تطبيقنا، فإنك توافق بموجبه على سياسة الخصوصية الخاصة بنا وتوافق على شروطها.</string>
+    <string name="paintology_app_links">روابط تطبيق Paintology:</string>
+    <string name="https_play_google_com" translatable="false">https://play.google.com/store/apps/details?id=com.paintology.lite</string>
+    <string name="https_play_google_com_s" translatable="false">https://play.google.com/store/apps/details?id=com.paintology.recorder</string>
+    <string name="website">الموقع الإلكتروني:</string>
+    <string name="https_www_paintology_com" translatable="false">https://www.paintology.com</string>
+    <string name="youtube">YouTube:</string>
+    <string name="https_www_youtube_com_paintology" translatable="false">https://www.youtube.com/@Paintology</string>
+    <string name="https_www_youtube_com_ferdouse" translatable="false">https://www.youtube.com/@Ferdouse</string>
+    <string name="https_www_youtube_com_paintology_streams" translatable="false">https://www.youtube.com/@Paintology/streams</string>
+    <string name="https_www_youtube_com_ferdouse_shorts" translatable="false">https://www.youtube.com/@Ferdouse/shorts</string>
+    <string name="quora">Quora:</string>
+    <string name="https_paintology_quora_com" translatable="false">https://paintology.quora.com</string>
+    <string name="https_www_quora_com_profile_ferdouse_khaleque" translatable="false">https://www.quora.com/profile/Ferdouse-Khaleque</string>
+    <string name="poetry_site">موقع الشعر:</string>
+    <string name="https_allpoetry_com_ferdouse" translatable="false">https://allpoetry.com/Ferdouse</string>
+    <string name="creative_site">موقع الإبداع:</string>
+    <string name="https_ferdouse_com" translatable="false">https://ferdouse.com</string>
+    <string name="free_google_classroom">فصول Google المجانية:</string>
+    <string name="https_forms_gle_ozskjgypz9x8f5yx8" translatable="false">https://forms.gle/ozsKJGYPZ9X8F5YX8</string>
+    <string name="udemy">Udemy:</string>
+    <string name="https_www_udemy_com_courses_search_p_2_q_paintology_src_ukw" translatable="false">https://www.udemy.com/courses/search/?p=2&amp;q=paintology&amp;src=ukw</string>
+    <string name="facebookb">Facebook:</string>
+    <string name="https_www_facebook_com_paintology_apps" translatable="false">https://www.facebook.com/Paintology.apps</string>
+    <string name="tiktok">Tiktok:</string>
+    <string name="https_www_tiktok_com_paintology3" translatable="false">https://www.tiktok.com/@paintology3</string>
+    <string name="instagram">Instagram:</string>
+    <string name="https_www_instagram_com_paintology_app" translatable="false">https://www.instagram.com/paintology.app/</string>
+    <string name="https_www_instagram_com_ferdousekhal" translatable="false">https://www.instagram.com/ferdousekhal/</string>
+    <string name="others">آخرون:</string>
+    <string name="https_www_ferdouse_com" translatable="false">https://www.ferdouse.com/</string>
+    <string name="https_medium_com_ferdousekhaleque" translatable="false">https://medium.com/@ferdousekhaleque</string>
+    <string name="https_www_patreon_com_paintology" translatable="false">https://www.patreon.com/paintology</string>
+    <string name="https_twitter_com_semibase" translatable="false">https://twitter.com/Semibase</string>
+    <string name="https_www_reddit_com_user_ferdousek" translatable="false">https://www.reddit.com/user/FerdouseK</string>
+    <string name="pinterest">Pinterest:</string>
+    <string name="https_www_pinterest_com_ferdousekhaleque" translatable="false">https://www.pinterest.com/FerdouseKhaleque/</string>
+    <string name="https_www_pinterest_com_paintology" translatable="false">https://www.pinterest.com/Paintology</string>
+    <string name="permission_necessary">الإذن ضروري</string>
+    <string name="cant_read_permission_is_not_enabled">الإذن ضروري للوصول إلى الوسائط والكاميرا</string>
+    <string name="quick_draw">Quick Draw</string>
+    <string name="share_paintology_with_others">مشاركة Paintology مع الآخرين</string>
+    <string name="watch_intro_video">مشاهدة مقطع الفيديو التعريفي</string>
+    <string name="share_feedback">مشاركة التعليقات</string>
+    <string name="go_to_google_playstore">الانتقال إلى متجر Google Playstore</string>
+    <string name="my_paintings">لوحاتي</string>
+    <string name="drawing_activity">نشاط الرسم</string>
+    <string name="post">النشر</string>
+    <string name="rate_the_app">تقييم التطبيق</string>
+    <string name="language">اللغة</string>
+    <string name="about_us">نبذة عنا</string>
+    <string name="app_support">دعم التطبيق</string>
+    <string name="remove_favourite">إزالة المفضلة</string>
+    <string name="copy_link">نسخ الرابط</string>
+    <string name="open_in_canvas_overlay">فتح في Canvas (تراكب)</string>
+    <string name="open_in_canvas_trace">فتح في Canvas (تتبع)</string>
+    <string name="users_posts">منشورات المستخدمين</string>
+    <string name="download">تنزيل</string>
+    <string name="report">إبلاغ</string>
+    <string name="go_to_youtube_video">الانتقال إلى مقطع فيديو YouTube</string>
+    <string name="more_details">مزيد من التفاصيل</string>
+    <string name="add_to_favourite">إضافة إلى المفضلة</string>
+    <string name="add_new_post">إضافة منشور جديد</string>
+    <string name="go_to_google_play">الانتقال إلى Google Play</string>
+    <string name="terms_amp_conditions"><![CDATA[الشروط والأحكام]]></string>
+    <string name="app_version_n_nplease_read_these_privacy_policy_carefully">إصدار التطبيق \n\nيرجى قراءة سياسة الخصوصية هذه بعناية</string>
+    <string name="awards">الجوائز</string>
+    <string name="no_tutorials_at_this_level">لا توجد دروس تعليمية في هذا الوقت المستوى</string>
+    <string name="learn_with_paintology">التعلم باستخدام Paintology</string>
+    <string name="write_a_message">اكتب رسالة</string>
+    <string name="go_to_login">انتقل إلى تسجيل الدخول</string>
+    <string name="select_type">اختر النوع</string>
+    <string name="size">الحجم</string>
+    <string name="draw_brush">ارسم الفرشاة</string>
+    <string name="brush_name">اسم الفرشاة</string>
+    <string name="enter_brush_name_here">أدخل اسم الفرشاة هنا</string>
+    <string name="do_the_tutorial">قم بالبرنامج التعليمي</string>
+    <string name="watch">شاهد!</string>
+    <string name="try_it">جربها!</string>
+    <string name="intro_videos">مقاطع فيديو تعريفية</string>
+    <string name="profile_completion_bonus">مكافأة إكمال الملف الشخصي</string>
+    <string name="complete_your_profile_details_for_exclusive_rewards">أكمل تفاصيل ملفك الشخصي للحصول على مكافآت حصرية!</string>
+    <string name="profile_status">حالة الملف الشخصي</string>
+    <string name="personal_details">التفاصيل الشخصية</string>
+    <string name="gender">الجنس</string>
+    <string name="traditional_art_ability">القدرة على الرسم التقليدي</string>
+    <string name="social_media_links">روابط وسائل التواصل الاجتماعي</string>
+    <string name="facebook_profile">الملف الشخصي على Facebook</string>
+    <string name="instagram_profile">الملف الشخصي على Instagram</string>
+    <string name="youtube_profile">الملف الشخصي على YouTube</string>
+    <string name="twitter_profile">الملف الشخصي على Twitter</string>
+    <string name="linkedin_profile">الملف الشخصي على LinkedIn</string>
+    <string name="freehand_default">رسم يدوي (افتراضي)</string>
+    <string name="reward_points">نقاط المكافأة</string>
+    <string name="welcome_bonuss">مكافأة الترحيب</string>
+    <string name="opening_tutorialss">الدروس التعليمية الافتتاحية</string>
+    <string name="draw_strokes">رسم الخطوط</string>
+    <string name="community_posts">منشور المجتمع</string>
+    <string name="community_post_likee">إعجاب منشور المجتمع</string>
+    <string name="community_post_commentt">تعليق منشور المجتمع</string>
+    <string name="community_post_sharee">مشاركة منشور المجتمع</string>
+    <string name="totalt">المجموع</string>
+    <string name="art_abilityy">القدرة على الرسم</string>
+    <string name="art_favourite">المفضل في الفن</string>
+    <string name="art_med">وسيلة الرسم</string>
+    <string name="insta">Instagram</string>
+    <string name="youtubee">YouTube</string>
+    <string name="tiktokk">TikTok</string>
+    <string name="pinterestt">Pinterest</string>
+    <string name="increase_your_drawing_skills">زد من مهاراتك في الرسم!</string>
+    <string name="watch_ad_to_earn_10_points">شاهد الإعلان لكسب 10 نقاط</string>
+    <string name="search_paintologyg">بحث Paintology</string>
+    <string name="tutorialss">دروس تعليمية</string>
+    <string name="user_posts">مشاركات المستخدم</string>
+    <string name="blog_postss">مشاركات المدونة</string>
+    <string name="please_enter_your_details_for_create_account">يرجى إدخال تفاصيلك لإنشاء حساب</string>
+    <string name="show_password">إظهار كلمة المرور</string>
+    <string name="or_signup_with_social">أو التسجيل باستخدام وسائل التواصل الاجتماعي</string>
+    <string name="already_have_an_account_login">هل لديك حساب بالفعل؟ تسجيل الدخول</string>
+    <string name="welcome_to_the_new_world_of_digital_drawing">مرحبًا بك في عالم الرسم الرقمي الجديد!</string>
+    <string name="this_action_may_contain_ad">قد يحتوي هذا الإجراء على إعلان</string>
+    <string name="issue">مشكلة</string>
+    <string name="screenshots">لقطات شاشة</string>
+    <string name="tit">عنوان</string>
+    <string name="descriptions">وصف</string>
+    <string name="undo">تراجع</string>
+    <string name="redo">إعادة</string>
+    <string name="your_points_so_far">نقاطك حتى الآن!</string>
+    <string name="watch_ad_to_earn_10_point">شاهد الإعلان لكسب 10 نقاط</string>
+    <string name="drawings">رسومات</string>
+    <string name="communit">مجتمع</string>
+    <string name="tutorial">دروس تعليمية</string>
+    <string name="follow1">متابعة</string>
+    <string name="art_collection">مجموعة فنية</string>
+    <string name="explore_their_23_drawings_and_get_inspired">استكشف رسوماتهم البالغ عددها 23 واستلهم منها</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="personal_details1">التفاصيل الشخصية</string>
+    <string name="traditional_art_ability1">القدرة على الرسم التقليدي</string>
+    <string name="social_media_links2">روابط وسائل التواصل الاجتماعي</string>
+    <string name="tags">العلامات</string>
+    <string name="please_enter_following_information">يرجى إدخال المعلومات التالية</string>
+    <string name="more_brushes">المزيد من الفرش</string>
+    <string name="single_tap">نقرة واحدة</string>
+    <string name="straight_lines">خطوط مستقيمة</string>
+    <string name="gray_scale">تدرج الرمادي</string>
+    <string name="block_coloring">تلوين الكتل</string>
+    <string name="oval_color">اللون البيضاوي</string>
+    <string name="paintology_brush">فرشاة الرسم</string>
+    <string name="load_image">تحميل الصورة</string>
+    <string name="overlay">تراكب</string>
+    <string name="trace">تتبع</string>
+    <string name="question">السؤال:</string>
+    <string name="answer">الإجابة:</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="play">تشغيل</string>
+    <string name="progress">التقدم</string>
+    <string name="chat_unavailable">الدردشة غير متاحة</string>
+    <string name="you_must_follow_bochhi_and_be_followed_back_to_start_chatting_make_sure_both_of_you_follow_each_other_to_unlock_chat">يجب عليك متابعة Bochhi ومتابعتك مرة أخرى لبدء الدردشة. تأكد من أنكما تتابعان بعضكما البعض لفتح الدردشة.</string>
+    <string name="ad_is_loading_please_wait">يتم تحميل الإعلان، يرجى الانتظار</string>
+    <string name="opeen">فتح</string>
+    <string name="you_already_have_this_drawing_in_gallery">لديك بالفعل هذا الرسم في المعرض</string>
+    <string name="see_your_post">مشاهدة منشورك</string>
+    <string name="privacy_policy_updates">تحديثات سياسة الخصوصية</string>
+    <string name="your_profile_is_saved">ملفك الشخصي محفوظ</string>
+    <string name="save_work_before_continuing">حفظ العمل قبل الاستمرار؟</string>
+    <string name="discard">تجاهل</string>
+    <string name="switch_to_canvas_drawing">التبديل إلى رسم على القماش</string>
+    <string name="pick">اختر</string>
+    <string name="your_favorite_galleries_list_is_empty_discover_and_mark_your_favorite_one">قائمة المعارض المفضلة لديك فارغة. اكتشف وحدد المفضلة لديك!</string>
+    <string name="do_the_challengee">قم بالتحدي</string>
+    <string name="hello_world">مرحبًا بالعالم</string>
+    <string name="trace_check">فحص التتبع</string>
+    <string name="choose_an_action">اختر إجراءً</string>
+    <string name="camer">الكاميرا</string>
+    <string name="go_to_my_paintings">انتقل إلى لوحاتي</string>
+    <string name="do_10_drawings_posted_to_gallery">قم برسم 10 رسومات منشورة في "المعرض"</string>
+    <string name="resum">استأنف</string>
+    <string name="typing">الكتابة…</string>
+    <string name="english">الإنجليزية</string>
+    <string name="_45_drawings">(45 رسمًا)</string>
+    <string name="this_is_a_reply_content">هذا محتوى رد</string>
+    <string name="_1_day_a_go">1 يوم</string>
+    <string name="view_reply">عرض الرد</string>
+    <string name="worldwide">عالميًا</string>
+    <string name="_32_drawings">32 رسمًا</string>
+    <string name="this_ranking_is_compiled_from_the_best_users_in_uae">تم تجميع هذا التصنيف من أفضل المستخدمين في الإمارات العربية المتحدة</string>
+    <string name="date_descending_default">التاريخ تنازليًا (افتراضي)</string>
+    <string name="date_ascending">التاريخ تصاعديًا</string>
+    <string name="ratin">التقييمات</string>
+    <string name="likes">الإعجابات</string>
+    <string name="comment">التعليقات</string>
+    <string name="tutorials_defaul">الدروس التعليمية (افتراضي)</string>
+    <string name="freehand_defaul">الرسم الحر (افتراضي)</string>
+    <string name="by_level">حسب المستويات</string>
+    <string name="favorite">المفضلة</string>
+    <string name="explore_our_video_guides">استكشف أدلة الفيديو الخاصة بنا (34)</string>
+    <string name="find_tutorials_and_tips_to_enhance_your_skill">اعثر على دروس تعليمية ونصائح لتحسين مهاراتك</string>
+    <string name="straight_nline">خط مستقيم</string>
+    <string name="next_stroke">الضربة التالية</string>
+    <string name="play_and_draw">العب وارسم!</string>
+    <string name="play_amp_draw"><![CDATA[لعب وارسم]]></string>
+    <string name="try_i">جربها!</string>
+    <string name="success">نجاح</string>
+    <string name="na">الاسم</string>
+    <string name="blank">فارغ</string>
+    <string name="trac">التتبع</string>
+    <string name="sshot">SShot</string>
+    <string name="neww">جديد</string>
+    <string name="feedback_submitted">تم إرسال الملاحظات</string>
+    <string name="thanks_for_your_feedback">شكرًا لك على ملاحظاتك!</string>
+    <string name="more_detail">مزيد من التفاصيل</string>
+    <string name="do_you_wan_t_to_unfollow_ankit">هل تريد إلغاء متابعة أنكيت؟</string>
+    <string name="greeting_i_am_martin_i_love_drawing_and_drawing_related_stuff">تحية أنا مارتن أحب الرسم والأشياء المتعلقة بالرسم</string>
+    <string name="hashtag_search">تحية أنا مارتن أحب الرسم والأشياء المتعلقة بالرسم</string>
+    <string name="loading_ad">بحث الوسوم</string>
+    <string name="see_detail">جاري تحميل الإعلان…</string>
+    <string name="forgot_password">هل نسيت كلمة السر</string>
+    <string name="enter_your_email_and_we_ll_send_you_a_one_time_password_otp_to_reset_it">مشاهدة التفاصيل</string>
+    <string name="enter_email_here">نسيت كلمة المرور</string>
+    <string name="verify_email_id">أدخل بريدك الإلكتروني، وسنرسل لك كلمة مرور لمرة واحدة (OTP) لإعادة تعيينها</string>
+    <string name="enter_otp_code_we_sent_to">أدخل البريد الإلكتروني هنا</string>
+    <string name="didn_t_received_the_code">تحقق من معرف البريد الإلكتروني</string>
+    <string name="resend_code">أدخل رمز OTP الذي أرسلناه إليك</string>
+    <string name="reset_password">لم تتلق الرمز؟</string>
+    <string name="enter_confirm_password_here">إعادة إرسال الرمز</string>
+    <string name="enter_new_password_here">إعادة تعيين كلمة المرور</string>
+    <string name="reset_success">أدخل تأكيد كلمة المرور هنا</string>
+    <string name="token_expire">أدخل كلمة مرور جديدة هنا</string>
+    <string name="setting_pass">تمت إعادة تعيين كلمة المرور بنجاح</string>
+    <string name="pass_match">انتهت صلاحية الرمز حاول مرة أخرى</string>
+    <string name="enter_six_min">جاري تعيين كلمة المرور يرجى الانتظار</string>
+    <string name="enter_pass">كلمة المرور غير متطابقة</string>
+    <string name="enter_pass_new">يرجى إدخال كلمة مرور مكونة من 6 أحرف على الأقل</string>
+    <string name="username">يرجى إدخال كلمة المرور</string>
+    <string name="enter_user">يرجى إدخال تأكيد كلمة المرور</string>
+    <string name="error">اسم المستخدم</string>
+    <string name="fail_reg">أدخل اسم المستخدم</string>
+    <string name="reg_fail">خطأ</string>
+    <string name="credentials">فشل تسجيل الدخول بعد التسجيل.</string>
+    <string name="registration">"فشل التسجيل:"</string>
+    <string name="up_file">فشل المصادقة. يرجى التحقق من بيانات الاعتماد الخاصة بك.</string>
+    <string name="valid_email">فشل تسجيل الدخول بعد التسجيل.</string>
+    <string name="opt_sent">جاري تحميل الملف</string>
+    <string name="opt_sent_ss">الرجاء إدخال عنوان بريد إلكتروني صالح</string>
+    <string name="valid_opt">جاري إرسال OTP، يرجى الانتظار</string>
+    <string name="verify_opt">تم إرسال OTP بنجاح</string>
+    <string name="no_tut">أدخل OTP صالحًا</string>
+    <string name="send_pls_wait">التحقق من OTP، يرجى الانتظار</string>
+    <string name="enter_titl">لم يتم العثور على برنامج تعليمي</string>
+    <string name="enter_det">جاري الإرسال، يرجى الانتظار</string>
+    <string name="feed_ss">الرجاء إدخال العنوان</string>
+    <string name="load_tut">الرجاء إدخال التفاصيل</string>
+    <string name="c_empty">تم إرسال التعليقات بنجاح</string>
+    <string name="f_to_reply">جاري تحميل البرامج التعليمية…</string>
+    <string name="f_to_comm">التعليق فارغ</string>
+    <string name="a_rate">فشل في إضافة رد! حاول مرة أخرى</string>
+    <string name="e_check">فشل في إضافة تعليق! حاول مرة أخرى</string>
+    <string name="load">لقد قمت بالفعل بتقييم هذا المنشور.</string>
+    <string name="no_ad">خطأ في التحقق من التقييم:</string>
+    <string name="c_with_dr">جاري التحميل…</string>
+    <string name="p_post">لم يتم العثور على إعلان حاول مرة أخرى!</string>
+    <string name="s_dr">استمر في الرسومات</string>
+    <string name="tutorials_point">شاهد ما ينشره الأشخاص</string>
+    <string name="e_more">أرسل رسوماتك</string>
+    <string name="s_wrong">البرامج التعليمية، اكسب المزيد من النقاط!</string>
+    <string name="rate_us">اكسب المزيد، كن مشغولاً!</string>
+
+
+    <string name="pg_big_points">نقاط كبيرة</string>
+    <string name="ss_earn_big_points_and_level_up">احصل على نقاط كبيرة وارتق إلى مستوى أعلى!</string>
+    <string name="ss_big_point_sub_message">شارك مع Paintology لتعزيز مهاراتك وتسجيل النقاط</string>
+    <string name="ss_way_to_go">استمر!</string>
+    <string name="ss_you_ve_earned_20_points">لقد حصلت على 20 نقطة!</string>
+    <string name="ss_you_ve_earned_40_points">لقد حصلت على 40 نقطة!</string>
+    <string name="ss_dialog_des_1">"بداية رائعة! احصل على بقية نقاطك %1$d من خلال الاشتراك والمتابعة."</string>
+    <string name="ss_dialog_dis_2">من خلال المتابعة، ستحصل على إشعارات فورية بمحتوى Paintology الجديد الذي سيعمل على تسريع مهاراتك في الرسم!</string>
+    <string name="ss_points_already_claimed">النقاط التي تم المطالبة بها بالفعل</string>
+    <string name="ss_subscribe_and_follow_now">اشترك وتابع الآن!</string>
+
+    <string name="ss_loading_please_wait">جاري التحميل، يرجى الانتظار..</string>
+    <string name="unfollowing_please_wait">جارٍ إلغاء المتابعة، يرجى الانتظار..</string>
+    <string name="ss_do_you_want_to_unfollow">هل تريد إلغاء متابعة %1$s؟</string>
+    <string name="ss_gallery_posted">تم نشر الرسم الخاص بك في المعرض!</string>
+    <string name="ss_online">متصل بالإنترنت</string>
+    <string name="ss_login_account">تسجيل الدخول إلى الحساب</string>
+    <string name="ss_updating_please_wait">جارٍ تحديث %1$s، يرجى الانتظار</string>
+    <string name="ss_updating_profile_data">جارٍ تحديث بيانات الملف الشخصي</string>
+    <string name="ss_sending_feedback_please_wait">جارٍ إرسال الملاحظات من فضلك انتظر...</string>
+    <string name="ss_logging_in_please_wait">جاري تسجيل الدخول، يرجى الانتظار...</string>
+    <string name="ss_signing_up_please_wait">جاري التسجيل، يرجى الانتظار...</string>
+    <string name="ss_fetching_profile_data">جاري جلب بيانات الملف الشخصي</string>
+    <string name="ss_loading_tutorials">جاري تحميل البرامج التعليمية...</string>
+    <string name="ss_unblocking">جارٍ إلغاء الحظر</string>
+    <string name="ss_blocking">جارٍ الحظر</string>
+    <string name="ss_something_went_wrong_try_again_later">حدث خطأ ما! حاول مرة أخرى لاحقًا</string>
+    <string name="ss_art_screens">شاشات فنية</string>
+
+    <string name="ss_country_missing">للأسف، لا نذكر بلدك، يرجى التحديث.</string>
+    <string name="ss_link_country">أنت ترتبط بـ...</string>
+    <string name="ss_change_later">لا يمكنك تغييره لاحقًا</string>
+    <string name="ss_be_sure">لذا تأكد من ذلك.</string>
+    <string name="ss_search_country">بحث عن بلد</string>
+    <string name="ss_select_country">حدد بلد</string>
+    <string name="pg_earn_big_points">احصل على نقاط كبيرة</string>
+    <string name="ss_guest_login_msg">هذا العنصر مخصص للمستخدمين الذين قاموا بتسجيل الدخول باستخدام Facebook أو Google أو Paintology.</string>
+
+    <string name="app_banners">لافتات</string>
+    <string name="levels">مستويات</string>
+    <string name="ss_post_to_community">نشر في المجتمع</string>
+    <string name="ss_splash_text">إعادة ابتكار عالم الرسم الرقمي!</string>
+    <string name="ss_climb_levels">تسلق المستويات!</string>
+</resources>
+

@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <bool name="is_tablet">false</bool>
+
+
+    <string name="app_banners">橫幅</string>
+    <string name="levels">關卡</string>
+    <string name="login_with_guest">以訪客身分登入\n（無需電子郵件）</string>
+    <string name="ss_post_to_community">發佈到社群</string>
+    <string name="ss_splash_text">重塑數位繪畫世界！ </string>
+    <string name="ss_climb_levels">攀登關卡！ </string>
+    <string name="app_name">Paintology Gamify</string>
+    <string name="pain_search">Paintology 搜索</string>
+    <string name="default_collection">教程</string>
+    <string name="community">社区</string>
+    <string name="my_painting">我的画作</string>
+    <string name="downloaded">我的电影</string>
+    <string name="draw">绘图</string>
+    <string name="my_resources">我的资源</string>
+    <string name="daily_blog">每日博客</string>
+    <string name="help_intro">幫助介紹</string>
+    <string name="view_sketch_photos"><u>在 Paintology Cloud 中查看图像</u></string>
+    <string name="import_your_sketch_photos"><u>将图像导入我的画作</u></string>
+    <string name="upload_your_zip_file_auto"><u>将图像保存到 Paintology Cloud</u></string>
+    <string name="pg_earn_big_points">賺取大積分</string>
+    <string name="blank_canvas">空白画布</string>
+    <string name="overlay_image">覆盖图像</string>
+    <string name="trace_image">跟踪图像</string>
+    <string name="camera_image">相机图像</string>
+
+    <string name="quick_drawing">快速绘图</string>
+
+    <string name="import_images">导入图像</string>
+
+    <!--  -->
+    <string name="sites">网站</string>
+    <string name="online_tut">在线教程</string>
+    <string name="paintology_website">Paintology 网站</string>
+    <string name="youtube_paintology">YouTube Paintology</string>
+    <string name="learn_drawing_amp_painting">学习绘图和绘画</string>
+    <string name="apps_by_paintology">Paintology 的应用程序</string>
+
+    <string name="unknown_error">发生未知错误</string>
+    <string name="profile_error">您的个人资料未保存\n出现错误</string>
+    <string name="profile_success">您的个人资料已保存</string>
+    <string name="tag_line"><![CDATA[绘图和绘画变得有趣！]]></string>
+
+
+    <string name="please_wait">请稍候..</string>
+    <string name="are_you_sure">您确定吗？</string>
+    <string name="cancel">取消</string>
+    <string name="title_activity_online_tutorial">在线教程</string>
+    <string name="try_it_now">立即尝试</string>
+
+    <string name="play_button">播放按钮</string>
+    <string name="open_video_in_youtube">在 YouTube 中打开视频</string>
+    <string name="full_screen_button">全屏按钮</string>
+    <string name="live">直播</string>
+    <string name="no_any_reference">未找到任何参考资料</string>
+    <!--    <string name="no_internet_msg">请连接到互联网并重试！</string>-->
+    <string name="no_internet_msg">重试 - 没有互联网连接，请重试</string>
+    <string name="empty_list">服务器列表为空！</string>
+    <string name="featured_image">特色图片</string>
+    <string name="related_post">相关文章</string>
+    <string name="visit_post">访问 Paintology 帖子</string>
+
+    <string name="login_via_dialog">请使用您的社交资料登录</string>
+
+    <string name="post_detail">帖子详情</string>
+
+
+    <!--<string name="selection_msg">请选择并点击右侧的任意按钮</string>
+    <string name="selection_msg_portrait">请选择并点击上方的任意按钮。</string>
+-->
+    <string name="selection_msg">请选择并点击左侧的任意按钮。</string>
+    <string name="selection_msg_portrait">您保存的所有绘图都在此处选择绘图以继续绘图、编辑并与他人分享。</string>
+    <string name="dialog_title_your_saved_drawings">您保存的绘图</string>
+
+    <string name="logout">注销</string>
+    <string name="save_drawing">继续之前保存工作。</string>
+    <string name="txt_canvas_color">画布颜色</string>
+
+    <string name="art_medium">艺术媒介</string>
+    <string name="art_ability">艺术能力</string>
+    <string name="art_fav">艺术收藏</string>
+    <string name="age">年龄</string>
+    <string name="follow">关注</string>
+    <string name="unfollow">取消关注</string>
+    <string name="pick_art_fav">选择艺术收藏</string>
+    <string name="pick_art_med">选择艺术媒介</string>
+    <string name="default_msg_while_share">我使用 Google Play 商店提供的免费 Paintology 应用制作了此作品。看看吧！</string>
+
+    <string name="email">电子邮件</string>
+    <string name="required">必填</string>
+    <string name="not_valid">无效</string>
+    <string name="too_weak">太弱</string>
+
+    <string name="msg_no_camera">我找不到相机应用！</string>
+    <string name="start_recording">开始\n录制</string>
+    <string name="save">保存</string>
+    <string name="record">录制</string>
+    <string name="help_guide">帮助指南</string>
+    <string name="profile_status_msg">写一些关于您个人资料的内容。</string>
+    <string name="posts">帖子</string>
+    <string name="type_paintology">Paintology</string>
+    <string name="type_google">Google</string>
+    <string name="type_facebook">Facebook</string>
+    <string name="already_liked">您已经喜欢了这篇帖子</string>
+    <string name="image_selected">已选择图片</string>
+    <string name="sent_post">查看 Paintology 社区的这篇有趣帖子。您可以从 Google Play 商店下载该应用。</string>
+
+    <string name="following">关注</string>
+    <string name="reserved_hashtag">不允许使用主题标签！</string>
+    <string name="reserved_hashtag_msg">抱歉，这是一个儿童友好型网站，由于我们的家庭政策，不允许使用这个主题标签。</string>
+    <string name="delete_post">删除帖子！</string>
+    <string name="my_posts">我的帖子</string>
+    <string name="camera_permission_msg">您已拒绝相机权限。您可以从设备设置中授予权限，然后使用此功能。</string>
+    <string name="storage_permission_msg">您已拒绝存储权限。您可以从设备设置中授予权限，然后使用此功能。</string>
+    <string name="recording_permission_msg">您已拒绝录制权限，您可以从设备设置中授予权限，然后使用此功能。</string>
+
+    <string name="share_thoughts">请帮助我们改进</string>
+    <string name="name">姓名</string>
+    <string name="your_feedback">您的反馈</string>
+    <string name="your_favourite">您最喜欢的应用</string>
+    <string name="exit">退出</string>
+    <string name="submit">发送</string>
+    <string name="ss_submit">提交</string>
+
+    <string name="close">关闭</string>
+    <string name="select_language">选择您的语言</string>
+
+    <string name="go_to_play_store">转到 Play 商店</string>
+    <string name="bg_color_tooltip_text">背景颜色\n 只能在新绘图中更改 \n</string>
+    <string name="rendering">渲染…</string>
+    <string name="don_t_show_me_again">不要再显示我</string>
+    <string name="close_dialog">关闭</string>
+
+    <string name="watch_video">观看视频</string>
+    <string name="using_the_toggle">使用切换</string>
+    <string name="button_on_the_bottom_n_left">查看视频</string>
+    <string name="paintology_chat">Paintology 聊天</string>
+    <string name="button">按钮</string>
+
+    <string name="welcome_to_paintology_chat">欢迎来到 paintology 聊天</string>
+    <string name="chat_instruction">与您喜欢、评论或关注的用户聊天。</string>
+    <string name="empty_search_instruction">没有搜索结果，请返回并重试。</string>
+    <string name="blocked">已阻止</string>
+    <string name="pending">待处理</string>
+    <string name="chat_click_hint">请点赞、评论或关注以与此用户聊天。</string>
+    <string name="not_available">N/A</string>
+    <string name="country">国家/地区</string>
+    <string name="other">其他</string>
+    <string name="one_item_allowd">一次允许一个项目</string>
+
+    <string name="facebook_url">Facebook 个人资料</string>
+    <string name="instagram_url">Instagram 个人资料</string>
+    <string name="linkedin_profile_url">LinkedIn 个人资料</string>
+    <string name="youtube_profile_url">YouTube 个人资料</string>
+    <string name="twitter_username_without">Twitter 个人资料</string>
+    <string name="website_url">网站</string>
+    <string name="quora_profile">Quora 个人资料</string>
+    <string name="tiktok_profile">TikTok 个人资料</string>
+    <string name="pinterest_profile">Pinterest 个人资料</string>
+    <string name="zoom_lock_msg">Zoom 已锁定！再次按下缩放以解锁</string>
+
+    <string name="action_line">线条</string>
+    <string name="action_smoothline">平滑线</string>
+    <string name="action_square">正方形</string>
+    <string name="action_circle">圆形</string>
+    <string name="action_rectangle">矩形</string>
+    <string name="action_triangle">三角形</string>
+    <string name="clear">清除</string>
+    <string name="custom_brush">自定义画笔</string>
+
+    <string name="settings_video_quality_title">视频大小 %s</string>
+    <string name="settings_photo_quality_title">照片大小</string>
+    <string name="ok_label">确定</string>
+    <string name="cancel_label">取消</string>
+    <string name="pick_image_intent_chooser_title">选择来源</string>
+    <string name="crop_image_activity_no_permissions">正在取消，未授予所需权限</string>
+    <string name="crop_image_activity_title">裁剪图像</string>
+
+    <string name="crop_image_menu_rotate_left">逆时针旋转</string>
+    <string name="crop_image_menu_rotate_right">旋转</string>
+    <string name="crop_image_menu_crop">裁剪</string>
+    <string name="crop_image_menu_flip">翻转</string>
+    <string name="crop_image_menu_flip_horizontally">水平翻转</string>
+    <string name="crop_image_menu_flip_vertically">垂直翻转</string>
+
+    <string name="preview_controls_confirm">保存</string>
+    <string name="preview_controls_retake">重复</string>
+    <string name="preview_controls_cancel">取消</string>
+    <string name="preview_controls_crop">裁剪</string>
+    <string name="switch_to_drawing">切换到绘图</string>
+    <string name="line_tool">线条</string>
+    <string name="shade_tool">阴影</string>
+    <string name="color">颜色</string>
+    <string name="gallery">图库</string>
+    <string name="camera">相机</string>
+    <string name="quick_video_guide">视频指南</string>
+    <string name="quick_video_guide_count">视频指南 (%1$d)</string>
+    <string name="quick_video_guide_count_2">浏览我们的视频指南 (%1$d)</string>
+    <string name="quick_video_guide_countt">浏览我们的视频指南</string>
+
+    <string name="rate_app_title">评价应用</string>
+    <string name="rate_app_message">如果您喜欢我们的应用，请花点时间在 PlayStore 上对其进行评价。感谢您的支持！</string>
+    <string name="rate_btn_pos">立即评价</string>
+    <string name="rate_btn_neg">稍后提醒我</string>
+    <string name="rate_btn_nut">不用了，谢谢</string>
+
+    <string name="heading_brackets" translatable="false">%1$s (%2$d)</string>
+    <string name="featured">精选</string>
+
+    <string name="capture_button_alt">捕捉</string>
+    <string name="switch_camera_button_alt">切换相机</string>
+    <string name="gallery_button_alt">图库</string>
+    <string name="back_button_alt">返回</string>
+    <string name="share_button_alt">分享</string>
+    <string name="share_hint">使用分享</string>
+    <string name="delete_button_alt">删除</string>
+    <string name="delete_dialog">删除当前照片？</string>
+    <string name="delete_title">确认</string>
+    <string name="all_rights_reserved">保留所有权利</string>
+    <string name="share_subject">Paintology 绘图应用程序</string>
+
+    <string name="title_onboarding_1">欢迎使用入门应用程序！</string>
+    <string name="description_onboarding_1">这是一个开源项目，展示了遵循 Material Design 指南的甜蜜而原创的入门 ViewPagers</string>
+
+    <string name="continue_lbl">继续</string>
+    <string name="next">下一步</string>
+    <string name="skip">跳过</string>
+    <string name="saved_to_my_painting">已保存到我的绘画</string>
+    <string name="key_all">全部</string>
+    <string name="write_a_comment">写评论&#8230;</string>
+    <string name="followers">关注者</string>
+    <string name="details">详细信息</string>
+    <string name="forgot_password_question_mark"><u>忘记密码？</u></string>
+    <string name="view_mode">查看模式</string>
+    <string name="normal_mode">正常模式</string>
+    <string name="about_us_text">当前版本 %1$s“\n\nPaintology 是一款先进且易于使用的绘图应用程序。\n\n”“这款应用程序旨在让您成为更好的艺术家。\n”“该应用程序有许多教程，包括视频教程，可帮助您扩展绘画技能。\n”“请评分和评论以帮助我们改进此应用程序。\n\n”“谢谢！\n”</string>
+
+    <string name="nav_open">打开</string>
+    <string name="nav_close">关闭</string>
+    <string name="see_all">查看全部</string>
+    <string name="see_all_underline"><u>查看全部</u></string>
+    <string name="hint_search_paintology">搜索 Paintology</string>
+    <string name="title_about_us">关于我们</string>
+    <string name="title_notifications">通知</string>
+    <string name="view_post">查看帖子</string>
+    <string name="view_posts">查看帖子</string>
+    <string name="view_profile">查看个人资料</string>
+    <string name="block">阻止</string>
+    <string name="delete_chats">删除聊天</string>
+    <string name="freehand">手绘</string>
+    <string name="line">线条</string>
+    <string name="square">正方形</string>
+    <string name="rectangle">矩形</string>
+    <string name="circle">圆形</string>
+    <string name="delete">删除</string>
+    <string name="share">分享</string>
+    <string name="rename">重命名</string>
+    <string name="add_text">添加文本</string>
+    <string name="open">打开</string>
+    <string name="triangle">三角形</string>
+    <string name="pause">暂停</string>
+    <string name="stop">停止</string>
+    <string name="audio">音频</string>
+    <string name="resume">恢复</string>
+    <string name="paused">已暂停</string>
+    <string name="recording">录制</string>
+    <string name="dialog_title_rename">重命名文件</string>
+    <string name="dialog_action_cancel">取消</string>
+    <string name="dialog_action_ok">确定</string>
+    <string name="toast_file_exists">文件 %1$s 已存在。请选择其他文件名。</string>
+    <string name="create_brush">创建画笔</string>
+    <string name="posting_to_community_successful">发布到社区成功！</string>
+    <string name="login_heading_community">您好，欢迎回来，请注册或登录以发布到社区。</string>
+    <string name="zoom_help_title">缩放帮助</string>
+    <string name="pinch_zoom_msg">要缩放，请使用捏合缩放 \n 或按住缩放按钮 \n 重置 - 按缩放按钮 \n 旋转 - 旋转捏合缩放</string>
+
+    <string name="double_click_input_text" translatable="false">Double-click to enter text</string>
+    <string name="complete" translatable="false">OK</string>
+    <string name="publish_comment" translatable="false">Enter Text ......</string>
+    <string name="over_text_limit" translatable="false">You have exceeded your word limit</string>
+    <string name="tag_tips_msg">输入单词标签，在单词末尾使用 # 或单击生成的文本</string>
+    <string name="subcategory_share_msg">查看这个有趣的绘图教程&#8230; \n%1$s \n\n超过 500 个绘画教程可供免费试用！ \n使用 Google Play 商店免费提供的 Paintology 绘画快速轻松地学习绘画&#8230; \n\n%2$s</string>
+    <string name="redeem">兑换</string>
+    <string name="unlock">解锁</string>
+    <string name="watch_ads">观看广告</string>
+
+    <string name="subcategory_share_subject">Paintology - 与 %1$s 一起享受绘画乐趣！</string>
+    <string name="open_tutorial">打开教程</string>
+    <string name="open_link">打开链接</string>
+    <string name="rating">评分</string>
+    <string name="done">完成</string>
+    <string name="quit">退出</string>
+    <string name="exit_app_msg">是否要退出应用程序？</string>
+    <string name="chat">聊天</string>
+    <string name="video_tutorial">视频教程</string>
+    <string name="video_tutorial_msg">单击视频图标观看本教程的视频</string>
+
+    <string name="zero_follower_msg">用户 %1$s 没有任何关注者，如果您想关注，请单击按钮</string>
+    <string name="zero_following_msg">%1$s 目前未关注任何用户</string>
+    <string name="user_post_title">帖子 (%1$d) - %2$s</string>
+
+    <string name="prefix_facebook_url" translatable="false">https://facebook.com/</string>
+    <string name="prefix_insta_url" translatable="false">https://instagram.com/</string>
+    <string name="prefix_yt_url" translatable="false">https://youtube.com/</string>
+    <string name="prefix_tiktok_url" translatable="false">https://tiktok.com/</string>
+    <string name="prefix_pinterest_url" translatable="false">https://pinterest.com/</string>
+    <string name="prefix_quora_url" translatable="false">https://quora.com/</string>
+    <string name="prefix_twitter_url" translatable="false">https://twitter.com/</string>
+    <string name="prefix_linkedin_url" translatable="false">https://linkedin.com/</string>
+
+    <string name="prefix_facebook_url_2" translatable="false">https://www.facebook.com/</string>
+    <string name="prefix_insta_url_2" translatable="false">https://www.instagram.com/</string>
+    <string name="prefix_yt_url_2" translatable="false">https://www.youtube.com/</string>
+    <string name="prefix_tiktok_url_2" translatable="false">https://www.tiktok.com/</string>
+    <string name="prefix_pinterest_url_2" translatable="false">https://www.pinterest.com/</string>
+    <string name="prefix_quora_url_2" translatable="false">https://www.quora.com/</string>
+    <string name="prefix_twitter_url_2" translatable="false">https://www.twitter.com/</string>
+    <string name="prefix_linkedin_url_2" translatable="false">https://www.linkedin.com/</string>
+
+    <string name="please_login_to_see_notifications_to_your_posts_and_chats">请登录查看您的帖子和聊天通知</string>
+    <string name="you_have_no_new_chat_requests">您没有新的聊天请求</string>
+    <string name="you_have_no_new_comments">您没有新的评论</string>
+    <string name="screenshot_saved">屏幕截图已保存</string>
+    <string name="please_login_to_see_chats">请登录使用聊天</string>
+    <string name="see_post"><u>查看帖子</u></string>
+    <string name="search_community">搜索社区</string>
+    <string name="my_painting_count">我的画作 (%1$d)</string>
+    <string name="guide_video_count">视频指南 (%1$d)</string>
+    <string name="open_guide">打开指南</string>
+    <string name="you_have_successfully_imported_image">您已成功将 (%1$d) 幅图像导入到您的“我的画作”！</string>
+    <string name="your_drawing_has_been_posted_to_the_community">您的绘图已发布到社区！</string>
+    <string name="see_it_now">立即查看！</string>
+    <string name="back">返回</string>
+    <string name="goto_my_paintings">转到我的画作</string>
+    <string name="loading_resources">正在加载资源&#8230;</string>
+    <string name="recording_made_successfully">录制成功</string>
+    <string name="goto_my_movies">转到我的电影</string>
+    <string name="open_in_trace">在跟踪中打开</string>
+    <string name="open_in_overlay">在覆盖中打开</string>
+    <string name="open_trace_only">仅打开跟踪</string>
+    <string name="open_drawing_only">仅打开绘图</string>
+    <string name="continue_as_guest">以访客身份继续</string>
+    <string name="login">登录</string>
+    <string name="signup">注册</string>
+
+    <string name="login_heading">登录以获取奖励积分。 \n保存您的统计数据！</string>
+    <string name="login_with_facebook">使用 Facebook 登录</string>
+    <string name="login_with_google">使用 Google 登录</string>
+    <string name="login_as_guest">以访客身份登录</string>
+    <string name="login_with_paintology">使用 Paintology 登录</string>
+    <string name="signup_with_paintology">使用 Paintology 注册</string>
+    <string name="term_agreement_message">使用 Paintology，即表示您确认接受我们的隐私政策和条款和条件。</string>
+    <string name="term_condition">条款和条件</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="category_name_count" translatable="false">%1$s (%2$d)</string>
+    <string name="challenges">挑战</string>
+    <string name="choose_a_blank_canvas">选择空白画布</string>
+    <string name="overlay_an_image_on_other">将图像叠加在其他图像上</string>
+    <string name="trace_an_image_into">将图像描摹到</string>
+    <string name="fun_with_any_camera_image">使用任何相机图像获得乐趣</string>
+    <string name="login_for_points">登录获取积分！</string>
+    <string name="choose_a_import_image">选择导入图像</string>
+    <string name="watch_a_movies">观看电影</string>
+    <string name="watch_online_tutorials">观看在线教程</string>
+    <string name="read_blog_on_daily_basis">每天阅读博客</string>
+    <string name="watch_a_youtube_paintology">观看 Youtube Paintology</string>
+    <string name="find_your_ability">找到您的能力</string>
+    <string name="level">级别</string>
+    <string name="hardness">硬度</string>
+    <string name="density">密度</string>
+    <string name="points">积分：%1$d</string>
+    <string name="percent_value" translatable="false">%1$d %%</string>
+    <string name="difficulty_level">难度等级</string>
+    <string name="paint_by_number">按数字绘画</string>
+    <string name="_3_000">3,000</string>
+    <string name="share1">分享</string>
+    <string name="_13_k">13 K</string>
+    <string name="_273_k">273 K</string>
+    <string name="details1">详细信息</string>
+    <string name="notification_title">通知标题</string>
+    <string name="accept">接受</string>
+    <string name="decline">拒绝</string>
+    <string name="notification_content">您好！只想说，我非常喜欢您创作的猫插图！干得好！</string>
+    <string name="_5_star_from_emma_louis">艾玛·路易斯的 5 星评价</string>
+    <string name="richard_joe">理查德·乔</string>
+    <string name="dash">-</string>
+    <string name="time">下午 4:30</string>
+    <string name="reply">回复</string>
+    <string name="see">查看</string>
+    <string name="dismiss">忽略</string>
+    <string name="search_paintology">搜索 Paintology</string>
+    <string name="tutorials">教程</string>
+    <string name="user_post">用户帖子</string>
+    <string name="blog_posts">博客帖子</string>
+    <string name="_3245" translatable="false">#3245</string>
+    <string name="in_this_drawing_i_demonstate_the_hardness_and_density_settings_of_the_brush_tools_in">在此绘图中，我演示了画笔工具的硬度和密度设置</string>
+    <string name="_8" translatable="false">8</string>
+    <string name="_800_pts" translatable="false">800 Pts</string>
+    <string name="_12_awards" translatable="false">12 Awards</string>
+    <string name="welcome_bonus">欢迎奖励</string>
+    <string name="_500" translatable="false">500</string>
+    <string name="_0" translatable="false">0</string>
+    <string name="gallery1">图库</string>
+    <string name="community1">社区</string>
+    <string name="social_media_links1">社交媒体链接</string>
+    <string name="youtube1">Youtube</string>
+    <string name="pinterest1">Pinterest</string>
+    <string name="twitter_x">Twitter / X</string>
+    <string name="instagram1">Instagram</string>
+    <string name="tiktok1">Tiktok</string>
+    <string name="quora1">Quora</string>
+    <string name="opening_tutorials">开场教程</string>
+    <string name="draw_stroke">绘制笔触</string>
+    <string name="draw_camera_image">绘制相机图像</string>
+    <string name="draw_overlay_image">绘制叠加图像</string>
+    <string name="draw_trace_image">绘制描边图像</string>
+    <string name="community_post">社区帖子</string>
+    <string name="community_post_hashtag">社区帖子标签</string>
+    <string name="community_post_like">社区帖子点赞</string>
+    <string name="community_post_comment">社区帖子评论</string>
+    <string name="community_post_share">社区帖子分享</string>
+    <string name="total">总计</string>
+    <string name="your_points">您的积分</string>
+    <string name="drawing_points">绘图积分</string>
+    <string name="your_progress">您的进度</string>
+    <string name="complete_your_challenges">完成您的挑战</string>
+    <string name="earn_320_points_and_get_a_special_bonus_from_paintology">赚取 320 积分并获得 Paintology 的特别奖励</string>
+    <string name="_3_5" translatable="false">3/5</string>
+    <string name="_320_points" translatable="false">320 Points</string>
+    <string name="do_the_challenge">接受挑战</string>
+    <string name="get_more_points_here">在此获得更多积分！</string>
+    <string name="take_the_challenge">接受挑战</string>
+    <string name="community_post1">社区帖子</string>
+    <string name="earn_200_points_by_making_10_posts_in_the_paintology_community">在 Paintology 社区中发布 10 个帖子即可获得 200 分</string>
+    <string name="do_this_award">完成此奖项</string>
+    <string name="challenge2">挑战</string>
+    <string name="find_ability">寻找能力</string>
+    <string name="joe_smith">Joe Smith</string>
+    <string name="cat_drawing">猫画</string>
+    <string name="do_tutorial">做教程</string>
+    <string name="video">视频</string>
+    <string name="favorites">收藏</string>
+    <string name="beginner_1" translatable="false">Beginner 1</string>
+    <string name="_50_users_are_participating_in_this_challenge">50 位用户正在参与此挑战</string>
+    <string name="leaderboard">排行榜</string>
+    <string name="settings">设置</string>
+    <string name="notifications">通知</string>
+    <string name="general">常规</string>
+    <string name="accessibility">可访问性</string>
+    <string name="security">安全</string>
+    <string name="help_center">帮助中心</string>
+    <string name="about_paintology">关于 Paintology</string>
+    <string name="video_guides">视频指南</string>
+    <string name="your_ranking">您的排名</string>
+    <string name="tutorials_32">教程\n(32)</string>
+    <string name="profile">个人资料</string>
+    <string name="_7th_position"><u>第 7 位</u></string>
+
+    <string name="top_comments">热门评论：</string>
+    <string name="type_a_comment">输入评论</string>
+    <string name="_0_pts" translatable="false">0 Pts</string>
+    <string name="_720_pts" translatable="false">720 Pts</string>
+    <string name="date_ascending_default">日期升序</string>
+    <string name="date_descending">日期降序（默认）</string>
+    <string name="ratings">评分</string>
+    <string name="comments">评论</string>
+    <string name="posts_number">帖子数</string>
+    <string name="tutorials_default">教程</string>
+    <string name="by_levels">按级别</string>
+    <string name="by_awards">按奖项</string>
+    <string name="most_popular">最受欢迎</string>
+    <string name="publish_community">发布社区</string>
+    <string name="post_gallery">帖子图库</string>
+    <string name="world_all" translatable="false">World (All)</string>
+    <string name="favourites">收藏</string>
+    <string name="description">说明</string>
+    <string name="rate_this_drawing">给此画打分</string>
+    <string name="rate">评分</string>
+    <string name="be_the_first_to_post_in_your_country">成为我们自己国家第一个发帖的人！</string>
+    <string name="check_out_the_tutorials_or_point_to_a_challenge">查看教程或开始绘图</string>
+    <string name="make_drawing">开始绘图</string>
+    <string name="close_drawing">关闭绘图</string>
+    <string name="_200" translatable="false">200</string>
+    <string name="this_ranking_is_compiled">此排名已编译</string>
+
+    <string name="label_no_comments_yet">尚无评论！</string>
+    <string name="label_comments">评论</string>
+    <string name="enlarge">放大</string>
+    <string name="add_to_favorites">添加到收藏夹</string>
+    <string name="_4_3">4.3</string>
+    <string name="user_name">用户名</string>
+    <string name="learn_drawing">学习绘图</string>
+
+    <string name="start_the_tutorial">开始教程</string>
+    <string name="complete_your_drawing">完成您的绘图</string>
+    <string name="your_drawings">您的绘图</string>
+    <string name="complete_your_drawings">完成您的绘图</string>
+    <string name="complete_your_tutorial">完成您的教程</string>
+    <string name="no_more_users_be_the_first">没有更多用户，成为第一个！</string>
+    <string name="post_gallery_message">发布到您当前绘图的画廊\n继续创建绘图</string>
+    <string name="create_drawings">创建绘图</string>
+    <string name="post_to_gallery">发布到画廊</string>
+    <string name="title">标题</string>
+    <string name="description1">说明</string>
+    <string name="youtube_link">YouTube 链接</string>
+    <string name="add_hashtag1_hashtag_2">添加标签 1#、标签 #2</string>
+    <string name="publish">发布</string>
+    <string name="your_drawing_has_been_posted_to_the_community1">您的绘图已发布到社区！</string>
+    <string name="see_it_now1">立即查看！</string>
+    <string name="ok">好的</string>
+    <string name="your_canvas_awaits">您的画布正在等待！</string>
+    <string name="create_your_first_masterpiece_or_explore_new_techniques">创建您的第一个杰作或探索新技术。</string>
+    <string name="explore_our_video_guides_34">探索我们的视频指南 (34)</string>
+    <string name="find_tutorials_and_tips_to_enhance_your_skills">查找教程和技巧以提高您的技能。</string>
+    <string name="you_wont_be_able">您将无法与用户聊天，你确定吗？</string>
+    <string name="no_new_notification">没有新通知</string>
+    <string name="account">帐户</string>
+    <string name="system">系统</string>
+    <string name="paintology">Paintology</string>
+    <string name="rate_now">现在评分</string>
+    <string name="not_now">现在不评分</string>
+    <string name="tell_us_how_much_you_enjoyed_this_piece_by_rating_it">通过评分告诉我们您对这件作品的喜爱程度。</string>
+    <string name="appreciate_this_art">欣赏这件艺术品？</string>
+    <string name="appreciate_this_tut">喜欢本教程吗？</string>
+    <string name="show_off_your_creativity">展示您的创造力！</string>
+    <string name="image_added_to_my_paintings">图片已添加到我的画作！</string>
+    <string name="your_favorite_galleries_list_is_empty_discover_and_mark_your_favorite_ones">您最喜欢的画廊列表为空。发现并标记您最喜欢的画廊！</string>
+    <string name="no_favorites_added">未添加收藏夹</string>
+    <string name="you_haven_t_added_any_users_to_your_favorites_explore_the_community_and_save_your_favorite_artists">您尚未将任何用户添加到收藏夹。探索社区并保存您最喜欢的艺术家！</string>
+    <string name="there_are_no_tutorials_in_your_favorites_browse_and_select_the_best_tutorials_to_add_them_here">您的收藏夹中没有教程。浏览并选择最佳教程以将其添加到此处。</string>
+    <string name="you_don_t_have_any_favorite_posts_yet_start_exploring_and_adding_your_top_picks">您还没有任何收藏帖子。开始探索并添加您的首选！</string>
+    <string name="store">商店</string>
+    <string name="you_must">您必须关注 Martin 并被关注才能开始聊天。确保你们双方都关注对方以解锁聊天。</string>
+    <string name="following_please_wait">正在关注请等待…</string>
+    <string name="who_we_are">我们是谁</string>
+    <string name="paintology_is">Paintology 是一家总部位于美国的软件公司，为其用户提供创意数字应用程序。我们的旗舰产品是 Google Play 商店中提供的 Paintology 绘图应用程序，为喜欢绘画和绘画的人提供简单而强大的绘图应用程序。\n\n他的另一个爱好是艺术，他创作了数百件艺术品挂在家人和朋友家的墙上。这促使他创建了数字绘图应用程序 Paintology。它旨在让用户将他们的许多传统艺术技能带到数字手机和平板电脑上。\n\n 要查看他的完整作品，您可以访问他的其他社交网站以及 Paintology.com 网站。</string>
+    <string name="web_address">网址：</string>
+    <string name="https_paintology_com" translatable="false">https://paintology.com</string>
+    <string name="twitter_x2">Twitter / X</string>
+    <string name="quora2">Quora</string>
+    <string name="linkedin2">Linkedin</string>
+    <string name="personal_details2">个人详细信息</string>
+    <string name="traditional_art_ability2">传统艺术能力</string>
+    <string name="social_media_links3">社交媒体链接</string>
+    <string name="twitter_x3">Twitter / X</string>
+    <string name="traditional_art_ability3">传统艺术能力</string>
+    <string name="social_media_links4">社交媒体链接</string>
+    <string name="twitter_x4">Twitter / X</string>
+    <string name="traditional_art_ability4">传统艺术能力</string>
+    <string name="app_links">应用程序链接：</string>
+    <string name="https_play_google_com_store_apps_developer_id_paintology" translatable="false">https://play.google.com/store/apps/developer?id=Paintology</string>
+    <string name="protectedd">Paintology 高度致力于保护您的隐私。我们希望您花更多时间使用我们的产品和服务，而不必担心隐私问题。\n 以下隐私声明披露了本网站 Paintology.com 的信息收集、我们使用的内容和隐私保护实践。</string>
+    <string name="log_files">日志文件</string>
+    <string name="like_many">与许多其他网站一样，paintology.com 使用日志文件。这些文件仅记录网站访问者，这是托管公司的标准程序，也是托管服务分析的一部分。日志文件中的信息包括互联网协议 (IP) 地址、浏览器类型、互联网服务提供商 (ISP)、日期/时间戳、引用/退出页面以及可能的点击次数。此信息用于分析趋势、管理网站、跟踪用户在网站上的活动以及收集人口统计信息。IP 地址和其他此类信息与任何可识别个人身份的信息无关</string>
+    <string name="cookies">Cookies</string>
+    <string name="mostly_people">paintology.com 网站使用 Cookie 来存储有关访问者偏好的信息，记录用户特定信息，包括网站访问者访问或访问的页面，并根据访问者的浏览器类型或访问者通过浏览器发送的其他信息个性化或定制我们的网页内容。\n 如果您希望禁用 Cookie，您可以通过个人浏览器选项进行禁用。有关使用特定 Web 浏览器管理 Cookie 的更多详细信息，可在浏览器的各自网站上找到。什么是 Cookie？\n 我们公司不向第三方提供用户的个人信息。向第三方提供个人信息”，但以下情况除外。\n 用户事先同意时。\n 本公司的一部分服务被委托，且为执行该业务有必要时。\n 将统计数据加工成无法识别个人的数据后公开时。\n 基于法律的情况。\n 难以取得个人同意，且为保护个人生命、身体或财产有必要时。\n 本公司受到国家机构、地方公共团体或受上述机构或政府委托的机构的要求，依法协助公开登记内容时。</string>
+    <string name="provision_of_personal_information_to_third_parties">向第三方提供个人信息</string>
+    <string name="facebook">Facebook</string>
+    <string name="https_www_facebook_com_msqrd_privacy">https://www.facebook.com/msqrd/privacy</string>
+    <string name="google_analytics">Google Analytics</string>
+    <string name="https_policies_google_com_privacy" translatable="false">https://policies.google.com/privacy</string>
+    <string name="google_ads_excluding_paid_and_windows_versions">Google Ads（不包括付费版和 Windows 版）</string>
+    <string name="https_policies_google_com_technologies_ads" translatable="false">https://policies.google.com/technologies/ads</string>
+    <string name="google_firebase_android_versions_only">Google Firebase（仅限 Android 版）</string>
+    <string name="https_firebase_google_com_support_privacy" translatable="false">https://firebase.google.com/support/privacy</string>
+    <string name="youtube_android_versions_only">YouTube（仅限 Android 版）</string>
+    <string name="https_www_youtube_com_intl_us_about_policies_community_guidelines" translatable="false">https://www.youtube.com/intl/us/about/policies/#community-guidelines</string>
+    <string name="third_party_sites_and_services">第三方网站和服务</string>
+    <string name="webstie_go">paintology.com 网站可能包含指向第三方网站、产品、小部件和服务的链接。您应该查阅这些第三方网站各自的隐私政策，以获取有关其做法的更多详细信息以及如何选择退出某些做法的说明（如果需要）。Google 服务 paintology.com 网站使用各种技术通过 Google 服务收集和存储一般网站使用信息。了解有关 Google 的更多信息。</string>
+    <string name="privacy_policylink"><u>隐私政策。</u></string>
+    <string name="about_security_control_measures">关于安全控制措施</string>
+    <string name="legal">本公司在处理个人信息时，不断努力采取必要且适当的安全措施，以防止未经授权的访问、泄露、破坏和损坏等危险。\n 系统安全控制措施：\n 我们维护保护个人信息的制度和规则，并根据法律和条例彻底处理和应对个人信息。我们还定期对处理个人信息的情况进行自愿检查和审计。\n 人为安全控制措施：\n 我们会定期以及在员工入职时对所有员工进行个人信息保护教育。此外，我们会适当指导员工，例如要求他们根据工作规定接受保密义务。\n 物理安全控制措施：\n 我们控制员工进出处理个人信息的区域的房间。同时，我们采取措施防止未经授权的人查看个人信息。\n 技术安全控制措施：\n 由于访问控制，我们限制了查看和处理信息的范围。同时，我们采取技术控制措施，例如适当的信息安全措施，以防止非法访问和计算机病毒等危险。</string>
+    <string name="noti_data">当其他用户喜欢、评分、评论、回复您在画廊和社区的帖子时，您将收到他们的通知。\n\n您还将收到 Paintology 应用程序管理员的通知，以获取支持和其他重要通知。</string>
+    <string name="general_data">Paintology 应用程序旨在通过有趣和简单的教程在学习的同时提高您的绘画技巧！\n\n该应用程序按级别排列，所有用户都从初学者 1 开始，然后逐步提高。就像任何绘画学校一样，您将通过掌握必要的基本绘画技巧来逐步提高。\n\n请记住，Paintology 不是关于工具，而是教您可以应用于任何艺术媒介的核心艺术技巧。毕竟，绘画和素描的乐趣在于保持简单并学习重要的技巧。这就是大多数优秀艺术家学习仅使用少量工具进行绘画的方式。幸运的是，数字绘画也是如此。只是许多用户不知道如何使用一支画笔绘制出精美的图画！\n\nPaintology 应用程序旨在通过有趣且简单的教程在学习的同时提高您的绘画技能！\n\n该应用程序按级别排列，所有用户都从初学者 1 开始，然后逐步提高。就像任何绘画学校一样，您将通过掌握必要的基本绘画技能来逐步提高。\n\n请记住，Paintology 不是关于工具的，而是教您可以应用于任何艺术媒介的核心艺术技巧。毕竟，绘画的乐趣在于保持简单并学习重要的技巧。这就是大多数优秀艺术家学习仅使用少量工具进行绘画的方式。幸运的是，数字绘画也是如此。只是很多用户不知道如何使用一支画笔绘制出精美的图画！\n\n这就是您将要学习的内容！\n\n</string>
+    <string name="accessibility_data">目前，我们没有任何特殊的辅助功能。但是，您应该从绘画的最基础开始。从“完全初学者”类别开始，熟悉使用手指或触控笔的绘画笔触。</string>
+    <string name="store_data">商店将是您可以解锁更多应用功能的地方！尽量保持简单并循序渐进地学习。随着您的进步，您会发现兑换这些功能将帮助您挖掘更多创造力。\n\n开始收集积分，这样您就可以兑换应用的一些很棒的功能。旨在提高您的创造力而不是技术技能。</string>
+    <string name="help_center_data">您可以通过多种方式获得帮助。\n\n您可以使用我们新的应用支持输入表单，直接从应用中提交有关任何问题的查询。\n\n或者，您可以通过网络表单与我们联系，或直接发送电子邮件至：support@paintology.com\n\n要进入应用支持屏幕，请单击图像或按钮。</string>
+    <string name="about_paintology_data">Paintology 诞生于创建者 Ferdouse Khaleque 博士的思想中。Ferdouse 一生中的大部分时间都在为 Nike、Sothebys、Harley Davidson 等大公司开发最先进的软件解决方案。</string>
+    <string name="security_data">对于我们忠实的用户群，安全和隐私是我们最关心的问题。您可以放心，我们持有的有关您的信息不会与其他第三方共享。\n我们的主要关注点是确保用户在使用 Paintology 平台时是安全的，并且有权取消、删除他们认为相关的任何个人信息。</string>
+    <string name="how_we_protect_your_data">我们如何保护您的数据</string>
+    <string name="to_ensure_your">为确保您的数据安全，本网站通过使用 Encrypt SSL 的隐私通信进行保护和加密。</string>
+    <string name="what_rights_you_have">您对数据和删除拥有哪些权利</string>
+    <string name="if_you">如果您在此网站上拥有帐户，或曾留下评论，您可以请求接收我们持有的关于您的个人数据的导出文件，包括您提供给我们的任何数据。\n\n 您还可以通过以下联系我们表单链接发送您的请求，要求我们删除我们持有的关于您的任何个人数据。\n\n 提交包含您的请求的表单，您可以在一周后再次检查，以确保您的所有个人数据已从我们的系统中删除。</string>
+    <string name="children_s_information">儿童信息</string>
+    <string name="member">我们认为为在线儿童提供额外保护非常重要。我们鼓励父母和监护人花时间与孩子一起上网，观察、参与和/或监控和指导他们的在线活动。Paintology 不会故意收集 13 岁以下儿童的任何个人身份信息。我们建议所有儿童在为 Paintology 会员区和论坛创建帐户之前，先获得父母或监护人的许可。</string>
+    <string name="contact">联系方式</string>
+    <string name="support_paintology_com">support@paintology.com</string>
+    <string name="you_can_also_use_our">您还可以使用我们新的应用支持发送您的问题和疑问。</string>
+    <string name="consent">同意</string>
+    <string name="by_using_our_app_you">使用我们的应用，即表示您同意我们的隐私政策并同意其条款。</string>
+    <string name="paintology_app_links">Paintology 应用程序链接：</string>
+    <string name="https_play_google_com" translatable="false">https://play.google.com/store/apps/details?id=com.paintology.lite</string>
+    <string name="https_play_google_com_s" translatable="false">https://play.google.com/store/apps/details?id=com.paintology.recorder</string>
+    <string name="website">网站：</string>
+    <string name="https_www_paintology_com" translatable="false">https://www.paintology.com</string>
+    <string name="youtube">YouTube：</string>
+    <string name="https_www_youtube_com_paintology" translatable="false">https://www.youtube.com/@Paintology</string>
+    <string name="https_www_youtube_com_ferdouse" translatable="false">https://www.youtube.com/@Ferdouse</string>
+    <string name="https_www_youtube_com_paintology_streams" translatable="false">https://www.youtube.com/@Paintology/streams</string>
+    <string name="https_www_youtube_com_ferdouse_shorts" translatable="false">https://www.youtube.com/@Ferdouse/shorts</string>
+    <string name="quora">Quora：</string>
+    <string name="https_paintology_quora_com" translatable="false">https://paintology.quora.com</string>
+    <string name="https_www_quora_com_profile_ferdouse_khaleque" translatable="false">https://www.quora.com/profile/Ferdouse-Khaleque</string>
+    <string name="poetry_site">诗歌网站：</string>
+    <string name="https_allpoetry_com_ferdouse" translatable="false">https://allpoetry.com/Ferdouse</string>
+    <string name="creative_site">创意网站：</string>
+    <string name="https_ferdouse_com" translatable="false">https://ferdouse.com</string>
+    <string name="free_google_classroom">免费 Google 课堂：</string>
+    <string name="https_forms_gle_ozskjgypz9x8f5yx8" translatable="false">https://forms.gle/ozsKJGYPZ9X8F5YX8</string>
+    <string name="udemy">Udemy：</string>
+    <string name="https_www_udemy_com_courses_search_p_2_q_paintology_src_ukw" translatable="false">https://www.udemy.com/courses/search/?p=2&amp;q=paintology&amp;src=ukw</string>
+    <string name="facebookb">Facebook：</string>
+    <string name="https_www_facebook_com_paintology_apps" translatable="false">https://www.facebook.com/Paintology.apps</string>
+    <string name="tiktok">Tiktok：</string>
+    <string name="https_www_tiktok_com_paintology3" translatable="false">https://www.tiktok.com/@paintology3</string>
+    <string name="instagram">Instagram：</string>
+    <string name="https_www_instagram_com_paintology_app" translatable="false">https://www.instagram.com/paintology.app/</string>
+    <string name="https_www_instagram_com_ferdousekhal" translatable="false">https://www.instagram.com/ferdousekhal/</string>
+    <string name="others">其他：</string>
+    <string name="https_www_ferdouse_com" translatable="false">https://www.ferdouse.com/</string>
+    <string name="https_medium_com_ferdousekhaleque" translatable="false">https://medium.com/@ferdousekhaleque</string>
+    <string name="https_www_patreon_com_paintology" translatable="false">https://www.patreon.com/paintology</string>
+    <string name="https_twitter_com_semibase" translatable="false">https://twitter.com/Semibase</string>
+    <string name="https_www_reddit_com_user_ferdousek" translatable="false">https://www.reddit.com/user/FerdouseK</string>
+    <string name="pinterest">Pinterest：</string>
+    <string name="https_www_pinterest_com_ferdousekhaleque" translatable="false">https://www.pinterest.com/FerdouseKhaleque/</string>
+    <string name="https_www_pinterest_com_paintology" translatable="false">https://www.pinterest.com/Paintology</string>
+    <string name="permission_necessary">需要许可</string>
+    <string name="cant_read_permission_is_not_enabled">需要许可才能访问媒体和相机</string>
+    <string name="quick_draw">快速绘制</string>
+    <string name="share_paintology_with_others">与他人分享 Paintology</string>
+    <string name="watch_intro_video">观看介绍视频</string>
+    <string name="share_feedback">分享反馈</string>
+    <string name="go_to_google_playstore">前往 Google Playstore</string>
+    <string name="my_paintings">我的绘画</string>
+    <string name="drawing_activity">绘画活动</string>
+    <string name="post">发布</string>
+    <string name="rate_the_app">评价应用程序</string>
+    <string name="language">语言</string>
+    <string name="about_us">关于我们</string>
+    <string name="app_support">应用程序支持</string>
+    <string name="remove_favourite">刪除收藏夾</string>
+    <string name="copy_link">复制链接</string>
+    <string name="open_in_canvas_overlay">在 Canvas 中打开（覆盖）</string>
+    <string name="open_in_canvas_trace">在 Canvas 中打开（跟踪）</string>
+    <string name="users_posts">用户帖子</string>
+    <string name="download">下载</string>
+    <string name="report">报告</string>
+    <string name="go_to_youtube_video">前往 YouTube 视频</string>
+    <string name="more_details">更多详细信息</string>
+    <string name="add_to_favourite">添加到收藏夹</string>
+    <string name="add_new_post">添加新帖子</string>
+    <string name="go_to_google_play">前往 Google Play</string>
+    <string name="terms_amp_conditions"><![CDATA[条款和条件]]></string>
+    <string name="app_version_n_nplease_read_these_privacy_policy_carefully">应用程序版本 \n\n请仔细阅读这些隐私政策</string>
+    <string name="awards">奖项</string>
+    <string name="no_tutorials_at_this_level">此级别没有教程</string>
+    <string name="learn_with_paintology">通过 Paintology 学习</string>
+    <string name="write_a_message">写一条消息</string>
+    <string name="go_to_login">前往登录</string>
+    <string name="select_type">选择类型</string>
+    <string name="size">尺寸</string>
+    <string name="draw_brush">绘制画笔</string>
+    <string name="brush_name">画笔名称</string>
+    <string name="enter_brush_name_here">在此处输入画笔名称</string>
+    <string name="do_the_tutorial">完成教程</string>
+    <string name="watch">观看！</string>
+    <string name="try_it">试试看！</string>
+    <string name="intro_videos">介绍视频</string>
+    <string name="profile_completion_bonus">个人资料完成奖励</string>
+    <string name="complete_your_profile_details_for_exclusive_rewards">完成您的个人资料详细信息以获得独家奖励！</string>
+    <string name="profile_status">个人资料状态</string>
+    <string name="personal_details">个人详细信息</string>
+    <string name="gender">性别</string>
+    <string name="traditional_art_ability">传统艺术能力</string>
+    <string name="social_media_links">社交媒体链接</string>
+    <string name="facebook_profile">Facebook 个人资料</string>
+    <string name="instagram_profile">Instagram 个人资料</string>
+    <string name="youtube_profile">YouTube 个人资料</string>
+    <string name="twitter_profile">Twitter 个人资料</string>
+    <string name="linkedin_profile">LinkedIn 个人资料</string>
+    <string name="freehand_default">手绘（默认）</string>
+    <string name="reward_points">奖励积分</string>
+    <string name="welcome_bonuss">欢迎奖励</string>
+    <string name="opening_tutorialss">开场教程</string>
+    <string name="draw_strokes">绘制笔触</string>
+    <string name="community_posts">社区帖子</string>
+    <string name="community_post_likee">社区帖子点赞</string>
+    <string name="community_post_commentt">社区帖子评论</string>
+    <string name="community_post_sharee">社区帖子分享</string>
+    <string name="totalt">总计</string>
+    <string name="art_abilityy">艺术能力</string>
+    <string name="art_favourite">艺术收藏</string>
+    <string name="art_med">艺术媒介</string>
+    <string name="insta">Instagram</string>
+    <string name="youtubee">YouTube</string>
+    <string name="tiktokk">TikTok</string>
+    <string name="pinterestt">Pinterest</string>
+    <string name="increase_your_drawing_skills">提高您的绘画技巧！</string>
+    <string name="watch_ad_to_earn_10_points">观看广告可获得 10 分</string>
+    <string name="search_paintologyg">搜索 Paintology</string>
+    <string name="tutorialss">教程</string>
+    <string name="user_posts">用户帖子</string>
+    <string name="blog_postss">博客帖子</string>
+    <string name="please_enter_your_details_for_create_account">请输入您的详细信息以创建帐户</string>
+    <string name="show_password">显示密码</string>
+    <string name="or_signup_with_social">或使用社交注册</string>
+    <string name="already_have_an_account_login">已有帐户？登录</string>
+    <string name="welcome_to_the_new_world_of_digital_drawing">欢迎来到数字绘画的新世界！</string>
+    <string name="this_action_may_contain_ad">此操作可能包含广告</string>
+    <string name="issue">问题</string>
+    <string name="screenshots">截图</string>
+    <string name="tit">标题</string>
+    <string name="descriptions">说明</string>
+    <string name="undo">撤消</string>
+    <string name="redo">重做</string>
+    <string name="your_points_so_far">您目前的积分！</string>
+    <string name="watch_ad_to_earn_10_point">观看广告可获得 10 分</string>
+    <string name="drawings">绘画</string>
+    <string name="communit">社区</string>
+    <string name="tutorial">教程</string>
+    <string name="follow1">关注</string>
+    <string name="art_collection">艺术收藏</string>
+    <string name="explore_their_23_drawings_and_get_inspired">探索他们的 23 幅绘画并获得灵感</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="personal_details1">个人详细信息</string>
+    <string name="traditional_art_ability1">传统艺术能力</string>
+    <string name="social_media_links2">社交媒体链接</string>
+    <string name="tags">标签</string>
+    <string name="please_enter_following_information">请输入以下信息</string>
+    <string name="more_brushes">更多画笔</string>
+    <string name="single_tap">单击</string>
+    <string name="straight_lines">直线</string>
+    <string name="gray_scale">灰度</string>
+    <string name="block_coloring">块着色</string>
+    <string name="oval_color">椭圆颜色</string>
+    <string name="paintology_brush">Paintology 画笔</string>
+    <string name="load_image">加载图像</string>
+    <string name="overlay">叠加</string>
+    <string name="trace">跟踪</string>
+    <string name="question">问题：</string>
+    <string name="answer">答案：</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="play">播放</string>
+    <string name="progress">进度</string>
+    <string name="chat_unavailable">聊天不可用</string>
+    <string name="you_must_follow_bochhi_and_be_followed_back_to_start_chatting_make_sure_both_of_you_follow_each_other_to_unlock_chat">您必须关注 Bochhi 并被关注才能开始聊天。确保你们双方都关注对方以解锁聊天。</string>
+    <string name="ad_is_loading_please_wait">广告正在加载，请稍候</string>
+    <string name="opeen">打开</string>
+    <string name="you_already_have_this_drawing_in_gallery">您已经在画廊中拥有此绘图</string>
+    <string name="see_your_post">查看您的帖子</string>
+    <string name="privacy_policy_updates">隐私政策更新</string>
+    <string name="your_profile_is_saved">您的个人资料已保存</string>
+    <string name="save_work_before_continuing">继续之前保存工作？</string>
+    <string name="discard">放弃</string>
+    <string name="switch_to_canvas_drawing">切换到画布绘图</string>
+    <string name="pick">选择</string>
+    <string name="your_favorite_galleries_list_is_empty_discover_and_mark_your_favorite_one">您最喜欢的画廊列表为空。发现并标记您最喜欢的！</string>
+    <string name="do_the_challengee">接受挑战</string>
+    <string name="hello_world">Hello World</string>
+    <string name="trace_check">跟踪检查</string>
+    <string name="choose_an_action">选择操作</string>
+    <string name="camer">相机</string>
+    <string name="go_to_my_paintings">转到我的绘画</string>
+    <string name="do_10_drawings_posted_to_gallery">将 10 幅画发布到“画廊”</string>
+    <string name="resum">恢复</string>
+    <string name="typing">输入…</string>
+    <string name="english">英语</string>
+    <string name="_45_drawings">（45 幅画）</string>
+    <string name="this_is_a_reply_content">这是回复内容</string>
+    <string name="_1_day_a_go">1 天前</string>
+    <string name="view_reply">查看回复</string>
+    <string name="worldwide">全球</string>
+    <string name="_32_drawings">32 幅画</string>
+    <string name="this_ranking_is_compiled_from_the_best_users_in_uae">此排名由阿联酋最佳用户汇编而成</string>
+    <string name="date_descending_default">日期降序（默认）</string>
+    <string name="date_ascending">日期升序</string>
+    <string name="ratin">评分</string>
+    <string name="likes">喜欢</string>
+    <string name="comment">评论</string>
+    <string name="tutorials_defaul">教程（默认）</string>
+    <string name="freehand_defaul">手绘（默认）</string>
+    <string name="by_level">按级别</string>
+    <string name="favorite">收藏</string>
+    <string name="explore_our_video_guides">浏览我们的视频指南（34）</string>
+    <string name="find_tutorials_and_tips_to_enhance_your_skill">查找教程和技巧以提高您的技能</string>
+    <string name="straight_nline">直线\n线</string>
+    <string name="next_stroke">下一笔</string>
+    <string name="play_and_draw">播放并绘制！</string>
+    <string name="play_amp_draw"><![CDATA[播放和绘制]]></string>
+    <string name="try_i">试试看！</string>
+    <string name="success">成功</string>
+    <string name="na">名称</string>
+    <string name="blank">空白</string>
+    <string name="trac">跟踪</string>
+    <string name="sshot">SShot</string>
+    <string name="neww">新</string>
+    <string name="feedback_submitted">反馈已提交</string>
+    <string name="thanks_for_your_feedback">感谢您的反馈！</string>
+    <string name="more_detail">更多详情</string>
+    <string name="do_you_wan_t_to_unfollow_ankit">您想取消关注 Ankit 吗？</string>
+    <string name="greeting_i_am_martin_i_love_drawing_and_drawing_related_stuff">问候 我是 martin 我喜欢绘画和与绘画相关的东西</string>
+    <string name="hashtag_search">标签搜索</string>
+    <string name="loading_ad">正在加载广告…</string>
+    <string name="see_detail">查看详情</string>
+    <string name="forgot_password">忘记密码</string>
+    <string name="enter_your_email_and_we_ll_send_you_a_one_time_password_otp_to_reset_it">输入您的电子邮件，我们将向您发送一次性密码 (OTP) 以重置密码</string>
+    <string name="enter_email_here">在此输入电子邮件</string>
+    <string name="verify_email_id">验证电子邮件 ID</string>
+    <string name="enter_otp_code_we_sent_to">输入我们发送到的 OTP 代码</string>
+    <string name="didn_t_received_the_code">没有收到代码？</string>
+    <string name="resend_code">重新发送代码</string>
+    <string name="reset_password">重置密码</string>
+    <string name="enter_confirm_password_here">在此输入确认密码</string>
+    <string name="enter_new_password_here">在此输入新密码</string>
+    <string name="reset_success">密码重置成功</string>
+    <string name="token_expire">令牌已过期 重试</string>
+    <string name="setting_pass">设置密码 请稍候</string>
+    <string name="pass_match">密码不匹配</string>
+    <string name="enter_six_min">请输入至少 6 个字母的密码</string>
+    <string name="enter_pass">请输入密码</string>
+    <string name="enter_pass_new">请输入确认密码</string>
+    <string name="username">用户名</string>
+    <string name="enter_user">输入用户名</string>
+    <string name="error">错误</string>
+    <string name="fail_reg">注册后无法登录。</string>
+    <string name="reg_fail">“注册失败：”</string>
+    <string name="credentials">身份验证失败。请检查您的凭据。</string>
+    <string name="registration">注册后无法登录。</string>
+    <string name="up_file">上传文件</string>
+    <string name="valid_email">请输入有效的电子邮件地址</string>
+    <string name="opt_sent">发送 OTP 请稍候</string>
+    <string name="opt_sent_ss">OTP 已成功发送</string>
+    <string name="valid_opt">输入有效的 OTP</string>
+    <string name="verify_opt">验证 OTP 请稍候</string>
+    <string name="no_tut">未找到教程</string>
+    <string name="send_pls_wait">发送中 请稍候</string>
+    <string name="enter_titl">请输入标题</string>
+    <string name="enter_det">请输入详细信息</string>
+    <string name="feed_ss">反馈成功</string>
+    <string name="load_tut">加载教程…</string>
+    <string name="c_empty">评论为空</string>
+    <string name="f_to_reply">无法添加回复！重试</string>
+    <string name="f_to_comm">无法添加评论！重试</string>
+    <string name="a_rate">您已对此帖子进行评分。</string>
+    <string name="e_check">检查评分时出错：</string>
+    <string name="load">加载中…</string>
+    <string name="no_ad">未找到广告 重试！</string>
+    <string name="c_with_dr">继续绘图</string>
+    <string name="p_post">查看人们发布的内容</string>
+    <string name="s_dr">提交您的绘图</string>
+    <string name="tutorials_point">教程，赚取更多积分！</string>
+    <string name="e_more">赚取更多，忙碌起来！</string>
+    <string name="s_wrong">出现问题！，请重试。</string>
+    <string name="rate_us">给我们评分</string>
+
+    <string name="pg_big_points">大點</string>
+    <string name="ss_earn_big_points_and_level_up">賺取大積分並升級！</string>
+    <string name="ss_big_point_sub_message">參與繪畫以提高您的技能並得分</string>
+    <string name="ss_way_to_go">一路好走！</string>
+    <string name="ss_you_ve_earned_20_points">您已獲得 20 點！</string>
+    <string name="ss_you_ve_earned_40_points">您已獲得 40 點！</string>
+    <string name="ss_dialog_des_1">「很棒的開始！透過訂閱和追蹤來獲取剩餘的 %1$d 積分。」</string>
+    <string name="ss_dialog_dis_2">透過關注，您將收到新繪畫學內容的即時通知，這將提高您的繪畫技巧！ </string>
+    <string name="ss_points_already_claimed">積分已領取</string>
+    <string name="ss_subscribe_and_follow_now">立即訂閱並追蹤！</string>
+
+    <string name="ss_loading_please_wait">正在加載，請稍候..</string>
+    <string name="unfollowing_please_wait">取消關注，請稍候...</string>
+    <string name="ss_do_you_want_to_unfollow">您想取消追蹤 %1$s 嗎？</string>
+    <string name="ss_gallery_posted">您的畫作已發佈到畫廊！</string>
+    <string name="ss_online">線上</string>
+    <string name="ss_login_account">登入帳號</string>
+    <string name="ss_updating_please_wait">正在更新 %1$s，請稍候</string>
+    <string name="ss_updating_profile_data">更新個人資料資料</string>
+    <string name="ss_sending_feedback_please_wait">正在傳送回饋，請稍候...</string>
+    <string name="ss_logging_in_please_wait">正在登錄，請稍候...</string>
+    <string name="ss_signing_up_please_wait">正在註冊，請稍候...</string>
+    <string name="ss_fetching_profile_data">正在取得個人資料資料</string>
+    <string name="ss_loading_tutorials">正在載入教學...</string>
+    <string name="ss_unblocking">解除阻止</string>
+    <string name="ss_blocking">阻止</string>
+    <string name="ss_something_went_wrong_try_again_later">出了點問題！稍後再試</string>
+    <string name="ss_art_screens">藝術畫面</string>
+
+    <string name="ss_country_missing">遺憾的是，我們缺少您所在的國家/地區，請更新。</string>
+    <string name="ss_link_country">您正在連結到...</string>
+    <string name="ss_change_later">您以後無法更改</string>
+    <string name="ss_be_sure">所以一定要確定。</string>
+    <string name="ss_search_country">搜尋國家/地區</string>
+    <string name="ss_select_country">選擇國家</string>
+    <string name="ss_guest_login_msg">此項目適用於使用 facebook、google、paintology 登入的使用者。</string>
+</resources>
+

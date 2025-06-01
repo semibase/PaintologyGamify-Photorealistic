@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+
+    <!-- See table below.  The external-files-path DOES NOT require external storage permissions. -->
+    <external-files-path
+        name="images"
+        path="Pictures" />
+
+    <!--Uncomment below to share the entire application specific directory -->
+    <external-path
+        name="all_dirs"
+        path="." />
+
+    <!--Pickup file -->
+    <files-path
+        name="p"
+        path="photos" />
+
+    <external-path
+        name="external_files"
+        path="." />
+
+    <external-files-path name="shared_images" path="." />
+
+
+    <external-files-path
+        name="my_images"
+        path="Pictures" />
+
+    <external-path name="my_images" path="Android/data/com.example.daul/files/Pictures/MyImages"/>
+
+
+    <!--<paths>-->
+    <!--<external-path-->
+    <!--name="my_images"-->
+    <!--path="Android/data/com.paintology.lite/files/Pictures" />-->
+    <!--&lt;!&ndash; replace com.androidwave.filepicker with your package name &ndash;&gt;-->
+    <!--</paths>-->
+
+</paths>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>--><!--<paths xmlns:android="http://schemas.android.com/apk/res/android">--><!--<external-path name="images" path="."/>--><!--</paths>-->

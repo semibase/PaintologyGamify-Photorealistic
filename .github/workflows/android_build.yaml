@@ -1,0 +1,60 @@
+name: Android Build
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '17'
+
+      - name: Build with Gradle (Ignore Lint Errors)
+        run: |
+          ./gradlew build --continue
+
+      - name: Build with Gradle
+        run: ./gradlew build
+
+      - name: Generate Staging Debug APK
+        run: ./gradlew assembleStagingDebug
+
+      - name: Generate Staging Release APK
+        run: ./gradlew bundleStagingRelease
+
+      - name: Generate Live Debug APK
+        run: ./gradlew assembleLiveDebug
+
+      - name: Generate Live Release APK
+        run: ./gradlew bundleLiveRelease
+
+  email:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Send email with APKs
+        uses: dawidd6/action-send-mail@v2
+        with:
+          server_address: ${{ secrets.SMTP_SERVER }}
+          server_port: ${{ secrets.SMTP_PORT }}
+          username: ${{ secrets.SMTP_USERNAME }}
+          password: ${{ secrets.SMTP_PASSWORD }}
+          subject: 'APKs for Android Build'
+          body: 'Find attached the generated APKs.'
+          to: 'fkhaleque@gmail.com'
+          cc: 'khanmohdarshi@gmail.com'
+          attachments: |
+            ./app/build/outputs/apk/staging/debug/app-staging-debug.apk
+            ./app/build/outputs/bundle/staging/release/app-staging-release.aab
+            ./app/build/outputs/apk/live/debug/app-live-debug.apk
+            ./app/build/outputs/bundle/live/release/app-live-release.aab

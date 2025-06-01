@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paintology</string>
+    <string name="default_collection">ভিডিও টিউটোরিয়াল</string>
+    <string name="community">সম্প্রদায়</string>
+    <string name="my_painting">আমার চিত্র</string>
+    <string name="downloaded">আমার সিনেমাগুলি</string>
+    <string name="draw">আঁকা</string>
+    <string name="my_resources">আমার সংস্থানগুলি</string>
+    <string name="daily_blog">ডেইলি ব্লগ</string>
+
+    <string name="view_sketch_photos"><u>পেইন্টোলজি মেঘে চিত্রগুলি দেখুন</u></string>
+    <string name="import_your_sketch_photos"><u>আমার পেন্টিংগুলিতে চিত্রগুলি আমদানি করুন</u></string>
+    <string name="upload_your_zip_file_auto"><u>পেইন্টোলজি ক্লাউডে চিত্রগুলি সংরক্ষণ করুন</u></string>
+
+    <string name="blank_canvas">ফাঁকা ক্যানভাস</string>
+    <string name="overlay_image">ওভারলে চিত্র</string>
+    <string name="trace_image">চিত্র ট্রেস</string>
+    <string name="camera_image">ক্যামেরা চিত্র</string>
+
+    <string name="quick_drawing">দ্রুত অঙ্কন</string>
+
+    <string name="import_images">ছবি আমদানি করুন</string>
+
+    <!--  -->
+    <string name="sites">সাইট</string>
+    <string name="online_tut">অনলাইন টিউটোরিয়াল</string>
+    <string name="paintology_website">পেইন্টোলজি ওয়েবসাইট</string>
+    <string name="youtube_paintology">ইউটিউব পেইন্টোলজি</string>
+    <string name="learn_drawing_amp_painting">ড্রয়িং এবং পেইন্টিং শিখুন</string>
+    <string name="apps_by_paintology">পেইন্টোলজি দ্বারা অ্যাপস</string>
+
+
+</resources>

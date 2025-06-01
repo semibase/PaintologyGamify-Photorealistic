@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drawer_icon_size">@dimen/_22sdp</dimen>
+    <dimen name="drawer_padding_start">@dimen/_20sdp</dimen>
+    <dimen name="drawer_menu_height">@dimen/_40sdp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_45">45dp</dimen>
+    <dimen name="dp_50">60dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_140">140dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_150">150dp</dimen>
+    <dimen name="dp_160">160dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_130">130dp</dimen>
+    <dimen name="dp_250">250dp</dimen>
+    <dimen name="dp_05">5dp</dimen>
+    <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_230">230dp</dimen>
+    <dimen name="dp_300">300dp</dimen>
+    <dimen name="dip_250">250dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="seekbar_thumb_width">25dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dim_15dp">15dp</dimen>
+
+    <dimen name="_8dp">8dp</dimen>
+    <dimen name="menu_dialog_container_margin">8dp</dimen>
+    <dimen name="menu_item_padding">12dp</dimen>
+    <dimen name="menu_item_text_size">16sp</dimen>
+    <dimen name="dp_350">350dp</dimen>
+    <dimen name="dp_400">400dp</dimen>
+    <dimen name="dp_70">70dp</dimen>
+
+    <dimen name="column_width">200dp</dimen>
+    <dimen name="item_margin">2dp</dimen>
+    <dimen name="item_margin_feed">1dp</dimen>
+    <dimen name="dp_02">2dp</dimen>
+    <dimen name="dp_03">3dp</dimen>
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="dim_160dp">80dp</dimen>
+    <dimen name="dim_50dp">50dp</dimen>
+    <dimen name="sp_8">8sp</dimen>
+    <dimen name="sp_10">10sp</dimen>
+    <dimen name="dim_200dp">180dp</dimen>
+    <dimen name="dim_150dp">130dp</dimen>
+    <dimen name="dp_35">28dp</dimen>
+    <dimen name="dim_20dp">20dp</dimen>
+    <dimen name="dim_30dp">24dp</dimen>
+    <dimen name="dim_90dp">120dp</dimen>
+    <dimen name="sp_26">22sp</dimen>
+    <dimen name="dp_180">180dp</dimen>
+    <dimen name="toolbar_height">48dp</dimen>
+    <dimen name="dp_08">8dp</dimen>
+    <dimen name="sp_22">22sp</dimen>
+    <dimen name="dp_320">320dp</dimen>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+    <dimen name="menu_tooltip_padding">5dp</dimen>
+    <dimen name="tip_radius">4dp</dimen>
+
+    <dimen name="tip_dimen_regular">16dp</dimen>
+    <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+
+
+    <dimen name="LoadingDots_dots_size_default">12dp</dimen>
+    <dimen name="LoadingDots_dots_space_default">2dp</dimen>
+    <dimen name="LoadingDots_jump_height_default">12dp</dimen>
+
+    <dimen name="margin_xsmall">16dp</dimen>
+    <dimen name="margin_small">32dp</dimen>
+    <dimen name="margin_xlarge">92dp</dimen>
+
+    <dimen name="spacing_small">4dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+
+    <dimen name="stroke_small">4dp</dimen>
+
+    <dimen name="round_button_small">32dp</dimen>
+    <dimen name="round_button_medium">64dp</dimen>
+    <dimen name="round_button_large">92dp</dimen>
+
+    <dimen name="shutter_button_margin">80dp</dimen>
+    <dimen name="card_corner_radius">5dp</dimen>
+
+    <dimen name="nav_header_vertical_spacing">4dp</dimen>
+    <dimen name="nav_header_height">210dp</dimen>
+
+    <dimen name="viewpager_next_item_visible">26dp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin">30dp</dimen>
+
+    <dimen name="action_button_padding">8dip</dimen>
+
+</resources>

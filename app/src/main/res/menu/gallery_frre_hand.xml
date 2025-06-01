@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/openItem"
+        android:title="@string/open" />
+    <item
+        android:id="@+id/learnDrawing"
+        android:title="@string/learn_drawing" />
+
+    <item
+        android:id="@+id/favItem"
+        android:icon="@drawable/user_fav_like"
+        android:title="@string/add_to_favorites" />
+
+
+</menu>

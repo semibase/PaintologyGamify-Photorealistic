@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/more_detail"
+        android:title="@string/more_details" />
+
+    <item
+        android:id="@+id/share"
+        android:title="@string/share" />
+
+    <item
+        android:id="@+id/copy_link"
+        android:title="@string/copy_link" />
+
+    <item
+        android:id="@+id/open_overlay"
+        android:title="@string/open_in_canvas_overlay" />
+
+    <item
+        android:id="@+id/open_trace"
+        android:title="@string/open_in_canvas_trace" />
+
+    <item
+        android:id="@+id/users_posts"
+        android:title="@string/users_posts" />
+
+    <item
+        android:id="@+id/chat"
+        android:title="@string/chat" />
+
+    <item
+        android:id="@+id/save"
+        android:title="@string/download" />
+
+    <item
+        android:id="@+id/report"
+        android:title="@string/report" />
+
+
+    <item
+        android:id="@+id/RemoveFav"
+        android:title="@string/remove_favourite" />
+
+</menu>

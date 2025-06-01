@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paintology</string>
+    <string name="default_collection">Mga Tutorial sa Video</string>
+    <string name="community">Komunidad</string>
+    <string name="my_painting">Mga Pintura Ko</string>
+    <string name="downloaded">Mga Pelikula ko</string>
+    <string name="draw">Gumuhit</string>
+    <string name="my_resources">Aking Mga Mapagkukunan</string>
+    <string name="daily_blog">Pang-araw-araw na Blog</string>
+
+
+    <string name="view_sketch_photos"><u>Tingnan ang mga larawan sa Paintology Cloud</u></string>
+    <string name="import_your_sketch_photos"><u>Mag-import ng mga imahe sa Aking Mga Pintura</u></string>
+    <string name="upload_your_zip_file_auto"><u>I-save ang mga imahe sa Paintology Cloud</u></string>
+
+    <string name="blank_canvas">Mga Blangko Canvas</string>
+    <string name="overlay_image">I-overlay ang Imahe</string>
+    <string name="trace_image">I-trace ang Imahe</string>
+    <string name="camera_image">Larawan ng Camera</string>
+
+
+    <string name="quick_drawing">Mabilis na Pagguhit</string>
+
+    <string name="import_images">Mag-import ng mga imahe</string>
+
+    <!--  -->
+    <string name="sites">Mga site</string>
+    <string name="online_tut">Mga Online na Tutorial</string>
+    <string name="paintology_website">Website ng Paintology</string>
+    <string name="youtube_paintology">Youtube Paintology</string>
+    <string name="learn_drawing_amp_painting">Alamin ang Pagguhit at Pagpinta</string>
+    <string name="apps_by_paintology">Mga app ng Paintology</string>
+
+</resources>

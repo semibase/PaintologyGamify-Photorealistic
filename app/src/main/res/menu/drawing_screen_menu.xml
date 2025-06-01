@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/openDrawing"
+        android:title="@string/enlarge" />
+
+    <item
+        android:id="@+id/shareDrawing"
+        android:title="@string/share" />
+
+    <item
+        android:id="@+id/doTutorialDrawing"
+        android:title="@string/do_tutorial" />
+
+    <item
+        android:id="@+id/addFav"
+        android:title="@string/add_to_favorites" />
+
+
+    <item
+        android:id="@+id/removeFav"
+        android:visible="false"
+        android:title="@string/remove_favourite" />
+
+    <item
+        android:id="@+id/closeDrawing"
+        android:title="@string/back" />
+
+
+
+
+</menu>

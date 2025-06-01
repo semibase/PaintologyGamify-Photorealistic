@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <bool name="is_tablet">false</bool>
+    <string name="app_banners">Mga Banner</string>
+    <string name="levels">Levels</string>
+    <string name="login_with_guest">Mag-login bilang bisita\n(walang email na kailangan)</string>
+    <string name="ss_post_to_community">I-post sa Komunidad</string>
+    <string name="ss_splash_text">Muling Imbento ang Mundo ng Digital Drawing!</string>
+    <string name="ss_climb_levels">Umakyat sa Mga Antas!</string>
+    <string name="app_name">Paintology Gamify</string>
+    <string name="pain_search">Paghahanap ng Paintology</string>
+    <string name="default_collection">Mga Tutorial</string>
+    <string name="community">Komunidad</string>
+    <string name="my_painting">Aking Mga Pinta</string>
+    <string name="downloaded">Aking Mga Pelikula</string>
+    <string name="draw">Gumuhit</string>
+    <string name="my_resources">Aking Mga Mapagkukunan</string>
+    <string name="daily_blog">Araw-araw na Blog</string>
+    <string name="pg_earn_big_points">Kumita ng Malaking Puntos</string>
+    <string name="view_sketch_photos"><u>Tingnan ang mga larawan sa Paintology Cloud</u></string>
+    <string name="import_your_sketch_photos"><u>Mag-import ng mga larawan sa My Paintings</u></string>
+    <string name="upload_your_zip_file_auto"><u>I-save ang mga larawan sa Paintology Cloud</u></string>
+    <string name="help_intro">Help Intro</string>
+    <string name="blank_canvas">Blangkong Canvas</string>
+    <string name="overlay_image">Overlay na Larawan</string>
+    <string name="trace_image">Trace Image</string>
+    <string name="camera_image">Larawan ng Camera</string>
+
+    <string name="quick_drawing">Mabilis na Pagguhit</string>
+
+    <string name="import_images">Mag-import ng mga larawan</string>
+
+    <!--  -->
+    <string name="sites">Mga site</string>
+    <string name="online_tut">Mga Online na Tutorial</string>
+    <string name="paintology_website">Website ng Paintology</string>
+    <string name="youtube_paintology">Paintology sa YouTube</string>
+    <string name="learn_drawing_amp_painting">Alamin ang Pagguhit &amp; Pagpinta</string>
+    <string name="apps_by_paintology">Apps Sa pamamagitan ng Paintology</string>
+
+    <string name="unknown_error">May naganap na hindi kilalang error</string>
+    <string name="profile_error">Hindi Na-save ang iyong Profile\nMay Nagkamali</string>
+    <string name="profile_success">Ang iyong Profile ay Naka-save</string>
+    <string name="tag_line"><![CDATA[Pagguhit at Pagpipinta Ginawa!]]></string>
+
+
+    <string name="please_wait">Mangyaring Maghintay..</string>
+    <string name="are_you_sure">Sigurado ka ba?</string>
+    <string name="cancel">Kanselahin</string>
+    <string name="title_activity_online_tutorial">OnlineTutorial</string>
+    <string name="try_it_now">Subukan Ito Ngayon</string>
+
+    <string name="play_button">Play button</string>
+    <string name="open_video_in_youtube">Buksan ang video sa YouTube</string>
+    <string name="full_screen_button">Buong screen na pindutan</string>
+    <string name="live">LIVE</string>
+    <string name="no_any_reference">Walang Nahanap na Sanggunian</string>
+    <!--    <string name="no_internet_msg">Mangyaring Kumonekta sa Internet At Subukang Muli!</string>-->
+    <string name="no_internet_msg">Subukan Muli - Walang koneksyon sa internet, pakisubukang muli</string>
+    <string name="empty_list">WALANG KANYANG LISTAHAN MULA SA SERVER!</string>
+    <string name="featured_image">Itinatampok na Larawan</string>
+    <string name="related_post">Mga Kaugnay na Post</string>
+    <string name="visit_post">Bisitahin ang Paintology Post</string>
+
+    <string name="login_via_dialog">Mangyaring mag-login gamit ang iyong social profile</string>
+
+    <string name="post_detail">Detalye ng Post</string>
+
+
+    <!--<string name="selection_msg">Mangyaring pumili at mag-click sa alinman sa mga pindutan sa kanan</string>
+    <string name="selection_msg_portrait">Mangyaring pumili at mag-click sa alinman sa mga pindutan sa itaas.</string>
+-->
+    <string name="selection_msg">Mangyaring pumili at mag-click sa anumang mga pindutan sa kaliwa.</string>
+    <string name="selection_msg_portrait">Ang lahat ng iyong na-save na mga guhit ay pumunta dito Piliin ang pagguhit upang magpatuloy sa pagguhit, pag-edit at ibahagi sa iba.</string>
+    <string name="dialog_title_your_saved_drawings">Iyong Mga Nai-save na Guhit</string>
+
+    <string name="logout">Mag-logout</string>
+    <string name="save_drawing">I-save ang trabaho bago magpatuloy.</string>
+    <string name="txt_canvas_color">Kulay ng Canvas</string>
+
+    <string name="art_medium">Daluyan ng Sining</string>
+    <string name="art_ability">Kakayahang Sining</string>
+    <string name="art_fav">Paboritong Sining</string>
+    <string name="age">Edad</string>
+    <string name="follow">Sundin</string>
+    <string name="unfollow">I-unfollow</string>
+    <string name="pick_art_fav">Pumili ng Art Fav</string>
+    <string name="pick_art_med">Pumili ng Art Medium</string>
+    <string name="default_msg_while_share">Ginawa ko ito gamit ang LIBRENG Paintology app na available mula sa Google Play Store. Tingnan ito!</string>
+
+    <string name="email">Email</string>
+    <string name="required">Kinakailangan</string>
+    <string name="not_valid">Hindi Wasto</string>
+    <string name="too_weak">Masyadong Mahina</string>
+
+    <string name="msg_no_camera">Wala akong mahanap na camera app!</string>
+    <string name="start_recording">Simulan\nPagre-record</string>
+    <string name="save">MAGTIPID</string>
+    <string name="record">Itala</string>
+    <string name="help_guide">Gabay sa Tulong</string>
+    <string name="profile_status_msg">Sumulat ng isang bagay tungkol sa iyong profile.</string>
+    <string name="posts">Mga post</string>
+    <string name="type_paintology">Paintology</string>
+    <string name="type_google">Google</string>
+    <string name="type_facebook">Facebook</string>
+    <string name="already_liked">Nagustuhan mo na ang post na ito</string>
+    <string name="image_selected">mga larawang napili</string>
+    <string name="sent_post">Tingnan ang kawili-wiling post na ito mula sa Paintology Community. Makukuha mo ang app mula sa Google Play Store.</string>
+
+    <string name="following">Sumusunod</string>
+    <string name="reserved_hashtag">Bawal ang hashtag!</string>
+    <string name="reserved_hashtag_msg">Paumanhin, ito ay isang kid friendly na site at ang hashtag na ito ay hindi pinahihintulutan dahil sa aming mga patakaran ng pamilya.</string>
+    <string name="delete_post">Tanggalin ang Post!</string>
+    <string name="my_posts">Aking Post</string>
+    <string name="camera_permission_msg">Tinanggihan mo ang pahintulot ng Camera. Maaari kang magbigay ng pahintulot mula sa mga setting ng Device at pagkatapos ay gamitin ang feature na ito.</string>
+    <string name="storage_permission_msg">Tinanggihan mo ang pahintulot sa Storage. Maaari kang magbigay ng pahintulot mula sa mga setting ng Device at pagkatapos ay gamitin ang feature na ito.</string>
+    <string name="recording_permission_msg">Tinanggihan mo ang Pahintulot sa Pagre-record, Maaari kang magbigay ng pahintulot mula sa mga setting ng Device at pagkatapos ay gamitin ang feature na ito.</string>
+
+    <string name="share_thoughts">Mangyaring tulungan kaming mapabuti</string>
+    <string name="name">Pangalan</string>
+    <string name="your_feedback">Ang iyong feedback</string>
+    <string name="your_favourite">Ang iyong mga paboritong app</string>
+    <string name="exit">Lumabas</string>
+    <string name="submit">Ipadala</string>
+    <string name="ss_submit">Isumite</string>
+
+    <string name="close">Isara</string>
+    <string name="select_language">Piliin ang iyong wika</string>
+
+    <string name="go_to_play_store">Pumunta sa Play Store</string>
+    <string name="bg_color_tooltip_text">Ang kulay ng background\n ay maaari lamang baguhin \n isang bagong drawing</string>
+    <string name="rendering">Nire-render…</string>
+    <string name="don_t_show_me_again">Huwag ka nang magpakita sa akin</string>
+    <string name="close_dialog">Isara</string>
+
+    <string name="watch_video">Manood ng Video</string>
+    <string name="using_the_toggle">Gumamit ng toggle</string>
+    <string name="button_on_the_bottom_n_left">para makakita ng video</string>
+    <string name="paintology_chat">Paintology Chat</string>
+    <string name="button">Pindutan</string>
+
+    <string name="welcome_to_paintology_chat">Maligayang pagdating sa paintology chat</string>
+    <string name="chat_instruction">Makipag-chat sa mga user na iyong nagustuhan, nagkomento o sinundan.</string>
+    <string name="empty_search_instruction">Walang resulta ng paghahanap, mangyaring bumalik at subukang muli.</string>
+    <string name="blocked">Naka-block</string>
+    <string name="pending">Nakabinbin</string>
+    <string name="chat_click_hint">Paki-like, komento o sundan para makipag-chat sa user na ito.</string>
+    <string name="not_available">N/A</string>
+    <string name="country">Bansa</string>
+    <string name="other">Iba pa</string>
+    <string name="one_item_allowd">Isang item ang pinapayagan sa isang pagkakataon</string>
+
+    <string name="facebook_url">profile sa Facebook</string>
+    <string name="instagram_url">Instagram profile</string>
+    <string name="linkedin_profile_url">LinkedIn profile</string>
+    <string name="youtube_profile_url">Profile sa YouTube</string>
+    <string name="twitter_username_without">profile sa Twitter</string>
+    <string name="website_url">Website</string>
+    <string name="quora_profile">Profile ng Quora</string>
+    <string name="tiktok_profile">Profile sa TikTok</string>
+    <string name="pinterest_profile">Pinterest profile</string>
+    <string name="zoom_lock_msg">Naka-lock ang zoom! Pindutin muli ang zoom para i-unlock</string>
+
+    <string name="action_line">Linya</string>
+    <string name="action_smoothline">Smoothline</string>
+    <string name="action_square">Square</string>
+    <string name="action_circle">Bilog</string>
+    <string name="action_rectangle">Parihaba</string>
+    <string name="action_triangle">Tatsulok</string>
+    <string name="clear">Maaliwalas</string>
+    <string name="custom_brush">Mga Custom na Brushes</string>
+
+    <string name="settings_video_quality_title">Laki ng video %s</string>
+    <string name="settings_photo_quality_title">Laki ng larawan</string>
+    <string name="ok_label">Ok</string>
+    <string name="cancel_label">Kanselahin</string>
+    <string name="pick_image_intent_chooser_title">Pumili ng pinagmulan</string>
+    <string name="crop_image_activity_no_permissions">Ang pagkansela, ang mga kinakailangang pahintulot ay hindi ibinibigay</string>
+    <string name="crop_image_activity_title">I-crop ang larawan</string>
+
+    <string name="crop_image_menu_rotate_left">I-rotate ang counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Iikot</string>
+    <string name="crop_image_menu_crop">I-crop</string>
+    <string name="crop_image_menu_flip">I-flip</string>
+    <string name="crop_image_menu_flip_horizontally">I-flip nang pahalang</string>
+    <string name="crop_image_menu_flip_vertically">I-flip patayo</string>
+
+    <string name="preview_controls_confirm">I-save</string>
+    <string name="preview_controls_retake">Ulitin</string>
+    <string name="preview_controls_cancel">Kanselahin</string>
+    <string name="preview_controls_crop">I-crop</string>
+    <string name="switch_to_drawing">Lumipat sa Drawing</string>
+    <string name="line_tool">Linya</string>
+    <string name="shade_tool">Lilim</string>
+    <string name="color">Kulay</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="quick_video_guide">Mga Gabay sa Video</string>
+    <string name="quick_video_guide_count">Mga Gabay sa Video (%1$d)</string>
+    <string name="quick_video_guide_count_2">Galugarin ang Aming Mga Gabay sa Video (%1$d)</string>
+    <string name="quick_video_guide_countt">I-explore ang Aming Video Guide</string>
+
+    <string name="rate_app_title">I-rate ang App</string>
+    <string name="rate_app_message">Kung nae-enjoy mo ang aming app, mangyaring maglaan ng ilang sandali upang i-rate ito sa PlayStore. Salamat sa iyong suporta!</string>
+    <string name="rate_btn_pos">I-rate Ngayon</string>
+    <string name="rate_btn_neg">Paalalahanan mo ako mamaya</string>
+    <string name="rate_btn_nut">Hindi, Salamat</string>
+
+    <string name="heading_brackets" translatable="false">%1$s (%2$d)</string>
+    <string name="featured">Itinatampok</string>
+
+    <string name="capture_button_alt">Kunin</string>
+    <string name="switch_camera_button_alt">Lumipat ng camera</string>
+    <string name="gallery_button_alt">Gallery</string>
+    <string name="back_button_alt">Bumalik</string>
+    <string name="share_button_alt">Ibahagi</string>
+    <string name="share_hint">Ibahagi gamit ang</string>
+    <string name="delete_button_alt">Tanggalin</string>
+    <string name="delete_dialog">Tanggalin ang kasalukuyang larawan?</string>
+    <string name="delete_title">Kumpirmahin</string>
+    <string name="all_rights_reserved">Lahat ng Karapatan ay Nakalaan</string>
+    <string name="share_subject">Paintology Drawing App</string>
+
+    <string name="title_onboarding_1">Maligayang pagdating sa Onboarding App!</string>
+    <string name="description_onboarding_1">Narito ang isang open-source na proyekto na nagpapakita ng matamis na &amp; orihinal na onboarding ViewPagers na sumusunod sa Mga Alituntunin sa Disenyo ng Materyal</string>
+
+    <string name="continue_lbl">Magpatuloy</string>
+    <string name="next">Susunod</string>
+    <string name="skip">Laktawan</string>
+    <string name="saved_to_my_painting">Naka-save sa My Paintings</string>
+    <string name="key_all">Lahat</string>
+    <string name="write_a_comment">Sumulat ng komento&#8230;</string>
+    <string name="followers">Mga tagasunod</string>
+    <string name="details">Mga Detalye</string>
+    <string name="forgot_password_question_mark"><u>Nakalimutan ang password?</u></string>
+    <string name="view_mode">View Mode</string>
+    <string name="normal_mode">Normal na Mode</string>
+    <string name="about_us_text">Kasalukuyang Bersyon %1$s "\n\nAng Paintology ay isang advanced at madaling gamitin na drawing app. \n\n" "Ito ay isang app na idinisenyo upang gawing mas mahusay kang artist.\n" "Ang app ay may maraming mga tutorial kasama ang mga video tutorial upang matulungan kang palawakin ang iyong mga kasanayan sa pagguhit at pagpipinta.\n" "Mangyaring mag-rate at magkomento upang matulungan kaming mapabuti ang app na ito.\n\n" "Salamat!\n"</string>
+
+    <string name="nav_open">Bukas</string>
+    <string name="nav_close">Isara</string>
+    <string name="see_all">Tingnan Lahat</string>
+    <string name="see_all_underline"><u>Tingnan Lahat</u></string>
+    <string name="hint_search_paintology">Maghanap ng Paintology</string>
+    <string name="title_about_us">Tungkol sa Amin</string>
+    <string name="title_notifications">Mga abiso</string>
+    <string name="view_post">Tingnan ang Post</string>
+    <string name="view_posts">Tingnan ang mga Post</string>
+    <string name="view_profile">Tingnan ang Profile</string>
+    <string name="block">I-block</string>
+    <string name="delete_chats">Tanggalin ang Mga Chat</string>
+    <string name="freehand">Malayang kamay</string>
+    <string name="line">Linya</string>
+    <string name="square">Square</string>
+    <string name="rectangle">Parihaba</string>
+    <string name="circle">Bilog</string>
+    <string name="delete">Tanggalin</string>
+    <string name="share">Ibahagi</string>
+    <string name="rename">Palitan ang pangalan</string>
+    <string name="add_text">Magdagdag ng Teksto</string>
+    <string name="open">Bukas</string>
+    <string name="triangle">Tatsulok</string>
+    <string name="pause">I-pause</string>
+    <string name="stop">Tumigil ka</string>
+    <string name="audio">Audio</string>
+    <string name="resume">Ipagpatuloy</string>
+    <string name="paused">Naka-pause</string>
+    <string name="recording">Pagre-record</string>
+    <string name="dialog_title_rename">Palitan ang pangalan ng File</string>
+    <string name="dialog_action_cancel">Kanselahin</string>
+    <string name="dialog_action_ok">OK</string>
+    <string name="toast_file_exists">Umiiral na ang file na %1$s. Mangyaring pumili ng ibang pangalan ng file.</string>
+    <string name="create_brush">Lumikha ng Brush</string>
+    <string name="posting_to_community_successful">Ang Pag-post sa Komunidad ay Matagumpay!</string>
+    <string name="login_heading_community">Kumusta, maligayang pagbabalik, mangyaring mag-signup o mag-login upang mag-post sa komunidad.</string>
+    <string name="zoom_help_title">Tulong sa Zoom</string>
+    <string name="pinch_zoom_msg">Upang mag-zoom, mangyaring gamitin ang pinch zoom \n o pindutin nang matagal ang zoom button pang i-reset - pindutin ang zoom button \n upang i-rotate - swivel pinch zoom</string>
+
+    <string name="double_click_input_text" translatable="false">Double-click to enter text</string>
+    <string name="complete" translatable="false">OK</string>
+    <string name="publish_comment" translatable="false">Enter Text ......</string>
+    <string name="over_text_limit" translatable="false">You have exceeded your word limit</string>
+    <string name="tag_tips_msg">Maglagay ng mga hashtag na iisang salita, gamitin ang # sa dulo ng salita o i-click lang ang nabuong teksto</string>
+    <string name="subcategory_share_msg">Tingnan ang nakakatuwang tutorial sa pagguhit na ito&#8230; \n%1$s \n\nHigit sa 500 mga tutorial sa pagguhit upang subukan ang lahat nang Libre! \nAlamin ang pagguhit ng mabilis at madaling paraan gamit ang \nPaintology drawing na available nang libre sa Google play store&#8230; \n\n%2$s</string>
+    <string name="redeem">Tubusin</string>
+    <string name="unlock">I-unlock</string>
+    <string name="watch_ads">Manood ng mga Ad</string>
+
+    <string name="subcategory_share_subject">Paintology - Nakakatuwang pagguhit kasama ang %1$s!</string>
+    <string name="open_tutorial">Buksan ang tutorial</string>
+    <string name="open_link">Buksan ang Link</string>
+    <string name="rating">Rating</string>
+    <string name="done">Tapos na</string>
+    <string name="quit">quit</string>
+    <string name="exit_app_msg">Gusto mo bang umalis sa App?</string>
+    <string name="chat">Chat</string>
+    <string name="video_tutorial">Tutorial sa Video</string>
+    <string name="video_tutorial_msg">I-click ang icon ng video upang mapanood ang video ng tutorial na ito</string>
+
+    <string name="zero_follower_msg">Walang followers ang user na si %1$s, i-click ang button kung gusto mong sundan</string>
+    <string name="zero_following_msg">Kasalukuyang hindi sinusubaybayan ni %1$s ang sinumang user</string>
+    <string name="user_post_title">Mga Post (%1$d) - %2$s</string>
+
+    <string name="prefix_facebook_url" translatable="false">https://facebook.com/</string>
+    <string name="prefix_insta_url" translatable="false">https://instagram.com/</string>
+    <string name="prefix_yt_url" translatable="false">https://youtube.com/</string>
+    <string name="prefix_tiktok_url" translatable="false">https://tiktok.com/</string>
+    <string name="prefix_pinterest_url" translatable="false">https://pinterest.com/</string>
+    <string name="prefix_quora_url" translatable="false">https://quora.com/</string>
+    <string name="prefix_twitter_url" translatable="false">https://twitter.com/</string>
+    <string name="prefix_linkedin_url" translatable="false">https://linkedin.com/</string>
+
+    <string name="prefix_facebook_url_2" translatable="false">https://www.facebook.com/</string>
+    <string name="prefix_insta_url_2" translatable="false">https://www.instagram.com/</string>
+    <string name="prefix_yt_url_2" translatable="false">https://www.youtube.com/</string>
+    <string name="prefix_tiktok_url_2" translatable="false">https://www.tiktok.com/</string>
+    <string name="prefix_pinterest_url_2" translatable="false">https://www.pinterest.com/</string>
+    <string name="prefix_quora_url_2" translatable="false">https://www.quora.com/</string>
+    <string name="prefix_twitter_url_2" translatable="false">https://www.twitter.com/</string>
+    <string name="prefix_linkedin_url_2" translatable="false">https://www.linkedin.com/</string>
+
+    <string name="please_login_to_see_notifications_to_your_posts_and_chats">Mangyaring mag-login upang makita ang mga abiso sa iyong mga post at chat</string>
+    <string name="you_have_no_new_chat_requests">Wala kang bagong kahilingan sa chat</string>
+    <string name="you_have_no_new_comments">Wala kang bagong komento</string>
+    <string name="screenshot_saved">Na-save ang screenshot</string>
+    <string name="please_login_to_see_chats">Mangyaring mag-login upang gumamit ng mga chat</string>
+    <string name="see_post"><u>Tingnan ang Post</u></string>
+    <string name="search_community">Search Community</string>
+    <string name="my_painting_count">Aking Mga Pinta (%1$d)</string>
+    <string name="guide_video_count">Mga Gabay sa Video (%1$d)</string>
+    <string name="open_guide">Buksan ang gabay</string>
+    <string name="you_have_successfully_imported_image">Matagumpay mong na-import ang (%1$d) na mga larawan sa iyong My Paintings!</string>
+    <string name="your_drawing_has_been_posted_to_the_community">Ang iyong drawing ay nai-post sa Komunidad!</string>
+    <string name="see_it_now">Tingnan mo ngayon!</string>
+    <string name="back">Bumalik</string>
+    <string name="goto_my_paintings">Goto My-Paintings</string>
+    <string name="loading_resources">Naglo-load ng Mga Mapagkukunan&#8230;</string>
+    <string name="recording_made_successfully">Matagumpay na nagawa ang pagre-record</string>
+    <string name="goto_my_movies">Goto My-Movies</string>
+    <string name="open_in_trace">Buksan sa Trace</string>
+    <string name="open_in_overlay">Buksan sa Overlay</string>
+    <string name="open_trace_only">Open Trace Lang</string>
+    <string name="open_drawing_only">Open Drawing Lang</string>
+    <string name="continue_as_guest">Magpatuloy bilang Bisita</string>
+    <string name="login">Mag-login</string>
+    <string name="signup">Signup</string>
+
+    <string name="login_heading">Mag-login upang makakuha ng mga puntos ng bonus. \nI-save ang iyong mga istatistika!</string>
+    <string name="login_with_facebook">Mag-login gamit ang Facebook</string>
+    <string name="login_with_google">Mag-login gamit ang Google</string>
+    <string name="login_as_guest">Mag-login bilang Bisita</string>
+    <string name="login_with_paintology">Mag-login gamit ang Paintology</string>
+    <string name="signup_with_paintology">Mag-signup sa Paintology</string>
+    <string name="term_agreement_message">Sa pamamagitan ng paggamit ng Paintology, kinukumpirma mong tinatanggap mo ang aming patakaran sa privacy at mga tuntunin &amp; kundisyon.</string>
+    <string name="term_condition">Mga Tuntunin &amp; Mga kundisyon</string>
+    <string name="privacy_policy">Patakaran sa Privacy</string>
+    <string name="category_name_count" translatable="false">%1$s (%2$d)</string>
+    <string name="challenges">Mga hamon</string>
+    <string name="choose_a_blank_canvas">Pumili ng blangkong canvas</string>
+    <string name="overlay_an_image_on_other">I-overlay ang isang larawan sa iba</string>
+    <string name="trace_an_image_into">Subaybayan ang isang imahe sa</string>
+    <string name="fun_with_any_camera_image">Masaya sa anumang larawan ng camera</string>
+    <string name="login_for_points">Mag-login para sa mga puntos!</string>
+    <string name="choose_a_import_image">Pumili ng I-import na Larawan</string>
+    <string name="watch_a_movies">Manood ng Pelikula</string>
+    <string name="watch_online_tutorials">Manood ng Mga Tutorial sa Online</string>
+    <string name="read_blog_on_daily_basis">Basahin ang Blog araw-araw</string>
+    <string name="watch_a_youtube_paintology">Manood ng Youtube Paintology</string>
+    <string name="find_your_ability">Hanapin ang Iyong Kakayahan</string>
+    <string name="level">Antas</string>
+    <string name="hardness">Katigasan</string>
+    <string name="density">Densidad</string>
+    <string name="points">Mga Puntos: %1$d</string>
+    <string name="percent_value" translatable="false">%1$d %%</string>
+    <string name="difficulty_level">Antas ng kahirapan</string>
+    <string name="paint_by_number">Kulayan Ayon sa Numero</string>
+    <string name="_3_000">3,000</string>
+    <string name="share1">Ibahagi</string>
+    <string name="_13_k">13 K</string>
+    <string name="_273_k">273 K</string>
+    <string name="details1">Mga Detalye</string>
+    <string name="notification_title">Pamagat ng Abiso</string>
+    <string name="accept">Tanggapin</string>
+    <string name="decline">Tanggihan</string>
+    <string name="notification_content">Kumusta! Gusto ko lang sabihin, talagang gustong-gusto ko ang mga ilustrasyon ng pusa na iyong ginawa! Mahusay na trabaho!</string>
+    <string name="_5_star_from_emma_louis">5 star mula kay emma louis</string>
+    <string name="richard_joe">Richard Joe</string>
+    <string name="dash">-</string>
+    <string name="time">04:30 PM</string>
+    <string name="reply">Sumagot</string>
+    <string name="see">Tingnan mo</string>
+    <string name="dismiss">I-dismiss</string>
+    <string name="search_paintology">Maghanap ng Paintology</string>
+    <string name="tutorials">Mga Tutorial</string>
+    <string name="user_post">Mga Post ng User</string>
+    <string name="blog_posts">Mga Post sa Blog</string>
+    <string name="_3245" translatable="false">#3245</string>
+    <string name="in_this_drawing_i_demonstate_the_hardness_and_density_settings_of_the_brush_tools_in">Sa pagguhit na ito, ipinakita ko ang mga setting ng tigas at density ng mga tool sa brush</string>
+    <string name="_8" translatable="false">8</string>
+    <string name="_800_pts" translatable="false">800 Pts</string>
+    <string name="_12_awards" translatable="false">12 Awards</string>
+    <string name="welcome_bonus">Welcome Bonus</string>
+    <string name="_500" translatable="false">500</string>
+    <string name="_0" translatable="false">0</string>
+    <string name="gallery1">Gallery</string>
+    <string name="community1">Komunidad</string>
+    <string name="social_media_links1">Mga Link sa Social Media</string>
+    <string name="youtube1">Youtube</string>
+    <string name="pinterest1">Pinterest</string>
+    <string name="twitter_x">Twitter / X</string>
+    <string name="instagram1">Instagram</string>
+    <string name="tiktok1">Tiktok</string>
+    <string name="quora1">Quora</string>
+    <string name="opening_tutorials">Pagbubukas ng Mga Tutorial</string>
+    <string name="draw_stroke">Gumuhit ng mga Stroke</string>
+    <string name="draw_camera_image">Gumuhit ng Larawan ng Camera</string>
+    <string name="draw_overlay_image">Gumuhit ng Overlay na Larawan</string>
+    <string name="draw_trace_image">Gumuhit ng Trace Image</string>
+    <string name="community_post">Post ng Komunidad</string>
+    <string name="community_post_hashtag">Hash Tag ng Post ng Komunidad</string>
+    <string name="community_post_like">Like ng Community Post</string>
+    <string name="community_post_comment">Komento sa Post ng Komunidad</string>
+    <string name="community_post_share">Share ng Post sa Komunidad</string>
+    <string name="total">Kabuuan</string>
+    <string name="your_points">Iyong Mga Puntos</string>
+    <string name="drawing_points">Mga Punto sa Pagguhit</string>
+    <string name="your_progress">Ang Iyong Pag-unlad</string>
+    <string name="complete_your_challenges">Kumpletuhin ang Iyong mga Hamon</string>
+    <string name="earn_320_points_and_get_a_special_bonus_from_paintology">Makakuha ng 320 Points at makakuha ng espesyal na bonus mula sa Paintology</string>
+    <string name="_3_5" translatable="false">3/5</string>
+    <string name="_320_points" translatable="false">320 Points</string>
+    <string name="do_the_challenge">Gawin Ang Hamon</string>
+    <string name="get_more_points_here">Kumuha ng Higit pang Mga Puntos Dito!</string>
+    <string name="take_the_challenge">Tanggapin ang Hamon</string>
+    <string name="community_post1">Post sa Komunidad</string>
+    <string name="earn_200_points_by_making_10_posts_in_the_paintology_community">Makakuha ng 200 Points sa pamamagitan ng Paggawa ng 10 Post sa Paintology Community</string>
+    <string name="do_this_award">Gawin itong Award</string>
+    <string name="challenge2">Hamon</string>
+    <string name="find_ability">Maghanap ng Kakayahan</string>
+    <string name="joe_smith">Joe Smith</string>
+    <string name="cat_drawing">Pagguhit ng Pusa</string>
+    <string name="do_tutorial">Gumawa ng Tutorial</string>
+    <string name="video">Video</string>
+    <string name="favorites">Mga paborito</string>
+    <string name="beginner_1" translatable="false">Beginner 1</string>
+    <string name="_50_users_are_participating_in_this_challenge">50 user ang nakikilahok sa hamong ito</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="settings">Mga setting</string>
+    <string name="notifications">Mga abiso</string>
+    <string name="general">Heneral</string>
+    <string name="accessibility">Accessibility</string>
+    <string name="security">Seguridad</string>
+    <string name="help_center">Help Center</string>
+    <string name="about_paintology">Tungkol sa Paintology</string>
+    <string name="video_guides">Mga Gabay sa Video</string>
+    <string name="your_ranking">Ang iyong Ranking</string>
+    <string name="tutorials_32">Mga Tutorial\n(32)</string>
+    <string name="profile">Profile</string>
+    <string name="_7th_position"><u>Ika-7 Posisyon</u></string>
+
+    <string name="top_comments">Mga Nangungunang Komento:</string>
+    <string name="type_a_comment">Mag-type ng komento</string>
+    <string name="_0_pts" translatable="false">0 Pts</string>
+    <string name="_720_pts" translatable="false">720 Pts</string>
+    <string name="date_ascending_default">Pagtaas ng Petsa</string>
+    <string name="date_descending">Petsa ng Pababa (default)</string>
+    <string name="ratings">Mga rating</string>
+    <string name="comments">Mga komento</string>
+    <string name="posts_number">Numero ng mga Post</string>
+    <string name="tutorials_default">Mga Tutorial</string>
+    <string name="by_levels">Ayon sa Mga Antas</string>
+    <string name="by_awards">Sa pamamagitan ng Awards</string>
+    <string name="most_popular">Pinakasikat</string>
+    <string name="publish_community">I-publish ang Komunidad</string>
+    <string name="post_gallery">Post Gallery</string>
+    <string name="world_all" translatable="false">World (All)</string>
+    <string name="favourites">Mga paborito</string>
+    <string name="description">Paglalarawan</string>
+    <string name="rate_this_drawing">I-rate ang Drawing na ito</string>
+    <string name="rate">Rate</string>
+    <string name="be_the_first_to_post_in_your_country">Maging unang mag-post sa sarili nating Bansa!</string>
+    <string name="check_out_the_tutorials_or_point_to_a_challenge">Tingnan ang mga tutorial o simulan ang pagguhit</string>
+    <string name="make_drawing">Mag Drawing</string>
+    <string name="close_drawing">Isara ang Pagguhit</string>
+    <string name="_200" translatable="false">200</string>
+    <string name="this_ranking_is_compiled">Ang ranggo na ito ay pinagsama-sama</string>
+
+    <string name="label_no_comments_yet">Wala pang mga Komento!</string>
+    <string name="label_comments">Mga komento</string>
+    <string name="enlarge">Palakihin</string>
+    <string name="add_to_favorites">Idagdag sa Mga Paborito</string>
+    <string name="_4_3">4.3</string>
+    <string name="user_name">user name</string>
+    <string name="learn_drawing">Alamin ang Pagguhit</string>
+
+    <string name="start_the_tutorial">Simulan ang Tutorial</string>
+    <string name="complete_your_drawing">Kumpletuhin ang Iyong Pagguhit</string>
+    <string name="your_drawings">Iyong mga Guhit</string>
+    <string name="complete_your_drawings">Kumpletuhin ang Iyong Mga Guhit</string>
+    <string name="complete_your_tutorial">Kumpletuhin ang Iyong Tutorial</string>
+    <string name="no_more_users_be_the_first">Wala nang user, mauna ka na!</string>
+    <string name="post_gallery_message">Mag-post sa Gallery ng iyong kasalukuyang mga drawing\nGumawa ng higit pang paggawa ng mga drawing</string>
+    <string name="create_drawings">Gumawa ng Mga Guhit</string>
+    <string name="post_to_gallery">Mag-post sa Gallery</string>
+    <string name="title">Pamagat</string>
+    <string name="description1">Paglalarawan</string>
+    <string name="youtube_link">Link sa YouTube</string>
+    <string name="add_hashtag1_hashtag_2">Magdagdag ng Hashtag1#, Hashtag#2</string>
+    <string name="publish">I-publish</string>
+    <string name="your_drawing_has_been_posted_to_the_community1">Ang iyong drawing ay nai-post sa Komunidad!</string>
+    <string name="see_it_now1">Tingnan mo ngayon!</string>
+    <string name="ok">Ok</string>
+    <string name="your_canvas_awaits">Naghihintay ang Iyong Canvas!</string>
+    <string name="create_your_first_masterpiece_or_explore_new_techniques">Lumikha ng iyong unang obra maestra o tuklasin ang mga bagong diskarte.</string>
+    <string name="explore_our_video_guides_34">Galugarin ang Aming Mga Gabay sa Video (34)</string>
+    <string name="find_tutorials_and_tips_to_enhance_your_skills">Maghanap ng mga tutorial at tip upang mapahusay ang iyong mga kasanayan.</string>
+    <string name="you_wont_be_able">hindi mo magagawang makipag-chat sa user, sigurado ka ba?</string>
+    <string name="no_new_notification">Walang Bagong Notification</string>
+    <string name="account">Account</string>
+    <string name="system">Sistema</string>
+    <string name="paintology">Paintology</string>
+    <string name="rate_now">I-rate Ngayon</string>
+    <string name="not_now">Hindi Ngayon</string>
+    <string name="tell_us_how_much_you_enjoyed_this_piece_by_rating_it">Sabihin sa amin kung gaano mo nagustuhan ang bahaging ito sa pamamagitan ng pag-rate nito.</string>
+    <string name="appreciate_this_art">Pinahahalagahan ang Sining na Ito?</string>
+    <string name="appreciate_this_tut">Pinahahalagahan ang Tutorial na ito?</string>
+    <string name="show_off_your_creativity">Ipakita ang Iyong Pagkamalikhain!</string>
+    <string name="image_added_to_my_paintings">Idinagdag ang larawan sa My Paintings!</string>
+    <string name="your_favorite_galleries_list_is_empty_discover_and_mark_your_favorite_ones">Walang laman ang listahan ng iyong mga paboritong gallery. Tuklasin at markahan ang iyong mga paborito!</string>
+    <string name="no_favorites_added">Walang Nadagdag na Mga Paborito</string>
+    <string name="you_haven_t_added_any_users_to_your_favorites_explore_the_community_and_save_your_favorite_artists">Hindi ka nagdagdag ng sinumang user sa iyong mga paborito. Galugarin ang komunidad at i-save ang iyong mga paboritong artist!</string>
+    <string name="there_are_no_tutorials_in_your_favorites_browse_and_select_the_best_tutorials_to_add_them_here">Walang mga tutorial sa iyong mga paborito. Mag-browse at piliin ang pinakamahusay na mga tutorial upang idagdag ang mga ito dito.</string>
+    <string name="you_don_t_have_any_favorite_posts_yet_start_exploring_and_adding_your_top_picks">Wala ka pang mga paboritong post. Simulan ang paggalugad at pagdaragdag ng iyong mga nangungunang pinili!</string>
+    <string name="store">Tindahan</string>
+    <string name="you_must">Dapat mong sundan si Martin at sundan muli upang magsimulang makipag-chat. Tiyaking pareho kayong sumunod sa isa\'t isa para i-unlock ang chat.</string>
+    <string name="following_please_wait">Sumusunod Mangyaring Maghintay…</string>
+    <string name="who_we_are">kung sino tayo</string>
+    <string name="paintology_is">Ang Paintology ay isang kumpanya ng software na nakabase sa US na nag-aalok ng mga malikhaing digital na app para sa mga gumagamit nito. Ang aming pangunahing produkto ay ang Paintology drawing app na available sa Google play store, na nag-aalok ng simple at mahusay na drawing app para sa mga mahilig mag-drawing at magpinta.\n\nKabilang sa iba pa niyang hilig ang sining kung saan nakagawa siya ng daan-daang art piece na nakasabit sa mga dingding. ng mga tahanan ng mga pamilya at kaibigan. Ito ang nagtulak sa kanya na lumikha ng digital drawing app, Paintology. Ito ay naisip upang payagan ang mga user na dalhin ang karamihan sa kanilang mga tradisyonal na kasanayan sa sining sa digital na telepono at tablet.\n\n Upang makita ang kanyang mga kumpletong gawa, maaari mong bisitahin ang kanyang iba pang mga social site kasama ang website ng Paintology.com.</string>
+    <string name="web_address">Web address:</string>
+    <string name="https_paintology_com" translatable="false">https://paintology.com</string>
+    <string name="twitter_x2">Twitter / X</string>
+    <string name="quora2">Quora</string>
+    <string name="linkedin2">Linkin</string>
+    <string name="personal_details2">Mga Personal na Detalye</string>
+    <string name="traditional_art_ability2">Tradisyonal na Kakayahang Sining</string>
+    <string name="social_media_links3">Mga Link sa Social Media</string>
+    <string name="twitter_x3">Twitter / X</string>
+    <string name="traditional_art_ability3">Tradisyonal na Kakayahang Sining</string>
+    <string name="social_media_links4">Mga Link sa Social Media</string>
+    <string name="twitter_x4">Twitter / X</string>
+    <string name="traditional_art_ability4">Tradisyonal na Kakayahang Sining</string>
+    <string name="app_links">Mga link ng app:</string>
+    <string name="https_play_google_com_store_apps_developer_id_paintology" translatable="false">https://play.google.com/store/apps/developer?id=Paintology</string>
+    <string name="protectedd">Ang Paintology ay lubos na nakatuon sa pagprotekta sa iyong privacy. Gusto naming gumugol ka ng mas maraming oras sa paggamit ng aming mga produkto at serbisyo nang hindi kailangang mag-alala tungkol sa privacy.</string>
+    <string name="log_files">Mga Log File</string>
+    <string name="like_many">Tulad ng maraming iba pang mga Web site, ang paintology.com ay gumagamit ng mga log file. Ang mga file na ito ay nagla-log lamang ng mga bisita sa site, isang karaniwang pamamaraan para sa mga kumpanyang nagho-host at isang bahagi ng analytics ng serbisyo sa pagho-host. Ang impormasyon sa loob ng mga log file ay kinabibilangan ng mga internet protocol (IP) address, uri ng browser, Internet Service Provider (ISP), date/time stamp, referring/exit page, at posibleng bilang ng mga click. Ang impormasyong ito ay ginagamit upang pag-aralan ang mga uso, pangasiwaan ang site, subaybayan ang paggalaw ng gumagamit sa paligid ng site, at mangalap ng demograpikong impormasyon. Ang mga IP address, at iba pang ganoong impormasyon ay hindi naka-link sa anumang impormasyon na personal na makikilala</string>
+    <string name="cookies">Mga cookies</string>
+    <string name="mostly_people">Gumagamit ang website ng paintology.com ng cookies upang mag-imbak ng impormasyon tungkol sa mga kagustuhan ng mga bisita, upang itala ang impormasyong partikular sa gumagamit kung aling mga pahina ang ina-access o binibisita ng bisita sa site, at upang i-personalize o i-customize ang nilalaman ng aming web page batay sa uri ng browser ng mga bisita o iba pang impormasyon na nagpapadala ang bisita sa pamamagitan ng kanilang browser.\n Kung nais mong i-disable ang cookies, maaari mong gawin ito sa pamamagitan ng iyong mga indibidwal na opsyon sa browser. Ang mas detalyadong impormasyon tungkol sa pamamahala ng cookie na may mga partikular na web browser ay matatagpuan sa kani-kanilang mga website ng mga browser. Ano Ang Mga Cookies?\n Ang aming kumpanya ay hindi nagbibigay ng mga third party ng personal na impormasyon ng mga user. Personal na impormasyon na ibinigay sa mga third party", maliban sa mga sumusunod na kaso.\n Kapag nagbigay ng pahintulot ang user nang maaga.\n Kapag ang isang bahagi ng aming mga serbisyo ay outsourced at ito ay kinakailangan upang maisakatuparan ang negosyong iyon.\n Kapag istatistika ang data ay isiwalat pagkatapos iproseso ang data upang hindi makilala ang mga indibidwal.\n Sa mga pagkakataong pinagbabatayan ng batas.\n Kapag nahihirapang makuha ang pahintulot ng indibidwal at ito ay kinakailangan upang maprotektahan ang buhay, tao, o ari-arian ng isang tao.\n Kapag ang aming kumpanya ay hiniling ng isang pambansang institusyon, lokal na pamahalaan, o isang pinagkatiwalaan ng nasabing institusyon o pamahalaan, na makipagtulungan sa pagsisiwalat ng nakarehistrong nilalaman alinsunod sa batas.</string>
+    <string name="provision_of_personal_information_to_third_parties">Pagbibigay ng personal na impormasyon sa mga ikatlong partido</string>
+    <string name="facebook">Facebook</string>
+    <string name="https_www_facebook_com_msqrd_privacy">https://www.facebook.com/msqrd/privacy</string>
+    <string name="google_analytics">Google Analytics</string>
+    <string name="https_policies_google_com_privacy" translatable="false">https://policies.google.com/privacy</string>
+    <string name="google_ads_excluding_paid_and_windows_versions">Google Ads (Hindi kasama ang mga Bayad at bersyon ng Windows)</string>
+    <string name="https_policies_google_com_technologies_ads" translatable="false">https://policies.google.com/technologies/ads</string>
+    <string name="google_firebase_android_versions_only">Google Firebase (mga bersyon ng Android lang)</string>
+    <string name="https_firebase_google_com_support_privacy" translatable="false">https://firebase.google.com/support/privacy</string>
+    <string name="youtube_android_versions_only">YouTube (mga bersyon ng Android lang)</string>
+    <string name="https_www_youtube_com_intl_us_about_policies_community_guidelines" translatable="false">https://www.youtube.com/intl/us/about/policies/#community-guidelines</string>
+    <string name="third_party_sites_and_services">Mga Site at Serbisyo ng Third-Party</string>
+    <string name="webstie_go">Ang website ng paintology.com ay maaaring maglaman ng mga link sa mga third-party na website, produkto, widget at serbisyo. Dapat mong kumonsulta sa kaukulang mga patakaran sa privacy ng mga third-party na site na ito para sa mas detalyadong impormasyon sa kanilang mga kagawian pati na rin para sa mga tagubilin tungkol sa kung paano mag-opt out sa ilang mga kagawian, kung ninanais. Mga Serbisyo ng Google Gumagamit ang website ng paintology.com ng iba\'t ibang teknolohiya upang mangolekta at mag-imbak ng pangkalahatang impormasyon sa paggamit ng website sa pamamagitan ng mga serbisyo ng Google. Matuto pa tungkol sa Google.</string>
+    <string name="privacy_policylink"><u>Patakaran sa Privacy.</u></string>
+    <string name="about_security_control_measures">Tungkol sa Mga Panukala sa Pagkontrol sa Seguridad</string>
+    <string name="legal">Ang aming kumpanya ay patuloy na nagsusumikap na magsagawa ng mga kinakailangan at naaangkop na mga hakbang sa seguridad laban sa mga panganib ng hindi awtorisadong pag-access, pagtagas, pagkasira, at pinsala sa aming pangangasiwa ng personal na impormasyon.\n Mga Systematic Security Control Measures:\n Kami ay nagpapanatili ng isang sistema at mga panuntunan upang protektahan ang personal na impormasyon. at masinsinan tungkol sa naaangkop na paghawak at mga tugon batay sa mga batas at ordinansa. Nagsasagawa rin kami ng mga regular na boluntaryong inspeksyon at pag-audit tungkol sa mga pangyayari sa paghawak ng personal na impormasyon.\n Mga Panukala sa Pagkontrol sa Seguridad ng Tao:\n Regular at kapag ang isang empleyado ay sumali sa kumpanya, tinuturuan namin ang lahat ng empleyado sa proteksyon ng personal na impormasyon. Bilang karagdagan, naaangkop naming pinamamahalaan ang mga empleyado, tulad ng pag-aatas sa kanila na tanggapin ang tungkuling panatilihin ang pagiging kumpidensyal batay sa mga regulasyon sa trabaho.\n Mga Panukala sa Pagkontrol sa Pisikal na Seguridad:\n Kinokontrol namin ang pagpasok at paglabas ng empleyado sa mga silid sa mga lugar kung saan pinangangasiwaan ng isang empleyado personal na impormasyon. Kasabay nito, nagpapatupad kami ng mga hakbang upang pigilan ang isang hindi awtorisadong tao na tingnan ang personal na impormasyon.\n Mga Panukala sa Pagkontrol sa Teknikal na Seguridad:\n Dahil sa kontrol sa pag-access, nililimitahan namin ang lawak ng pagtingin at pangangasiwa ng impormasyon. Kasabay nito, nagsasagawa kami ng mga teknikal na hakbang sa pagkontrol, tulad ng angkop na mga hakbang sa seguridad ng impormasyon laban sa mga panganib tulad ng ilegal na pag-access at mga virus ng computer.</string>
+    <string name="noti_data">Makakatanggap ka ng mga notification ng ibang mga user kapag nagustuhan nila, nag-rate, nagkomento, tumugon sa iyong post sa Gallery at Community.\n\nMakakatanggap ka rin ng mga notification mula sa admin ng Paintology app para sa suporta at iba pang mahahalagang notification.</string>
+    <string name="general_data">Ang Paintology app ay idinisenyo upang pahusayin ang iyong mga kasanayan sa pagguhit habang nag-aaral sa pamamagitan ng masaya at madaling mga tutorial!\n\nAng app ay inayos ayon sa mga antas kung saan ang lahat ng mga user ay pumapasok sa Beginner 1 at gumagawa ng kanilang paraan. Tulad ng anumang paaralan ng pagguhit, gagawa ka ng paraan sa pamamagitan ng pagkuha ng mga mahahalaga at pangunahing kasanayan sa pagguhit.\n\nTandaan, ang Paintology ay hindi tungkol sa mga tool ngunit nagtuturo sa iyo ng mga pangunahing diskarte ng sining na maaari mong ilapat sa anumang art medium. Pagkatapos ng lahat, ang saya ng pagpipinta at pagguhit ay panatilihin itong simple at matutunan ang mga mahahalagang pamamaraan. Ganito ang karamihan sa mahuhusay na artista ay natutong gumuhit at magpinta gamit lamang ang maliit na tool. Sa kabutihang palad ang parehong naaangkop sa digital drawing. Kaya lang, maraming user ang hindi alam ang mga technique na ginamit para gumawa ng magagandang drawing gamit ang isang brush lang!\n\nAng Paintology app ay idinisenyo para pahusayin ang iyong mga kasanayan sa pagguhit habang natututo sa pamamagitan ng masaya at madaling mga tutorial!\n\nAng app ay naging inayos ayon sa mga antas kung saan pumapasok ang lahat ng user sa Beginner 1 at gagawa ng kanilang paraan. Tulad ng anumang paaralan ng pagguhit, gagawa ka ng paraan sa pamamagitan ng pagkuha ng mga mahahalaga at pangunahing kasanayan sa pagguhit.\n\nTandaan, ang Paintology ay hindi tungkol sa mga tool ngunit nagtuturo sa iyo ng mga pangunahing diskarte ng sining na maaari mong ilapat sa anumang art medium. Pagkatapos ng lahat, ang saya ng pagpipinta at pagguhit ay panatilihin itong simple at matutunan ang mga mahahalagang pamamaraan. Ganito ang karamihan sa mahuhusay na artista ay natutong gumuhit at magpinta gamit lamang ang maliit na tool. Sa kabutihang palad ang parehong naaangkop sa digital drawing. Kaya lang maraming user ang hindi alam ang mga technique na ginamit para gumawa ng magagandang drawing sa isang brush lang!\n\nIto ang matututunan mo!\n\n</string>
+    <string name="accessibility_data">Sa kasalukuyan, wala kaming anumang espesyal na feature ng pagiging naa-access. Gayunpaman, dapat kang magsimula mula sa mga pangunahing kaalaman sa pagguhit. Magsimula sa kategoryang Total Beginner para maging komportable sa iyong mga drawing stroke gamit ang iyong daliri o isang stylus.</string>
+    <string name="store_data">Ang tindahan ang magiging lugar kung saan maaari mong i-unlock ang higit pang mga feature ng app! Subukang panatilihin itong simple at matuto sa maliliit na hakbang. Habang bumubuti ka, makikita mo na ang pag-redeem sa mga feature na iyon ay makakatulong sa iyong ma-tap ang higit pa sa iyong pagkamalikhain.\n\nMagsimulang mangolekta ng mga puntos, para ma-redeem mo ang ilang magagandang feature ng app. Idinisenyo upang isulong ang iyong pagkamalikhain at hindi mga teknikal na kasanayan.</string>
+    <string name="help_center_data">Makakakuha ka ng tulong sa maraming paraan.\n\nMaaari mong gamitin ang aming bagong entry form sa Suporta sa App upang isumite ang iyong mga query tungkol sa anumang isyu nang direkta mula sa app.\n\nMaaari kang makipag-ugnayan sa amin sa pamamagitan ng web form o direktang magsumite sa email: support@paintology.com\n\nUpang makarating sa screen ng Suporta sa App, mag-click sa larawan o sa button.</string>
+    <string name="about_paintology_data">Ang Paintology ay nakuha mula sa mindset ng lumikha, si Dr. Ferdouse Khaleque. Ginugol ni Ferdouse ang halos lahat ng kanyang buhay sa pagbuo ng mga makabagong solusyon sa software para sa mga pangunahing kumpanya tulad ng Nike, Sothebys, Harley Davidson at higit pa.</string>
+    <string name="security_data">Ang seguridad at privacy ang aming mga pangunahing alalahanin pagdating sa aming tapat na base ng mga user. Makakatiyak kang ang impormasyong hawak namin tungkol sa iyo ay hindi ibinabahagi sa ibang mga third party. \nAng aming pangunahing alalahanin ay tiyaking ligtas ang mga user sa paggamit ng platform ng Paintology at may karapatang magkansela, magtanggal ng anumang personal na impormasyon na sa tingin nila ay may kaugnayan.</string>
+    <string name="how_we_protect_your_data">Paano namin pinoprotektahan ang iyong data</string>
+    <string name="to_ensure_your">Upang matiyak na ang iyong data ay pinananatiling ligtas, ang website na ito ay sinigurado at naka-encrypt sa pamamagitan ng mga komunikasyon sa privacy gamit ang Encrypt SSL.</string>
+    <string name="what_rights_you_have">Anong mga karapatan ang mayroon ka sa iyong data &amp; pagtanggal</string>
+    <string name="if_you">Kung mayroon kang account sa site na ito, o nag-iwan ng mga komento, maaari kang humiling na makatanggap ng na-export na file ng personal na data na hawak namin tungkol sa iyo, kasama ang anumang data na ibinigay mo sa amin.\n\n Maaari mo ring hilingin na kami burahin ang anumang personal na data na hawak namin tungkol sa iyo sa pamamagitan ng pagpapadala ng iyong kahilingan sa pamamagitan ng sumusunod na link ng contact us form sa ibaba.\n\n Isumite ang form kasama ang iyong kahilingan at maaari kang bumalik sa isang linggo upang matiyak na ang lahat ng iyong personal na data ay naalis mula sa ating sistema.</string>
+    <string name="children_s_information">Impormasyon ng mga Bata</string>
+    <string name="member">Naniniwala kami na mahalagang magbigay ng karagdagang proteksyon para sa mga bata online. Hinihikayat namin ang mga magulang at tagapag-alaga na gumugol ng oras online kasama ang kanilang mga anak upang obserbahan, lumahok at/o subaybayan at gabayan ang kanilang online na aktibidad. Ang Paintology ay hindi sadyang nangongolekta ng anumang impormasyong nagbibigay ng personal na pagkakakilanlan mula sa mga batang wala pang 13 taong gulang. Pinapayuhan namin ang lahat ng mga bata na kumuha muna ng pahintulot sa kanilang mga magulang o tagapag-alaga bago gumawa ng account para sa Paintology Member Area at Mga Forum.</string>
+    <string name="contact">Makipag-ugnayan</string>
+    <string name="support_paintology_com">support@paintology.com</string>
+    <string name="you_can_also_use_our">Maaari mo ring gamitin ang aming bagong App Support para ipadala ang iyong mga tanong at query.</string>
+    <string name="consent">Pagpayag</string>
+    <string name="by_using_our_app_you">Sa pamamagitan ng paggamit ng aming app, sumasang-ayon ka sa aming patakaran sa privacy at sumasang-ayon sa mga tuntunin nito.</string>
+    <string name="paintology_app_links">Mga link ng Paintology app:</string>
+    <string name="https_play_google_com" translatable="false">https://play.google.com/store/apps/details?id=com.paintology.lite</string>
+    <string name="https_play_google_com_s" translatable="false">https://play.google.com/store/apps/details?id=com.paintology.recorder</string>
+    <string name="website">Website:</string>
+    <string name="https_www_paintology_com" translatable="false">https://www.paintology.com</string>
+    <string name="youtube">YouTube:</string>
+    <string name="https_www_youtube_com_paintology" translatable="false">https://www.youtube.com/@Paintology</string>
+    <string name="https_www_youtube_com_ferdouse" translatable="false">https://www.youtube.com/@Ferdouse</string>
+    <string name="https_www_youtube_com_paintology_streams" translatable="false">https://www.youtube.com/@Paintology/streams</string>
+    <string name="https_www_youtube_com_ferdouse_shorts" translatable="false">https://www.youtube.com/@Ferdouse/shorts</string>
+    <string name="quora">Quora:</string>
+    <string name="https_paintology_quora_com" translatable="false">https://paintology.quora.com</string>
+    <string name="https_www_quora_com_profile_ferdouse_khaleque" translatable="false">https://www.quora.com/profile/Ferdouse-Khaleque</string>
+    <string name="poetry_site">Site ng tula:</string>
+    <string name="https_allpoetry_com_ferdouse" translatable="false">https://allpoetry.com/Ferdouse</string>
+    <string name="creative_site">Creative site:</string>
+    <string name="https_ferdouse_com" translatable="false">https://ferdouse.com</string>
+    <string name="free_google_classroom">Libreng Google classroom:</string>
+    <string name="https_forms_gle_ozskjgypz9x8f5yx8" translatable="false">https://forms.gle/ozsKJGYPZ9X8F5YX8</string>
+    <string name="udemy">Udemy:</string>
+    <string name="https_www_udemy_com_courses_search_p_2_q_paintology_src_ukw" translatable="false">https://www.udemy.com/courses/search/?p=2&amp;q=paintology&amp;src=ukw</string>
+    <string name="facebookb">Facebook:</string>
+    <string name="https_www_facebook_com_paintology_apps" translatable="false">https://www.facebook.com/Paintology.apps</string>
+    <string name="tiktok">Tiktok:</string>
+    <string name="https_www_tiktok_com_paintology3" translatable="false">https://www.tiktok.com/@paintology3</string>
+    <string name="instagram">Instagram:</string>
+    <string name="https_www_instagram_com_paintology_app" translatable="false">https://www.instagram.com/paintology.app/</string>
+    <string name="https_www_instagram_com_ferdousekhal" translatable="false">https://www.instagram.com/ferdousekhal/</string>
+    <string name="others">Iba pa</string>
+    <string name="pinterest">Pinterest:</string>
+    <string name="permission_necessary">Kinakailangan ang Pahintulot</string>
+    <string name="cant_read_permission_is_not_enabled">Kinakailangan ang pahintulot upang ma-access ang media at Camera</string>
+    <string name="quick_draw">Mabilis na Gumuhit</string>
+    <string name="share_paintology_with_others">Ibahagi ang Paintology sa Iba</string>
+    <string name="watch_intro_video">Panoorin ang intro video</string>
+    <string name="share_feedback">Magbahagi ng feedback</string>
+    <string name="go_to_google_playstore">Pumunta sa Google Playstore</string>
+    <string name="my_paintings">Aking Mga Pinta</string>
+    <string name="drawing_activity">Gawain sa Pagguhit</string>
+    <string name="post">Post</string>
+    <string name="rate_the_app">I-rate ang App</string>
+    <string name="language">Wika</string>
+    <string name="about_us">Tungkol sa Amin</string>
+    <string name="app_support">Suporta sa App</string>
+    <string name="remove_favourite">Alisin ang Paborito</string>
+    <string name="copy_link">Kopyahin ang Link</string>
+    <string name="open_in_canvas_overlay">Buksan sa Canvas (overlay)</string>
+    <string name="open_in_canvas_trace">Buksan sa Canvas (trace)</string>
+    <string name="users_posts">Mga Post ng User</string>
+    <string name="download">I-download</string>
+    <string name="report">Ulat</string>
+    <string name="go_to_youtube_video">Pumunta sa youtube video</string>
+    <string name="more_details">Higit pang mga Detalye</string>
+    <string name="add_to_favourite">Idagdag sa Paborito</string>
+    <string name="add_new_post">Magdagdag ng Bagong Post</string>
+    <string name="go_to_google_play">Pumunta sa Google Play</string>
+    <string name="terms_amp_conditions"><![CDATA[Mga Tuntunin at Kundisyon]]></string>
+    <string name="app_version_n_nplease_read_these_privacy_policy_carefully">Bersyon ng app \n\nPakibasa nang mabuti ang Patakaran sa Privacy na ito</string>
+    <string name="awards">Mga parangal</string>
+    <string name="no_tutorials_at_this_level">Walang mga tutorial sa antas na ito</string>
+    <string name="learn_with_paintology">Matuto gamit ang Paintology</string>
+    <string name="write_a_message">Sumulat ng mensahe</string>
+    <string name="go_to_login">Pumunta sa Login</string>
+    <string name="select_type">Piliin ang Uri</string>
+    <string name="size">Sukat</string>
+    <string name="draw_brush">Gumuhit ng Brush</string>
+    <string name="brush_name">Pangalan ng Brush</string>
+    <string name="enter_brush_name_here">Ilagay ang Brush Name dito</string>
+    <string name="do_the_tutorial">Gawin ang Tutorial</string>
+    <string name="watch">Panoorin!</string>
+    <string name="try_it">Subukan Ito!</string>
+    <string name="intro_videos">Mga Intro na Video</string>
+    <string name="profile_completion_bonus">Bonus sa Pagkumpleto ng Profile</string>
+    <string name="complete_your_profile_details_for_exclusive_rewards">Kumpletuhin ang Mga Detalye ng Iyong Profile para sa Eksklusibong Mga Gantimpala!</string>
+    <string name="profile_status">Katayuan ng Profile</string>
+    <string name="personal_details">Mga Personal na Detalye</string>
+    <string name="gender">Kasarian</string>
+    <string name="traditional_art_ability">Tradisyonal na Kakayahang Sining</string>
+    <string name="social_media_links">Mga Link sa Social Media</string>
+    <string name="facebook_profile">Profile sa Facebook</string>
+    <string name="instagram_profile">Profile sa Instagram</string>
+    <string name="youtube_profile">Profile sa YouTube</string>
+    <string name="twitter_profile">Profile sa Twitter</string>
+    <string name="linkedin_profile">LinkedIn Profile</string>
+    <string name="freehand_default">Freehand (default)</string>
+    <string name="reward_points">Mga Puntos ng Gantimpala</string>
+    <string name="welcome_bonuss">Welcome Bonus</string>
+    <string name="opening_tutorialss">Pagbubukas ng Mga Tutorial</string>
+    <string name="draw_strokes">Gumuhit ng mga Stroke</string>
+    <string name="community_posts">Post sa Komunidad</string>
+    <string name="community_post_likee">Like ng Community Post</string>
+    <string name="community_post_commentt">Komento sa Post ng Komunidad</string>
+    <string name="community_post_sharee">Share ng Post sa Komunidad</string>
+    <string name="totalt">Kabuuan</string>
+    <string name="art_abilityy">Kakayahang Sining</string>
+    <string name="art_favourite">Paboritong Sining</string>
+    <string name="art_med">Daluyan ng Sining</string>
+    <string name="insta">Instagram</string>
+    <string name="youtubee">YouTube</string>
+    <string name="tiktokk">TikTok</string>
+    <string name="pinterestt">Pinterest</string>
+    <string name="increase_your_drawing_skills">Palakihin ang iyong mga kasanayan sa pagguhit!</string>
+    <string name="watch_ad_to_earn_10_points">Manood ng Ad para makakuha ng 10 puntos</string>
+    <string name="search_paintologyg">Maghanap ng Paintology</string>
+    <string name="tutorialss">Mga Tutorial</string>
+    <string name="user_posts">Mga Post ng User</string>
+    <string name="blog_postss">Mga Post sa Blog</string>
+    <string name="please_enter_your_details_for_create_account">Mangyaring ipasok ang iyong mga detalye para sa paggawa ng account</string>
+    <string name="show_password">Ipakita ang Password</string>
+    <string name="or_signup_with_social">o Pag-signup sa social</string>
+    <string name="already_have_an_account_login">Mayroon ka nang account? Mag-login</string>
+    <string name="welcome_to_the_new_world_of_digital_drawing">Maligayang pagdating sa Bagong Mundo ng Digital Drawing!</string>
+    <string name="this_action_may_contain_ad">Maaaring naglalaman ang pagkilos na ito ng Ad</string>
+    <string name="issue">Isyu</string>
+    <string name="screenshots">Mga screenshot</string>
+    <string name="tit">Pamagat</string>
+    <string name="descriptions">Paglalarawan</string>
+    <string name="undo">I-undo</string>
+    <string name="redo">Gawin muli</string>
+    <string name="your_points_so_far">Ang iyong mga puntos sa ngayon!</string>
+    <string name="watch_ad_to_earn_10_point">Manood ng Ad para makakuha ng 10 puntos</string>
+    <string name="drawings">Mga guhit</string>
+    <string name="communit">Komunidad</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="follow1">Sundin</string>
+    <string name="art_collection">Koleksyon ng Sining</string>
+    <string name="explore_their_23_drawings_and_get_inspired">I-explore ang kanilang 23 Drawings at makakuha ng inspirasyon</string>
+    <string name="linkedin">Linkin</string>
+    <string name="personal_details1">Mga Personal na Detalye</string>
+    <string name="traditional_art_ability1">Tradisyonal na Kakayahang Sining</string>
+    <string name="social_media_links2">Mga Link sa Social Media</string>
+    <string name="tags">Mga tag</string>
+    <string name="please_enter_following_information">Mangyaring ipasok ang sumusunod na impormasyon</string>
+    <string name="more_brushes">Higit pang mga Brush</string>
+    <string name="single_tap">Single Tap</string>
+    <string name="straight_lines">Mga Tuwid na Linya</string>
+    <string name="gray_scale">Gray na Scale</string>
+    <string name="block_coloring">Pangkulay ng Block</string>
+    <string name="oval_color">OVAL COLOR</string>
+    <string name="paintology_brush">Paintology Brush</string>
+    <string name="load_image">Mag-load ng larawan</string>
+    <string name="overlay">Overlay</string>
+    <string name="trace">Bakas</string>
+    <string name="question">Tanong:</string>
+    <string name="answer">Sagot:</string>
+    <string name="yes">Oo</string>
+    <string name="no">Hindi</string>
+    <string name="play">Maglaro</string>
+    <string name="progress">Pag-unlad</string>
+    <string name="chat_unavailable">Hindi Available ang Chat</string>
+    <string name="you_must_follow_bochhi_and_be_followed_back_to_start_chatting_make_sure_both_of_you_follow_each_other_to_unlock_chat">Dapat mong sundan si Bochhi at sundan pabalik upang magsimulang makipag-chat. Tiyaking pareho kayong sumunod sa isa\'t isa para i-unlock ang chat.</string>
+    <string name="ad_is_loading_please_wait">Naglo-load ang ad, Mangyaring maghintay</string>
+    <string name="opeen">Bukas</string>
+    <string name="you_already_have_this_drawing_in_gallery">Mayroon ka nang drawing na ito sa Gallery</string>
+    <string name="see_your_post">Tingnan ang iyong post</string>
+    <string name="privacy_policy_updates">Mga Update sa Patakaran sa Privacy</string>
+    <string name="your_profile_is_saved">Ang iyong Profile ay Naka-save</string>
+    <string name="save_work_before_continuing">I-save ang trabaho bago magpatuloy?</string>
+    <string name="discard">Itapon</string>
+    <string name="switch_to_canvas_drawing">Lumipat sa Canvas Drawing</string>
+    <string name="pick">Pumili</string>
+    <string name="your_favorite_galleries_list_is_empty_discover_and_mark_your_favorite_one">Walang laman ang listahan ng iyong mga paboritong gallery. Tuklasin at markahan ang iyong mga paborito!</string>
+    <string name="do_the_challengee">Gawin Ang Hamon</string>
+    <string name="hello_world">Hello Mundo</string>
+    <string name="trace_check">Trace Check</string>
+    <string name="choose_an_action">Pumili ng aksyon</string>
+    <string name="camer">Camera</string>
+    <string name="go_to_my_paintings">Pumunta sa My Paintings</string>
+    <string name="do_10_drawings_posted_to_gallery">Gumawa ng 10 guhit na nai-post sa \'gallery\'</string>
+    <string name="resum">Ipagpatuloy</string>
+    <string name="typing">nagta-type…</string>
+    <string name="english">Ingles</string>
+    <string name="_45_drawings">(45 Guhit)</string>
+    <string name="this_is_a_reply_content">Ito ay isang nilalaman ng tugon</string>
+    <string name="_1_day_a_go">1 araw na lang</string>
+    <string name="view_reply">Tingnan ang Sagot</string>
+    <string name="worldwide">Sa buong mundo</string>
+    <string name="_32_drawings">32 Mga Guhit</string>
+    <string name="this_ranking_is_compiled_from_the_best_users_in_uae">Ang ranggo na ito ay pinagsama-sama mula sa pinakamahusay na mga gumagamit sa UAE</string>
+    <string name="date_descending_default">Petsa ng Pababa (Default)</string>
+    <string name="date_ascending">Pagtaas ng Petsa</string>
+    <string name="ratin">Mga rating</string>
+    <string name="likes">Mga gusto</string>
+    <string name="comment">Mga komento</string>
+    <string name="tutorials_defaul">Mga Tutorial (Default)</string>
+    <string name="freehand_defaul">Freehand (Default)</string>
+    <string name="by_level">Ayon sa Mga Antas</string>
+    <string name="favorite">Mga paborito</string>
+    <string name="explore_our_video_guides">Galugarin ang Aming Mga Gabay sa Video (34)</string>
+    <string name="find_tutorials_and_tips_to_enhance_your_skill">Maghanap ng mga tutorial at tip upang mapahusay ang iyong mga kasanayan</string>
+    <string name="straight_nline">Tuwid\nLinya</string>
+    <string name="next_stroke">Susunod na Stroke</string>
+    <string name="play_and_draw">Maglaro at Gumuhit!</string>
+    <string name="play_amp_draw"><![CDATA[Play & Draw]]></string>
+    <string name="try_i">Subukan ito!</string>
+    <string name="success">Tagumpay</string>
+    <string name="na">Pangalan</string>
+    <string name="blank">Blanko</string>
+    <string name="trac">Bakas</string>
+    <string name="sshot">Sshot</string>
+    <string name="neww">Bago</string>
+    <string name="feedback_submitted">Naisumite ang Feedback</string>
+    <string name="thanks_for_your_feedback">Salamat sa iyong feedback!</string>
+    <string name="more_detail">Higit pang Detalye</string>
+    <string name="do_you_wan_t_to_unfollow_ankit">Gusto mo bang i-unfollow ang Ankit?</string>
+    <string name="greeting_i_am_martin_i_love_drawing_and_drawing_related_stuff">Pagbati ako si martin Mahilig ako sa pagguhit at pagguhit ng mga bagay na may kaugnayan</string>
+    <string name="hashtag_search">Paghahanap ng hashtag</string>
+    <string name="loading_ad">Nilo-load ang AD…</string>
+    <string name="see_detail">Tingnan ang Detalye</string>
+    <string name="forgot_password">Nakalimutan ang Password</string>
+    <string name="enter_your_email_and_we_ll_send_you_a_one_time_password_otp_to_reset_it">Ilagay ang iyong email, at padadalhan ka namin ng isang beses na password (OTP) upang i-reset ito</string>
+    <string name="enter_email_here">Ilagay ang Email Dito</string>
+    <string name="verify_email_id">I-verify ang Email ID</string>
+    <string name="enter_otp_code_we_sent_to">Ilagay ang OTP code na ipinadala namin</string>
+    <string name="didn_t_received_the_code">Hindi nakatanggap ng code?</string>
+    <string name="resend_code">Ipadala muli ang Code</string>
+    <string name="reset_password">I-reset ang Password</string>
+    <string name="enter_confirm_password_here">Ipasok ang Kumpirmahin ang Password Dito</string>
+    <string name="enter_new_password_here">Maglagay ng Bagong Password Dito</string>
+    <string name="reset_success">Matagumpay na na-reset ang password</string>
+    <string name="token_expire">Nag-expire na ang Token Subukang Muli</string>
+    <string name="setting_pass">Pagtatakda ng Password Mangyaring Maghintay</string>
+    <string name="pass_match">Hindi tugma ang password</string>
+    <string name="enter_six_min">Mangyaring ipasok ang minimum na 6 na letrang password</string>
+    <string name="enter_pass">Mangyaring ipasok ang password</string>
+    <string name="enter_pass_new">Mangyaring ipasok ang kumpirmahin ang password</string>
+    <string name="username">Username</string>
+    <string name="enter_user">Ipasok ang username</string>
+    <string name="error">Error</string>
+    <string name="fail_reg">Nabigong mag-sign in pagkatapos ng pagpaparehistro.</string>
+    <string name="reg_fail">"Nabigo ang pagpaparehistro:"</string>
+    <string name="credentials">Nabigo ang pagpapatotoo. Pakisuri ang iyong mga kredensyal.</string>
+    <string name="registration">Nabigong mag-sign in pagkatapos ng pagpaparehistro.</string>
+    <string name="up_file">Pag-upload ng File</string>
+    <string name="valid_email">Mangyaring magpasok ng wastong email address</string>
+    <string name="opt_sent">Nagpapadala ng OTP Mangyaring Maghintay</string>
+    <string name="opt_sent_ss">Matagumpay na Naipadala ang OTP</string>
+    <string name="valid_opt">Maglagay ng wastong OTP</string>
+    <string name="verify_opt">I-verify ang OTP Mangyaring Maghintay</string>
+    <string name="no_tut">Walang nakitang tutorial</string>
+    <string name="send_pls_wait">Nagpapadala Mangyaring Maghintay</string>
+    <string name="enter_titl">Pakilagay ang Pamagat</string>
+    <string name="enter_det">Mangyaring Ipasok ang Mga Detalye</string>
+    <string name="feed_ss">Tagumpay ng Feedback</string>
+    <string name="load_tut">Nilo-load ang Mga Tutorial…</string>
+    <string name="c_empty">Walang laman ang komento</string>
+    <string name="f_to_reply">Nabigong magdagdag ng tugon! Subukan Muli</string>
+    <string name="f_to_comm">Nabigong magdagdag ng komento! Subukan Muli</string>
+    <string name="a_rate">Na-rate mo na ang post na ito.</string>
+    <string name="e_check">Error sa pagsuri ng rating:</string>
+    <string name="load">Naglo-load…</string>
+    <string name="no_ad">Walang Nahanap na Ad Subukang Muli!</string>
+    <string name="c_with_dr">Magpatuloy sa Drawings</string>
+    <string name="p_post">Tingnan kung ano ang pino-post ng mga tao</string>
+    <string name="s_dr">Isumite ang iyong mga guhit</string>
+    <string name="tutorials_point">Mga tutorial, kumita ng higit pang mga puntos!</string>
+    <string name="e_more">Kumita ng higit pa, maging abala!</string>
+    <string name="s_wrong">Nagkaproblema!, Pakisubukang muli.</string>
+    <string name="rate_us">I-rate kami</string>
+
+    <string name="pg_big_points">Malalaking Punto</string>
+    <string name="ss_earn_big_points_and_level_up">Kumita ng Malaking Puntos at Level Up!</string>
+    <string name="ss_big_point_sub_message">Makipag-ugnayan sa Paintology upang palakasin ang iyong mga kasanayan at puntos ng mga puntos</string>
+    <string name="ss_way_to_go">Way to Go!</string>
+    <string name="ss_you_ve_earned_20_points">Nakakuha ka ng 20 Points!</string>
+    <string name="ss_you_ve_earned_40_points">Nakakuha ka ng 40 Points!</string>
+    <string name="ss_dialog_des_1">"Kahanga-hangang simula! Kunin ang natitira sa iyong %1$d na puntos sa pamamagitan ng pag-subscribe at pagsunod. "</string>
+    <string name="ss_dialog_dis_2">Sa pamamagitan ng pagsunod, makakakuha ka ng agarang notification ng bagong nilalaman ng Paintology na magpapabilis sa iyong mga kasanayan sa pagguhit!</string>
+    <string name="ss_points_already_claimed">Mga Puntos na Na-claim na</string>
+    <string name="ss_subscribe_and_follow_now">Mag-subscribe at Subaybayan Ngayon!</string>
+
+    <string name="ss_loading_please_wait">Naglo-load Mangyaring Maghintay..</string>
+    <string name="unfollowing_please_wait">Unfollowing Please Wait...</string>
+    <string name="ss_do_you_want_to_unfollow">Gusto mo bang i-unfollow ang %1$s ?</string>
+    <string name="ss_gallery_posted">Na-post na ang iyong drawing sa gallery!</string>
+    <string name="ss_online">Online</string>
+    <string name="ss_login_account">Login Account</string>
+    <string name="ss_updating_please_wait">Ina-update ang %1$s Mangyaring Maghintay</string>
+    <string name="ss_updating_profile_data">Pag-update ng data ng profile</string>
+    <string name="ss_sending_feedback_please_wait">Pagpapadala ng Feedback Mangyaring Maghintay...</string>
+    <string name="ss_logging_in_please_wait">Pagla-log in Mangyaring Maghintay...</string>
+    <string name="ss_signing_up_please_wait">Pag-sign up Mangyaring Maghintay...</string>
+    <string name="ss_fetching_profile_data">Pagkuha ng data ng Profile</string>
+    <string name="ss_loading_tutorials">Naglo-load ng Mga Tutorial...</string>
+    <string name="ss_unblocking">Pag-unblock</string>
+    <string name="ss_blocking">Blocking</string>
+    <string name="ss_something_went_wrong_try_again_later">May nangyaring mali! Subukan Muli Mamaya</string>
+    <string name="ss_art_screens">Mga Art Screen</string>
+
+    <string name="ss_country_missing">Sa kasamaang palad, nawawala namin ang iyong bansa, paki-update.</string>
+    <string name="ss_link_country">Nagli-link ka sa...</string>
+    <string name="ss_change_later">Hindi mo ito mapapalitan sa ibang pagkakataon</string>
+    <string name="ss_be_sure">Kaya siguraduhin mo ito.</string>
+    <string name="ss_search_country">Paghahanap sa Bansa</string>
+    <string name="ss_select_country">Pumili ng Bansa</string>
+
+    <string name="ss_guest_login_msg">Ang item na ito ay para sa mga user na naka-log in gamit ang facebook, google, paintology.</string>
+
+</resources>
+

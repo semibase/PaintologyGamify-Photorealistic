@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:id="@+id/undo_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/includedSwipe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="@dimen/_5sdp"
+            android:layout_margin="@dimen/_5sdp"
+            layout="@layout/layout_swipe_delete" />
+
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/itemCl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_3sdp"
+        android:background="@drawable/bg_rounded_notification"
+        android:elevation="@dimen/_5sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgNotification"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/img_right_arrow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvNotificationTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginEnd="@dimen/_4sdp"
+            android:fontFamily="@font/poppins_medium"
+            android:includeFontPadding="false"
+            android:paddingTop="@dimen/_2sdp"
+            android:paddingEnd="@dimen/_5sdp"
+            android:text="@string/notification_title"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintBottom_toTopOf="@+id/layoutRating"
+            app:layout_constraintEnd_toStartOf="@+id/btnAccept"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imgNotification"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutRating"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_1sdp"
+            android:paddingEnd="@dimen/_3sdp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/layoutDate"
+            app:layout_constraintEnd_toEndOf="@+id/tvNotificationTitle"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/tvNotificationTitle"
+            app:layout_constraintTop_toBottomOf="@+id/tvNotificationTitle">
+
+            <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                android:id="@+id/postRatingBar"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_10sdp"
+                android:numStars="5"
+                android:paddingTop="@dimen/_2sdp"
+                android:rating="5"
+                android:stepSize="1"
+                android:theme="@style/RatingBar1"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:mrb_progressBackgroundTint="#FFD400"
+                app:mrb_progressTint="#FFD400" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvNotificationContent"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:maxLines="3"
+                android:paddingEnd="@dimen/_3sdp"
+                android:text="@string/notification_content"
+                android:textColor="#9B9B9B"
+                android:textSize="@dimen/_12ssp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/postRatingBar"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layoutDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_4sdp"
+            app:layout_constraintEnd_toEndOf="@+id/layoutRating"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/layoutRating"
+            app:layout_constraintTop_toBottomOf="@+id/layoutRating">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvPostType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:maxLines="1"
+                android:lines="1"
+                android:paddingStart="@dimen/_1sdp"
+                android:paddingEnd="@dimen/_3sdp"
+                android:paddingBottom="@dimen/_2sdp"
+                android:singleLine="true"
+                android:text="@string/community_post"
+                android:textColor="#4C6EEA"
+                android:textSize="@dimen/_8sdp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvTime" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:maxLines="1"
+                android:lines="1"
+                android:paddingStart="@dimen/_1sdp"
+                android:paddingEnd="@dimen/_3sdp"
+                android:singleLine="true"
+                android:text="@string/time"
+                android:textColor="#4C6EEA"
+                android:textSize="@dimen/_8sdp"
+                android:textStyle="bold"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAccept"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:background="@drawable/bg_accept"
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="@string/accept"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_9ssp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/btnDecline"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btnDecline"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_24sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:background="@drawable/bg_decline"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/btnAccept"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/btnAccept"
+            app:layout_constraintTop_toBottomOf="@+id/btnAccept">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgBlock"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:padding="@dimen/_3sdp"
+                android:src="@drawable/img_block"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/tvDecline"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvDecline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="@string/dismiss"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_9ssp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/imgBlock"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/imgBlock"
+                app:layout_constraintTop_toTopOf="@+id/imgBlock" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

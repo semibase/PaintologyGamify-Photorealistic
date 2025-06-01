@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_12sdp"
+    app:cardBackgroundColor="@color/white"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/_10sdp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="@dimen/_12sdp">
+
+            <Button
+                android:id="@+id/btn_close"
+                style="@style/Widget.Material3.Button.IconButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/ic_close"
+                app:iconTint="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/reward_lbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="Reward Points"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/gray_color"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/welcome_bonus_lbl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="Welcome Bonus"
+                app:layout_constraintEnd_toStartOf="@id/welcome_bonus"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/reward_lbl" />
+
+            <TextView
+                android:id="@+id/welcome_bonus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/welcome_bonus_lbl"
+                app:layout_constraintTop_toBottomOf="@id/reward_lbl" />
+
+            <TextView
+                android:id="@+id/opening_tutorials_lbl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="Opening Tutorials"
+                app:layout_constraintEnd_toStartOf="@id/opening_tutorials"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/welcome_bonus_lbl" />
+
+            <TextView
+                android:id="@+id/opening_tutorials"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/opening_tutorials_lbl"
+                app:layout_constraintTop_toBottomOf="@id/welcome_bonus_lbl" />
+
+            <TextView
+                android:id="@+id/draw_stroke_lbl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="Draw Strokes"
+                app:layout_constraintEnd_toStartOf="@id/draw_stroke"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/opening_tutorials_lbl" />
+
+            <TextView
+                android:id="@+id/draw_stroke"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/draw_stroke_lbl"
+                app:layout_constraintTop_toBottomOf="@id/opening_tutorials_lbl" />
+
+            <TextView
+                android:id="@+id/community_post_posted_lbl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="Community Post"
+                app:layout_constraintEnd_toStartOf="@id/community_post_posted"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/draw_stroke_lbl" />
+
+            <TextView
+                android:id="@+id/community_post_posted"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/community_post_posted_lbl"
+                app:layout_constraintTop_toBottomOf="@id/draw_stroke_lbl" />
+
+            <TextView
+                android:id="@+id/community_post_like_lbl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="Community Post Like"
+                app:layout_constraintEnd_toStartOf="@id/community_post_like"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/community_post_posted_lbl" />
+
+            <TextView
+                android:id="@+id/community_post_like"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/community_post_like_lbl"
+                app:layout_constraintTop_toBottomOf="@id/community_post_posted_lbl" />
+
+            <TextView
+                android:id="@+id/community_post_comment_lbl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="Community Post Comment"
+                app:layout_constraintEnd_toStartOf="@id/community_post_comment"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/community_post_like_lbl" />
+
+            <TextView
+                android:id="@+id/community_post_comment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/community_post_comment_lbl"
+                app:layout_constraintTop_toBottomOf="@id/community_post_like_lbl" />
+
+            <TextView
+                android:id="@+id/community_post_share_lbl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="Community Post Share"
+                app:layout_constraintEnd_toStartOf="@id/community_post_share"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/community_post_comment_lbl" />
+
+            <TextView
+                android:id="@+id/community_post_share"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/community_post_share_lbl"
+                app:layout_constraintTop_toBottomOf="@id/community_post_comment_lbl" />
+
+            <TextView
+                android:id="@+id/total_points_lbl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="Total"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@id/total_points"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/community_post_share_lbl" />
+
+            <TextView
+                android:id="@+id/total_points"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:text="0"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/total_points_lbl"
+                app:layout_constraintTop_toBottomOf="@id/community_post_share_lbl" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.cardview.widget.CardView>

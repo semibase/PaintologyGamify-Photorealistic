@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_10"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardElevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_rect"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:id="@+id/frm_default"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_thumb"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_150"
+                    android:background="@drawable/thumbnaildefault"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/iv_movie_icon"
+                    android:layout_width="@dimen/dp_40"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_margin="@dimen/dp_05"
+                    android:padding="@dimen/dp_05"
+                    android:src="@drawable/video_label_icon_outline"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_filename"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="#80000000"
+                        android:paddingStart="@dimen/dp_10"
+                        android:paddingEnd="@dimen/dp_10"
+                        android:paddingTop="@dimen/dp_05"
+                        android:paddingBottom="@dimen/dp_05"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:text="T"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp_12"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:id="@+id/root_more"
+                        android:layout_width="@dimen/dim_30dp"
+                        android:layout_height="match_parent"
+                        android:gravity="end"
+                        android:background="#80000000">
+
+                        <ImageView
+                            android:id="@+id/iv_more"
+                            android:layout_width="@dimen/dim_30dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_more_vert" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/buttons_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/card_view">
+
+            <ImageView
+                android:id="@+id/edit"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:src="@drawable/painting_edit_icon"
+                android:contentDescription="Edit" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:background="#9A798A" />
+
+            <ImageView
+                android:id="@+id/delete"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:src="@drawable/painting_delete_icon"
+                android:contentDescription="Delete" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:background="#9A798A" />
+
+            <ImageView
+                android:id="@+id/share"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="30dp"
+                android:src="@drawable/painting_share_icon"
+                android:contentDescription="Delete" />
+
+            <!--            <View-->
+            <!--                android:layout_width="1dp"-->
+            <!--                android:layout_height="match_parent"-->
+            <!--                android:layout_margin="8dp"-->
+            <!--                android:background="#9A798A" />-->
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/post"-->
+            <!--                android:layout_width="0dp"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:layout_height="30dp"-->
+            <!--                android:padding="3dp"-->
+            <!--                android:src="@drawable/painting_post_icon"-->
+            <!--                android:contentDescription="Delete" />-->
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="@dimen/dp_150"-->
+    <!--    android:padding="@dimen/dp_05">-->
+
+    <!--    <FrameLayout-->
+    <!--        android:id="@+id/frm_default"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/iv_thumb"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="@dimen/dp_150"-->
+    <!--            android:background="@color/cardview_dark_background"-->
+    <!--            android:padding="@dimen/dp_05"-->
+    <!--            android:scaleType="fitXY"-->
+    <!--            android:src="@drawable/thumbnaildefault" />-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="@dimen/dp_30"-->
+    <!--            android:layout_gravity="bottom"-->
+    <!--            android:alpha="0.7"-->
+    <!--            android:background="@color/cardview_dark_background"-->
+    <!--            android:gravity="bottom|center"-->
+    <!--            android:orientation="vertical">-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/tv_filename"-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                android:layout_marginBottom="@dimen/dp_05"-->
+    <!--                android:gravity="center"-->
+    <!--                android:text="@string/default_collection"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:textSize="12sp"-->
+    <!--                android:textStyle="normal" />-->
+
+    <!--        </LinearLayout>-->
+
+    <!--    </FrameLayout>-->
+    <!--</LinearLayout>-->

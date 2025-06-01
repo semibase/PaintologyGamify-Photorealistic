@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorMain"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvDateDescending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp"
+            android:text="@string/date_descending_default"
+            android:textColor="@color/colorBack"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tvDateAscending"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+
+            android:focusable="true"
+            android:padding="8dp"
+            android:text="@string/date_ascending"
+            android:textColor="@android:color/white"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tvRatings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp"
+            android:text="@string/ratin"
+            android:textColor="@android:color/white"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tvLikes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp"
+            android:text="@string/likes"
+            android:textColor="@android:color/white"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tvComments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp"
+            android:text="@string/comment"
+            android:textColor="@android:color/white"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tvTutorails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp"
+            android:text="@string/tutorials_defaul"
+            android:textColor="@android:color/white"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tvFreeHand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp"
+            android:text="@string/freehand_defaul"
+            android:textColor="@android:color/white"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tvByLevels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp"
+            android:text="@string/by_level"
+            android:textColor="@android:color/white"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/tvFavourites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="8dp"
+            android:text="@string/favorite"
+            android:textColor="@android:color/white"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,6 @@
+rootProject.name = "PhotorealisticDrawing"
+include ':app', 'autolinklibrary'
+include ':materialtagview'
+include ':hlistview'
+include ':cardflipview'
+include ':core'

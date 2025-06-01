@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_300"
+    android:padding="@dimen/dp_08"
+    android:layout_height="wrap_content">
+
+
+    <com.paintology.lite.photorealistic.drawing.util.CircleImageView
+        android:id="@+id/iv_p_icon"
+        android:layout_width="@dimen/dp_35"
+        android:layout_height="@dimen/dp_35"
+        android:src="@drawable/profile_icon" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_p_icon"
+        android:background="@drawable/background_left"
+        android:layout_marginLeft="@dimen/dp_05"
+        android:layout_marginTop="@dimen/dp_05"
+        android:padding="@dimen/dp_08"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_show_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="@dimen/sp_14"
+            android:textColor="@android:color/black" />
+
+
+        <TextView
+            android:id="@+id/tv_time_stemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_show_msg"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:paddingTop="@dimen/dp_05"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp_12" />
+    </LinearLayout>
+
+
+</RelativeLayout>

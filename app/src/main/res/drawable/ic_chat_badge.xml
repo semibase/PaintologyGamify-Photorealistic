@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="@dimen/_30sdp"
+        android:height="@dimen/_30sdp"
+        android:drawable="@drawable/chat_icon"
+        android:gravity="center" />
+
+    <!-- set a place holder Drawable so android:drawable isn't null -->
+    <item
+        android:id="@+id/ic_badge"
+        android:width="@dimen/_10sdp"
+        android:height="@dimen/_10sdp"
+        android:gravity="top|end"
+        android:end="@dimen/_5sdp"
+        android:start="@dimen/_5sdp"
+        android:bottom="@dimen/_5sdp"
+        android:top="@dimen/_5sdp"
+        android:drawable="@drawable/notification_badge" />
+</layer-list>

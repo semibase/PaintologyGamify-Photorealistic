@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paintology</string>
+    <string name="default_collection">Tutoriales en vídeo</string>
+    <string name="community">Comunidad</string>
+    <string name="my_painting">Mis pinturas</string>
+    <string name="downloaded">Mis peliculas</string>
+    <string name="draw">Dibujar</string>
+    <string name="my_resources">Mis recursos</string>
+    <string name="daily_blog">Blog diario</string>
+
+    <string name="view_sketch_photos"><u>Ver imágenes en Paintology Cloud</u></string>
+    <string name="import_your_sketch_photos"><u>Importar imágenes a mis pinturas</u></string>
+    <string name="upload_your_zip_file_auto"><u>Guardar imágenes en Paintology Cloud</u></string>
+
+
+    <string name="blank_canvas">Lienzo en blanco</string>
+    <string name="overlay_image">Imagen superpuesta</string>
+    <string name="trace_image">Imagen de seguimiento</string>
+    <string name="camera_image">Imagen de la cámara</string>
+
+    <string name="quick_drawing">Dibujo rápido</string>
+
+    <string name="import_images">Importar imágenes</string>
+
+    <!--  -->
+    <string name="sites">Sitios</string>
+    <string name="online_tut">Tutoriales en línea</string>
+    <string name="paintology_website">Sitio web de pintura</string>
+    <string name="youtube_paintology">Youtube Paintología</string>
+    <string name="learn_drawing_amp_painting">Aprende dibujo y pintura</string>
+    <string name="apps_by_paintology">Aplicaciones de Paintology</string>
+
+
+</resources>

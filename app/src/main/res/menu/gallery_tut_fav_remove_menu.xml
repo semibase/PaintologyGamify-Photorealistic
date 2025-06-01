@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/openItem1"
+        android:title="@string/open" />
+
+    <item
+        android:id="@+id/shareItem11"
+        android:title="@string/share" />
+
+    <item
+        android:id="@+id/doTutorialItem1"
+        android:title="@string/do_tutorial" />
+
+    <item
+        android:id="@+id/RemoveItem1"
+        android:title="@string/remove_favourite" />
+
+
+</menu>

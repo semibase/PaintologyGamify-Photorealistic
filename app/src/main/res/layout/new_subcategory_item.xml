@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_05"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_rect"
+        android:padding="10dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="@dimen/dim_200dp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_tutorial_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_150"
+                    android:background="@drawable/thumbnaildefault"
+                    android:contentDescription="@null"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:id="@+id/iv_yt"
+                    android:layout_width="@dimen/dp_30"
+                    android:layout_height="@dimen/dp_30"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/dp_03"
+                    android:background="@drawable/video_icon_original"
+                    android:scaleType="fitXY"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|start"
+                    android:background="@color/black"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:textColor="@color/white" />
+
+                <!--                <ImageButton-->
+                <!--                    android:id="@+id/iv_share"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:background="@color/black"-->
+                <!--                    android:textColor="@color/white"-->
+                <!--                    android:padding="5dp"-->
+                <!--                    android:src="@drawable/share_icon_canvas"-->
+                <!--                    android:layout_gravity="top|end"-->
+                <!--                    android:contentDescription="Share" />-->
+
+            </FrameLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/info_container"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:paddingStart="5dp"
+            app:layout_constraintBottom_toBottomOf="@id/card_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/card_view"
+            app:layout_constraintTop_toTopOf="@id/card_view">
+
+            <LinearLayout
+                android:id="@+id/ll_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/colorMain"
+                android:background="@drawable/rounded_rect_category_bg"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_category"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:padding="5dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="@color/white" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/more_container"
+                    android:layout_width="@dimen/dim_20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="true">
+
+                    <ImageButton
+                        android:id="@+id/iv_more"
+                        android:layout_width="@dimen/dim_20dp"
+                        android:layout_height="@dimen/dim_30dp"
+                        android:background="@null"
+                        android:contentDescription="More"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_more_vert"
+                        android:tint="@color/white"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+            <!--            <TextView-->
+            <!--                android:id="@+id/tv_category"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:background="@drawable/rounded_rect_category_bg"-->
+            <!--                android:padding="5dp"-->
+            <!--                android:textAppearance="@style/TextAppearance.AppCompat.Small"-->
+            <!--                android:textColor="@color/white" />-->
+
+            <TextView
+                android:id="@+id/tv_category_desc"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+            <ImageView
+                android:id="@+id/iv_link"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_25"
+                android:scaleType="fitEnd"
+                android:layout_gravity="center|end"
+                android:src="@drawable/ic_q_link" />
+
+
+        </LinearLayout>
+
+        <!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+        <!--            android:id="@+id/more_container"-->
+        <!--            android:layout_width="@dimen/dim_20dp"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:clickable="true"-->
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent">-->
+
+        <!--            <ImageButton-->
+        <!--                android:id="@+id/iv_more"-->
+        <!--                android:layout_width="@dimen/dim_20dp"-->
+        <!--                android:layout_height="@dimen/dim_30dp"-->
+        <!--                android:background="@null"-->
+        <!--                android:src="@drawable/ic_more_vert"-->
+        <!--                android:scaleType="fitXY"-->
+        <!--                android:tint="@color/black"-->
+        <!--                app:layout_constraintTop_toTopOf="parent"-->
+        <!--                app:layout_constraintStart_toStartOf="parent"-->
+        <!--                app:layout_constraintEnd_toEndOf="parent"-->
+        <!--                android:contentDescription="More" />-->
+
+        <!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

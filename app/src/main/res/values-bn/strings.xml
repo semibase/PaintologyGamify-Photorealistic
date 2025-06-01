@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_banners">ব্যানার</string>
+    <string name="levels">স্তর</string>
+    <string name="ss_post_to_community">সম্প্রদায়ে পোস্ট করুন</string>
+    <string name="ss_splash_text">ডিজিটাল অঙ্কনের জগৎ পুনরুজ্জীবিত করা!</string>
+    <string name="login_with_guest">অতিথি হিসেবে লগইন করুন\n(কোনও ইমেলের প্রয়োজন নেই)</string>
+    <string name="ss_climb_levels">স্তর আরোহণ করুন!</string>
+
+    <string name="app_name">পেইন্টোলজি গ্যামিফাই</string>
+    <string name="pain_search">পেইন্টোলজি অনুসন্ধান</string>
+    <string name="default_collection">টিউটোরিয়াল</string>
+    <string name="community">সম্প্রদায়</string>
+    <string name="my_painting">আমার পেইন্টিং</string>
+    <string name="downloaded">আমার সিনেমা</string>
+    <string name="draw">আঁকা</string>
+    <string name="my_resources">আমার সম্পদ</string>
+    <string name="daily_blog">দৈনিক ব্লগ</string>
+    <string name="help_intro">হেল্প ইন্ট্রো</string>
+    <string name="view_sketch_photos"><u>পেইন্টোলজি ক্লাউডে ছবি দেখুন</u></string>
+    <string name="import_your_sketch_photos"><u>আমার পেইন্টিংয়ে ছবি আমদানি করুন</u></string>
+    <string name="upload_your_zip_file_auto"><u>পেন্টোলজি ক্লাউডে ছবি সংরক্ষণ করুন</u></string>
+
+    <string name="blank_canvas">ফাঁকা ক্যানভাস</string>
+    <string name="overlay_image">ওভারলে ইমেজ</string>
+    <string name="trace_image">ট্রেস ইমেজ</string>
+    <string name="camera_image">ক্যামেরা ইমেজ</string>
+
+    <string name="quick_drawing">দ্রুত অঙ্কন</string>
+
+    <string name="import_images">ইমেজ আমদানি করুন</string>
+    <string name="pg_earn_big_points">বড় পয়েন্ট অর্জন করুন</string>
+    <!--  -->
+    <string name="sites">সাইট</string>
+    <string name="online_tut">অনলাইন টিউটোরিয়াল</string>
+    <string name="paintology_website">পেইন্টোলজি ওয়েবসাইট</string>
+    <string name="youtube_paintology">ইউটিউব পেইন্টোলজি</string>
+    <string name="learn_drawing_amp_painting">অঙ্কন শিখুন &amp; পেইন্টিং</string>
+    <string name="apps_by_paintology">Apps by Paintology</string>
+
+    <string name="unknown_error">একটি অজানা ত্রুটি ঘটেছে</string>
+    <string name="profile_error">আপনার প্রোফাইল সংরক্ষিত নেই\nকিছু ভুল হয়েছে</string>
+    <string name="profile_success">আপনার প্রোফাইল সংরক্ষিত হয়</string>
+    <string name="tag_line"><![CDATA[অঙ্কন ও চিত্রকর্ম মজাদার করেছে!]]></string>
+
+
+    <string name="please_wait">প্লিজ অপেক্ষা করুন..</string>
+    <string name="are_you_sure">আপনি কি নিশ্চিত?</string>
+    <string name="cancel">বাতিল করুন</string>
+    <string name="title_activity_online_tutorial">অনলাইন টিউটোরিয়াল</string>
+    <string name="try_it_now">এখনই চেষ্টা করুন</string>
+
+    <string name="play_button">প্লে বোতাম</string>
+    <string name="open_video_in_youtube">ইউটিউবে ভিডিও খুলুন</string>
+    <string name="full_screen_button">ফুল স্ক্রিন বোতাম</string>
+    <string name="live">লাইভ</string>
+    <string name="no_any_reference">কোন রেফারেন্স পাওয়া যায়নি</string>
+    <!--    <string name="no_internet_msg">অনুগ্রহ করে ইন্টারনেটে সংযোগ করুন এবং আবার চেষ্টা করুন!</string>-->
+    <string name="no_internet_msg">আবার চেষ্টা করুন - ইন্টারনেট সংযোগ নেই, অনুগ্রহ করে আবার চেষ্টা করুন</string>
+    <string name="empty_list">সার্ভার থেকে খালি তালিকা!</string>
+    <string name="featured_image">বৈশিষ্ট্যযুক্ত ছবি</string>
+    <string name="related_post">সম্পর্কিত পোস্ট</string>
+    <string name="visit_post">পেইন্টোলজি পোস্ট দেখুন</string>
+
+    <string name="login_via_dialog">আপনার সামাজিক প্রোফাইল দিয়ে লগইন করুন</string>
+
+    <string name="post_detail">পোস্ট বিস্তারিত</string>
+
+
+    <!--<string name="selection_msg">অনুগ্রহ করে একটি নির্বাচন করুন এবং ডানদিকের যেকোনো বোতামে ক্লিক করুন</string>
+    <string name="selection_msg_portrait">অনুগ্রহ করে একটি নির্বাচন করুন এবং উপরের যেকোনো বোতামে ক্লিক করুন।</string>
+-->
+    <string name="selection_msg">অনুগ্রহ করে নির্বাচন করুন এবং বাম দিকের যেকোনো বোতামে ক্লিক করুন।</string>
+    <string name="selection_msg_portrait">আপনার সমস্ত সংরক্ষিত অঙ্কন এখানে যায় অঙ্কন চালিয়ে যেতে, সম্পাদনা করতে এবং অন্যদের সাথে ভাগ করতে অঙ্কন নির্বাচন করুন৷</string>
+    <string name="dialog_title_your_saved_drawings">আপনার সংরক্ষিত অঙ্কন</string>
+
+    <string name="logout">লগআউট</string>
+    <string name="save_drawing">চালিয়ে যাওয়ার আগে কাজ সংরক্ষণ করুন।</string>
+    <string name="txt_canvas_color">ক্যানভাসের রঙ</string>
+
+    <string name="art_medium">শিল্প মাধ্যম</string>
+    <string name="art_ability">শিল্প ক্ষমতা</string>
+    <string name="art_fav">শিল্প প্রিয়</string>
+    <string name="age">বয়স</string>
+    <string name="follow">অনুসরণ করুন</string>
+    <string name="unfollow">আনফলো</string>
+    <string name="pick_art_fav">পছন্দ আর্ট চয়ন করুন</string>
+    <string name="pick_art_med">আর্ট মিডিয়াম বেছে নিন</string>
+    <string name="default_msg_while_share">আমি Google Play Store থেকে উপলব্ধ বিনামূল্যের পেন্টোলজি অ্যাপ ব্যবহার করে এটি তৈরি করেছি। এটা পরীক্ষা করে দেখুন!</string>
+
+    <string name="email">ইমেইল</string>
+    <string name="required">প্রয়োজন</string>
+    <string name="not_valid">বৈধ নয়</string>
+    <string name="too_weak">খুব দুর্বল</string>
+
+    <string name="msg_no_camera">আমি একটি ক্যামেরা অ্যাপ খুঁজে পাচ্ছি না!</string>
+    <string name="start_recording">রেকর্ডিং শুরু করুন</string>
+    <string name="save">সংরক্ষণ করুন</string>
+    <string name="record">রেকর্ড</string>
+    <string name="help_guide">হেল্প গাইড</string>
+    <string name="profile_status_msg">আপনার প্রোফাইল সম্পর্কে কিছু লিখুন.</string>
+    <string name="posts">পোস্ট</string>
+    <string name="type_paintology">চিত্রবিদ্যা</string>
+    <string name="type_google">গুগল</string>
+    <string name="type_facebook">ফেসবুক</string>
+    <string name="already_liked">আপনি ইতিমধ্যে এই পোস্ট পছন্দ করেছেন</string>
+    <string name="image_selected">ছবি নির্বাচিত</string>
+    <string name="sent_post">পেইন্টোলজি কমিউনিটি থেকে এই আকর্ষণীয় পোস্টটি দেখুন। আপনি গুগল প্লে স্টোর থেকে অ্যাপটি পেতে পারেন।</string>
+
+    <string name="following">অনুসরণ করছে</string>
+    <string name="reserved_hashtag">হ্যাশট্যাগ অনুমোদিত নয়!</string>
+    <string name="reserved_hashtag_msg">দুঃখিত এটি একটি শিশুবান্ধব সাইট এবং আমাদের পারিবারিক নীতির কারণে এই হ্যাশট্যাগটি অনুমোদিত নয়৷</string>
+    <string name="delete_post">পোস্ট মুছে ফেলুন!</string>
+    <string name="my_posts">আমার পোস্ট</string>
+    <string name="camera_permission_msg">আপনি ক্যামেরার অনুমতি অস্বীকার করেছেন৷ আপনি ডিভাইস সেটিংস থেকে অনুমতি দিতে পারেন এবং তারপর এই বৈশিষ্ট্যটি ব্যবহার করতে পারেন৷</string>
+    <string name="storage_permission_msg">আপনি স্টোরেজ অনুমতি অস্বীকার করেছেন৷ আপনি ডিভাইস সেটিংস থেকে অনুমতি দিতে পারেন এবং তারপর এই বৈশিষ্ট্যটি ব্যবহার করতে পারেন৷</string>
+    <string name="recording_permission_msg">আপনি রেকর্ডিং অনুমতি অস্বীকার করেছেন, আপনি ডিভাইস সেটিংস থেকে অনুমতি দিতে পারেন এবং তারপর এই বৈশিষ্ট্যটি ব্যবহার করতে পারেন৷</string>
+
+    <string name="share_thoughts">আমাদের উন্নতি করতে সাহায্য করুন</string>
+    <string name="name">নাম</string>
+    <string name="your_feedback">আপনার প্রতিক্রিয়া</string>
+    <string name="your_favourite">আপনার প্রিয় অ্যাপস</string>
+    <string name="exit">প্রস্থান করুন</string>
+    <string name="submit">পাঠান</string>
+    <string name="ss_submit">জমা দিন</string>
+
+    <string name="close">বন্ধ</string>
+    <string name="select_language">আপনার ভাষা নির্বাচন করুন</string>
+
+    <string name="go_to_play_store">প্লে স্টোরে যান</string>
+    <string name="bg_color_tooltip_text">পটভূমির রঙ\n শুধুমাত্র একটি নতুন অঙ্কনে পরিবর্তন করা যেতে পারে</string>
+    <string name="rendering">রেন্ডার হচ্ছে…</string>
+    <string name="don_t_show_me_again">আমাকে আর দেখাবেন না</string>
+    <string name="close_dialog">বন্ধ</string>
+
+    <string name="watch_video">ভিডিও দেখুন</string>
+    <string name="using_the_toggle">টগল ব্যবহার করুন</string>
+    <string name="button_on_the_bottom_n_left">ভিডিও দেখতে</string>
+    <string name="paintology_chat">পেইন্টোলজি চ্যাট</string>
+    <string name="button">বোতাম</string>
+
+    <string name="welcome_to_paintology_chat">পেইন্টোলজি চ্যাটে স্বাগতম</string>
+    <string name="chat_instruction">আপনি পছন্দ করেছেন, মন্তব্য করেছেন বা অনুসরণ করেছেন এমন ব্যবহারকারীদের সাথে চ্যাট করুন।</string>
+    <string name="empty_search_instruction">কোন অনুসন্ধান ফলাফল নেই, ফিরে যান এবং আবার চেষ্টা করুন.</string>
+    <string name="blocked">অবরুদ্ধ</string>
+    <string name="pending">মুলতুবি</string>
+    <string name="chat_click_hint">এই ব্যবহারকারীর সাথে চ্যাট করতে অনুগ্রহ করে লাইক, কমেন্ট বা অনুসরণ করুন।</string>
+    <string name="not_available">N/A</string>
+    <string name="country">দেশ</string>
+    <string name="other">অন্যান্য</string>
+    <string name="one_item_allowd">এক সময়ে একটি আইটেম অনুমোদিত</string>
+
+    <string name="facebook_url">ফেসবুক প্রোফাইল</string>
+    <string name="instagram_url">ইনস্টাগ্রাম প্রোফাইল</string>
+    <string name="linkedin_profile_url">লিঙ্কডইন প্রোফাইল</string>
+    <string name="youtube_profile_url">ইউটিউব প্রোফাইল</string>
+    <string name="twitter_username_without">টুইটার প্রোফাইল</string>
+    <string name="website_url">ওয়েবসাইট</string>
+    <string name="quora_profile">Quora প্রোফাইল</string>
+    <string name="tiktok_profile">TikTok প্রোফাইল</string>
+    <string name="pinterest_profile">Pinterest প্রোফাইল</string>
+    <string name="zoom_lock_msg">জুম লক! আনলক করতে আবার জুম টিপুন</string>
+
+    <string name="action_line">লাইন</string>
+    <string name="action_smoothline">মসৃণ রেখা</string>
+    <string name="action_square">বর্গক্ষেত্র</string>
+    <string name="action_circle">বৃত্ত</string>
+    <string name="action_rectangle">আয়তক্ষেত্র</string>
+    <string name="action_triangle">ত্রিভুজ</string>
+    <string name="clear">পরিষ্কার</string>
+    <string name="custom_brush">কাস্টম ব্রাশ</string>
+
+    <string name="settings_video_quality_title">ভিডিও আকার %s</string>
+    <string name="settings_photo_quality_title">ছবির আকার</string>
+    <string name="ok_label">ঠিক আছে</string>
+    <string name="cancel_label">বাতিল করুন</string>
+    <string name="pick_image_intent_chooser_title">উৎস নির্বাচন করুন</string>
+    <string name="crop_image_activity_no_permissions">বাতিল করা, প্রয়োজনীয় অনুমতি দেওয়া হয় না</string>
+    <string name="crop_image_activity_title">ছবি ক্রপ করুন</string>
+
+    <string name="crop_image_menu_rotate_left">ঘড়ির কাঁটার বিপরীত দিকে ঘোরান</string>
+    <string name="crop_image_menu_rotate_right">ঘোরান</string>
+    <string name="crop_image_menu_crop">ফসল</string>
+    <string name="crop_image_menu_flip">ফ্লিপ</string>
+    <string name="crop_image_menu_flip_horizontally">অনুভূমিকভাবে উল্টান</string>
+    <string name="crop_image_menu_flip_vertically">উল্লম্বভাবে উল্টানো</string>
+
+    <string name="preview_controls_confirm">সংরক্ষণ করুন</string>
+    <string name="preview_controls_retake">পুনরাবৃত্তি করুন</string>
+    <string name="preview_controls_cancel">বাতিল করুন</string>
+    <string name="preview_controls_crop">ফসল</string>
+    <string name="switch_to_drawing">অঙ্কনে স্যুইচ করুন</string>
+    <string name="line_tool">লাইন</string>
+    <string name="shade_tool">ছায়া</string>
+    <string name="color">রঙ</string>
+    <string name="gallery">গ্যালারি</string>
+    <string name="camera">ক্যামেরা</string>
+    <string name="quick_video_guide">ভিডিও নির্দেশিকা</string>
+    <string name="quick_video_guide_count">ভিডিও নির্দেশিকা (%1$d)</string>
+    <string name="quick_video_guide_count_2">আমাদের ভিডিও নির্দেশিকা অন্বেষণ করুন (%1$d)</string>
+    <string name="quick_video_guide_countt">আমাদের ভিডিও নির্দেশিকা অন্বেষণ করুন</string>
+
+    <string name="rate_app_title">অ্যাপকে রেট দিন</string>
+    <string name="rate_app_message">আপনি যদি আমাদের অ্যাপটি উপভোগ করেন, দয়া করে এটিকে প্লেস্টোরে রেট দিতে একটু সময় নিন। আপনার সমর্থনের জন্য ধন্যবাদ!</string>
+    <string name="rate_btn_pos">এখন রেট</string>
+    <string name="rate_btn_neg">পরে মনে করিয়ে দিও</string>
+    <string name="rate_btn_nut">না, ধন্যবাদ</string>
+
+    <string name="heading_brackets" translatable="false">%1$s (%2$d)</string>
+    <string name="featured">বৈশিষ্ট্যযুক্ত</string>
+
+    <string name="capture_button_alt">ক্যাপচার</string>
+    <string name="switch_camera_button_alt">ক্যামেরা পাল্টান</string>
+    <string name="gallery_button_alt">গ্যালারি</string>
+    <string name="back_button_alt">ফিরে</string>
+    <string name="share_button_alt">শেয়ার করুন</string>
+    <string name="share_hint">ব্যবহার করে শেয়ার করুন</string>
+    <string name="delete_button_alt">মুছুন</string>
+    <string name="delete_dialog">বর্তমান ছবি মুছবেন?</string>
+    <string name="delete_title">নিশ্চিত করুন</string>
+    <string name="all_rights_reserved">সর্বস্বত্ব সংরক্ষিত</string>
+    <string name="share_subject">পেইন্টোলজি ড্রয়িং অ্যাপ</string>
+
+    <string name="title_onboarding_1">অনবোর্ডিং অ্যাপে স্বাগতম!</string>
+    <string name="description_onboarding_1">এখানে একটি ওপেন সোর্স প্রজেক্ট রয়েছে যা মিষ্টি &amp; মূল অনবোর্ডিং ভিউপেজার যা মেটেরিয়াল ডিজাইন নির্দেশিকা অনুসরণ করে</string>
+
+    <string name="continue_lbl">চালিয়ে যান</string>
+    <string name="next">পরবর্তী</string>
+    <string name="skip">এড়িয়ে যান</string>
+    <string name="saved_to_my_painting">আমার পেইন্টিংসে সংরক্ষিত</string>
+    <string name="key_all">সব</string>
+    <string name="write_a_comment">একটি মন্তব্য লিখুন&#8230;</string>
+    <string name="followers">অনুসারী</string>
+    <string name="details">বিস্তারিত</string>
+    <string name="forgot_password_question_mark"><u>পাসওয়ার্ড ভুলে গেছেন?</u></string>
+    <string name="view_mode">দেখুন মোড</string>
+    <string name="normal_mode">সাধারণ মোড</string>
+    <string name="about_us_text">বর্তমান সংস্করণ %1$s "\n\nপেইন্টোলজি হল একটি উন্নত এবং সহজেই ব্যবহারযোগ্য ড্রয়িং অ্যাপ৷ \n\n" "এটি এমন একটি অ্যাপ যা আপনাকে আরও ভালো শিল্পী হিসেবে তৈরি করার জন্য ডিজাইন করা হয়েছে৷\n" "অ্যাপটিতে অনেকগুলি রয়েছে ভিডিও টিউটোরিয়াল সহ টিউটোরিয়াল যা আপনাকে অঙ্কন এবং পেইন্টিংয়ে আপনার দক্ষতা বাড়াতে সহায়তা করবে৷\n" "আমাদের এই অ্যাপটি উন্নত করতে সাহায্য করার জন্য দয়া করে রেট দিন এবং মন্তব্য করুন৷\n\n" "ধন্যবাদ!\n"</string>
+
+    <string name="nav_open">খোলা</string>
+    <string name="nav_close">বন্ধ</string>
+    <string name="see_all">সব দেখুন</string>
+    <string name="see_all_underline"><u>সব দেখুন</u></string>
+    <string name="hint_search_paintology">পেইন্টোলজি অনুসন্ধান করুন</string>
+    <string name="title_about_us">আমাদের সম্পর্কে</string>
+    <string name="title_notifications">বিজ্ঞপ্তি</string>
+    <string name="view_post">পোস্ট দেখুন</string>
+    <string name="view_posts">পোস্ট দেখুন</string>
+    <string name="view_profile">প্রোফাইল দেখুন</string>
+    <string name="block">ব্লক</string>
+    <string name="delete_chats">চ্যাট মুছুন</string>
+    <string name="freehand">ফ্রিহ্যান্ড</string>
+    <string name="line">লাইন</string>
+    <string name="square">বর্গক্ষেত্র</string>
+    <string name="rectangle">আয়তক্ষেত্র</string>
+    <string name="circle">বৃত্ত</string>
+    <string name="delete">মুছুন</string>
+    <string name="share">শেয়ার করুন</string>
+    <string name="rename">নাম পরিবর্তন করুন</string>
+    <string name="add_text">পাঠ্য যোগ করুন</string>
+    <string name="open">খোলা</string>
+    <string name="triangle">ত্রিভুজ</string>
+    <string name="pause">বিরতি</string>
+    <string name="stop">থামো</string>
+    <string name="audio">অডিও</string>
+    <string name="resume">পুনরায় শুরু করুন</string>
+    <string name="paused">বিরতি দেওয়া হয়েছে</string>
+    <string name="recording">রেকর্ডিং</string>
+    <string name="dialog_title_rename">ফাইলের নাম পরিবর্তন করুন</string>
+    <string name="dialog_action_cancel">বাতিল করুন</string>
+    <string name="dialog_action_ok">ঠিক আছে</string>
+    <string name="toast_file_exists">%1$s ফাইলটি ইতিমধ্যেই বিদ্যমান। একটি ভিন্ন ফাইল নাম চয়ন করুন.</string>
+    <string name="create_brush">ব্রাশ তৈরি করুন</string>
+    <string name="posting_to_community_successful">কমিউনিটিতে পোস্ট করা সফল!</string>
+    <string name="login_heading_community">হ্যালো, আবার স্বাগতম, অনুগ্রহ করে সাইন আপ করুন বা কমিউনিটিতে পোস্ট করতে লগইন করুন।</string>
+    <string name="zoom_help_title">জুম সাহায্য</string>
+    <string name="pinch_zoom_msg">জুম করতে, অনুগ্রহ করে পিঞ্চ জুম ব্যবহার করুন \n বা জুম বোতামটি ধরে রাখুন \n রিসেট করতে - জুম বোতাম টিপুন \n ঘোরাতে - সুইভেল পিঞ্চ জুম</string>
+
+    <string name="double_click_input_text" translatable="false">Double-click to enter text</string>
+    <string name="complete" translatable="false">OK</string>
+    <string name="publish_comment" translatable="false">Enter Text ......</string>
+    <string name="over_text_limit" translatable="false">You have exceeded your word limit</string>
+    <string name="tag_tips_msg">একক শব্দ হ্যাশট্যাগ লিখুন, শব্দের শেষে # ব্যবহার করুন বা তৈরি করা পাঠ্যটিতে ক্লিক করুন</string>
+    <string name="subcategory_share_msg">এই মজাদার অঙ্কন টিউটোরিয়ালটি দেখুন&#8230; \n%1$s \n\n500 টিরও বেশি অঙ্কন টিউটোরিয়াল বিনামূল্যে সব চেষ্টা করে দেখুন! \nদ্রুত এবং সহজ উপায়ে আঁকা শিখুন \nপেন্টোলজি ড্রয়িং গুগল প্লে স্টোরে বিনামূল্যে পাওয়া যায়&#8230; \n\n%2$s</string>
+    <string name="redeem">খালাস</string>
+    <string name="unlock">আনলক করুন</string>
+    <string name="watch_ads">বিজ্ঞাপন দেখুন</string>
+
+    <string name="subcategory_share_subject">চিত্রবিদ্যা - %1$s এর সাথে মজাদার অঙ্কন!</string>
+    <string name="open_tutorial">টিউটোরিয়াল খুলুন</string>
+    <string name="open_link">লিঙ্ক খুলুন</string>
+    <string name="rating">রেটিং</string>
+    <string name="done">সম্পন্ন</string>
+    <string name="quit">প্রস্থান করুন</string>
+    <string name="exit_app_msg">আপনি কি অ্যাপ থেকে প্রস্থান করতে চান?</string>
+    <string name="chat">চ্যাট</string>
+    <string name="video_tutorial">ভিডিও টিউটোরিয়াল</string>
+    <string name="video_tutorial_msg">এই টিউটোরিয়ালটির ভিডিও দেখতে ভিডিও আইকনে ক্লিক করুন</string>
+
+    <string name="zero_follower_msg">ব্যবহারকারী %1$s-এর কোনো অনুসরণকারী নেই, আপনি অনুসরণ করতে চাইলে বোতামে ক্লিক করুন</string>
+    <string name="zero_following_msg">%1$s বর্তমানে কোনো ব্যবহারকারীকে অনুসরণ করছে না</string>
+    <string name="user_post_title">পোস্ট (%1$d) - %2$s</string>
+
+    <string name="prefix_facebook_url" translatable="false">https://facebook.com/</string>
+    <string name="prefix_insta_url" translatable="false">https://instagram.com/</string>
+    <string name="prefix_yt_url" translatable="false">https://youtube.com/</string>
+    <string name="prefix_tiktok_url" translatable="false">https://tiktok.com/</string>
+    <string name="prefix_pinterest_url" translatable="false">https://pinterest.com/</string>
+    <string name="prefix_quora_url" translatable="false">https://quora.com/</string>
+    <string name="prefix_twitter_url" translatable="false">https://twitter.com/</string>
+    <string name="prefix_linkedin_url" translatable="false">https://linkedin.com/</string>
+
+    <string name="prefix_facebook_url_2" translatable="false">https://www.facebook.com/</string>
+    <string name="prefix_insta_url_2" translatable="false">https://www.instagram.com/</string>
+    <string name="prefix_yt_url_2" translatable="false">https://www.youtube.com/</string>
+    <string name="prefix_tiktok_url_2" translatable="false">https://www.tiktok.com/</string>
+    <string name="prefix_pinterest_url_2" translatable="false">https://www.pinterest.com/</string>
+    <string name="prefix_quora_url_2" translatable="false">https://www.quora.com/</string>
+    <string name="prefix_twitter_url_2" translatable="false">https://www.twitter.com/</string>
+    <string name="prefix_linkedin_url_2" translatable="false">https://www.linkedin.com/</string>
+
+    <string name="please_login_to_see_notifications_to_your_posts_and_chats">আপনার পোস্ট এবং চ্যাট বিজ্ঞপ্তি দেখতে লগইন করুন</string>
+    <string name="you_have_no_new_chat_requests">আপনার কোন নতুন চ্যাট অনুরোধ নেই</string>
+    <string name="you_have_no_new_comments">আপনি কোন নতুন মন্তব্য আছে</string>
+    <string name="screenshot_saved">স্ক্রিনশট সংরক্ষিত</string>
+    <string name="please_login_to_see_chats">চ্যাট ব্যবহার করতে লগইন করুন</string>
+    <string name="see_post"><u>পোস্ট দেখুন</u></string>
+    <string name="search_community">সম্প্রদায় অনুসন্ধান করুন</string>
+    <string name="my_painting_count">আমার আঁকা (%1$d)</string>
+    <string name="guide_video_count">ভিডিও নির্দেশিকা (%1$d)</string>
+    <string name="open_guide">গাইড খুলুন</string>
+    <string name="you_have_successfully_imported_image">আপনি সফলভাবে আপনার আমার পেইন্টিংয়ে (%1$d) ছবি আমদানি করেছেন!</string>
+    <string name="your_drawing_has_been_posted_to_the_community">আপনার অঙ্কন সম্প্রদায়ে পোস্ট করা হয়েছে!</string>
+    <string name="see_it_now">এখন এটা দেখুন!</string>
+    <string name="back">ফিরে</string>
+    <string name="goto_my_paintings">আমার-পেইন্টিংস যান</string>
+    <string name="loading_resources">সম্পদ লোড হচ্ছে&#8230;</string>
+    <string name="recording_made_successfully">রেকর্ডিং সফলভাবে করা হয়েছে</string>
+    <string name="goto_my_movies">আমার-চলচ্চিত্রে যান</string>
+    <string name="open_in_trace">ট্রেসে খুলুন</string>
+    <string name="open_in_overlay">ওভারলে খুলুন</string>
+    <string name="open_trace_only">শুধুমাত্র ট্রেস খুলুন</string>
+    <string name="open_drawing_only">শুধুমাত্র অঙ্কন খুলুন</string>
+    <string name="continue_as_guest">অতিথি হিসাবে চালিয়ে যান</string>
+    <string name="login">লগইন করুন</string>
+    <string name="signup">সাইন আপ করুন</string>
+
+    <string name="login_heading">বোনাস পয়েন্ট পেতে লগইন করুন। \nআপনার পরিসংখ্যান সংরক্ষণ করুন!</string>
+    <string name="login_with_facebook">Facebook দিয়ে লগইন করুন</string>
+    <string name="login_with_google">গুগল দিয়ে লগইন করুন</string>
+    <string name="login_as_guest">অতিথি হিসেবে লগইন করুন</string>
+    <string name="login_with_paintology">পেইন্টোলজি দিয়ে লগইন করুন</string>
+    <string name="signup_with_paintology">পেইন্টোলজির সাথে সাইন আপ করুন</string>
+    <string name="term_agreement_message">পেন্টোলজি ব্যবহার করে, আপনি নিশ্চিত করেছেন যে আপনি আমাদের গোপনীয়তা নীতি এবং শর্তাবলী স্বীকার করেছেন &amp; শর্তাবলী</string>
+    <string name="term_condition">শর্তাবলী &amp; শর্তাবলী</string>
+    <string name="privacy_policy">গোপনীয়তা নীতি</string>
+    <string name="category_name_count" translatable="false">%1$s (%2$d)</string>
+    <string name="challenges">চ্যালেঞ্জ</string>
+    <string name="choose_a_blank_canvas">একটি ফাঁকা ক্যানভাস চয়ন করুন</string>
+    <string name="overlay_an_image_on_other">অন্য একটি ছবি ওভারলে</string>
+    <string name="trace_an_image_into">মধ্যে একটি ইমেজ ট্রেস</string>
+    <string name="fun_with_any_camera_image">যে কোন ক্যামেরা ইমেজ সঙ্গে মজা</string>
+    <string name="login_for_points">পয়েন্টের জন্য লগইন করুন!</string>
+    <string name="choose_a_import_image">একটি আমদানি ছবি নির্বাচন করুন</string>
+    <string name="watch_a_movies">একটি সিনেমা দেখুন</string>
+    <string name="watch_online_tutorials">অনলাইন টিউটোরিয়াল দেখুন</string>
+    <string name="read_blog_on_daily_basis">দৈনিক ভিত্তিতে ব্লগ পড়ুন</string>
+    <string name="watch_a_youtube_paintology">একটি ইউটিউব পেইন্টোলজি দেখুন</string>
+    <string name="find_your_ability">আপনার ক্ষমতা খুঁজুন</string>
+    <string name="level">স্তর</string>
+    <string name="hardness">কঠোরতা</string>
+    <string name="density">ঘনত্ব</string>
+    <string name="points">পয়েন্ট: %1$d</string>
+    <string name="percent_value" translatable="false">%1$d %%</string>
+    <string name="difficulty_level">অসুবিধার স্তর</string>
+    <string name="paint_by_number">সংখ্যা দ্বারা আঁকা</string>
+    <string name="_3_000">3,000</string>
+    <string name="share1">শেয়ার করুন</string>
+    <string name="_13_k">13 কে</string>
+    <string name="_273_k">273 কে</string>
+    <string name="details1">বিস্তারিত</string>
+    <string name="notification_title">বিজ্ঞপ্তির শিরোনাম</string>
+    <string name="accept">গ্রহণ করুন</string>
+    <string name="decline">প্রত্যাখ্যান</string>
+    <string name="notification_content">হাই সেখানে! শুধু বলতে চেয়েছিলাম, আপনার তৈরি করা বিড়ালের চিত্রগুলি আমি একেবারেই পছন্দ করি! দারুণ কাজ!</string>
+    <string name="_5_star_from_emma_louis">এমা লুইস থেকে 5 তারা</string>
+    <string name="richard_joe">রিচার্ড জো</string>
+    <string name="dash">-</string>
+    <string name="time">বিকেল 04:30</string>
+    <string name="reply">উত্তর দিন</string>
+    <string name="see">দেখুন</string>
+    <string name="dismiss">খারিজ</string>
+    <string name="search_paintology">পেইন্টোলজি অনুসন্ধান করুন</string>
+    <string name="tutorials">টিউটোরিয়াল</string>
+    <string name="user_post">ব্যবহারকারী পোস্ট</string>
+    <string name="blog_posts">ব্লগ পোস্ট</string>
+    <string name="_3245" translatable="false">#3245</string>
+    <string name="in_this_drawing_i_demonstate_the_hardness_and_density_settings_of_the_brush_tools_in">এই অঙ্কনে আমি ব্রাশ সরঞ্জামগুলির কঠোরতা এবং ঘনত্ব সেটিংস প্রদর্শন করি</string>
+    <string name="_8" translatable="false">8</string>
+    <string name="_800_pts" translatable="false">800 Pts</string>
+    <string name="_12_awards" translatable="false">12 Awards</string>
+    <string name="welcome_bonus">স্বাগতম বোনাস</string>
+    <string name="_500" translatable="false">500</string>
+    <string name="_0" translatable="false">0</string>
+    <string name="gallery1">গ্যালারি</string>
+    <string name="community1">সম্প্রদায়</string>
+    <string name="social_media_links1">সোশ্যাল মিডিয়া লিংক</string>
+    <string name="youtube1">ইউটিউব</string>
+    <string name="pinterest1">Pinterest</string>
+    <string name="twitter_x">টুইটার/এক্স</string>
+    <string name="instagram1">ইনস্টাগ্রাম</string>
+    <string name="tiktok1">টিকটক</string>
+    <string name="quora1">কোরা</string>
+    <string name="opening_tutorials">টিউটোরিয়াল খোলা</string>
+    <string name="draw_stroke">স্ট্রোক আঁকুন</string>
+    <string name="draw_camera_image">ক্যামেরা ছবি আঁকুন</string>
+    <string name="draw_overlay_image">ওভারলে ছবি আঁকুন</string>
+    <string name="draw_trace_image">ট্রেস ইমেজ আঁকুন</string>
+    <string name="community_post">কমিউনিটি পোস্ট</string>
+    <string name="community_post_hashtag">কমিউনিটি পোস্ট হ্যাশ ট্যাগ</string>
+    <string name="community_post_like">কমিউনিটি পোস্ট লাইক</string>
+    <string name="community_post_comment">কমিউনিটি পোস্ট মন্তব্য</string>
+    <string name="community_post_share">কমিউনিটি পোস্ট শেয়ার</string>
+    <string name="total">মোট</string>
+    <string name="your_points">আপনার পয়েন্ট</string>
+    <string name="drawing_points">অঙ্কন পয়েন্ট</string>
+    <string name="your_progress">আপনার অগ্রগতি</string>
+    <string name="complete_your_challenges">আপনার চ্যালেঞ্জ সম্পূর্ণ করুন</string>
+    <string name="earn_320_points_and_get_a_special_bonus_from_paintology">320 পয়েন্ট অর্জন করুন এবং পেইন্টোলজি থেকে একটি বিশেষ বোনাস পান</string>
+
+    <string name="do_the_challenge">চ্যালেঞ্জ করুন</string>
+    <string name="get_more_points_here">এখানে আরো পয়েন্ট পান!</string>
+    <string name="take_the_challenge">চ্যালেঞ্জ নিন</string>
+    <string name="community_post1">কমিউনিটি পোস্ট</string>
+    <string name="earn_200_points_by_making_10_posts_in_the_paintology_community">পেইন্টোলজি কমিউনিটিতে 10টি পোস্ট করে 200 পয়েন্ট অর্জন করুন</string>
+    <string name="do_this_award">এই পুরস্কার করুন</string>
+    <string name="challenge2">চ্যালেঞ্জ</string>
+    <string name="find_ability">যোগ্যতা খুঁজুন</string>
+    <string name="joe_smith">জো স্মিথ</string>
+    <string name="cat_drawing">বিড়াল অঙ্কন</string>
+    <string name="do_tutorial">টিউটোরিয়াল করুন</string>
+    <string name="video">ভিডিও</string>
+    <string name="favorites">প্রিয়</string>
+    <string name="beginner_1" translatable="false">Beginner 1</string>
+    <string name="_50_users_are_participating_in_this_challenge">50 জন ব্যবহারকারী এই চ্যালেঞ্জে অংশ নিচ্ছেন</string>
+    <string name="leaderboard">লিডারবোর্ড</string>
+    <string name="settings">সেটিংস</string>
+    <string name="notifications">বিজ্ঞপ্তি</string>
+    <string name="general">সাধারণ</string>
+    <string name="accessibility">অ্যাক্সেসযোগ্যতা</string>
+    <string name="security">নিরাপত্তা</string>
+    <string name="help_center">সহায়তা কেন্দ্র</string>
+    <string name="about_paintology">পেইন্টোলজি সম্পর্কে</string>
+    <string name="video_guides">ভিডিও নির্দেশিকা</string>
+    <string name="your_ranking">আপনার র‍্যাঙ্কিং</string>
+    <string name="tutorials_32">টিউটোরিয়াল\n(৩২)</string>
+    <string name="profile">প্রোফাইল</string>
+    <string name="_7th_position"><u>7ম অবস্থান</u></string>
+
+    <string name="top_comments">শীর্ষ মন্তব্য:</string>
+    <string name="type_a_comment">একটি মন্তব্য টাইপ করুন</string>
+    <string name="_0_pts" translatable="false">0 Pts</string>
+    <string name="_720_pts" translatable="false">720 Pts</string>
+    <string name="date_ascending_default">তারিখ আরোহী</string>
+    <string name="date_descending">তারিখ অবরোহ (ডিফল্ট)</string>
+    <string name="ratings">রেটিং</string>
+    <string name="comments">মন্তব্য</string>
+    <string name="posts_number">পোস্ট নম্বর</string>
+    <string name="tutorials_default">টিউটোরিয়াল</string>
+    <string name="by_levels">স্তর দ্বারা</string>
+    <string name="by_awards">পুরষ্কার দ্বারা</string>
+    <string name="most_popular">সর্বাধিক জনপ্রিয়</string>
+    <string name="publish_community">সম্প্রদায় প্রকাশ করুন</string>
+    <string name="post_gallery">পোস্ট গ্যালারি</string>
+    <string name="world_all" translatable="false">World (All)</string>
+    <string name="favourites">প্রিয়</string>
+    <string name="description">বর্ণনা</string>
+    <string name="rate_this_drawing">এই অঙ্কন রেট</string>
+    <string name="rate">হার</string>
+    <string name="be_the_first_to_post_in_your_country">আমাদের নিজের দেশে প্রথম পোস্ট করুন!</string>
+    <string name="check_out_the_tutorials_or_point_to_a_challenge">টিউটোরিয়াল দেখুন বা আঁকা শুরু করুন</string>
+    <string name="make_drawing">অঙ্কন করুন</string>
+    <string name="close_drawing">অঙ্কন বন্ধ করুন</string>
+    <string name="_200" translatable="false">200</string>
+    <string name="this_ranking_is_compiled">এই র্যাঙ্কিং সংকলিত হয়</string>
+
+    <string name="label_no_comments_yet">এখনো কোন মন্তব্য নেই!</string>
+    <string name="label_comments">মন্তব্য</string>
+    <string name="enlarge">বড় করা</string>
+    <string name="add_to_favorites">ফেভারিটে যোগ করুন</string>
+    <string name="_4_3">4.3</string>
+    <string name="user_name">ব্যবহারকারীর নাম</string>
+    <string name="learn_drawing">অঙ্কন শিখুন</string>
+
+    <string name="start_the_tutorial">টিউটোরিয়াল শুরু করুন</string>
+    <string name="complete_your_drawing">আপনার অঙ্কন সম্পূর্ণ করুন</string>
+    <string name="your_drawings">আপনার অঙ্কন</string>
+    <string name="complete_your_drawings">আপনার অঙ্কন সম্পূর্ণ করুন</string>
+    <string name="complete_your_tutorial">আপনার টিউটোরিয়াল সম্পূর্ণ করুন</string>
+    <string name="no_more_users_be_the_first">আর ব্যবহারকারী নেই, প্রথম হোন!</string>
+    <string name="post_gallery_message">আপনার বর্তমান অঙ্কনগুলির গ্যালারিতে পোস্ট করুন\nআরো অঙ্কন তৈরি করুন৷</string>
+    <string name="create_drawings">অঙ্কন তৈরি করুন</string>
+    <string name="post_to_gallery">গ্যালারিতে পোস্ট করুন</string>
+    <string name="title">শিরোনাম</string>
+    <string name="description1">বর্ণনা</string>
+    <string name="youtube_link">ইউটিউব লিংক</string>
+    <string name="add_hashtag1_hashtag_2">হ্যাশট্যাগ 1#, হ্যাশট্যাগ # 2 যোগ করুন</string>
+    <string name="publish">প্রকাশ করুন</string>
+    <string name="your_drawing_has_been_posted_to_the_community1">আপনার অঙ্কন সম্প্রদায়ে পোস্ট করা হয়েছে!</string>
+    <string name="see_it_now1">এখন এটা দেখুন!</string>
+    <string name="ok">ঠিক আছে</string>
+    <string name="your_canvas_awaits">আপনার ক্যানভাস অপেক্ষা করছে!</string>
+    <string name="create_your_first_masterpiece_or_explore_new_techniques">আপনার প্রথম মাস্টারপিস তৈরি করুন বা নতুন কৌশল অন্বেষণ করুন.</string>
+    <string name="explore_our_video_guides_34">আমাদের ভিডিও গাইড এক্সপ্লোর করুন (34)</string>
+    <string name="find_tutorials_and_tips_to_enhance_your_skills">আপনার দক্ষতা বাড়ানোর জন্য টিউটোরিয়াল এবং টিপস খুঁজুন।</string>
+    <string name="you_wont_be_able">আপনি ব্যবহারকারীর সাথে চ্যাট করতে পারবেন না, আপনি কি নিশ্চিত?</string>
+    <string name="no_new_notification">কোন নতুন বিজ্ঞপ্তি নেই</string>
+    <string name="account">হিসাব</string>
+    <string name="system">সিস্টেম</string>
+    <string name="paintology">চিত্রবিদ্যা</string>
+    <string name="rate_now">এখন রেট</string>
+    <string name="not_now">এখন না</string>
+    <string name="tell_us_how_much_you_enjoyed_this_piece_by_rating_it">আপনি এই অংশটি রেটিং দিয়ে কতটা উপভোগ করেছেন তা আমাদের বলুন।</string>
+    <string name="appreciate_this_art">এই শিল্প প্রশংসা?</string>
+    <string name="appreciate_this_tut">এই টিউটোরিয়াল প্রশংসা?</string>
+    <string name="show_off_your_creativity">আপনার সৃজনশীলতা দেখান!</string>
+    <string name="image_added_to_my_paintings">ছবি আমার পেইন্টিং যোগ করা হয়েছে!</string>
+    <string name="your_favorite_galleries_list_is_empty_discover_and_mark_your_favorite_ones">আপনার প্রিয় গ্যালারী তালিকা খালি. আবিষ্কার করুন এবং আপনার প্রিয় বেশী চিহ্নিত করুন!</string>
+    <string name="no_favorites_added">কোন ফেভারিট যোগ করা হয়নি</string>
+    <string name="you_haven_t_added_any_users_to_your_favorites_explore_the_community_and_save_your_favorite_artists">আপনি আপনার প্রিয়তে কোনো ব্যবহারকারী যোগ করেননি৷ সম্প্রদায়টি অন্বেষণ করুন এবং আপনার প্রিয় শিল্পীদের সংরক্ষণ করুন!</string>
+    <string name="there_are_no_tutorials_in_your_favorites_browse_and_select_the_best_tutorials_to_add_them_here">আপনার পছন্দের কোন টিউটোরিয়াল নেই. এখানে যোগ করার জন্য সেরা টিউটোরিয়ালগুলি ব্রাউজ করুন এবং নির্বাচন করুন।</string>
+    <string name="you_don_t_have_any_favorite_posts_yet_start_exploring_and_adding_your_top_picks">আপনার এখনও কোনো প্রিয় পোস্ট নেই। আপনার সেরা বাছাইগুলি অন্বেষণ এবং যোগ করা শুরু করুন!</string>
+    <string name="store">দোকান</string>
+    <string name="you_must">চ্যাটিং শুরু করতে আপনাকে অবশ্যই মার্টিনকে অনুসরণ করতে হবে এবং অনুসরণ করতে হবে। চ্যাট আনলক করতে আপনি দুজনেই একে অপরকে অনুসরণ করছেন তা নিশ্চিত করুন।</string>
+    <string name="following_please_wait">অনুগ্রহ করে অপেক্ষা করুন…</string>
+    <string name="who_we_are">আমরা যারা</string>
+    <string name="paintology_is">Paintology হল একটি US ভিত্তিক সফ্টওয়্যার কোম্পানি যা তার ব্যবহারকারীদের জন্য সৃজনশীল ডিজিটাল অ্যাপ অফার করে। আমাদের ফ্ল্যাগশিপ প্রোডাক্ট হল পেইন্টোলজি ড্রয়িং অ্যাপটি গুগল প্লে স্টোরে পাওয়া যায়, যারা অঙ্কন এবং পেইন্টিং উপভোগ করেন তাদের জন্য একটি সহজ এবং শক্তিশালী ড্রয়িং অ্যাপ অফার করে।\n\nতার অন্যান্য আবেগের মধ্যে রয়েছে শিল্প যেখানে তিনি দেয়ালে ঝুলিয়ে শত শত শিল্পকর্ম তৈরি করেছেন। পরিবার এবং বন্ধুদের বাড়িতে। এটি তাকে ডিজিটাল ড্রয়িং অ্যাপ, পেইন্টোলজি তৈরি করতে পরিচালিত করেছিল। এটি ব্যবহারকারীদের তাদের ঐতিহ্যগত শিল্প দক্ষতা ডিজিটাল ফোন এবং ট্যাবলেটে আনতে অনুমতি দেওয়ার জন্য কল্পনা করা হয়েছিল৷\n\n তার সম্পূর্ণ কাজগুলি দেখতে, আপনি Paintology.com ওয়েবসাইটের সাথে তার অন্যান্য সামাজিক সাইটগুলিতে যেতে পারেন৷</string>
+    <string name="web_address">ওয়েব ঠিকানা:</string>
+    <string name="https_paintology_com" translatable="false">https://paintology.com</string>
+    <string name="twitter_x2">টুইটার/এক্স</string>
+    <string name="quora2">কোরা</string>
+    <string name="linkedin2">লিঙ্কডইন</string>
+    <string name="personal_details2">ব্যক্তিগত বিবরণ</string>
+    <string name="traditional_art_ability2">ঐতিহ্যগত শিল্প ক্ষমতা</string>
+    <string name="social_media_links3">সোশ্যাল মিডিয়া লিংক</string>
+    <string name="twitter_x3">টুইটার/এক্স</string>
+    <string name="traditional_art_ability3">ঐতিহ্যগত শিল্প ক্ষমতা</string>
+    <string name="social_media_links4">সোশ্যাল মিডিয়া লিংক</string>
+    <string name="twitter_x4">টুইটার/এক্স</string>
+    <string name="traditional_art_ability4">ঐতিহ্যগত শিল্প ক্ষমতা</string>
+    <string name="app_links">অ্যাপ লিঙ্ক:</string>
+    <string name="https_play_google_com_store_apps_developer_id_paintology" translatable="false">https://play.google.com/store/apps/developer?id=Paintology</string>
+    <string name="protectedd">পেইন্টোলজি আপনার গোপনীয়তা রক্ষা করার জন্য অত্যন্ত প্রতিশ্রুতিবদ্ধ। আমরা চাই যে আপনি গোপনীয়তা নিয়ে চিন্তা না করে আমাদের পণ্য এবং পরিষেবাগুলি ব্যবহার করার জন্য আরও বেশি সময় ব্যয় করুন..\n নিম্নলিখিত গোপনীয়তা বিবৃতিটি এই সাইটের তথ্য সংগ্রহ, আমরা কী ব্যবহার করি এবং গোপনীয়তা সুরক্ষা অনুশীলনগুলি প্রকাশ করে, Paintology.com৷</string>
+    <string name="log_files">লগ ফাইল</string>
+    <string name="like_many">অন্যান্য অনেক ওয়েব সাইটের মত, paintology.com লগ ফাইল ব্যবহার করে। এই ফাইলগুলি কেবলমাত্র সাইটে দর্শকদের লগ করে, হোস্টিং কোম্পানিগুলির জন্য একটি আদর্শ পদ্ধতি এবং হোস্টিং পরিষেবার বিশ্লেষণের একটি অংশ। লগ ফাইলের ভিতরের তথ্যের মধ্যে রয়েছে ইন্টারনেট প্রোটোকল (IP) ঠিকানা, ব্রাউজারের ধরন, ইন্টারনেট পরিষেবা প্রদানকারী (ISP), তারিখ/সময় স্ট্যাম্প, উল্লেখ/প্রস্থান পৃষ্ঠা এবং সম্ভবত ক্লিকের সংখ্যা। এই তথ্য প্রবণতা বিশ্লেষণ, সাইট পরিচালনা, সাইটের চারপাশে ব্যবহারকারীর গতিবিধি ট্র্যাক করতে এবং জনসংখ্যা সংক্রান্ত তথ্য সংগ্রহ করতে ব্যবহৃত হয়। আইপি ঠিকানা, এবং অন্যান্য এই ধরনের তথ্য ব্যক্তিগতভাবে সনাক্ত করা যায় এমন কোনো তথ্যের সাথে লিঙ্ক করা হয় না</string>
+    <string name="cookies">কুকিজ</string>
+    <string name="mostly_people">পেইন্টোলজি ডটকম ওয়েবসাইট ভিজিটরদের পছন্দ সম্পর্কে তথ্য সঞ্চয় করতে, সাইট ভিজিটর কোন পৃষ্ঠাগুলিতে অ্যাক্সেস করে বা ভিজিট করে সেগুলির ব্যবহারকারী-নির্দিষ্ট তথ্য রেকর্ড করতে এবং দর্শকদের ব্রাউজারের প্রকার বা অন্যান্য তথ্যের উপর ভিত্তি করে আমাদের ওয়েব পৃষ্ঠার বিষয়বস্তু ব্যক্তিগতকৃত বা কাস্টমাইজ করতে কুকিজ ব্যবহার করে ভিজিটর তাদের ব্রাউজারের মাধ্যমে পাঠায়।\n আপনি যদি কুকিজ নিষ্ক্রিয় করতে চান, তাহলে আপনি আপনার ব্যক্তিগত ব্রাউজার বিকল্পের মাধ্যমে তা করতে পারেন। নির্দিষ্ট ওয়েব ব্রাউজারগুলির সাথে কুকি পরিচালনা সম্পর্কে আরও বিস্তারিত তথ্য ব্রাউজারগুলির নিজ নিজ ওয়েবসাইটে পাওয়া যাবে। কুকি কি?\n আমাদের কোম্পানি ব্যবহারকারীদের ব্যক্তিগত তথ্য তৃতীয় পক্ষ প্রদান করে না। তৃতীয় পক্ষকে দেওয়া ব্যক্তিগত তথ্য”, নিম্নলিখিত ক্ষেত্রে ব্যতীত।\n যখন ব্যবহারকারী আগাম সম্মতি দিয়ে থাকে।\n যখন আমাদের পরিষেবাগুলির একটি অংশ আউটসোর্স করা হয় এবং সেই ব্যবসাটি চালানোর জন্য এটি প্রয়োজনীয়।\n যখন পরিসংখ্যানগত ডেটা প্রক্রিয়া করার পরে ডেটা প্রকাশ করা হয় যাতে ব্যক্তিদের সনাক্ত করা না যায়৷\n দৃষ্টান্তগুলি আইনে ভিত্তি করে৷\n যখন ব্যক্তির সম্মতি পেতে অসুবিধা হয় এবং এটি কোনও ব্যক্তির জীবন, ব্যক্তি বা সম্পত্তি রক্ষা করার জন্য প্রয়োজনীয়৷ n যখন আমাদের কোম্পানিকে একটি জাতীয় প্রতিষ্ঠান, স্থানীয় সরকার, বা উল্লিখিত প্রতিষ্ঠান বা সরকার কর্তৃক অর্পিত একজনকে আইন অনুসারে নিবন্ধিত বিষয়বস্তু প্রকাশে সহযোগিতা করতে বলা হয়।</string>
+    <string name="provision_of_personal_information_to_third_parties">তৃতীয় পক্ষের ব্যক্তিগত তথ্য প্রদান</string>
+    <string name="facebook">ফেসবুক</string>
+    <string name="https_www_facebook_com_msqrd_privacy">https://www.facebook.com/msqrd/privacy</string>
+    <string name="google_analytics">Google Analytics</string>
+    <string name="https_policies_google_com_privacy" translatable="false">https://policies.google.com/privacy</string>
+    <string name="google_ads_excluding_paid_and_windows_versions">Google বিজ্ঞাপন (প্রদত্ত এবং উইন্ডোজ সংস্করণ ব্যতীত)</string>
+    <string name="https_policies_google_com_technologies_ads" translatable="false">https://policies.google.com/technologies/ads</string>
+    <string name="google_firebase_android_versions_only">Google Firebase (শুধুমাত্র অ্যান্ড্রয়েড সংস্করণ)</string>
+    <string name="https_firebase_google_com_support_privacy" translatable="false">https://firebase.google.com/support/privacy</string>
+    <string name="youtube_android_versions_only">YouTube (শুধুমাত্র অ্যান্ড্রয়েড সংস্করণ)</string>
+    <string name="https_www_youtube_com_intl_us_about_policies_community_guidelines" translatable="false">https://www.youtube.com/intl/us/about/policies/#community-guidelines</string>
+    <string name="third_party_sites_and_services">তৃতীয় পক্ষের সাইট এবং পরিষেবা</string>
+    <string name="webstie_go">paintology.com ওয়েবসাইটে তৃতীয় পক্ষের ওয়েবসাইট, পণ্য, উইজেট এবং পরিষেবার লিঙ্ক থাকতে পারে। আপনি এই তৃতীয়-পক্ষের সাইটগুলির সম্পর্কিত গোপনীয়তা নীতিগুলির সাথে তাদের অনুশীলন সম্পর্কে আরও বিশদ তথ্যের পাশাপাশি নির্দিষ্ট অনুশীলনগুলি কীভাবে অপ্ট-আউট করতে চান সে সম্পর্কে নির্দেশাবলীর জন্য পরামর্শ করুন৷ Google পরিষেবা পেইন্টোলজি ডটকম ওয়েবসাইট Google পরিষেবার মাধ্যমে সাধারণ ওয়েবসাইট ব্যবহারের তথ্য সংগ্রহ ও সংরক্ষণ করতে বিভিন্ন প্রযুক্তি ব্যবহার করে। Google এর সম্পর্কে আরও জানুন।</string>
+    <string name="privacy_policylink"><u>গোপনীয়তা নীতি।</u></string>
+    <string name="about_security_control_measures">নিরাপত্তা নিয়ন্ত্রণ ব্যবস্থা সম্পর্কে</string>
+    <string name="legal">আমাদের ব্যক্তিগত তথ্য পরিচালনার ক্ষেত্রে অননুমোদিত অ্যাক্সেস, ফাঁস, ধ্বংস এবং ক্ষতির বিপদের বিরুদ্ধে আমাদের কোম্পানি ক্রমাগত প্রয়োজনীয় এবং যথাযথ নিরাপত্তা ব্যবস্থা গ্রহণ করার চেষ্টা করে।\n পদ্ধতিগত নিরাপত্তা নিয়ন্ত্রণ ব্যবস্থা:\n আমরা ব্যক্তিগত তথ্য রক্ষা করার জন্য একটি সিস্টেম এবং নিয়ম বজায় রাখি এবং আইন ও অধ্যাদেশের উপর ভিত্তি করে যথাযথ পরিচালনা এবং প্রতিক্রিয়া সম্পর্কে পুঙ্খানুপুঙ্খ। এছাড়াও আমরা ব্যক্তিগত তথ্য পরিচালনার পরিস্থিতিতে নিয়মিত স্বেচ্ছাসেবী পরিদর্শন এবং নিরীক্ষা চালাই।\n মানব নিরাপত্তা নিয়ন্ত্রণ ব্যবস্থা:\n নিয়মিত এবং যখন একজন কর্মচারী কোম্পানিতে যোগদান করেন, তখন আমরা সমস্ত কর্মচারীকে ব্যক্তিগত তথ্যের সুরক্ষা সম্পর্কে শিক্ষিত করি। উপরন্তু, আমরা যথাযথভাবে কর্মচারীদের নির্দেশ দিই, যেমন কাজের প্রবিধানের উপর ভিত্তি করে গোপনীয়তা বজায় রাখার জন্য তাদের দায়িত্ব গ্রহণ করার জন্য।\n শারীরিক নিরাপত্তা নিয়ন্ত্রণ ব্যবস্থা:\n আমরা একজন কর্মচারীর যে এলাকায় কাজ পরিচালনা করে সেখানে কক্ষে কর্মচারীর প্রবেশ এবং প্রস্থান নিয়ন্ত্রণ করি ব্যক্তিগত তথ্য। একই সময়ে, আমরা কোনো অননুমোদিত ব্যক্তিকে ব্যক্তিগত তথ্য দেখা থেকে বিরত রাখার জন্য ব্যবস্থা প্রয়োগ করি।\n প্রযুক্তিগত নিরাপত্তা নিয়ন্ত্রণ ব্যবস্থা:\n অ্যাক্সেস নিয়ন্ত্রণের কারণে, আমরা তথ্য দেখার এবং পরিচালনার পরিমাণ সীমিত করি। একই সময়ে, আমরা প্রযুক্তিগত নিয়ন্ত্রণ ব্যবস্থা গ্রহণ করি, যেমন অবৈধ অ্যাক্সেস এবং কম্পিউটার ভাইরাসের মতো বিপদের বিরুদ্ধে উপযুক্ত তথ্য সুরক্ষা ব্যবস্থা।</string>
+    <string name="noti_data">অন্যান্য ব্যবহারকারীরা গ্যালারি এবং কমিউনিটিতে আপনার পোস্টে লাইক, রেট, মন্তব্য, উত্তর দিলে আপনি তাদের দ্বারা বিজ্ঞপ্তি পাবেন।\n\nআপনি সহায়তা এবং অন্যান্য গুরুত্বপূর্ণ বিজ্ঞপ্তিগুলির জন্য পেইন্টোলজি অ্যাপের প্রশাসকের কাছ থেকে বিজ্ঞপ্তি পাবেন।</string>
+    <string name="general_data">পেন্টোলজি অ্যাপটি মজাদার এবং সহজ টিউটোরিয়ালের মাধ্যমে শেখার সময় আপনার অঙ্কন দক্ষতা উন্নত করার জন্য ডিজাইন করা হয়েছে!\n\nঅ্যাপটি এমন স্তরের দ্বারা সাজানো হয়েছে যেখানে সমস্ত ব্যবহারকারীরা বিগিনার 1 এ আসে এবং তাদের কাজ করে। যেকোন ড্রয়িং স্কুলের মতোই, আপনি প্রয়োজনীয় এবং মৌলিক অঙ্কন দক্ষতা অর্জনের মাধ্যমে আপনার উপায়ে কাজ করবেন।\n\nমনে রাখবেন, চিত্রবিদ্যা হল সরঞ্জামগুলির বিষয়ে নয় বরং আপনাকে শিল্পের মূল কৌশলগুলি শেখানো যা আপনি যে কোনও শিল্প মাধ্যমে প্রয়োগ করতে পারেন। সর্বোপরি, পেইন্টিং এবং আঁকার মজা হল এটিকে সহজ রাখা এবং গুরুত্বপূর্ণ কৌশলগুলি শেখা। এইভাবে বেশিরভাগ ভাল শিল্পীরা হাতে গোনা কয়েকটি সরঞ্জাম দিয়ে আঁকা এবং আঁকা শেখেন। ভাগ্যক্রমে একই ডিজিটাল অঙ্কন প্রযোজ্য. শুধুমাত্র একটি ব্রাশ দিয়ে দুর্দান্ত অঙ্কন করার কৌশলগুলি অনেক ব্যবহারকারী জানেন না!\n\nপেইন্টোলজি অ্যাপটি মজাদার এবং সহজ টিউটোরিয়ালের মাধ্যমে শেখার সময় আপনার অঙ্কন দক্ষতা উন্নত করার জন্য ডিজাইন করা হয়েছে!\n\nঅ্যাপটি হয়েছে স্তর দ্বারা সাজানো যেখানে সমস্ত ব্যবহারকারী বিগিনার 1 এ আসে এবং তাদের পথ ধরে কাজ করে। যেকোন ড্রয়িং স্কুলের মতোই, আপনি প্রয়োজনীয় এবং মৌলিক অঙ্কন দক্ষতা অর্জনের মাধ্যমে আপনার উপায়ে কাজ করবেন।\n\nমনে রাখবেন, চিত্রবিদ্যা হল সরঞ্জামগুলির বিষয়ে নয় বরং আপনাকে শিল্পের মূল কৌশলগুলি শেখানো যা আপনি যে কোনও শিল্প মাধ্যমে প্রয়োগ করতে পারেন। সর্বোপরি, পেইন্টিং এবং আঁকার মজা হল এটিকে সহজ রাখা এবং গুরুত্বপূর্ণ কৌশলগুলি শেখা। এইভাবে বেশিরভাগ ভাল শিল্পীরা হাতে গোনা কয়েকটি সরঞ্জাম দিয়ে আঁকা এবং আঁকা শেখেন। ভাগ্যক্রমে একই ডিজিটাল অঙ্কন প্রযোজ্য. শুধুমাত্র একটি ব্রাশ দিয়ে দুর্দান্ত অঙ্কন করার কৌশলগুলি অনেক ব্যবহারকারী জানেন না!\n\nএটি আপনি শিখবেন!\n\n</string>
+    <string name="accessibility_data">বর্তমানে, আমাদের কাছে কোনো বিশেষ অ্যাক্সেসিবিলিটি বৈশিষ্ট্য নেই। যাইহোক, আপনার আঁকার মূল বিষয়গুলি থেকে শুরু করা উচিত। আপনার আঙুল বা লেখনী ব্যবহার করে আপনার অঙ্কন স্ট্রোকের সাথে স্বাচ্ছন্দ্য পেতে টোটাল বিগিনার বিভাগ থেকে শুরু করুন।</string>
+    <string name="store_data">স্টোরটি এমন জায়গা হবে যেখানে আপনি অ্যাপের আরও বেশি বৈশিষ্ট্য আনলক করতে পারবেন! এটি সহজ রাখার চেষ্টা করুন এবং ছোট ধাপে শিখুন। আপনি আরও ভাল হওয়ার সাথে সাথে আপনি দেখতে পাবেন যে এই বৈশিষ্ট্যগুলিকে রিডিম করা আপনাকে আপনার সৃজনশীলতার আরও বেশি কিছুতে ট্যাপ করতে সহায়তা করবে৷\n\nপয়েন্ট সংগ্রহ করা শুরু করুন, যাতে আপনি অ্যাপের কিছু দুর্দান্ত বৈশিষ্ট্য রিডিম করতে পারেন৷ আপনার সৃজনশীলতা অগ্রসর করার জন্য ডিজাইন করা হয়েছে, প্রযুক্তিগত দক্ষতা নয়।</string>
+    <string name="help_center_data">আপনি বিভিন্ন উপায়ে সাহায্য পেতে পারেন।\n\nআপনি সরাসরি অ্যাপ থেকে যেকোনো সমস্যা সম্পর্কে আপনার প্রশ্ন জমা দিতে আমাদের নতুন অ্যাপ সাপোর্ট এন্ট্রি ফর্ম ব্যবহার করতে পারেন।\n\nঅন্যথায়, আপনি ওয়েব ফর্মের মাধ্যমে বা সরাসরি জমা দিয়ে আমাদের সাথে যোগাযোগ করতে পারেন ইমেল: support@paintology.com\n\nঅ্যাপ সমর্থন স্ক্রীনে যেতে, ছবিটি বা বোতামে ক্লিক করুন।</string>
+    <string name="about_paintology_data">চিত্রতত্ত্বের জন্ম হয়েছিল স্রষ্টা ডক্টর ফেরদৌস খালেকের মানসিকতা থেকে। ফেরদৌস তার জীবনের বেশিরভাগ সময় কাটিয়েছেন নাইকি, সোথেবিস, হার্লে ডেভিডসন এবং আরও অনেক বড় কোম্পানির জন্য অত্যাধুনিক সফ্টওয়্যার সমাধান তৈরিতে।</string>
+    <string name="security_data">নিরাপত্তা এবং গোপনীয়তা আমাদের প্রধান উদ্বেগ যখন এটি আমাদের ব্যবহারকারীদের অনুগত ভিত্তি আসে. আপনি নিশ্চিন্ত থাকতে পারেন যে আপনার সম্পর্কে আমরা যে তথ্য রাখি তা অন্য তৃতীয় পক্ষের সাথে ভাগ করা হয় না। \nআমাদের প্রাথমিক উদ্বেগ হল নিশ্চিত করা যে ব্যবহারকারীরা পেন্টোলজি প্ল্যাটফর্ম ব্যবহারে নিরাপদ এবং তাদের প্রাসঙ্গিক মনে হতে পারে এমন কোনো ব্যক্তিগত তথ্য বাতিল, মুছে ফেলার অধিকার রয়েছে।</string>
+    <string name="how_we_protect_your_data">আমরা কিভাবে আপনার ডেটা রক্ষা করি</string>
+    <string name="to_ensure_your">আপনার ডেটা নিরাপদ রাখা নিশ্চিত করতে, এই ওয়েবসাইটটি সুরক্ষিত এবং এনক্রিপ্ট SSL এর সাথে গোপনীয়তা যোগাযোগের মাধ্যমে এনক্রিপ্ট করা হয়েছে।</string>
+    <string name="what_rights_you_have">আপনার ডেটার উপর আপনার কি অধিকার আছে &amp; মুছে ফেলা</string>
+    <string name="if_you">আপনার যদি এই সাইটে একটি অ্যাকাউন্ট থাকে, বা মন্তব্য রেখে থাকেন, তাহলে আপনি আমাদের কাছে আপনার দেওয়া যে কোনো ডেটা সহ আমাদের কাছে থাকা ব্যক্তিগত ডেটার একটি রপ্তানি করা ফাইল পাওয়ার জন্য অনুরোধ করতে পারেন।\n\n আপনি আমাদের কাছে অনুরোধ করতে পারেন। নীচের আমাদের সাথে যোগাযোগ করুন ফর্ম লিঙ্কের মাধ্যমে আপনার অনুরোধ পাঠিয়ে আপনার সম্পর্কে আমাদের কাছে থাকা যেকোনো ব্যক্তিগত ডেটা মুছে ফেলুন।\n\n আপনার অনুরোধের সাথে ফর্মটি জমা দিন এবং আপনার সমস্ত ব্যক্তিগত ডেটা এখান থেকে সরানো হয়েছে তা নিশ্চিত করতে আপনি এক সপ্তাহের মধ্যে আবার চেক করতে পারেন। আমাদের সিস্টেম।</string>
+    <string name="children_s_information">শিশুদের তথ্য</string>
+    <string name="member">আমরা বিশ্বাস করি যে অনলাইনে শিশুদের জন্য অতিরিক্ত সুরক্ষা প্রদান করা গুরুত্বপূর্ণ৷ আমরা পিতামাতা এবং অভিভাবকদের তাদের অনলাইন কার্যকলাপ পর্যবেক্ষণ, অংশগ্রহণ এবং/অথবা নিরীক্ষণ এবং গাইড করার জন্য তাদের সন্তানদের সাথে অনলাইনে সময় কাটাতে উত্সাহিত করি। পেন্টোলজি জেনেশুনে 13 বছরের কম বয়সী শিশুদের কাছ থেকে ব্যক্তিগতভাবে শনাক্তকরণযোগ্য কোনো তথ্য সংগ্রহ করে না। আমরা সমস্ত শিশুকে পরামর্শ দিই যে পেনটোলজি সদস্য এলাকা এবং ফোরামের জন্য একটি অ্যাকাউন্ট তৈরি করার আগে প্রথমে তাদের পিতামাতা বা অভিভাবকদের অনুমতি নিন।</string>
+    <string name="contact">যোগাযোগ</string>
+    <string name="support_paintology_com">support@paintology.com</string>
+    <string name="you_can_also_use_our">আপনি আপনার প্রশ্ন এবং প্রশ্ন পাঠাতে আমাদের নতুন অ্যাপ সমর্থন ব্যবহার করতে পারেন।</string>
+    <string name="consent">সম্মতি</string>
+    <string name="by_using_our_app_you">আমাদের অ্যাপ ব্যবহার করে, আপনি এতদ্বারা আমাদের গোপনীয়তা নীতিতে সম্মত হন এবং এর শর্তাবলীতে সম্মত হন।</string>
+    <string name="paintology_app_links">পেইন্টোলজি অ্যাপের লিঙ্ক:</string>
+    <string name="https_play_google_com" translatable="false">https://play.google.com/store/apps/details?id=com.paintology.lite</string>
+    <string name="https_play_google_com_s" translatable="false">https://play.google.com/store/apps/details?id=com.paintology.recorder</string>
+    <string name="website">ওয়েবসাইট:</string>
+    <string name="https_www_paintology_com" translatable="false">https://www.paintology.com</string>
+    <string name="youtube">YouTube:</string>
+    <string name="https_www_youtube_com_paintology" translatable="false">https://www.youtube.com/@Paintology</string>
+    <string name="https_www_youtube_com_ferdouse" translatable="false">https://www.youtube.com/@Ferdouse</string>
+    <string name="https_www_youtube_com_paintology_streams" translatable="false">https://www.youtube.com/@Paintology/streams</string>
+    <string name="https_www_youtube_com_ferdouse_shorts" translatable="false">https://www.youtube.com/@Ferdouse/shorts</string>
+    <string name="quora">কোরা:</string>
+    <string name="https_paintology_quora_com" translatable="false">https://paintology.quora.com</string>
+    <string name="https_www_quora_com_profile_ferdouse_khaleque" translatable="false">https://www.quora.com/profile/Ferdouse-Khaleque</string>
+    <string name="poetry_site">কবিতার সাইট:</string>
+    <string name="https_allpoetry_com_ferdouse" translatable="false">https://allpoetry.com/Ferdouse</string>
+    <string name="creative_site">সৃজনশীল সাইট:</string>
+    <string name="https_ferdouse_com" translatable="false">https://ferdouse.com</string>
+    <string name="free_google_classroom">বিনামূল্যে গুগল ক্লাসরুম:</string>
+    <string name="https_forms_gle_ozskjgypz9x8f5yx8" translatable="false">https://forms.gle/ozsKJGYPZ9X8F5YX8</string>
+    <string name="udemy">উডেমি:</string>
+    <string name="https_www_udemy_com_courses_search_p_2_q_paintology_src_ukw" translatable="false">https://www.udemy.com/courses/search/?p=2&amp;q=paintology&amp;src=ukw</string>
+    <string name="facebookb">ফেসবুক:</string>
+    <string name="https_www_facebook_com_paintology_apps" translatable="false">https://www.facebook.com/Paintology.apps</string>
+    <string name="tiktok">টিকটক:</string>
+    <string name="https_www_tiktok_com_paintology3" translatable="false">https://www.tiktok.com/@paintology3</string>
+    <string name="instagram">ইনস্টাগ্রাম:</string>
+    <string name="https_www_instagram_com_paintology_app" translatable="false">https://www.instagram.com/paintology.app/</string>
+    <string name="https_www_instagram_com_ferdousekhal" translatable="false">https://www.instagram.com/ferdousekhal/</string>
+    <string name="others">অন্যান্য:</string>
+    <string name="https_www_ferdouse_com" translatable="false">https://www.ferdouse.com/</string>
+    <string name="https_medium_com_ferdousekhaleque" translatable="false">https://medium.com/@ferdousekhaleque</string>
+    <string name="https_www_patreon_com_paintology" translatable="false">https://www.patreon.com/paintology</string>
+    <string name="https_twitter_com_semibase" translatable="false">https://twitter.com/Semibase</string>
+    <string name="https_www_reddit_com_user_ferdousek" translatable="false">https://www.reddit.com/user/FerdouseK</string>
+    <string name="pinterest">Pinterest:</string>
+    <string name="https_www_pinterest_com_ferdousekhaleque" translatable="false">https://www.pinterest.com/FerdouseKhaleque/</string>
+    <string name="https_www_pinterest_com_paintology" translatable="false">https://www.pinterest.com/Paintology</string>
+    <string name="permission_necessary">অনুমতি প্রয়োজন</string>
+    <string name="cant_read_permission_is_not_enabled">মিডিয়া এবং ক্যামেরা অ্যাক্সেস করার জন্য অনুমতি প্রয়োজন</string>
+    <string name="quick_draw">কুইক ড্র</string>
+    <string name="share_paintology_with_others">অন্যদের সাথে পেইন্টোলজি শেয়ার করুন</string>
+    <string name="watch_intro_video">ইন্ট্রো ভিডিও দেখুন</string>
+    <string name="share_feedback">মতামত শেয়ার করুন</string>
+    <string name="go_to_google_playstore">গুগল প্লেস্টোরে যান</string>
+    <string name="my_paintings">আমার পেইন্টিং</string>
+    <string name="drawing_activity">অঙ্কন কার্যকলাপ</string>
+    <string name="post">পোস্ট</string>
+    <string name="rate_the_app">অ্যাপটিকে রেট দিন</string>
+    <string name="language">ভাষা</string>
+    <string name="about_us">আমাদের সম্পর্কে</string>
+    <string name="app_support">অ্যাপ সমর্থন</string>
+    <string name="remove_favourite">প্রিয় সরান</string>
+    <string name="copy_link">লিংক কপি করুন</string>
+    <string name="open_in_canvas_overlay">ক্যানভাসে খুলুন (ওভারলে)</string>
+    <string name="open_in_canvas_trace">ক্যানভাসে খুলুন (ট্রেস)</string>
+    <string name="users_posts">ব্যবহারকারীদের পোস্ট</string>
+    <string name="download">ডাউনলোড করুন</string>
+    <string name="report">রিপোর্ট</string>
+    <string name="go_to_youtube_video">ইউটিউব ভিডিওতে যান</string>
+    <string name="more_details">আরো বিস্তারিত</string>
+    <string name="add_to_favourite">প্রিয়তে যোগ করুন</string>
+    <string name="add_new_post">নতুন পোস্ট যোগ করুন</string>
+    <string name="go_to_google_play">গুগল প্লেতে যান</string>
+    <string name="terms_amp_conditions"><![CDATA[নিয়ম ও শর্তাবলী]]></string>
+    <string name="app_version_n_nplease_read_these_privacy_policy_carefully">অ্যাপ সংস্করণ \n\nদয়া করে এই গোপনীয়তা নীতিগুলি মনোযোগ সহকারে পড়ুন</string>
+    <string name="awards">পুরস্কার</string>
+    <string name="no_tutorials_at_this_level">এই স্তরে কোন টিউটোরিয়াল নেই</string>
+    <string name="learn_with_paintology">পেইন্টোলজি দিয়ে শিখুন</string>
+    <string name="write_a_message">একটি বার্তা লিখুন</string>
+    <string name="go_to_login">লগইন এ যান</string>
+    <string name="select_type">প্রকার নির্বাচন করুন</string>
+    <string name="size">আকার</string>
+    <string name="draw_brush">ব্রাশ আঁকুন</string>
+    <string name="brush_name">ব্রাশের নাম</string>
+    <string name="enter_brush_name_here">এখানে ব্রাশের নাম লিখুন</string>
+    <string name="do_the_tutorial">টিউটোরিয়ালটি করুন</string>
+    <string name="watch">ঘড়ি!</string>
+    <string name="try_it">এটা চেষ্টা করুন!</string>
+    <string name="intro_videos">ভূমিকা ভিডিও</string>
+    <string name="profile_completion_bonus">প্রোফাইল সমাপ্তি বোনাস</string>
+    <string name="complete_your_profile_details_for_exclusive_rewards">এক্সক্লুসিভ পুরস্কারের জন্য আপনার প্রোফাইলের বিবরণ সম্পূর্ণ করুন!</string>
+    <string name="profile_status">প্রোফাইল স্ট্যাটাস</string>
+    <string name="personal_details">ব্যক্তিগত বিবরণ</string>
+    <string name="gender">লিঙ্গ</string>
+    <string name="traditional_art_ability">ঐতিহ্যগত শিল্প ক্ষমতা</string>
+    <string name="social_media_links">সোশ্যাল মিডিয়া লিংক</string>
+    <string name="facebook_profile">ফেসবুক প্রোফাইল</string>
+    <string name="instagram_profile">ইনস্টাগ্রাম প্রোফাইল</string>
+    <string name="youtube_profile">YouTube প্রোফাইল</string>
+    <string name="twitter_profile">টুইটার প্রোফাইল</string>
+    <string name="linkedin_profile">লিঙ্কডইন প্রোফাইল</string>
+    <string name="freehand_default">ফ্রিহ্যান্ড (ডিফল্ট)</string>
+    <string name="reward_points">পুরস্কার পয়েন্ট</string>
+    <string name="welcome_bonuss">স্বাগতম বোনাস</string>
+    <string name="opening_tutorialss">টিউটোরিয়াল খোলা</string>
+    <string name="draw_strokes">স্ট্রোক আঁকুন</string>
+    <string name="community_posts">কমিউনিটি পোস্ট</string>
+    <string name="community_post_likee">কমিউনিটি পোস্ট লাইক</string>
+    <string name="community_post_commentt">কমিউনিটি পোস্ট মন্তব্য</string>
+    <string name="community_post_sharee">কমিউনিটি পোস্ট শেয়ার</string>
+    <string name="totalt">মোট</string>
+    <string name="art_abilityy">শিল্প ক্ষমতা</string>
+    <string name="art_favourite">শিল্প প্রিয়</string>
+    <string name="art_med">শিল্প মাধ্যম</string>
+    <string name="insta">ইনস্টাগ্রাম</string>
+    <string name="youtubee">YouTube</string>
+    <string name="tiktokk">টিকটক</string>
+    <string name="pinterestt">Pinterest</string>
+    <string name="increase_your_drawing_skills">আপনার অঙ্কন দক্ষতা বাড়ান!</string>
+    <string name="watch_ad_to_earn_10_points">10 পয়েন্ট অর্জন করতে বিজ্ঞাপন দেখুন</string>
+    <string name="search_paintologyg">পেইন্টোলজি অনুসন্ধান করুন</string>
+    <string name="tutorialss">টিউটোরিয়াল</string>
+    <string name="user_posts">ব্যবহারকারী পোস্ট</string>
+    <string name="blog_postss">ব্লগ পোস্ট</string>
+    <string name="please_enter_your_details_for_create_account">অ্যাকাউন্ট তৈরি করার জন্য আপনার বিশদ লিখুন দয়া করে</string>
+    <string name="show_password">পাসওয়ার্ড দেখান</string>
+    <string name="or_signup_with_social">বা সামাজিক সঙ্গে সাইন আপ</string>
+    <string name="already_have_an_account_login">ইতিমধ্যে একটি অ্যাকাউন্ট আছে? লগইন করুন</string>
+    <string name="welcome_to_the_new_world_of_digital_drawing">ডিজিটাল অঙ্কনের নতুন জগতে স্বাগতম!</string>
+    <string name="this_action_may_contain_ad">এই কর্মে বিজ্ঞাপন থাকতে পারে</string>
+    <string name="issue">ইস্যু</string>
+    <string name="screenshots">স্ক্রিনশট</string>
+    <string name="tit">শিরোনাম</string>
+    <string name="descriptions">বর্ণনা</string>
+    <string name="undo">পূর্বাবস্থায় ফেরান</string>
+    <string name="redo">আবার করুন</string>
+    <string name="your_points_so_far">এখন পর্যন্ত আপনার পয়েন্ট!</string>
+    <string name="watch_ad_to_earn_10_point">10 পয়েন্ট অর্জন করতে বিজ্ঞাপন দেখুন</string>
+    <string name="drawings">অঙ্কন</string>
+    <string name="communit">সম্প্রদায়</string>
+    <string name="tutorial">টিউটোরিয়াল</string>
+    <string name="follow1">অনুসরণ করুন</string>
+    <string name="art_collection">আর্ট কালেকশন</string>
+    <string name="explore_their_23_drawings_and_get_inspired">তাদের 23টি অঙ্কন অন্বেষণ করুন এবং অনুপ্রাণিত হন</string>
+    <string name="linkedin">লিঙ্কডইন</string>
+    <string name="personal_details1">ব্যক্তিগত বিবরণ</string>
+    <string name="traditional_art_ability1">ঐতিহ্যগত শিল্প ক্ষমতা</string>
+    <string name="social_media_links2">সোশ্যাল মিডিয়া লিংক</string>
+    <string name="tags">ট্যাগ</string>
+    <string name="please_enter_following_information">নিম্নলিখিত তথ্য লিখুন দয়া করে</string>
+    <string name="more_brushes">আরও ব্রাশ</string>
+    <string name="single_tap">একক ট্যাপ</string>
+    <string name="straight_lines">সোজা লাইন</string>
+    <string name="gray_scale">গ্রে স্কেল</string>
+    <string name="block_coloring">ব্লক রং</string>
+    <string name="oval_color">ওভাল রঙ</string>
+    <string name="paintology_brush">পেইন্টোলজি ব্রাশ</string>
+    <string name="load_image">ছবি লোড করুন</string>
+    <string name="overlay">ওভারলে</string>
+    <string name="trace">ট্রেস</string>
+    <string name="question">প্রশ্নঃ</string>
+    <string name="answer">উত্তরঃ</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <string name="play">খেলা</string>
+    <string name="progress">অগ্রগতি</string>
+    <string name="chat_unavailable">চ্যাট অনুপলব্ধ</string>
+    <string name="you_must_follow_bochhi_and_be_followed_back_to_start_chatting_make_sure_both_of_you_follow_each_other_to_unlock_chat">চ্যাটিং শুরু করতে আপনাকে অবশ্যই বোচি অনুসরণ করতে হবে এবং অনুসরণ করতে হবে। চ্যাট আনলক করতে আপনি দুজনেই একে অপরকে অনুসরণ করছেন তা নিশ্চিত করুন।</string>
+    <string name="ad_is_loading_please_wait">বিজ্ঞাপন লোড হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন</string>
+    <string name="opeen">খোলা</string>
+    <string name="you_already_have_this_drawing_in_gallery">আপনার ইতিমধ্যেই গ্যালারিতে এই অঙ্কনটি রয়েছে৷</string>
+    <string name="see_your_post">আপনার পোস্ট দেখুন</string>
+    <string name="privacy_policy_updates">গোপনীয়তা নীতি আপডেট</string>
+    <string name="your_profile_is_saved">আপনার প্রোফাইল সংরক্ষিত হয়</string>
+    <string name="save_work_before_continuing">চালিয়ে যাওয়ার আগে কাজ সংরক্ষণ করবেন?</string>
+    <string name="discard">বাতিল করুন</string>
+    <string name="switch_to_canvas_drawing">ক্যানভাস অঙ্কনে স্যুইচ করুন</string>
+    <string name="pick">বাছাই</string>
+    <string name="your_favorite_galleries_list_is_empty_discover_and_mark_your_favorite_one">আপনার প্রিয় গ্যালারী তালিকা খালি. আবিষ্কার করুন এবং আপনার প্রিয় বেশী চিহ্নিত করুন!</string>
+    <string name="do_the_challengee">চ্যালেঞ্জ করুন</string>
+    <string name="hello_world">হ্যালো ওয়ার্ল্ড</string>
+    <string name="trace_check">ট্রেস চেক</string>
+    <string name="choose_an_action">একটি কর্ম চয়ন করুন</string>
+    <string name="camer">ক্যামেরা</string>
+    <string name="go_to_my_paintings">মাই পেইন্টিং-এ যান</string>
+    <string name="do_10_drawings_posted_to_gallery">\'গ্যালারিতে\' পোস্ট করা 10টি অঙ্কন করুন</string>
+    <string name="resum">পুনরায় শুরু করুন</string>
+    <string name="typing">টাইপিং…</string>
+    <string name="english">ইংরেজি</string>
+    <string name="_45_drawings">(45 অঙ্কন)</string>
+    <string name="this_is_a_reply_content">এটি একটি উত্তর বিষয়বস্তু</string>
+    <string name="_1_day_a_go">1 দিন একটি যেতে</string>
+    <string name="view_reply">উত্তর দেখুন</string>
+    <string name="worldwide">বিশ্বব্যাপী</string>
+    <string name="_32_drawings">32 অঙ্কন</string>
+    <string name="this_ranking_is_compiled_from_the_best_users_in_uae">এই র‌্যাঙ্কিংটি সংযুক্ত আরব আমিরাতের সেরা ব্যবহারকারীদের থেকে সংকলিত হয়েছে</string>
+    <string name="date_descending_default">তারিখ অবরোহ (ডিফল্ট)</string>
+    <string name="date_ascending">তারিখ আরোহী</string>
+    <string name="ratin">রেটিং</string>
+    <string name="likes">পছন্দ</string>
+    <string name="comment">মন্তব্য</string>
+    <string name="tutorials_defaul">টিউটোরিয়াল (ডিফল্ট)</string>
+    <string name="freehand_defaul">ফ্রিহ্যান্ড (ডিফল্ট)</string>
+    <string name="by_level">স্তর দ্বারা</string>
+    <string name="favorite">প্রিয়</string>
+    <string name="explore_our_video_guides">আমাদের ভিডিও গাইড এক্সপ্লোর করুন (34)</string>
+    <string name="find_tutorials_and_tips_to_enhance_your_skill">আপনার দক্ষতা বাড়ানোর জন্য টিউটোরিয়াল এবং টিপস খুঁজুন</string>
+    <string name="straight_nline">সোজা\nরেখা</string>
+    <string name="next_stroke">পরবর্তী স্ট্রোক</string>
+    <string name="play_and_draw">খেলা এবং আঁকা!</string>
+    <string name="play_amp_draw"><![CDATA[Play & Draw]]></string>
+    <string name="try_i">এটা চেষ্টা করুন!</string>
+    <string name="success">সফলতা</string>
+    <string name="na">নাম</string>
+    <string name="blank">খালি</string>
+    <string name="trac">ট্রেস</string>
+    <string name="sshot">SShot</string>
+    <string name="neww">নতুন</string>
+    <string name="feedback_submitted">প্রতিক্রিয়া জমা দেওয়া হয়েছে</string>
+    <string name="thanks_for_your_feedback">আপনার প্রতিক্রিয়া জন্য ধন্যবাদ!</string>
+    <string name="more_detail">আরো বিস্তারিত</string>
+    <string name="do_you_wan_t_to_unfollow_ankit">আপনি কি অঙ্কিতকে আনফলো করতে চান না?</string>
+    <string name="greeting_i_am_martin_i_love_drawing_and_drawing_related_stuff">অভিবাদন আমি মার্টিন আছি আমি ছবি আঁকতে এবং আঁকতে পছন্দ করি</string>
+    <string name="hashtag_search">হ্যাশট্যাগ অনুসন্ধান</string>
+    <string name="loading_ad">AD লোড হচ্ছে…</string>
+    <string name="see_detail">বিস্তারিত দেখুন</string>
+    <string name="forgot_password">পাসওয়ার্ড ভুলে গেছি</string>
+    <string name="enter_your_email_and_we_ll_send_you_a_one_time_password_otp_to_reset_it">আপনার ইমেল লিখুন, এবং আমরা এটি পুনরায় সেট করার জন্য আপনাকে একটি এককালীন পাসওয়ার্ড (OTP) পাঠাব৷</string>
+    <string name="enter_email_here">এখানে ইমেইল লিখুন</string>
+    <string name="verify_email_id">ইমেইল আইডি যাচাই করুন</string>
+    <string name="enter_otp_code_we_sent_to">আমাদের পাঠানো OTP কোড লিখুন</string>
+    <string name="didn_t_received_the_code">কোডটি পাননি?</string>
+    <string name="resend_code">কোড আবার পাঠান</string>
+    <string name="reset_password">পাসওয়ার্ড রিসেট করুন</string>
+    <string name="enter_confirm_password_here">এখানে কনফার্ম পাসওয়ার্ড দিন</string>
+    <string name="enter_new_password_here">এখানে নতুন পাসওয়ার্ড দিন</string>
+    <string name="reset_success">পাসওয়ার্ড সফলভাবে রিসেট করা হয়েছে</string>
+    <string name="token_expire">টোকেনের মেয়াদ শেষ হয়ে গেছে আবার চেষ্টা করুন</string>
+    <string name="setting_pass">পাসওয়ার্ড সেট করা হচ্ছে অনুগ্রহ করে অপেক্ষা করুন</string>
+    <string name="pass_match">পাসওয়ার্ড মেলে না</string>
+    <string name="enter_six_min">অনুগ্রহ করে ন্যূনতম 6 অক্ষরের পাসওয়ার্ড লিখুন</string>
+    <string name="enter_pass">পাসওয়ার্ড লিখুন</string>
+    <string name="enter_pass_new">নিশ্চিত পাসওয়ার্ড লিখুন দয়া করে</string>
+    <string name="username">ব্যবহারকারীর নাম</string>
+    <string name="enter_user">ব্যবহারকারীর নাম লিখুন</string>
+    <string name="error">ত্রুটি</string>
+    <string name="fail_reg">নিবন্ধনের পরে সাইন ইন করতে ব্যর্থ.</string>
+    <string name="reg_fail">"নিবন্ধন ব্যর্থ হয়েছে:"</string>
+    <string name="credentials">প্রমাণীকরণ ব্যর্থ হয়েছে৷ আপনার শংসাপত্র চেক করুন.</string>
+    <string name="registration">নিবন্ধনের পরে সাইন ইন করতে ব্যর্থ.</string>
+    <string name="up_file">ফাইল আপলোড করা হচ্ছে</string>
+    <string name="valid_email">বৈধ ইমেল ঠিকানা লিখুন</string>
+    <string name="opt_sent">OTP পাঠানো হচ্ছে অনুগ্রহ করে অপেক্ষা করুন</string>
+    <string name="opt_sent_ss">OTP সফলভাবে পাঠানো হয়েছে</string>
+    <string name="valid_opt">বৈধ ওটিপি লিখুন</string>
+    <string name="verify_opt">OTP যাচাই করুন অনুগ্রহ করে অপেক্ষা করুন</string>
+    <string name="no_tut">কোন টিউটোরিয়াল পাওয়া যায়নি</string>
+    <string name="send_pls_wait">পাঠানো হচ্ছে দয়া করে অপেক্ষা করুন</string>
+    <string name="enter_titl">অনুগ্রহ করে শিরোনাম লিখুন</string>
+    <string name="enter_det">অনুগ্রহ করে বিস্তারিত লিখুন</string>
+    <string name="feed_ss">প্রতিক্রিয়া সাফল্য</string>
+    <string name="load_tut">টিউটোরিয়াল লোড হচ্ছে…</string>
+    <string name="c_empty">মন্তব্য খালি</string>
+    <string name="f_to_reply">উত্তর যোগ করতে ব্যর্থ! আবার চেষ্টা করুন</string>
+    <string name="f_to_comm">মন্তব্য যোগ করতে ব্যর্থ! আবার চেষ্টা করুন</string>
+    <string name="a_rate">আপনি ইতিমধ্যে এই পোস্ট রেট করেছেন.</string>
+    <string name="e_check">রেটিং পরীক্ষা করার ত্রুটি:</string>
+    <string name="load">লোড হচ্ছে…</string>
+    <string name="no_ad">কোন বিজ্ঞাপন পাওয়া যায়নি আবার চেষ্টা করুন!</string>
+    <string name="c_with_dr">আঁকার সাথে চালিয়ে যান</string>
+    <string name="p_post">লোকেরা কী পোস্ট করছে তা দেখুন</string>
+    <string name="s_dr">আপনার অঙ্কন জমা দিন</string>
+    <string name="tutorials_point">টিউটোরিয়াল, আরো পয়েন্ট উপার্জন!</string>
+    <string name="e_more">আরো উপার্জন, ব্যস্ত পেতে!</string>
+    <string name="s_wrong">কিছু ভুল হয়েছে!, আবার চেষ্টা করুন.</string>
+    <string name="rate_us">আমাদের রেট</string>
+
+    <string name="pg_big_points">বড় পয়েন্ট</string>
+    <string name="ss_earn_big_points_and_level_up">বিগ পয়েন্ট অর্জন করুন এবং লেভেল আপ করুন!</string>
+    <string name="ss_big_point_sub_message">আপনার দক্ষতা বাড়াতে এবং পয়েন্ট স্কোর করতে পেন্টোলজির সাথে যুক্ত হন</string>
+    <string name="ss_way_to_go">যাওয়ার পথ!</string>
+    <string name="ss_you_ve_earned_20_points">আপনি 20 পয়েন্ট অর্জন করেছেন!</string>
+    <string name="ss_you_ve_earned_40_points">আপনি 40 পয়েন্ট অর্জন করেছেন!</string>
+    <string name="ss_dialog_des_1">"অসাধারণ শুরু! সদস্যতা নিয়ে এবং অনুসরণ করে আপনার বাকি %1$d পয়েন্টগুলি দখল করুন।"</string>
+    <string name="ss_dialog_dis_2">অনুসরণ করার মাধ্যমে, আপনি নতুন পেন্টোলজি বিষয়বস্তুর তাত্ক্ষণিক বিজ্ঞপ্তি পাবেন যা আপনার অঙ্কন দক্ষতাকে ত্বরান্বিত করবে!</string>
+    <string name="ss_points_already_claimed">পয়েন্টগুলি ইতিমধ্যে দাবি করা হয়েছে</string>
+    <string name="ss_subscribe_and_follow_now">সাবস্ক্রাইব করুন এবং এখনই অনুসরণ করুন!</string>
+
+    <string name="ss_loading_please_wait">লোড হচ্ছে অনুগ্রহ করে অপেক্ষা করুন..</string>
+    <string name="unfollowing_please_wait">অনুসরণ করা বন্ধ করুন অনুগ্রহ করে অপেক্ষা করুন…</string>
+    <string name="ss_do_you_want_to_unfollow">আপনি কি %1$s কে আনফলো করতে চান?</string>
+    <string name="ss_gallery_posted">আপনার অঙ্কনটি গ্যালারিতে পোস্ট করা হয়েছে!</string>
+    <string name="ss_online">অনলাইন</string>
+    <string name="ss_login_account">লগইন অ্যাকাউন্ট</string>
+    <string name="ss_updating_please_wait">%1$s আপডেট করা হচ্ছে অনুগ্রহ করে অপেক্ষা করুন</string>
+    <string name="ss_updating_profile_data">প্রোফাইল ডেটা আপডেট করা হচ্ছে</string>
+    <string name="ss_sending_feedback_please_wait">প্রতিক্রিয়া পাঠানো হচ্ছে অনুগ্রহ করে অপেক্ষা করুন...</string>
+    <string name="ss_logging_in_please_wait">লগ ইন করুন অনুগ্রহ করে অপেক্ষা করুন...</string>
+    <string name="ss_signing_up_please_wait">সাইন আপ হচ্ছে অনুগ্রহ করে অপেক্ষা করুন...</string>
+    <string name="ss_fetching_profile_data">প্রোফাইল ডেটা আনা হচ্ছে</string>
+    <string name="ss_loading_tutorials">টিউটোরিয়াল লোড হচ্ছে...</string>
+    <string name="ss_unblocking">আনব্লক করা হচ্ছে</string>
+    <string name="ss_blocking">ব্লক করা হচ্ছে</string>
+    <string name="ss_something_went_wrong_try_again_later">কিছু ​​ভুল হয়েছে! পরে আবার চেষ্টা করুন</string>
+    <string name="ss_art_screens">আর্ট স্ক্রিন</string>
+
+    <string name="ss_country_missing">দুর্ভাগ্যবশত, আমরা আপনার দেশকে মিস করছি, অনুগ্রহ করে আপডেট করুন৷</string>
+    <string name="ss_link_country">আপনি লিঙ্ক করছেন...</string>
+    <string name="ss_change_later">আপনি পরে এটি পরিবর্তন করতে পারবেন না</string>
+    <string name="ss_be_sure">সুতরাং এটি সম্পর্কে নিশ্চিত হন৷</string>৷
+    <string name="ss_search_country">দেশ অনুসন্ধান করুন</string>
+    <string name="ss_select_country">দেশ নির্বাচন করুন</string>
+    <string name="ss_guest_login_msg">এই আইটেমটি ফেসবুক, গুগল, পেইন্টোলজিতে লগ ইন করা ব্যবহারকারীদের জন্য৷</string>
+
+</resources>
+

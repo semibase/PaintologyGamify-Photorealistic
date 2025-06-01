@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?><!-- START xml_defaults -->
+<PreferenceScreen>
+
+    <entry>
+        <key>fourStep</key>
+        <value>false</value>
+    </entry>
+
+    <entry>
+        <key>interOnOff_pr</key>
+        <value>0</value>
+    </entry>
+
+    <entry>
+        <key>openAdOnOff_pr</key>
+        <value>0</value>
+    </entry>
+
+    <entry>
+        <key>bannerOnOff_pr</key>
+        <value>0</value>
+    </entry>
+
+    <entry>
+        <key>nativeOnOff_pr</key>
+        <value>0</value>
+    </entry>
+
+    <entry>
+        <key>interRewardOnOff_pr</key>
+        <value>0</value>
+    </entry>
+
+    <entry>
+        <key>openAdID_pr</key>
+        <value>ca-app-pub-3940256099942544/9257395921</value>
+    </entry>
+
+    <entry>
+        <key>interIDs_pr</key>
+        <value>ca-app-pub-3940256099942544/1033173712</value>
+    </entry>
+
+    <entry>
+        <key>interRewardIDs_pr</key>
+        <value>ca-app-pub-3940256099942544/5354046379</value>
+    </entry>
+
+    <entry>
+        <key>interUserPointActivityRewardIDs_pr</key>
+        <value>ca-app-pub-3940256099942544/5354046379</value>
+    </entry>
+
+    <entry>
+        <key>interProgressActivityRewardIDs_pr</key>
+        <value>ca-app-pub-3940256099942544/5354046379</value>
+    </entry>
+
+    <entry>
+        <key>nativeIDs_pr</key>
+        <value>ca-app-pub-3940256099942544/2247696110</value>
+    </entry>
+
+    <entry>
+        <key>bannerIDs_pr</key>
+        <value>ca-app-pub-3940256099942544/2014213617</value>
+    </entry>
+
+    <entry>
+        <key>admobAppID_pr</key>
+        <value>ca-app-pub-3940256099942544~3347511713</value>
+    </entry>
+
+</PreferenceScreen>

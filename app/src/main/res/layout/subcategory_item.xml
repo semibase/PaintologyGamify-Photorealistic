@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_180"
+    android:layout_height="@dimen/dp_150"
+    android:layout_marginTop="@dimen/dp_05"
+    android:layout_marginRight="@dimen/dp_05">
+
+    <FrameLayout
+        android:id="@+id/frm_default"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_tutorial_category"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_150"
+            android:background="@drawable/thumbnaildefault"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/iv_yt"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_margin="@dimen/dp_03"
+            android:background="@drawable/video_icon_original"
+            android:scaleType="fitXY"
+            android:layout_gravity="top|right"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:alpha="0.9"
+            android:background="@color/cardview_dark_background"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_category_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/dp_05"
+                android:gravity="center"
+                android:singleLine="false"
+                android:text="@string/default_collection"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
