@@ -113,6 +113,7 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.concurrent.Executors;
 
 import retrofit2.Call;
@@ -147,6 +148,7 @@ public class NewSubCategoryActivity extends AppCompatActivity implements SubCate
     int pageNo = 1;
     private SubCategoryAdapterAll mSubCategoryAdapterAll;
     List<Tutorialdatum> _list = new ArrayList<>();
+    Chip chipp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -303,11 +305,11 @@ public class NewSubCategoryActivity extends AppCompatActivity implements SubCate
         progressDialog.setMessage("Loading Tutorials...");
         progressDialog.setCanceledOnTouchOutside(false);
 
-        Chip chip = (Chip) getLayoutInflater().inflate(R.layout.chip, null);
-        chip.setId(getString(R.string.key_all).hashCode());
-        String textAll = getString(R.string.key_all) + " " + String.valueOf(total_tutorials);
-        chip.setText(textAll);
-        cg_subcategory.addView(chip);
+        chipp = (Chip) getLayoutInflater().inflate(R.layout.chip, null);
+        chipp.setId(getString(R.string.key_all).hashCode());
+        String textAll = getString(R.string.key_all);
+        chipp.setText(textAll);
+        cg_subcategory.addView(chipp);
         mListHashMap.put(getString(R.string.key_all).hashCode(), new ArrayList<>());
 //        chip.setChecked(true);
 
@@ -320,7 +322,7 @@ public class NewSubCategoryActivity extends AppCompatActivity implements SubCate
         } else showSnackBar(getString(R.string.no_internet_msg));
 
         for (int i = 0; i < childListNew.size(); i++) {
-            chip = (Chip) getLayoutInflater().inflate(R.layout.chip, null);
+            Chip chip = (Chip) getLayoutInflater().inflate(R.layout.chip, null);
             chip.setId(i);
 
             Object item = this.childListNew.get(i);
@@ -331,6 +333,15 @@ public class NewSubCategoryActivity extends AppCompatActivity implements SubCate
         }
 
 
+    }
+
+    public void setAll(String categoryId)
+    {
+        if(Objects.equals(cateId, categoryId))
+        {
+            String textAll = getString(R.string.key_all) + " " + String.valueOf(_list.size());
+            chipp.setText(textAll);
+        }
     }
 
 
@@ -349,7 +360,7 @@ public class NewSubCategoryActivity extends AppCompatActivity implements SubCate
 
 
         //  FirebaseFirestoreApi.fetchTutorialsList("categories.id:="+cateId+" && level:="+level,page).addOnCompleteListener(new OnCompleteListener<HttpsCallableResult>() {
-        FirebaseFirestoreApi.fetchTutorialsList("categories.id:=" + categoryId + " && level:=" + level, pageNo).addOnCompleteListener(new OnCompleteListener<HttpsCallableResult>() {
+        FirebaseFirestoreApi.fetchTutorialsList("categories.id:=" + categoryId, pageNo).addOnCompleteListener(new OnCompleteListener<HttpsCallableResult>() {
 
             @Override
             public void onComplete(@NonNull Task<HttpsCallableResult> task) {
@@ -434,6 +445,7 @@ public class NewSubCategoryActivity extends AppCompatActivity implements SubCate
 
                     if (mTutorialdata.isEmpty()) {
                         isLastPage = true;
+                        setAll(categoryId);
                     } else {
                         _list.addAll(mTutorialdata);
                         mSubCategoryAdapterAll.notifyDataSetChanged();

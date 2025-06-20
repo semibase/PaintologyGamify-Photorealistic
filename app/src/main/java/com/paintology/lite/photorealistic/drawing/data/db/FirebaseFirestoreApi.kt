@@ -517,6 +517,7 @@ object FirebaseFirestoreApi {
         data.put("filter_by", filter)
         data.put("page", page)
         data.put("per_page", 20)
+        data["sort_by"] = "level:asc"
 
 
         val functions = FirebaseFunctions.getInstance()
